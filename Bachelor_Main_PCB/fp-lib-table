@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "F32Q-1A7H1-11022")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/F32Q-1A7H1-11022")(options "")(descr ""))
+)
