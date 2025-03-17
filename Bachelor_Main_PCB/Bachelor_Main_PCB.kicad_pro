@@ -429,7 +429,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -695,6 +695,18 @@
     [
       "3544d663-329e-4884-b753-28436ca187e8",
       "Root"
+    ],
+    [
+      "9cdc091d-5c59-45ee-8211-bdd0f330a333",
+      "Microcontroller"
+    ],
+    [
+      "19a8d5c6-db4f-4fc8-ad15-158c7bfaff85",
+      "Raspberry Pi CM 4"
+    ],
+    [
+      "e2053849-b1b4-4732-a0d8-f90e27301853",
+      "SD-Card Inteface"
     ]
   ],
   "text_variables": {}

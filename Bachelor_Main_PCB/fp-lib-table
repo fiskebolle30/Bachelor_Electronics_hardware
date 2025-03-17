@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "F32Q-1A7H1-11022")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/F32Q-1A7H1-11022")(options "")(descr ""))
   (lib (name "SC0683")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/SC0683")(options "")(descr ""))
+  (lib (name "WA-SMSI_9774XXX151")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/WA-SMSI_9774XXX151")(options "")(descr ""))
 )
