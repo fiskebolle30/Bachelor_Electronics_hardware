@@ -477,18 +477,58 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box " "
+		(exclude_from_sim no)
+		(at 219.71 22.86 0)
+		(size 57.15 25.4)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0dd5fed9-70bf-42ee-b698-46f239f23ef4")
+	)
+	(text_box "Mechanical standoffs for RPI CM mounting holes and M2,5 screws"
+		(exclude_from_sim no)
+		(at 219.71 17.78 0)
+		(size 57.15 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "252103d8-40e5-4e27-91f8-4c95bd7d1e51")
+	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
-		(at 240.03 44.45 0)
+		(at 237.49 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05adc6c6-528f-42d6-94aa-894e4704b8bb")
 		(property "Reference" "MP4"
-			(at 243.84 43.1799 0)
+			(at 241.3 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +537,7 @@
 			)
 		)
 		(property "Value" "WA-SMSI_9774XXX151"
-			(at 243.84 45.7199 0)
+			(at 241.3 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -506,7 +546,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -516,7 +556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -525,7 +565,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -534,7 +574,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=eda"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -544,7 +584,7 @@
 			)
 		)
 		(property "MF" "Wurth Electronics"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,7 +594,7 @@
 			)
 		)
 		(property "THREAD" "M2.5"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -564,7 +604,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "3.5mm"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -574,7 +614,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -584,7 +624,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -594,7 +634,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -604,7 +644,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -614,7 +654,7 @@
 			)
 		)
 		(property "VALUE" "M2.5 x 3mm"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,7 +664,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -634,7 +674,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=snap"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +684,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030151R.pdf"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -654,7 +694,7 @@
 			)
 		)
 		(property "MP" "9774030151R"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,7 +704,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030151R"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,7 +714,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "5.1mm"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -684,7 +724,7 @@
 			)
 		)
 		(property "Description_1" "steel, tin plated with internal thread M2.5 non stop outer Ø 5.1mm, reduced to 3.5mm on PCB-side for a borehole body length 3mm on Reel, with Polyimide Tape"
-			(at 240.03 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -707,7 +747,7 @@
 	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
-		(at 240.03 38.1 0)
+		(at 237.49 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -716,7 +756,7 @@
 		(fields_autoplaced yes)
 		(uuid "21b3bcef-db7b-40a4-8099-b47a327e1d99")
 		(property "Reference" "MP3"
-			(at 243.84 36.8299 0)
+			(at 241.3 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +765,7 @@
 			)
 		)
 		(property "Value" "WA-SMSI_9774XXX151"
-			(at 243.84 39.3699 0)
+			(at 241.3 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -734,7 +774,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -753,7 +793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -762,7 +802,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=eda"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -772,7 +812,7 @@
 			)
 		)
 		(property "MF" "Wurth Electronics"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +822,7 @@
 			)
 		)
 		(property "THREAD" "M2.5"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,7 +832,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "3.5mm"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -802,7 +842,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,7 +852,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,7 +862,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -832,7 +872,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +882,7 @@
 			)
 		)
 		(property "VALUE" "M2.5 x 3mm"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +892,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +902,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=snap"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +912,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030151R.pdf"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -882,7 +922,7 @@
 			)
 		)
 		(property "MP" "9774030151R"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -892,7 +932,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030151R"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,7 +942,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "5.1mm"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -912,7 +952,7 @@
 			)
 		)
 		(property "Description_1" "steel, tin plated with internal thread M2.5 non stop outer Ø 5.1mm, reduced to 3.5mm on PCB-side for a borehole body length 3mm on Reel, with Polyimide Tape"
-			(at 240.03 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +975,7 @@
 	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
-		(at 240.03 25.4 0)
+		(at 237.49 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -944,7 +984,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ee996aa-df0b-4451-8fa2-529c9d99fe59")
 		(property "Reference" "MP1"
-			(at 243.84 24.1299 0)
+			(at 241.3 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +993,7 @@
 			)
 		)
 		(property "Value" "WA-SMSI_9774XXX151"
-			(at 243.84 26.6699 0)
+			(at 241.3 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +1002,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +1012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +1021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1030,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=eda"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1040,7 @@
 			)
 		)
 		(property "MF" "Wurth Electronics"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,7 +1050,7 @@
 			)
 		)
 		(property "THREAD" "M2.5"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1060,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "3.5mm"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1030,7 +1070,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1080,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1090,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1100,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1110,7 @@
 			)
 		)
 		(property "VALUE" "M2.5 x 3mm"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1120,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1090,7 +1130,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=snap"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1100,7 +1140,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030151R.pdf"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1110,7 +1150,7 @@
 			)
 		)
 		(property "MP" "9774030151R"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1160,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030151R"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1170,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "5.1mm"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,7 +1180,7 @@
 			)
 		)
 		(property "Description_1" "steel, tin plated with internal thread M2.5 non stop outer Ø 5.1mm, reduced to 3.5mm on PCB-side for a borehole body length 3mm on Reel, with Polyimide Tape"
-			(at 240.03 25.4 0)
+			(at 237.49 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1269,7 @@
 	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
-		(at 240.03 31.75 0)
+		(at 237.49 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1238,7 +1278,7 @@
 		(fields_autoplaced yes)
 		(uuid "d310e5ad-cc85-4298-a47d-564c58fc0ed4")
 		(property "Reference" "MP2"
-			(at 243.84 30.4799 0)
+			(at 241.3 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1247,7 +1287,7 @@
 			)
 		)
 		(property "Value" "WA-SMSI_9774XXX151"
-			(at 243.84 33.0199 0)
+			(at 241.3 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1296,7 @@
 			)
 		)
 		(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1315,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1284,7 +1324,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=eda"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1294,7 +1334,7 @@
 			)
 		)
 		(property "MF" "Wurth Electronics"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1304,7 +1344,7 @@
 			)
 		)
 		(property "THREAD" "M2.5"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +1354,7 @@
 			)
 		)
 		(property "INNER-DIAMETER" "3.5mm"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1324,7 +1364,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1334,7 +1374,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1384,7 @@
 			)
 		)
 		(property "PIN-LENGTH" "3mm"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +1394,7 @@
 			)
 		)
 		(property "INNER-THREAD-LENGTH" "-"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1364,7 +1404,7 @@
 			)
 		)
 		(property "VALUE" "M2.5 x 3mm"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1374,7 +1414,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1384,7 +1424,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/9774030151R/Wurth+Electronics/view-part/?ref=snap"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1394,7 +1434,7 @@
 			)
 		)
 		(property "DATASHEET-URL" "https://www.we-online.com/catalog/datasheet/9774030151R.pdf"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1404,7 +1444,7 @@
 			)
 		)
 		(property "MP" "9774030151R"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1454,7 @@
 			)
 		)
 		(property "PART-NUMBER" "9774030151R"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1424,7 +1464,7 @@
 			)
 		)
 		(property "OUTER-DIAMETER" "5.1mm"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +1474,7 @@
 			)
 		)
 		(property "Description_1" "steel, tin plated with internal thread M2.5 non stop outer Ø 5.1mm, reduced to 3.5mm on PCB-side for a borehole body length 3mm on Reel, with Polyimide Tape"
-			(at 240.03 31.75 0)
+			(at 237.49 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1521,6 +1561,48 @@
 				(path "/3544d663-329e-4884-b753-28436ca187e8"
 					(reference "R1")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 63.5)
+		(size 34.29 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0bbef2a3-1d79-4cf0-b531-d6abf690b331")
+		(property "Sheetname" "Wireless modem"
+			(at 59.69 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Wireless_modem.kicad_sch"
+			(at 59.69 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8"
+					(page "5")
 				)
 			)
 		)
