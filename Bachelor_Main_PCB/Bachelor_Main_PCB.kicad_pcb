@@ -4352,6 +4352,28 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "${KICAD9_3DMODEL_DIR}/DF40HC_3.0_-100DS-0.4V_58/DF40HC_3.0_-100DS-0.4V_58.step"
+			(offset
+				(xyz -2.5 -17 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+		(model "${KICAD9_3DMODEL_DIR}/DF40HC_3.0_-100DS-0.4V_58/DF40HC_3.0_-100DS-0.4V_58.step"
+			(offset
+				(xyz -2.5 17 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
 		(layer "F.Cu")
@@ -5228,7 +5250,7 @@
 	(footprint "RC7620_1104625:XCVR_RC7620_1104625"
 		(layer "F.Cu")
 		(uuid "bc92c2f9-6e6f-4018-aabc-1e8d28ca5b2c")
-		(at 124.3 54.55)
+		(at 238.4125 80.2375)
 		(property "Reference" "U2"
 			(at -8.325 -14.135 0)
 			(layer "F.SilkS")
