@@ -1557,7 +1557,7 @@
 		)
 	)
 	(sheet
-		(at 59.69 63.5)
+		(at 45.72 102.87)
 		(size 34.29 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1573,7 +1573,7 @@
 		)
 		(uuid "0bbef2a3-1d79-4cf0-b531-d6abf690b331")
 		(property "Sheetname" "Wireless modem"
-			(at 59.69 62.7884 0)
+			(at 45.72 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1582,7 +1582,7 @@
 			)
 		)
 		(property "Sheetfile" "Wireless_modem.kicad_sch"
-			(at 59.69 78.0546 0)
+			(at 45.72 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +1599,7 @@
 		)
 	)
 	(sheet
-		(at 203.2 92.71)
+		(at 203.2 74.93)
 		(size 53.34 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1615,7 +1615,7 @@
 		)
 		(uuid "19a8d5c6-db4f-4fc8-ad15-158c7bfaff85")
 		(property "Sheetname" "Raspberry Pi CM 4"
-			(at 203.2 91.9984 0)
+			(at 203.2 74.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1624,7 +1624,7 @@
 			)
 		)
 		(property "Sheetfile" "Raspbery_Pi_CM_4.kicad_sch"
-			(at 203.2 130.1246 0)
+			(at 203.2 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,8 +1641,50 @@
 		)
 	)
 	(sheet
-		(at 142.24 105.41)
-		(size 34.29 24.13)
+		(at 64.77 127)
+		(size 46.99 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4408de3e-a395-4433-a2e1-ccefac59f96e")
+		(property "Sheetname" "Power supply"
+			(at 64.77 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_supply.kicad_sch"
+			(at 64.77 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 50.8)
+		(size 53.34 54.61)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1657,7 +1699,7 @@
 		)
 		(uuid "9cdc091d-5c59-45ee-8211-bdd0f330a333")
 		(property "Sheetname" "Microcontroller"
-			(at 142.24 104.6984 0)
+			(at 111.76 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1708,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 142.24 130.1246 0)
+			(at 111.76 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1725,7 @@
 		)
 	)
 	(sheet
-		(at 113.03 30.48)
+		(at 35.56 19.05)
 		(size 44.45 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1699,7 +1741,7 @@
 		)
 		(uuid "e2053849-b1b4-4732-a0d8-f90e27301853")
 		(property "Sheetname" "SD-Card Inteface"
-			(at 113.03 29.7684 0)
+			(at 35.56 18.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1750,7 @@
 			)
 		)
 		(property "Sheetfile" "SD-Card_interface.kicad_sch"
-			(at 113.03 55.1946 0)
+			(at 35.56 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
