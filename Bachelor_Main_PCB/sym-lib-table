@@ -7,4 +7,5 @@
   (lib (name "DF40HC_3.0_-100DS-0.4V_58")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/DF40HC_3.0_-100DS-0.4V_58/DF40HC_3.0_-100DS-0.4V_58.kicad_sym")(options "")(descr ""))
   (lib (name "STM32H7A3ZIT6Q")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/STM32H7A3ZIT6Q_KiCAD/KiCad/STM32H7A3ZIT6Q.kicad_sym")(options "")(descr ""))
   (lib (name "RPI_logo")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/Schematic_Images/RPI_logo.kicad_sym")(options "")(descr ""))
+  (lib (name "USB3320C-EZK-TR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/USB3320C-EZK-TR/USB3320C-EZK-TR.kicad_sym")(options "")(descr ""))
 )
