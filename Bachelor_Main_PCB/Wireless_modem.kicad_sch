@@ -6643,7 +6643,7 @@
 	)
 	(symbol
 		(lib_id "Connector:JAE_SIM_Card_SF72S006")
-		(at 194.31 57.15 0)
+		(at 185.42 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6652,7 +6652,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c98260a-abe9-4947-9298-6c8d917f34d0")
 		(property "Reference" "J2"
-			(at 224.79 55.8799 0)
+			(at 215.9 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6661,7 @@
 			)
 		)
 		(property "Value" "JAE_SIM_Card_SF72S006"
-			(at 224.79 58.4199 0)
+			(at 215.9 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6670,7 +6670,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JAE:JAE_SIM_Card_SF72S006"
-			(at 205.74 71.12 0)
+			(at 196.85 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6679,7 +6679,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jae.com/direct/topics/topics_file_download/topics_id=68892&ext_no=06&index=0&_lang=en&v=202003111511468456809"
-			(at 208.28 57.15 0)
+			(at 199.39 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6688,7 +6688,7 @@
 			)
 		)
 		(property "Description" "Nano-SIM Card (4FF) connector with Detect Switch"
-			(at 194.31 57.15 0)
+			(at 185.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
