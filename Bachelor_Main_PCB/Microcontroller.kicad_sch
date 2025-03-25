@@ -4434,6 +4434,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(hierarchical_label "test_hierarcical"
+		(shape input)
+		(at 363.22 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef5e44aa-e0e2-4d47-8054-e96fae03b6aa")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H7A3ZITxQ")
 		(at 196.85 142.24 0)
