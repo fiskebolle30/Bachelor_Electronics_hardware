@@ -4434,16 +4434,533 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "test_hierarcical"
+	(global_label "USB_ULPI_STP"
 		(shape input)
-		(at 363.22 115.57 0)
+		(at 363.22 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ef5e44aa-e0e2-4d47-8054-e96fae03b6aa")
+		(uuid "0148fbe7-a083-4920-90f7-bd69dd3afab4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 379.6309 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_7"
+		(shape bidirectional)
+		(at 240.03 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0216e68c-9c5f-4103-b90b-48f8f63ee5a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3436 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_5"
+		(shape bidirectional)
+		(at 240.03 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b3de14e-13d8-44cf-9f2e-3d0d717fc84b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3436 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_CLK"
+		(shape input)
+		(at 240.03 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1341161a-86d1-4a7e-a57e-93841442b8a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.5619 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_6"
+		(shape bidirectional)
+		(at 363.22 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1573c491-08c7-479f-b925-84b7cbcf3b40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.5336 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_STP"
+		(shape output)
+		(at 240.03 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a516006-c235-4951-a4cb-39638adb16b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.4409 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_2"
+		(shape bidirectional)
+		(at 240.03 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "245c88c2-0cdc-465d-82cb-2043935f10b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3436 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_DIR"
+		(shape input)
+		(at 240.03 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c776b87-96a1-4ac6-90c0-c26a1c998d46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.1386 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_0"
+		(shape bidirectional)
+		(at 240.03 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d6b609a-5b39-4707-ba8d-7db2911fc529")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3436 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_DIR"
+		(shape output)
+		(at 363.22 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dae64ae-da5f-478d-9b7c-ccfb78803d7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 379.3286 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_1"
+		(shape bidirectional)
+		(at 363.22 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "514ef2f7-b55b-4ce6-9c89-42adfbc1380e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.5336 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_3"
+		(shape bidirectional)
+		(at 363.22 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ef176f7-3854-4935-ad36-419736f22c87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.5336 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_NXT"
+		(shape output)
+		(at 363.22 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c00834d-7554-4558-9d7b-ec4620970407")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 379.6914 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_CLK"
+		(shape output)
+		(at 363.22 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "80b427f7-6331-4368-82f0-6608440b5279")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 379.7519 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_2"
+		(shape bidirectional)
+		(at 363.22 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8828cab8-d3d3-40b1-87ec-2f94c4b2b6b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.5336 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_6"
+		(shape bidirectional)
+		(at 240.03 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "924b7cef-494d-40a1-856d-5a2a2e61a10d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3436 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_0"
+		(shape bidirectional)
+		(at 363.22 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c21773c-2faa-4bb3-adf3-22ebd095a054")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.6449 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_4"
+		(shape bidirectional)
+		(at 240.03 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ccca156-7363-4005-a184-ac5b26982eff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3436 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_NXT"
+		(shape input)
+		(at 240.03 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f7f9ddc-9a28-43fe-bef8-d5c12fe070ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.5014 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_5"
+		(shape bidirectional)
+		(at 363.22 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0de13b3-7130-4ad8-affa-55a713ee44af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.5336 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_7"
+		(shape bidirectional)
+		(at 363.22 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b10c8e89-be71-4839-98e4-33624cda4543")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.6449 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_3"
+		(shape bidirectional)
+		(at 240.03 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4bf3d04-135b-43a8-a7d1-7a7785bc075a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3436 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_1"
+		(shape bidirectional)
+		(at 240.03 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0b67cf4-71ba-42bb-a75b-89f7c67fa04a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.3436 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_ULPI_data_4"
+		(shape bidirectional)
+		(at 363.22 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efd0cd09-1317-4067-8cdf-4b7d8496ec19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 382.5336 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H7A3ZITxQ")
