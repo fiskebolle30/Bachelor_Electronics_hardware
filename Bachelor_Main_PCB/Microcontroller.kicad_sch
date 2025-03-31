@@ -5317,6 +5317,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 90.17) (xy 284.48 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66bd67cc-2f10-47bc-a7c8-e51b6b2ba992")
+	)
+	(wire
+		(pts
 			(xy 273.05 95.25) (xy 317.5 95.25)
 		)
 		(stroke
@@ -6169,6 +6179,17 @@
 			(justify right)
 		)
 		(uuid "d1cadd8d-c2db-4a10-8b4d-ca5c14686dc8")
+	)
+	(hierarchical_label "RPI_5v"
+		(shape input)
+		(at 287.02 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb8be919-24aa-4dea-affb-935a64e086f0")
 	)
 	(symbol
 		(lib_id "power:GND")
