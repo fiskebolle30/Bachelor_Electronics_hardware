@@ -5970,6 +5970,32 @@
 		)
 		(uuid "1344f7a1-e0c6-4dbe-8d75-45b1cdf29f97")
 	)
+	(no_connect
+		(at 200.66 40.64)
+		(uuid "1864cd71-38db-47b2-a98b-5e9d08a47260")
+	)
+	(hierarchical_label "USB_HS_N"
+		(shape input)
+		(at 200.66 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9453e2d0-5841-416e-8759-6930a05d7db7")
+	)
+	(hierarchical_label "USB_HS_P"
+		(shape input)
+		(at 200.66 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcee311c-3b61-436c-a733-c442c9ea1e7b")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 105.41 149.86 0)
