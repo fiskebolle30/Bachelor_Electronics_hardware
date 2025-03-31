@@ -5148,6 +5148,12 @@
 		(uuid "80e42ee3-bd3a-4ef9-b261-dc5e95d6fbed")
 	)
 	(junction
+		(at 273.05 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99c40315-9308-409e-bec9-c3c985adec7f")
+	)
+	(junction
 		(at 80.01 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5218,6 +5224,16 @@
 			(type default)
 		)
 		(uuid "0eea9063-43af-4e12-8c91-1273c8ba53d3")
+	)
+	(wire
+		(pts
+			(xy 210.82 120.65) (xy 200.66 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19edfedc-b12d-4682-aeed-846ddfa6cb74")
 	)
 	(wire
 		(pts
@@ -5301,7 +5317,17 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 95.25) (xy 317.5 95.25)
+			(xy 273.05 95.25) (xy 317.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7638f181-1589-4898-b302-724d0bc38f29")
+	)
+	(wire
+		(pts
+			(xy 266.7 95.25) (xy 273.05 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5371,6 +5397,26 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 90.17) (xy 279.4 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acba3d54-b6a7-4dc0-b9df-9e6a76d7e6d9")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.28) (xy 200.66 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad19e5c6-d324-4d69-a578-96e245765572")
+	)
+	(wire
+		(pts
 			(xy 337.82 95.25) (xy 337.82 92.71)
 		)
 		(stroke
@@ -5431,6 +5477,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 81.28) (xy 273.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce066039-d23e-433e-8d64-f576074f9984")
+	)
+	(wire
+		(pts
 			(xy 80.01 55.88) (xy 82.55 55.88)
 		)
 		(stroke
@@ -5488,6 +5544,16 @@
 			(type default)
 		)
 		(uuid "fd2d1316-2a2b-4b16-9105-5fb96cdad68c")
+	)
+	(wire
+		(pts
+			(xy 273.05 81.28) (xy 273.05 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf64923-a580-4137-9326-24e780d90800")
 	)
 	(global_label "USB_ULPI_STP"
 		(shape input)
@@ -6092,17 +6158,6 @@
 			(justify right)
 		)
 		(uuid "6a0512f0-751e-4629-8bd1-4a3c04885159")
-	)
-	(hierarchical_label "USB_HS_ID"
-		(shape bidirectional)
-		(at 210.82 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "83277164-1f37-43df-8bd3-5cd038f72d74")
 	)
 	(hierarchical_label "USB_HS_P"
 		(shape bidirectional)
@@ -7094,7 +7149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 198.12 140.97 0)
 			(effects
 				(font
@@ -7262,6 +7317,74 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 281.94 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d7b47d-69e8-44d5-9456-1876d2d93eb5")
+		(property "Reference" "R3"
+			(at 281.94 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 281.94 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 281.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 281.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e405e554-462f-4ba7-bb42-deae9cf0f15a")
+		)
+		(pin "2"
+			(uuid "e2d7cede-2a40-4e32-9f61-a402cd0dd8c0")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "R3")
 					(unit 1)
 				)
 			)
