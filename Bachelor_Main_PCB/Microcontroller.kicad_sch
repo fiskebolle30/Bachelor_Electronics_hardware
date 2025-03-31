@@ -5947,7 +5947,7 @@
 	)
 	(global_label "USB_RESET"
 		(shape input)
-		(at 143.51 83.82 0)
+		(at 143.51 231.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5957,7 +5957,7 @@
 		)
 		(uuid "7e2c8661-63a8-4724-878d-a8afb0b5ec42")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0179 83.82 0)
+			(at 157.0179 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
