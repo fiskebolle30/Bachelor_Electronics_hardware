@@ -9,4 +9,5 @@
   (lib (name "RPI_logo")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/Schematic_Images/RPI_logo.kicad_sym")(options "")(descr ""))
   (lib (name "USB3320C-EZK-TR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/USB3320C-EZK-TR/USB3320C-EZK-TR.kicad_sym")(options "")(descr ""))
   (lib (name "SG-210STF_1.2000ML")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/SG-210STF_1.2000ML/SG-210STF_1.2000ML.kicad_sym")(options "")(descr ""))
+  (lib (name "M20-9990245")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/M20-9990245/M20-9990245.kicad_sym")(options "")(descr ""))
 )
