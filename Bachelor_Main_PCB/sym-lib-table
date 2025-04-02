@@ -11,4 +11,5 @@
   (lib (name "SG-210STF_1.2000ML")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/SG-210STF_1.2000ML/SG-210STF_1.2000ML.kicad_sym")(options "")(descr ""))
   (lib (name "M20-9990245")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/M20-9990245/M20-9990245.kicad_sym")(options "")(descr ""))
   (lib (name "DFE252012P-2R2M_P2")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/DFE252012P-2R2M_P2/DFE252012P-2R2M_P2.kicad_sym")(options "")(descr ""))
+  (lib (name "BK-916-TR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/BK-916-TR/BK-916-TR.kicad_sym")(options "")(descr ""))
 )
