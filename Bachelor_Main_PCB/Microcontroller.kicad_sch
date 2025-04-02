@@ -5979,6 +5979,16 @@
 		)
 		(uuid "f26299af-ea3a-49f0-a0d5-8088b6c4c8ed")
 	)
+	(text "VDDSMPS bulk bypass caps\n"
+		(exclude_from_sim no)
+		(at 282.194 203.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f891fde7-cfb7-40c6-9022-880264654165")
+	)
 	(junction
 		(at 209.55 102.87)
 		(diameter 0)
@@ -7491,6 +7501,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 55.88) (xy 110.49 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e25b9d-5451-474a-ba26-92ba85e40eee")
+	)
+	(wire
+		(pts
 			(xy 190.5 105.41) (xy 210.82 105.41)
 		)
 		(stroke
@@ -8833,6 +8853,28 @@
 		(uuid "f692ad8d-c479-40a4-8ad1-098fcf38db24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 302.7052 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V5_MCU"
+		(shape input)
+		(at 109.22 55.88 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9de253d-a0dd-4edb-8324-e56754e8d4b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 109.22 42.7953 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11644,7 +11686,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "4,7uF"
 			(at 278.13 209.042 90)
 			(effects
 				(font
