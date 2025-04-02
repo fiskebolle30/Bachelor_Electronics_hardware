@@ -6104,6 +6104,12 @@
 		(uuid "5fabcc16-122f-45f0-9dea-44ad8e7d01ca")
 	)
 	(junction
+		(at 39.37 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6152b1ae-aedf-4672-a6b8-4bcc6218afbb")
+	)
+	(junction
 		(at 97.79 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6228,12 +6234,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b29b7f97-bde0-4b9a-a739-7906564ba731")
-	)
-	(junction
-		(at 43.18 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b37f4179-95a9-404b-adca-a4ec0f1c8a00")
 	)
 	(junction
 		(at 269.24 233.68)
@@ -6641,7 +6641,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 78.74) (xy 43.18 78.74)
+			(xy 34.29 78.74) (xy 39.37 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7321,6 +7321,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 78.74) (xy 57.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b608636d-98fe-45b1-8e46-1d9d323a24d9")
+	)
+	(wire
+		(pts
 			(xy 342.9 233.68) (xy 342.9 232.41)
 		)
 		(stroke
@@ -7741,16 +7751,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 78.74) (xy 57.15 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f56f1515-b606-4305-bedc-839b01fe66a3")
-	)
-	(wire
-		(pts
 			(xy 328.93 205.74) (xy 320.04 205.74)
 		)
 		(stroke
@@ -7801,7 +7801,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 80.01) (xy 43.18 78.74)
+			(xy 39.37 80.01) (xy 39.37 78.74)
 		)
 		(stroke
 			(width 0)
@@ -8689,6 +8689,50 @@
 	)
 	(global_label "+3V5_MCU"
 		(shape input)
+		(at 57.15 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9aa43f4-d6ad-4098-b11e-b16a4dd9a286")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0653 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V5_MCU"
+		(shape input)
+		(at 57.15 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc6c8f00-0b66-4767-8091-236b8fb64499")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.0653 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V5_MCU"
+		(shape input)
 		(at 137.16 35.56 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8985,7 +9029,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 85.09 0)
+		(at 39.37 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8994,7 +9038,7 @@
 		(fields_autoplaced yes)
 		(uuid "0748ceba-9a20-49f0-a950-9b8fb2cee25a")
 		(property "Reference" "#PWR013"
-			(at 43.18 91.44 0)
+			(at 39.37 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +9047,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 90.17 0)
+			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9011,7 +9055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 85.09 0)
+			(at 39.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9020,7 +9064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 85.09 0)
+			(at 39.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9029,7 +9073,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 85.09 0)
+			(at 39.37 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14236,7 +14280,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 43.18 82.55 0)
+		(at 39.37 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14244,7 +14288,7 @@
 		(dnp no)
 		(uuid "f3f7fbb1-3286-4f0f-b3cd-c649b981b4d6")
 		(property "Reference" "C19"
-			(at 40.386 82.55 90)
+			(at 36.576 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14252,7 +14296,7 @@
 			)
 		)
 		(property "Value" "220pF"
-			(at 45.72 82.042 90)
+			(at 41.91 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14260,7 +14304,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 43.18 82.55 0)
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14269,7 +14313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 82.55 0)
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14278,7 +14322,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 82.55 0)
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14287,7 +14331,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 43.18 82.55 0)
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14296,7 +14340,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 43.18 82.55 0)
+			(at 39.37 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
