@@ -298,6 +298,374 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x07_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x07_Pin"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x07, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x07_Pin_1_1"
+				(rectangle
+					(start 0.8636 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0.8636 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DFE252012P-2R2M_P2:DFE252012P-2R2M=P2"
 			(pin_names
 				(offset 1.016)
@@ -6239,6 +6607,16 @@
 		)
 		(uuid "c81e7f36-48ab-4baf-b949-66e25f01212b")
 	)
+	(text "JTAG interface\n7 pin header\n"
+		(exclude_from_sim no)
+		(at 37.592 282.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e58ca9f0-ccd8-4b44-85b2-93185b9fbd17")
+	)
 	(text "USB3320 power jumper"
 		(exclude_from_sim no)
 		(at 166.37 20.574 0)
@@ -8103,6 +8481,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 274.32) (xy 38.1 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f824669c-9f1e-4968-9f15-57e9043543f4")
+	)
+	(wire
+		(pts
 			(xy 210.82 113.03) (xy 210.82 115.57)
 		)
 		(stroke
@@ -8347,6 +8735,28 @@
 			)
 		)
 	)
+	(global_label "JTAG_TDO"
+		(shape input)
+		(at 38.1 261.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1a9d93cc-4f4a-46b7-ab9b-ac57994948cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.9147 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_ULPI_data_2"
 		(shape bidirectional)
 		(at 143.51 111.76 0)
@@ -8360,6 +8770,72 @@
 		(uuid "245c88c2-0cdc-465d-82cb-2043935f10b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.8236 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TCLK"
+		(shape input)
+		(at 143.51 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "25dbee06-abf1-4489-adde-5712332cc559")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.2923 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TMS"
+		(shape input)
+		(at 38.1 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2aa043d8-08b8-44f1-909d-32e72a5c66df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.9751 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TCLK"
+		(shape input)
+		(at 38.1 266.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31b6ccd7-0065-44f9-bc94-53ad67533ee2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8823 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8501,6 +8977,28 @@
 			)
 		)
 	)
+	(global_label "JTAG_TDO"
+		(shape input)
+		(at 143.51 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b22e8f5-f1e5-467a-a734-b3c007e3e966")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.3247 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_ULPI_data_1"
 		(shape bidirectional)
 		(at 266.7 120.65 0)
@@ -8536,6 +9034,28 @@
 		(uuid "5ef176f7-3854-4935-ad36-419736f22c87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 286.0136 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V5_MCU"
+		(shape input)
+		(at 38.1 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60c4d70a-61f2-4d07-accb-a16f89dd328b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.1847 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8809,6 +9329,28 @@
 			)
 		)
 	)
+	(global_label "JTAG_TMS"
+		(shape input)
+		(at 143.51 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bedc50d-3125-4b9f-8d07-b806a1229359")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.3851 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_ULPI_data_0"
 		(shape bidirectional)
 		(at 266.7 123.19 0)
@@ -8941,6 +9483,28 @@
 			)
 		)
 	)
+	(global_label "JTAG_TDI"
+		(shape input)
+		(at 38.1 269.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7132449-2f2a-40c5-87ea-e2c754fdecb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.189 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_ULPI_data_7"
 		(shape bidirectional)
 		(at 266.7 105.41 0)
@@ -8954,6 +9518,28 @@
 		(uuid "b10c8e89-be71-4839-98e4-33624cda4543")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 287.1249 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_RESET"
+		(shape input)
+		(at 38.1 271.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2de5a03-c092-4449-8377-34e5b1502b82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.8498 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,6 +9567,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RTC_OSC"
+		(shape input)
+		(at 143.51 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c55e2829-773f-4a57-a230-a613f938c4fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.7804 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -9091,6 +9699,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU_RESET"
+		(shape input)
+		(at 57.15 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd8f3269-a548-4273-9c11-874e380c865d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.4002 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "JTAG_TDI"
+		(shape input)
+		(at 143.51 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddcabd94-e5a3-4c92-800f-597dd4326087")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.599 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11717,6 +12369,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x07_Pin")
+		(at 33.02 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62aca5d0-2340-4d19-986d-65198893f3d9")
+		(property "Reference" "J6"
+			(at 33.655 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x07_Pin"
+			(at 33.655 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
+			(at 33.02 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 33.02 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 33.02 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a8c8000-9e59-4af8-89d6-d563d2efa5db")
+		)
+		(pin "7"
+			(uuid "2b5424f5-1724-4fe4-9c35-491701009b92")
+		)
+		(pin "6"
+			(uuid "5e49f4bb-ec08-4234-8d2d-671f0094fcfa")
+		)
+		(pin "3"
+			(uuid "e57c5c1e-d81d-44ba-9733-30635194e3fc")
+		)
+		(pin "5"
+			(uuid "404f14a4-a785-4698-b05a-eb9945955b45")
+		)
+		(pin "4"
+			(uuid "cc0d79f5-9f84-49a5-a463-15633f2d7b0a")
+		)
+		(pin "1"
+			(uuid "f87336ab-8077-4a59-bb14-6ad2a404ea54")
+		)
+		(instances
+			(project ""
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 293.37 229.87 0)
 		(unit 1)
@@ -13834,6 +14569,72 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 274.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdd2656d-162c-4871-8499-476e45e814d0")
+		(property "Reference" "#PWR021"
+			(at 39.37 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fe5d2bf-3a16-4f7e-a171-40a0d8e8e991")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
