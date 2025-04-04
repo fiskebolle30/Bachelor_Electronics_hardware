@@ -9,4 +9,5 @@
   (lib (name "USB3320C-EZK-TR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/USB3320C-EZK-TR")(options "")(descr ""))
   (lib (name "SG-210STF_1.2000ML")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/SG-210STF_1.2000ML")(options "")(descr ""))
   (lib (name "BK-916-TR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/BK-916-TR")(options "")(descr ""))
+  (lib (name "ECS-327TXO-33-TR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/ECS-327TXO-33-TR")(options "")(descr ""))
 )
