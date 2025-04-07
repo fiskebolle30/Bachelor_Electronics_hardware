@@ -243,6 +243,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Power supply lines are not drawn as hierarcical but global lables"
+		(exclude_from_sim no)
+		(at 119.888 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7695f9be-7ae7-4628-b564-901ffb2c5b48")
+	)
 	(text_box " "
 		(exclude_from_sim no)
 		(at 219.71 22.86 0)
@@ -282,6 +292,96 @@
 			(justify left top)
 		)
 		(uuid "252103d8-40e5-4e27-91f8-4c95bd7d1e51")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 83.82 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0952675d-9453-462c-90ef-6448d3cf1cef")
+	)
+	(wire
+		(pts
+			(xy 83.82 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69685361-46ce-4998-9b2d-56ff17f1fb55")
+	)
+	(wire
+		(pts
+			(xy 80.01 114.3) (xy 121.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b370d93-4b78-4d47-87ad-f29b277b4830")
+	)
+	(wire
+		(pts
+			(xy 80.01 127) (xy 121.92 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6eb87a-c5c9-46e7-8f80-d6b715a5eb63")
+	)
+	(wire
+		(pts
+			(xy 80.01 124.46) (xy 121.92 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d5407e-360b-4c88-bc7f-42dde14023da")
+	)
+	(wire
+		(pts
+			(xy 83.82 106.68) (xy 83.82 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c849c5d1-538c-486e-adec-f3317594a8e9")
+	)
+	(wire
+		(pts
+			(xy 80.01 116.84) (xy 121.92 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd823092-e344-4f14-9f25-5362af84aa53")
+	)
+	(wire
+		(pts
+			(xy 80.01 121.92) (xy 121.92 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d39d7638-ebbe-4fae-a4a4-689f30a04386")
+	)
+	(wire
+		(pts
+			(xy 80.01 119.38) (xy 121.92 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17eaf52-b016-4c04-a398-8aa57b22fcb3")
 	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
@@ -1230,7 +1330,7 @@
 			)
 		)
 		(pin "BOOT_MODE" input
-			(at 80.01 104.14 0)
+			(at 80.01 127 0)
 			(uuid "11239404-c44b-4058-95b1-95dc4985456f")
 			(effects
 				(font
@@ -1328,7 +1428,7 @@
 		)
 	)
 	(sheet
-		(at 203.2 74.93)
+		(at 121.92 99.06)
 		(size 53.34 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1344,7 +1444,7 @@
 		)
 		(uuid "19a8d5c6-db4f-4fc8-ad15-158c7bfaff85")
 		(property "Sheetname" "Raspberry Pi CM 4"
-			(at 203.2 74.2184 0)
+			(at 121.92 98.3484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,12 +1453,92 @@
 			)
 		)
 		(property "Sheetfile" "Raspbery_Pi_CM_4.kicad_sch"
-			(at 203.2 112.3446 0)
+			(at 121.92 136.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "BOOT_MODE" output
+			(at 121.92 127 180)
+			(uuid "20bd9ac6-7e52-4934-9019-bb5906a9deb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POWER_ON_N" output
+			(at 121.92 114.3 180)
+			(uuid "a03ae83e-cc36-42af-b018-12fb658e73b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RESET_IN_N" output
+			(at 121.92 116.84 180)
+			(uuid "5781fb3c-1de7-45e3-adfc-0176eb326052")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_ON" input
+			(at 121.92 119.38 180)
+			(uuid "927bfb54-c595-40d0-9f6a-e18822dec979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HS_N" bidirectional
+			(at 121.92 134.62 180)
+			(uuid "3e38b9d0-28db-4e7f-8d24-6b0f629ae8a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HS_P" bidirectional
+			(at 121.92 132.08 180)
+			(uuid "3743d97f-6be0-4b61-8be0-c86f71cbc610")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WAKE" output
+			(at 121.92 121.92 180)
+			(uuid "72aca64d-2edc-43b3-b08d-7e4869b04990")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WAKE_ON_WWAN" input
+			(at 121.92 124.46 180)
+			(uuid "d0943b83-c8ed-401c-926a-41bef9930817")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1370,8 +1550,8 @@
 		)
 	)
 	(sheet
-		(at 105.41 160.02)
-		(size 46.99 22.86)
+		(at 97.79 160.02)
+		(size 45.72 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1386,7 +1566,7 @@
 		)
 		(uuid "4408de3e-a395-4433-a2e1-ccefac59f96e")
 		(property "Sheetname" "Power supply"
-			(at 105.41 159.3084 0)
+			(at 97.79 159.3084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1395,7 +1575,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_supply.kicad_sch"
-			(at 105.41 183.4646 0)
+			(at 97.79 184.7346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1412,8 +1592,8 @@
 		)
 	)
 	(sheet
-		(at 111.76 50.8)
-		(size 53.34 54.61)
+		(at 121.92 57.15)
+		(size 46.99 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1428,7 +1608,7 @@
 		)
 		(uuid "9cdc091d-5c59-45ee-8211-bdd0f330a333")
 		(property "Sheetname" "Microcontroller"
-			(at 111.76 50.0884 0)
+			(at 121.92 56.4384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,7 +1617,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 111.76 105.9946 0)
+			(at 121.92 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1446,7 +1626,7 @@
 			)
 		)
 		(pin "RPI_5v" input
-			(at 165.1 76.2 0)
+			(at 168.91 69.85 0)
 			(uuid "8f0fef94-1e70-412e-84c8-c39a7e8202b3")
 			(effects
 				(font
@@ -1456,7 +1636,7 @@
 			)
 		)
 		(pin "USB_HS_N" bidirectional
-			(at 165.1 85.09 0)
+			(at 168.91 78.74 0)
 			(uuid "714f1698-ad53-4cc1-833e-79bc093730f5")
 			(effects
 				(font
@@ -1466,13 +1646,23 @@
 			)
 		)
 		(pin "USB_HS_P" bidirectional
-			(at 165.1 82.55 0)
+			(at 168.91 76.2 0)
 			(uuid "14743f3e-bad2-4775-9bd0-6c2bc58be511")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "MODEM_SAFE_PWR_REMOVE" output
+			(at 121.92 71.12 180)
+			(uuid "2a4694b5-6345-4519-baea-91d24d42f682")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1484,7 +1674,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 19.05)
+		(at 30.48 26.67)
 		(size 44.45 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1500,7 +1690,7 @@
 		)
 		(uuid "e2053849-b1b4-4732-a0d8-f90e27301853")
 		(property "Sheetname" "SD-Card Inteface"
-			(at 35.56 18.3384 0)
+			(at 30.48 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +1699,7 @@
 			)
 		)
 		(property "Sheetfile" "SD-Card_interface.kicad_sch"
-			(at 35.56 43.7646 0)
+			(at 30.48 51.3846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

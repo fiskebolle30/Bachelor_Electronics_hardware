@@ -6449,7 +6449,7 @@
 	)
 	(text "Orange"
 		(exclude_from_sim no)
-		(at 248.92 128.905 90)
+		(at 248.92 132.715 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6581,7 +6581,7 @@
 		(uuid "857f9c1e-6442-44ec-b7ad-c00c0f8f58b0")
 	)
 	(junction
-		(at 255.27 101.6)
+		(at 255.27 105.41)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "879214d2-c1e7-4e48-8754-7d190bd463c7")
@@ -6593,7 +6593,7 @@
 		(uuid "924a3485-2aa0-42ba-97d1-2d044ccb5594")
 	)
 	(junction
-		(at 242.57 147.32)
+		(at 242.57 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9648b3f1-ff52-4108-9a93-0dd1ffdfce90")
@@ -6611,7 +6611,7 @@
 		(uuid "a9fd8006-517a-4e1a-a8a4-1cb3cff6a079")
 	)
 	(junction
-		(at 254 140.97)
+		(at 254 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac1d51b1-16bd-4836-86e5-108d53b32b55")
@@ -6647,7 +6647,7 @@
 		(uuid "d2b0520c-a2b0-48a5-a7b1-34cad75f4bc1")
 	)
 	(junction
-		(at 243.84 107.95)
+		(at 243.84 111.76)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "d33911ed-b040-42db-a8cd-0734454269a5")
@@ -6926,7 +6926,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 147.32) (xy 242.57 148.59)
+			(xy 242.57 151.13) (xy 242.57 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7046,7 +7046,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 100.33) (xy 255.27 101.6)
+			(xy 255.27 104.14) (xy 255.27 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7076,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 101.6) (xy 255.27 101.6)
+			(xy 265.43 105.41) (xy 255.27 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7136,7 +7136,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 140.97) (xy 254 142.24)
+			(xy 254 144.78) (xy 254 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7176,7 +7176,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 114.3) (xy 255.27 113.03)
+			(xy 255.27 118.11) (xy 255.27 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7223,6 +7223,16 @@
 			(type default)
 		)
 		(uuid "4a801a98-d7a9-498d-a22c-c271e53c1b8a")
+	)
+	(wire
+		(pts
+			(xy 255.27 99.06) (xy 255.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cad4c4f-eec0-4b03-a225-bc5b72057016")
 	)
 	(wire
 		(pts
@@ -7326,7 +7336,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 101.6) (xy 255.27 102.87)
+			(xy 255.27 105.41) (xy 255.27 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7376,7 +7386,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 107.95) (xy 247.65 107.95)
+			(xy 243.84 111.76) (xy 247.65 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7476,7 +7486,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 107.95) (xy 243.84 109.22)
+			(xy 243.84 111.76) (xy 243.84 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7556,7 +7566,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 140.97) (xy 269.24 140.97)
+			(xy 254 144.78) (xy 269.24 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7596,7 +7606,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 107.95) (xy 226.06 107.95)
+			(xy 243.84 111.76) (xy 226.06 111.76)
 		)
 		(stroke
 			(width 0)
@@ -7686,7 +7696,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 139.7) (xy 254 140.97)
+			(xy 254 143.51) (xy 254 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7796,7 +7806,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 147.32) (xy 246.38 147.32)
+			(xy 242.57 151.13) (xy 246.38 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7976,7 +7986,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 147.32) (xy 242.57 147.32)
+			(xy 229.87 151.13) (xy 242.57 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8165,7 +8175,7 @@
 		(uuid "bf3fc81b-f638-4cca-b713-d0075cdcf8d3")
 	)
 	(label "1V8_WAKE_ON_WWAN"
-		(at 226.06 107.95 0)
+		(at 226.06 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8185,7 +8195,7 @@
 		(uuid "c733bb48-d5c8-43ed-b972-fc64459eb17f")
 	)
 	(label "1V8_TX_ON"
-		(at 229.87 147.32 0)
+		(at 229.87 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8345,7 +8355,7 @@
 	)
 	(hierarchical_label "TX_ON"
 		(shape output)
-		(at 269.24 140.97 0)
+		(at 269.24 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8367,7 +8377,7 @@
 	)
 	(hierarchical_label "WAKE_ON_WWAN"
 		(shape output)
-		(at 265.43 101.6 0)
+		(at 265.43 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8580,7 +8590,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 255.27 97.79 0)
+		(at 255.27 101.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8590,7 +8600,7 @@
 		(fields_autoplaced yes)
 		(uuid "025b67e1-f715-4762-965d-19ae4abaab23")
 		(property "Reference" "R46"
-			(at 257.81 97.155 0)
+			(at 257.81 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +8609,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 257.81 99.695 0)
+			(at 257.81 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8608,7 +8618,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8627,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +8636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8635,7 +8645,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8644,7 +8654,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8653,7 +8663,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,7 +8672,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +8681,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +8690,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8699,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8698,7 +8708,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8707,7 +8717,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 255.27 97.79 0)
+			(at 255.27 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9139,7 +9149,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 243.84 111.76 0)
+		(at 243.84 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9148,7 +9158,7 @@
 		(fields_autoplaced yes)
 		(uuid "1408acc7-c789-4811-9299-7898aae827a5")
 		(property "Reference" "R42"
-			(at 246.38 111.125 0)
+			(at 246.38 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9157,7 +9167,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 246.38 113.665 0)
+			(at 246.38 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,7 +9176,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9175,7 +9185,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9184,7 +9194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,7 +9203,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9212,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,7 +9221,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9220,7 +9230,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9229,7 +9239,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9238,7 +9248,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9247,7 +9257,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9266,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9265,7 +9275,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 243.84 111.76 0)
+			(at 243.84 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11267,7 +11277,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
-		(at 252.73 107.95 0)
+		(at 252.73 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11275,7 +11285,7 @@
 		(dnp no)
 		(uuid "3f25ecf7-a55a-4e6d-be14-0ed5eec3da85")
 		(property "Reference" "Q11"
-			(at 259.08 106.68 0)
+			(at 259.08 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,7 +11294,7 @@
 			)
 		)
 		(property "Value" "NX3008NBKW"
-			(at 259.08 109.22 0)
+			(at 259.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11293,7 +11303,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 257.81 105.41 0)
+			(at 257.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11302,7 +11312,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11311,7 +11321,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11320,7 +11330,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11329,7 +11339,7 @@
 			)
 		)
 		(property "Digikey" "1727-1280-6-ND"
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11338,7 +11348,7 @@
 			)
 		)
 		(property "MPN" "NX3008NBKW"
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11347,7 +11357,7 @@
 			)
 		)
 		(property "Mouser" "771-NX3008NBKW,115"
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11356,7 +11366,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11365,7 +11375,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11374,7 +11384,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11383,7 +11393,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11392,7 +11402,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11401,7 +11411,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 252.73 107.95 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11722,7 +11732,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 153.67 0)
+		(at 242.57 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11730,7 +11740,7 @@
 		(dnp no)
 		(uuid "4d5ee512-0e9f-49ff-8ba4-2c14d6ebfa5c")
 		(property "Reference" "#PWR0149"
-			(at 242.57 160.02 0)
+			(at 242.57 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11739,7 +11749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 157.48 0)
+			(at 242.57 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +11757,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 153.67 0)
+			(at 242.57 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 153.67 0)
+			(at 242.57 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11775,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 153.67 0)
+			(at 242.57 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11917,7 +11927,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 254 130.81 270)
+		(at 254 134.62 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11926,7 +11936,7 @@
 		(dnp no)
 		(uuid "4f0b2daf-d642-4fde-8362-e1e0a7001aef")
 		(property "Reference" "D3"
-			(at 247.65 137.16 0)
+			(at 247.65 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,7 +11944,7 @@
 			)
 		)
 		(property "Value" "LO R976-PS-1"
-			(at 250.19 130.81 0)
+			(at 250.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11942,7 +11952,7 @@
 			)
 		)
 		(property "Footprint" "jeffmakes-footprints:CHIPLED-0805"
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11951,7 +11961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11960,7 +11970,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11969,7 +11979,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11978,7 +11988,7 @@
 			)
 		)
 		(property "Digikey" "475-2488-6-ND"
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,7 +11997,7 @@
 			)
 		)
 		(property "MPN" "LOR976-PS-1"
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11996,7 +12006,7 @@
 			)
 		)
 		(property "Mouser" "720-LOR976-PS-1"
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12005,7 +12015,7 @@
 			)
 		)
 		(property "Manufacturer" "Osram"
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12014,7 +12024,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12023,7 +12033,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12032,7 +12042,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12041,7 +12051,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12050,7 +12060,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +12085,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 152.4 0)
+		(at 254 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12083,7 +12093,7 @@
 		(dnp no)
 		(uuid "5317b5b9-6fe7-4b86-b392-02de0d3275e6")
 		(property "Reference" "#PWR0154"
-			(at 254 158.75 0)
+			(at 254 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12092,7 +12102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254.127 156.7942 0)
+			(at 254.127 160.6042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12100,7 +12110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 152.4 0)
+			(at 254 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12109,7 +12119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 152.4 0)
+			(at 254 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12118,7 +12128,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 152.4 0)
+			(at 254 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +13486,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 254 127 0)
+		(at 254 130.81 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13486,7 +13496,7 @@
 		(fields_autoplaced yes)
 		(uuid "678f1948-8651-420c-9cd0-d37f1ecec689")
 		(property "Reference" "#PWR0153"
-			(at 254 130.81 0)
+			(at 254 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13495,7 +13505,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 254 123.19 0)
+			(at 254 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13503,7 +13513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 127 0)
+			(at 254 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13512,7 +13522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 127 0)
+			(at 254 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13521,7 +13531,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 127 0)
+			(at 254 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14606,7 +14616,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 243.84 114.3 0)
+		(at 243.84 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14614,7 +14624,7 @@
 		(dnp no)
 		(uuid "957445e2-1c2f-46df-9851-a5738610e452")
 		(property "Reference" "#PWR0150"
-			(at 243.84 120.65 0)
+			(at 243.84 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14623,7 +14633,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 243.84 118.11 0)
+			(at 243.84 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14631,7 +14641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 243.84 114.3 0)
+			(at 243.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14640,7 +14650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 114.3 0)
+			(at 243.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14649,7 +14659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 243.84 114.3 0)
+			(at 243.84 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15360,7 +15370,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
-		(at 251.46 147.32 0)
+		(at 251.46 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15368,7 +15378,7 @@
 		(dnp no)
 		(uuid "a3aeaf4a-209e-4019-809b-d3b10a820689")
 		(property "Reference" "Q9"
-			(at 257.81 146.05 0)
+			(at 257.81 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15377,7 +15387,7 @@
 			)
 		)
 		(property "Value" "NX3008NBKW"
-			(at 257.81 148.59 0)
+			(at 257.81 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15386,7 +15396,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 256.54 144.78 0)
+			(at 256.54 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15395,7 +15405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15404,7 +15414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15413,7 +15423,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15422,7 +15432,7 @@
 			)
 		)
 		(property "Digikey" "1727-1280-6-ND"
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15431,7 +15441,7 @@
 			)
 		)
 		(property "MPN" "NX3008NBKW"
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15440,7 +15450,7 @@
 			)
 		)
 		(property "Mouser" "771-NX3008NBKW,115"
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15449,7 +15459,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15458,7 +15468,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15467,7 +15477,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15476,7 +15486,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15485,7 +15495,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15494,7 +15504,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 251.46 147.32 0)
+			(at 251.46 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15653,7 +15663,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 254 137.16 0)
+		(at 254 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15661,7 +15671,7 @@
 		(dnp no)
 		(uuid "a54e2361-231b-40c1-95f8-de9e0cd18d8e")
 		(property "Reference" "R44"
-			(at 256.54 139.7 90)
+			(at 256.54 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15669,7 +15679,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 256.54 134.62 90)
+			(at 256.54 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15677,7 +15687,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15686,7 +15696,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15695,7 +15705,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15704,7 +15714,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15713,7 +15723,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15722,7 +15732,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15731,7 +15741,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15740,7 +15750,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15749,7 +15759,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15758,7 +15768,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15767,7 +15777,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15776,7 +15786,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 254 137.16 0)
+			(at 254 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15801,7 +15811,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 242.57 151.13 0)
+		(at 242.57 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15810,7 +15820,7 @@
 		(fields_autoplaced yes)
 		(uuid "abcde602-bf84-43ff-abc3-ceb85cb2edab")
 		(property "Reference" "R43"
-			(at 245.11 150.495 0)
+			(at 245.11 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15819,7 +15829,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 245.11 153.035 0)
+			(at 245.11 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15828,7 +15838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15837,7 +15847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15846,7 +15856,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15855,7 +15865,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15864,7 +15874,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15873,7 +15883,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15882,7 +15892,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15891,7 +15901,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15900,7 +15910,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15909,7 +15919,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15918,7 +15928,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15927,7 +15937,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 242.57 151.13 0)
+			(at 242.57 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16168,7 +16178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 114.3 0)
+		(at 255.27 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16176,7 +16186,7 @@
 		(dnp no)
 		(uuid "b240691b-6a2c-4203-9072-3e7b2588f68b")
 		(property "Reference" "#PWR0156"
-			(at 255.27 120.65 0)
+			(at 255.27 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16185,7 +16195,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 118.11 0)
+			(at 255.27 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16193,7 +16203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 114.3 0)
+			(at 255.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16202,7 +16212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 114.3 0)
+			(at 255.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16211,7 +16221,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 114.3 0)
+			(at 255.27 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

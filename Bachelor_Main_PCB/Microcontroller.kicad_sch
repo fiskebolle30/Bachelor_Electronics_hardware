@@ -6587,6 +6587,16 @@
 		)
 		(uuid "712e4d69-35e9-418f-83a6-85bfda519cba")
 	)
+	(text "Should be routed to GPIO\nis 1.8V though"
+		(exclude_from_sim no)
+		(at 215.138 178.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ff152e6-438b-406c-a453-dfb14bd33bac")
+	)
 	(text "JTDO/SWO"
 		(exclude_from_sim no)
 		(at 58.42 261.874 0)
@@ -10024,6 +10034,17 @@
 			(justify right)
 		)
 		(uuid "6a0512f0-751e-4629-8bd1-4a3c04885159")
+	)
+	(hierarchical_label "MODEM_SAFE_PWR_REMOVE"
+		(shape output)
+		(at 204.47 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b725646d-52da-4464-9d4d-ada202519712")
 	)
 	(hierarchical_label "USB_HS_P"
 		(shape bidirectional)
