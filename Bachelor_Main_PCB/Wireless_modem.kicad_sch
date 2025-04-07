@@ -6851,10 +6851,6 @@
 		(uuid "bb993a6c-e5b6-4abf-854a-7a703ebc853f")
 	)
 	(no_connect
-		(at 135.89 29.21)
-		(uuid "bf0941d3-baae-4f94-8222-118943d70b87")
-	)
-	(no_connect
 		(at 135.89 34.29)
 		(uuid "c0cf8c6e-fc8b-4040-ba47-eb4f23786745")
 	)
@@ -8412,6 +8408,17 @@
 			(justify right)
 		)
 		(uuid "d832a1b4-9881-4231-a2c3-05b74cbd8ec5")
+	)
+	(hierarchical_label "MODEM_SAFE_PWR_REMOVE"
+		(shape input)
+		(at 135.89 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e66bda06-64f3-4d0b-8b9d-f1dde4bd60bf")
 	)
 	(hierarchical_label "WAKE"
 		(shape input)
@@ -10378,7 +10385,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UDFN10_CASE_517BB"
+		(property "Footprint" "KiCad2:UDFN10_CASE_517BB"
 			(at 119.71 92.71 0)
 			(effects
 				(font
