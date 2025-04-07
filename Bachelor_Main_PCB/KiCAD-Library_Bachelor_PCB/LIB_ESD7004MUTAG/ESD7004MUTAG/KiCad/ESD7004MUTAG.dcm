@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESD7004MUTAG
+D Low Capacitance (0.2 pF Typical, I/O to I/O); Protection for the Following IEC Standards: IEC 61000-4-2 (+/-15 kV Contact); UL Flammability Rating of 94 V0; This is a Pb-Free Device; Low ESD Clamping Voltage
+K
+F https://www.onsemi.com/pub/Collateral/ESD7004-D.PDF
+$ENDCMP
+#
+#End Doc Library

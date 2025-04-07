@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=ESD7004MUTAG
+PartCategory=Undefined or Miscellaneous
+PackageCategory=Other
+PinCount=10
+Version=2.1
+Released=2017-06-06 16:33:04
+Downloaded=2025-04-07 13:32:32
+3D=Y

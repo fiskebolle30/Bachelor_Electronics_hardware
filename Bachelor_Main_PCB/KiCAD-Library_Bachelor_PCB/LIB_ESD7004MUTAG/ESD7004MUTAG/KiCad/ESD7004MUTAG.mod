@@ -1,0 +1,85 @@
+PCBNEW-LibModule-V1  2025-04-07 13:32:32
+# encoding utf-8
+Units mm
+$INDEX
+UDFN10_CASE_517BB
+$EndINDEX
+$MODULE UDFN10_CASE_517BB
+Po 0 0 0 15 67f3c5e0 00000000 ~~
+Li UDFN10_CASE_517BB
+Cd UDFN10_CASE_517BB
+Kw Undefined or Miscellaneous
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 0 0 1.27 1.27 0 0.254 N V 21 N "U**"
+T1 0 0 1.27 1.27 0 0.254 N I 21 N "UDFN10_CASE_517BB"
+DS -1.25 -0.5 -1.25 0.5 0.2 21
+DS 1.25 -0.5 1.25 0.5 0.2 21
+DS -1.25 -0.5 -1.25 0.5 0.1 24
+DS -1.25 0.5 1.25 0.5 0.1 24
+DS 1.25 0.5 1.25 -0.5 0.1 24
+DS 1.25 -0.5 -1.25 -0.5 0.1 24
+$PAD
+Po -1 0.4
+Sh "1" R 0.25 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.5 0.4
+Sh "2" R 0.25 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0 0.4
+Sh "3" R 0.45 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.5 0.4
+Sh "4" R 0.25 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1 0.4
+Sh "5" R 0.25 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1 -0.4
+Sh "6" R 0.25 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.5 -0.4
+Sh "7" R 0.25 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0 -0.4
+Sh "8" R 0.45 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.5 -0.4
+Sh "9" R 0.25 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -1 -0.4
+Sh "10" R 0.25 0.5 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE UDFN10_CASE_517BB
+$EndLIBRARY
