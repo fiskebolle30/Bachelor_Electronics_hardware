@@ -6517,9 +6517,9 @@
 		)
 		(uuid "1e958595-1e42-47c0-a14e-281023a71cb1")
 	)
-	(text "VDD"
+	(text "MCU_VDD"
 		(exclude_from_sim no)
-		(at 55.372 258.826 0)
+		(at 57.912 259.334 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6569,7 +6569,7 @@
 	)
 	(text "RESET"
 		(exclude_from_sim no)
-		(at 56.388 272.288 0)
+		(at 56.388 272.034 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6589,7 +6589,7 @@
 	)
 	(text "JTDO/SWO"
 		(exclude_from_sim no)
-		(at 58.42 261.62 0)
+		(at 58.42 261.874 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6629,7 +6629,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 55.372 274.828 0)
+		(at 55.372 274.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
