@@ -8735,7 +8735,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_TDO"
+	(global_label "DEBUG_TDO"
 		(shape input)
 		(at 38.1 261.62 0)
 		(fields_autoplaced yes)
@@ -8747,7 +8747,7 @@
 		)
 		(uuid "1a9d93cc-4f4a-46b7-ab9b-ac57994948cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.9147 261.62 0)
+			(at 51.9104 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,7 +8779,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_TCLK"
+	(global_label "DEBUG_TCLK"
 		(shape input)
 		(at 143.51 101.6 0)
 		(fields_autoplaced yes)
@@ -8791,7 +8791,7 @@
 		)
 		(uuid "25dbee06-abf1-4489-adde-5712332cc559")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.2923 101.6 0)
+			(at 158.288 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8801,7 +8801,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_TMS"
+	(global_label "DEBUG_TMS"
 		(shape input)
 		(at 38.1 264.16 0)
 		(fields_autoplaced yes)
@@ -8813,7 +8813,7 @@
 		)
 		(uuid "2aa043d8-08b8-44f1-909d-32e72a5c66df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.9751 264.16 0)
+			(at 51.9708 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +8823,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_TCLK"
+	(global_label "DEBUG_TCLK"
 		(shape input)
 		(at 38.1 266.7 0)
 		(fields_autoplaced yes)
@@ -8835,7 +8835,7 @@
 		)
 		(uuid "31b6ccd7-0065-44f9-bc94-53ad67533ee2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8823 266.7 0)
+			(at 52.878 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8977,7 +8977,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_TDO"
+	(global_label "DEBUG_TDO"
 		(shape input)
 		(at 143.51 116.84 0)
 		(fields_autoplaced yes)
@@ -8989,7 +8989,7 @@
 		)
 		(uuid "4b22e8f5-f1e5-467a-a734-b3c007e3e966")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.3247 116.84 0)
+			(at 157.3204 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9329,7 +9329,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_TMS"
+	(global_label "DEBUG_TMS"
 		(shape input)
 		(at 143.51 99.06 0)
 		(fields_autoplaced yes)
@@ -9341,7 +9341,7 @@
 		)
 		(uuid "9bedc50d-3125-4b9f-8d07-b806a1229359")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.3851 99.06 0)
+			(at 157.3808 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9483,7 +9483,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_TDI"
+	(global_label "DEBUG_TDI"
 		(shape input)
 		(at 38.1 269.24 0)
 		(fields_autoplaced yes)
@@ -9495,7 +9495,7 @@
 		)
 		(uuid "a7132449-2f2a-40c5-87ea-e2c754fdecb5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.189 269.24 0)
+			(at 51.1847 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,7 +9725,7 @@
 			)
 		)
 	)
-	(global_label "JTAG_TDI"
+	(global_label "DEBUG_TDI"
 		(shape input)
 		(at 143.51 104.14 0)
 		(fields_autoplaced yes)
@@ -9737,7 +9737,7 @@
 		)
 		(uuid "ddcabd94-e5a3-4c92-800f-597dd4326087")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.599 104.14 0)
+			(at 156.5947 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
