@@ -11974,7 +11974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53e875f3-fa54-4de3-802b-7c86e803f56d")
-		(property "Reference" "J5"
+		(property "Reference" "J11"
 			(at 208.28 26.0349 90)
 			(effects
 				(font
@@ -12149,7 +12149,7 @@
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
-					(reference "J5")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -12448,7 +12448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62aca5d0-2340-4d19-986d-65198893f3d9")
-		(property "Reference" "J6"
+		(property "Reference" "J13"
 			(at 33.655 254 0)
 			(effects
 				(font
@@ -12515,7 +12515,7 @@
 		(instances
 			(project ""
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
-					(reference "J6")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -12701,7 +12701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76e919c5-bd11-400c-b560-bd87c1e5b4b6")
-		(property "Reference" "J3"
+		(property "Reference" "J14"
 			(at 171.45 26.0349 90)
 			(effects
 				(font
@@ -12876,7 +12876,7 @@
 		(instances
 			(project ""
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
-					(reference "J3")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -14463,7 +14463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdcfea8b-52b2-468f-b1ac-8af360e3a8f8")
-		(property "Reference" "J4"
+		(property "Reference" "J15"
 			(at 140.97 26.0349 90)
 			(effects
 				(font
@@ -14638,7 +14638,7 @@
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
-					(reference "J4")
+					(reference "J15")
 					(unit 1)
 				)
 			)
