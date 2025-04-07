@@ -6487,6 +6487,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "JTDI"
+		(exclude_from_sim no)
+		(at 55.372 269.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14208f3b-6fa4-4d42-9f38-fdfab1a0dbe9")
+	)
 	(text "INPUT"
 		(exclude_from_sim no)
 		(at 131.572 38.862 0)
@@ -6506,6 +6516,26 @@
 			)
 		)
 		(uuid "1e958595-1e42-47c0-a14e-281023a71cb1")
+	)
+	(text "VDD"
+		(exclude_from_sim no)
+		(at 55.372 258.826 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2572a827-787b-492a-aad0-6a284252c2cc")
+	)
+	(text "JCLK/SWCLK"
+		(exclude_from_sim no)
+		(at 59.436 266.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "32369ab4-4259-465d-95aa-b04d23319926")
 	)
 	(text "OUTPUT\n"
 		(exclude_from_sim no)
@@ -6537,6 +6567,16 @@
 		)
 		(uuid "4afdcf39-755b-431f-ba00-9d384c03f529")
 	)
+	(text "RESET"
+		(exclude_from_sim no)
+		(at 56.388 272.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6add6109-7318-4968-b0cd-66a46c866c70")
+	)
 	(text "INPUT"
 		(exclude_from_sim no)
 		(at 198.12 38.862 0)
@@ -6546,6 +6586,16 @@
 			)
 		)
 		(uuid "712e4d69-35e9-418f-83a6-85bfda519cba")
+	)
+	(text "JTDO/SWO"
+		(exclude_from_sim no)
+		(at 58.42 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9e617768-405b-4234-8376-be9ca8b58685")
 	)
 	(text "100nf MCU VDD decoupling caps, 1 per Pin pluss 4,7uF bulkcap"
 		(exclude_from_sim no)
@@ -6577,6 +6627,16 @@
 		)
 		(uuid "bd4665ec-e44a-425b-ac15-5d2abf1bf318")
 	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 55.372 274.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "be205bdc-3757-46ef-a2a4-13bd7e6e49e6")
+	)
 	(text "RTC battery"
 		(exclude_from_sim no)
 		(at 45.72 45.466 0)
@@ -6607,7 +6667,7 @@
 		)
 		(uuid "c81e7f36-48ab-4baf-b949-66e25f01212b")
 	)
-	(text "JTAG interface\n7 pin header\n"
+	(text "JTAG/SWD interface\n7 pin header\n"
 		(exclude_from_sim no)
 		(at 37.592 282.448 0)
 		(effects
@@ -6646,6 +6706,16 @@
 			)
 		)
 		(uuid "f891fde7-cfb7-40c6-9022-880264654165")
+	)
+	(text "JTMS/SWDIO"
+		(exclude_from_sim no)
+		(at 59.436 264.414 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fab597cd-c9d0-41ae-b506-30b7209af175")
 	)
 	(junction
 		(at 209.55 102.87)
