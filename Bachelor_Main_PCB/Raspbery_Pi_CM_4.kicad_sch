@@ -5974,8 +5974,41 @@
 		(at 200.66 40.64)
 		(uuid "1864cd71-38db-47b2-a98b-5e9d08a47260")
 	)
-	(hierarchical_label "USB_HS_N"
+	(hierarchical_label "RESET_IN_N"
+		(shape output)
+		(at 166.37 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1911808d-933f-4239-ad70-feed3c4dc1c0")
+	)
+	(hierarchical_label "TX_ON"
 		(shape input)
+		(at 166.37 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4321164c-d7a5-46f1-8ac7-5cd538b2a7f7")
+	)
+	(hierarchical_label "BOOT_MODE"
+		(shape output)
+		(at 166.37 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e982921-8498-40ec-bd6d-e82d0faf7166")
+	)
+	(hierarchical_label "USB_HS_N"
+		(shape bidirectional)
 		(at 200.66 45.72 180)
 		(effects
 			(font
@@ -5985,8 +6018,19 @@
 		)
 		(uuid "9453e2d0-5841-416e-8759-6930a05d7db7")
 	)
-	(hierarchical_label "USB_HS_P"
+	(hierarchical_label "WAKE_ON_WWAN"
 		(shape input)
+		(at 166.37 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d82c0f89-94a2-4082-b46f-10fcddb7a93f")
+	)
+	(hierarchical_label "USB_HS_P"
+		(shape bidirectional)
 		(at 200.66 43.18 180)
 		(effects
 			(font
@@ -5995,6 +6039,28 @@
 			(justify right)
 		)
 		(uuid "dcee311c-3b61-436c-a733-c442c9ea1e7b")
+	)
+	(hierarchical_label "WAKE"
+		(shape output)
+		(at 166.37 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9e032e8-6ca3-45a2-aab8-73000c25fcc6")
+	)
+	(hierarchical_label "POWER_ON_N"
+		(shape output)
+		(at 166.37 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f861bc95-3fae-4940-b600-a2c70fcab2b5")
 	)
 	(symbol
 		(lib_id "power:GND")
