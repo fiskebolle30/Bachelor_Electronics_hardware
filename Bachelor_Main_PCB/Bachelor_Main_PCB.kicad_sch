@@ -1704,6 +1704,48 @@
 		)
 	)
 	(sheet
+		(at 200.66 83.82)
+		(size 45.72 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a2efe210-cbe4-4166-b2f4-897451b29d8a")
+		(property "Sheetname" "USB Hub"
+			(at 200.66 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_HUB.kicad_sch"
+			(at 200.66 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 30.48 26.67)
 		(size 44.45 24.13)
 		(exclude_from_sim no)
