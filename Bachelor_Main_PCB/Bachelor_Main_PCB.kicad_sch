@@ -1522,23 +1522,23 @@
 			)
 		)
 		(pin "USB_HS_N" bidirectional
-			(at 121.92 134.62 180)
+			(at 175.26 110.49 0)
 			(uuid "3e38b9d0-28db-4e7f-8d24-6b0f629ae8a5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_HS_P" bidirectional
-			(at 121.92 132.08 180)
+			(at 175.26 107.95 0)
 			(uuid "3743d97f-6be0-4b61-8be0-c86f71cbc610")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "WAKE" output

@@ -6547,16 +6547,6 @@
 		)
 		(uuid "3887203a-f056-4bfb-966b-96b9aea0de1e")
 	)
-	(text "OUTPUT\n"
-		(exclude_from_sim no)
-		(at 208.026 38.862 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3c05411d-99ae-4c01-8883-7e49dd89ad94")
-	)
 	(text "VDDLDO bypass caps, 1 per Pin\n"
 		(exclude_from_sim no)
 		(at 370.078 205.74 0)
@@ -6586,16 +6576,6 @@
 			)
 		)
 		(uuid "6af38981-dcbd-4ad1-943f-b54d5d8891b6")
-	)
-	(text "INPUT"
-		(exclude_from_sim no)
-		(at 198.12 38.862 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "712e4d69-35e9-418f-83a6-85bfda519cba")
 	)
 	(text "Should be routed to GPIO\nis 1.8V though"
 		(exclude_from_sim no)
@@ -6636,16 +6616,6 @@
 			)
 		)
 		(uuid "b5b4329b-a8e6-466b-975f-17c500ab5293")
-	)
-	(text "USB HUB power jumper"
-		(exclude_from_sim no)
-		(at 203.2 20.574 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bd4665ec-e44a-425b-ac15-5d2abf1bf318")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -7117,6 +7087,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 139.7) (xy 199.39 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041ae5b4-1994-4485-a120-8816317f35b4")
+	)
+	(wire
+		(pts
 			(xy 41.91 107.95) (xy 41.91 105.41)
 		)
 		(stroke
@@ -7297,7 +7277,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 120.65) (xy 193.04 120.65)
+			(xy 210.82 120.65) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7737,6 +7717,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 138.43) (xy 210.82 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d0b200-1974-4da7-afe8-3c83c4c6ac67")
+	)
+	(wire
+		(pts
 			(xy 273.05 95.25) (xy 317.5 95.25)
 		)
 		(stroke
@@ -7874,16 +7864,6 @@
 			(type default)
 		)
 		(uuid "87fab46e-1120-40b2-b1bb-5c67d438c9db")
-	)
-	(wire
-		(pts
-			(xy 198.12 138.43) (xy 210.82 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87fc15a8-7b91-4cfb-a3be-b636fed1e993")
 	)
 	(wire
 		(pts
@@ -8077,7 +8057,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 193.04 120.65)
+			(xy 171.45 81.28) (xy 171.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -8377,7 +8357,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 81.28) (xy 273.05 81.28)
+			(xy 171.45 81.28) (xy 273.05 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8829,6 +8809,28 @@
 			)
 		)
 	)
+	(global_label "+3V5_USB3320"
+		(shape input)
+		(at 175.26 97.79 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "192e8351-14f5-4322-be34-39a90b180cc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 80.1092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_ULPI_STP"
 		(shape output)
 		(at 143.51 152.4 0)
@@ -9194,28 +9196,6 @@
 		(uuid "668a633e-666c-4131-b857-26f29106937b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.73 42.7953 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3V5_USB_HUB"
-		(shape input)
-		(at 204.47 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68dfa6d6-8864-448c-989f-0ff371307c1b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.1508 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,28 +9641,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3V5"
-		(shape input)
-		(at 201.93 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc34daf6-b299-4e2f-8548-581f2a44fa67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.8648 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12022,197 +11980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "M20-9990245:M20-9990245")
-		(at 204.47 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53e875f3-fa54-4de3-802b-7c86e803f56d")
-		(property "Reference" "J11"
-			(at 208.28 26.0349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "M20-9990245"
-			(at 208.28 28.5749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "M20-9990245:HARWIN_M20-9990245"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Harwin"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "9.64mm"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=eda"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "14"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=snap"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "M20-9990245"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Pin Header, 6.1mm mating pin height, gold (hi-temp mould), 2 contacts"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Harwin"
-			(at 204.47 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8e67d2ce-46b0-40a6-a63a-155b8c4e3e3d")
-		)
-		(pin "1"
-			(uuid "2074c870-e314-4b84-84cb-6202bde74557")
-		)
-		(instances
-			(project "Bachelor_Main_PCB"
-				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 100.33 243.84 0)
 		(unit 1)
@@ -12280,7 +12047,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 143.51 0)
+		(at 199.39 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12289,7 +12056,7 @@
 		(fields_autoplaced yes)
 		(uuid "6046ef67-766b-44bc-8049-cc4d0d8227c7")
 		(property "Reference" "#PWR011"
-			(at 198.12 149.86 0)
+			(at 199.39 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12298,7 +12065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 148.59 0)
+			(at 199.39 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12306,7 +12073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 143.51 0)
+			(at 199.39 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12315,7 +12082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 143.51 0)
+			(at 199.39 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12324,7 +12091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 143.51 0)
+			(at 199.39 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13275,7 +13042,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 198.12 140.97 0)
+		(at 199.39 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13284,7 +13051,7 @@
 		(fields_autoplaced yes)
 		(uuid "869b65f6-354e-4159-be27-2a0c7d65e117")
 		(property "Reference" "R2"
-			(at 200.66 139.6999 0)
+			(at 201.93 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13293,7 +13060,7 @@
 			)
 		)
 		(property "Value" "8k06"
-			(at 200.66 142.2399 0)
+			(at 201.93 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13302,7 +13069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 198.12 140.97 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,7 +13078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 140.97 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13320,7 +13087,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 198.12 140.97 0)
+			(at 199.39 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
