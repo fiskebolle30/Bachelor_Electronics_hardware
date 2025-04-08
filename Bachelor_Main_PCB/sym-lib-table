@@ -14,4 +14,5 @@
   (lib (name "BK-916-TR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/BK-916-TR/BK-916-TR.kicad_sym")(options "")(descr ""))
   (lib (name "ECS-327TXO-33-TR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/ECS-327TXO-33-TR/ECS-327TXO-33-TR.kicad_sym")(options "")(descr ""))
   (lib (name "ESD7004MUTAG")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_ESD7004MUTAG/ESD7004MUTAG/KiCad/ESD7004MUTAG.kicad_sym")(options "")(descr ""))
+  (lib (name "PMV13XNEAR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_PMV13XNEAR/PMV13XNEAR/KiCad3/PMV13XNEAR.kicad_sym")(options "")(descr ""))
 )

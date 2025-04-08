@@ -305,6 +305,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 129.54) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae02954-f130-467a-801c-85ed68038e74")
+	)
+	(wire
+		(pts
 			(xy 83.82 71.12) (xy 121.92 71.12)
 		)
 		(stroke
@@ -1419,6 +1429,16 @@
 				(justify right)
 			)
 		)
+		(pin "MODEM_3V7_EN" input
+			(at 80.01 129.54 0)
+			(uuid "5c8f9517-7faa-4285-a0db-279e71431636")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8"
@@ -1429,7 +1449,7 @@
 	)
 	(sheet
 		(at 121.92 99.06)
-		(size 53.34 36.83)
+		(size 53.34 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1453,7 +1473,7 @@
 			)
 		)
 		(property "Sheetfile" "Raspbery_Pi_CM_4.kicad_sch"
-			(at 121.92 136.4746 0)
+			(at 121.92 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,6 +1554,16 @@
 		(pin "WAKE_ON_WWAN" input
 			(at 121.92 124.46 180)
 			(uuid "d0943b83-c8ed-401c-926a-41bef9930817")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MODEM_3V7_EN" output
+			(at 121.92 129.54 180)
+			(uuid "97e72c12-b269-489a-85f5-c2516769842f")
 			(effects
 				(font
 					(size 1.27 1.27)

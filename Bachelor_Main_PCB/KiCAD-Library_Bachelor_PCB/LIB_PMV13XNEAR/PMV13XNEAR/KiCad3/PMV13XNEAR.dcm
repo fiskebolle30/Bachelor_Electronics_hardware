@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PMV13XNEAR
+D MOSFET MOSFET DISCRETES
+K
+F https://assets.nexperia.com/documents/data-sheet/PMV13XNEA.pdf
+$ENDCMP
+#
+#End Doc Library

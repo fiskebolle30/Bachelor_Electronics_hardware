@@ -6018,6 +6018,17 @@
 		)
 		(uuid "9453e2d0-5841-416e-8759-6930a05d7db7")
 	)
+	(hierarchical_label "MODEM_3V7_EN"
+		(shape output)
+		(at 166.37 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a321b9e7-0163-4d2f-b41d-43214cfce16d")
+	)
 	(hierarchical_label "WAKE_ON_WWAN"
 		(shape input)
 		(at 166.37 99.06 0)

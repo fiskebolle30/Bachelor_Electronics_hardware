@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PMV13XNEAR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-05-21-16:16:08)
+    (mountForm default
+        (footprintRef "SOT95P230X110-3N")
+        (spec "System")
+    )
+)
