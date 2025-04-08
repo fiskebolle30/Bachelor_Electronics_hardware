@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SSM3J358R_LF'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Toshiba", "SSM3J358R,LF" (!) = "", "SOTFL95P240X88-3N", "SO Transistor Flat Lead", "757-SSM3J358RLF", "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J358RLF?qs=HXFqYaX1Q2xwvCtt1GGmkw%3D%3D", "SSM3J358R,LF", "https://www.arrow.com/en/products/ssm3j358rlf/toshiba?region=nac", "MOSFET LowON Res MOSFET ID=-6A VDSS=-20V", "https://toshiba.semicon-storage.com/ap-en/product/mosfet/detail.SSM3J358R.html", "0.88 mm"
+END_PART
+
+END.
