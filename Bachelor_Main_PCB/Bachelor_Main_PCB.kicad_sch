@@ -311,7 +311,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3ae02954-f130-467a-801c-85ed68038e74")
+		(uuid "19da1a8a-8b6c-46f9-a3d7-7496b6751a71")
 	)
 	(wire
 		(pts
@@ -1429,9 +1429,9 @@
 				(justify right)
 			)
 		)
-		(pin "MODEM_3V7_EN" input
+		(pin "MODEM_3V5_EN" input
 			(at 80.01 129.54 0)
-			(uuid "5c8f9517-7faa-4285-a0db-279e71431636")
+			(uuid "b5a60bc9-adc6-4263-8e42-bd8a36f5ddbb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,9 +1561,9 @@
 				(justify left)
 			)
 		)
-		(pin "MODEM_3V7_EN" output
+		(pin "MODEM_3V5_EN" output
 			(at 121.92 129.54 180)
-			(uuid "97e72c12-b269-489a-85f5-c2516769842f")
+			(uuid "c3790747-0bcf-434d-ad69-0e8b00f62c6f")
 			(effects
 				(font
 					(size 1.27 1.27)
