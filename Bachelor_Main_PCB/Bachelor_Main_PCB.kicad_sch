@@ -253,6 +253,16 @@
 		)
 		(uuid "7695f9be-7ae7-4628-b564-901ffb2c5b48")
 	)
+	(text "Potential use pin. not used on BUGG"
+		(exclude_from_sim no)
+		(at 81.788 80.518 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8601899-0bdb-4105-b18f-de3b5fa97626")
+	)
 	(text_box " "
 		(exclude_from_sim no)
 		(at 219.71 22.86 0)
