@@ -17,4 +17,5 @@
   (lib (name "SSM3J358R_LF")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_SSM3J358R,LF/SSM3J358R,LF/KiCad4/SSM3J358R_LF.kicad_sym")(options "")(descr ""))
   (lib (name "MEM2075-00-140-01-A")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/MEM2075-00-140-01-A/MEM2075-00-140-01-A.kicad_sym")(options "")(descr ""))
   (lib (name "0402ESDA-MLP1")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/0402ESDA-MLP1/0402ESDA-MLP1.kicad_sym")(options "")(descr ""))
+  (lib (name "CONMHF1-SMD-G-T")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/CONMHF1-SMD-G-T/CONMHF1-SMD-G-T.kicad_sym")(options "")(descr ""))
 )

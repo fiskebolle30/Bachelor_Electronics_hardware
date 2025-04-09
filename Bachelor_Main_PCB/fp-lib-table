@@ -14,4 +14,5 @@
   (lib (name "KiCad3")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_PMV13XNEAR/PMV13XNEAR/KiCad3")(options "")(descr ""))
   (lib (name "KiCad4")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_SSM3J358R,LF/SSM3J358R,LF/KiCad4")(options "")(descr ""))
   (lib (name "MEM2075-00-140-01-A")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/MEM2075-00-140-01-A")(options "")(descr ""))
+  (lib (name "CONMHF1-SMD-G-T")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/CONMHF1-SMD-G-T")(options "")(descr ""))
 )
