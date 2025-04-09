@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "465b5303-ee41-4b99-b32f-517ea394a4b6")
+	(uuid "d3cc2f0a-7163-4f22-b483-faa52f5d1a23")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1683,6 +1683,26 @@
 		(uuid "005d6e0d-98bb-4d9b-843d-c26a2b133157")
 	)
 	(no_connect
+		(at 158.75 110.49)
+		(uuid "1dc7f9ed-d35f-4aa1-9a8f-921d88c8bb21")
+	)
+	(no_connect
+		(at 158.75 123.19)
+		(uuid "2a95a1cb-a692-43f7-ab1b-764667969686")
+	)
+	(no_connect
+		(at 158.75 105.41)
+		(uuid "2ba1e894-b694-42b7-92a7-02176041bb4e")
+	)
+	(no_connect
+		(at 158.75 82.55)
+		(uuid "49ea2eaa-dc82-4c1c-8384-88c83dc1693b")
+	)
+	(no_connect
+		(at 158.75 118.11)
+		(uuid "4c97f75c-313f-45d1-846a-1fc1177985ee")
+	)
+	(no_connect
 		(at 158.75 107.95)
 		(uuid "4d1482e4-8edf-4a3f-b304-7c7644e0de28")
 	)
@@ -1695,16 +1715,32 @@
 		(uuid "8ff6e894-edb8-460d-97ec-adffc6cc8e46")
 	)
 	(no_connect
+		(at 158.75 102.87)
+		(uuid "914daa8e-5c77-4874-859e-9767fc71d4ee")
+	)
+	(no_connect
 		(at 158.75 95.25)
 		(uuid "b211c71d-5453-416d-a19e-a575d7d51f27")
+	)
+	(no_connect
+		(at 158.75 115.57)
+		(uuid "be8a3cfb-392d-4839-b916-dfa7c99649d5")
 	)
 	(no_connect
 		(at 102.87 113.03)
 		(uuid "d9dd9845-d9bb-4282-87d6-55965ba1e71c")
 	)
 	(no_connect
+		(at 158.75 85.09)
+		(uuid "db5025c0-9c19-4872-8eca-8991545c3b69")
+	)
+	(no_connect
 		(at 102.87 92.71)
 		(uuid "e0789c3f-7496-4467-9290-85251e63127b")
+	)
+	(no_connect
+		(at 158.75 97.79)
+		(uuid "f3bf7a25-ff58-4c8c-b07e-b05b8456ca9f")
 	)
 	(wire
 		(pts
@@ -2226,6 +2262,28 @@
 			)
 		)
 	)
+	(hierarchical_label "USB_HUB_OUT_2_M"
+		(shape bidirectional)
+		(at 158.75 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3babf861-ca75-468c-8c90-4144d7e3aea2")
+	)
+	(hierarchical_label "USB_HUB_OUT_1_M"
+		(shape bidirectional)
+		(at 158.75 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "411b6dc6-3888-4699-bdfd-f4f50cbecb27")
+	)
 	(hierarchical_label "nEXTRST"
 		(shape input)
 		(at 101.6 90.17 180)
@@ -2237,6 +2295,17 @@
 		)
 		(uuid "a118b94d-2219-4a72-a623-92e1500bc60e")
 	)
+	(hierarchical_label "USB_HUB_OUT_1_P"
+		(shape bidirectional)
+		(at 158.75 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a392251a-84df-49b8-b97c-fe2d9e610ded")
+	)
 	(hierarchical_label "USB_HUB_IN_M"
 		(shape bidirectional)
 		(at 102.87 82.55 180)
@@ -2247,6 +2316,17 @@
 			(justify right)
 		)
 		(uuid "c5d32f0d-c214-431d-b962-337335da284b")
+	)
+	(hierarchical_label "USB_HUB_OUT_2_P"
+		(shape bidirectional)
+		(at 158.75 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3c79147-75b4-45a9-890b-fdc0665f4f84")
 	)
 	(hierarchical_label "USB_HUB_IN_P"
 		(shape bidirectional)
