@@ -10401,6 +10401,28 @@
 			)
 		)
 	)
+	(global_label "SDIO_CMD"
+		(shape bidirectional)
+		(at 143.51 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07011f91-783b-4d45-96ab-d26cb7a1a5f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.9803 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3V5_MCU"
 		(shape input)
 		(at 328.93 137.16 90)
@@ -10951,7 +10973,7 @@
 			)
 		)
 	)
-	(global_label "SDIO_D2"
+	(global_label "SDIO_D1"
 		(shape bidirectional)
 		(at 293.37 161.29 180)
 		(fields_autoplaced yes)
@@ -10963,7 +10985,7 @@
 		)
 		(uuid "73bc1ba6-3368-46b7-b7d4-68ebd618c2b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 282.5229 161.29 0)
+			(at 281.4116 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10991,6 +11013,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDIO_D1"
+		(shape bidirectional)
+		(at 143.51 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77d692ba-a59f-428c-8b3e-02aa0255c230")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4684 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11633,6 +11677,28 @@
 			)
 		)
 	)
+	(global_label "SDIO_D0"
+		(shape bidirectional)
+		(at 143.51 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc6a975a-693f-4550-a557-6feb63f7bf61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4684 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3V5_MCU"
 		(shape input)
 		(at 57.15 81.28 180)
@@ -11712,6 +11778,28 @@
 		(uuid "dee0882c-682d-4ac4-bb7d-cea3d2c93900")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 150.2447 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDIO_D2"
+		(shape bidirectional)
+		(at 143.51 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e00eeae9-5de9-4a19-9155-9dc74ce24d19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4684 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,6 +11941,28 @@
 			)
 		)
 	)
+	(global_label "SDIO_D3"
+		(shape bidirectional)
+		(at 143.51 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f352f4fa-ac6b-4690-9c52-7d90708cc653")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4684 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3V5_USB3320"
 		(shape input)
 		(at 289.56 100.33 0)
@@ -11865,6 +11975,28 @@
 		(uuid "f692ad8d-c479-40a4-8ad1-098fcf38db24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 297.6252 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDIO_CLK"
+		(shape output)
+		(at 143.51 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f745421b-f6cb-4180-834f-af5f7df23334")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4457 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
