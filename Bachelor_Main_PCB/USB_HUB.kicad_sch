@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "d3cc2f0a-7163-4f22-b483-faa52f5d1a23")
+	(uuid "11b1e9b2-8f58-472f-81dd-381f3ab09c6e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -2262,7 +2262,7 @@
 			)
 		)
 	)
-	(hierarchical_label "USB_HUB_OUT_2_M"
+	(hierarchical_label "USB_HUB_OUT_2_N"
 		(shape bidirectional)
 		(at 158.75 90.17 0)
 		(effects
@@ -2273,7 +2273,7 @@
 		)
 		(uuid "3babf861-ca75-468c-8c90-4144d7e3aea2")
 	)
-	(hierarchical_label "USB_HUB_OUT_1_M"
+	(hierarchical_label "USB_HUB_OUT_1_N"
 		(shape bidirectional)
 		(at 158.75 77.47 0)
 		(effects
@@ -2306,7 +2306,7 @@
 		)
 		(uuid "a392251a-84df-49b8-b97c-fe2d9e610ded")
 	)
-	(hierarchical_label "USB_HUB_IN_M"
+	(hierarchical_label "USB_HUB_IN_N"
 		(shape bidirectional)
 		(at 102.87 82.55 180)
 		(effects
