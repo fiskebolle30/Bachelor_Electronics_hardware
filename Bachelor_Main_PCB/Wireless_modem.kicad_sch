@@ -6721,6 +6721,16 @@
 		)
 		(uuid "c7e5872a-f402-491f-975d-3caee630eb05")
 	)
+	(text "Potential use pin. not used on BUGG"
+		(exclude_from_sim no)
+		(at 161.29 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d8628ac0-b96d-4208-9e63-cb8deb4fb93e")
+	)
 	(text "RC7620_1105025 is only CAT 1 and should not be used"
 		(exclude_from_sim no)
 		(at 43.942 195.326 0)

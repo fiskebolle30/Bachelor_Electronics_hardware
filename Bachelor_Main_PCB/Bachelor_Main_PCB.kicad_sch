@@ -243,9 +243,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Power supply lines are not drawn as hierarcical but global lables"
+	(text "Power supply lines are not drawn as hierarcical but global lables\ndue to the high amount of them"
 		(exclude_from_sim no)
-		(at 119.888 156.21 0)
+		(at 120.142 163.576 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -315,6 +315,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 111.76) (xy 101.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1628fb1c-c719-4064-851e-5ba0c8c556e5")
+	)
+	(wire
+		(pts
 			(xy 175.26 110.49) (xy 190.5 110.49)
 		)
 		(stroke
@@ -335,13 +345,63 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 71.12) (xy 121.92 71.12)
+			(xy 182.88 92.71) (xy 182.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0d27f5-f6f8-4292-a25d-dfc943d754a6")
+	)
+	(wire
+		(pts
+			(xy 99.06 109.22) (xy 80.01 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22a57ac8-634d-4447-980a-2b4f7d8d9cf9")
+	)
+	(wire
+		(pts
+			(xy 101.6 111.76) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dddfb3-b213-4be2-8651-090385ef436d")
+	)
+	(wire
+		(pts
+			(xy 182.88 68.58) (xy 148.59 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41cc331f-7063-430a-898b-2664e087ddf1")
+	)
+	(wire
+		(pts
+			(xy 83.82 60.96) (xy 101.6 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "69685361-46ce-4998-9b2d-56ff17f1fb55")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.52) (xy 99.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "715382b4-6bd8-45b5-b0bd-f113a34d4a04")
 	)
 	(wire
 		(pts
@@ -365,6 +425,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 92.71) (xy 182.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b52e5fc-67d6-4f88-8a2f-0ae8ceadf2bc")
+	)
+	(wire
+		(pts
 			(xy 80.01 127) (xy 121.92 127)
 		)
 		(stroke
@@ -372,6 +442,26 @@
 			(type default)
 		)
 		(uuid "9b6eb87a-c5c9-46e7-8f80-d6b715a5eb63")
+	)
+	(wire
+		(pts
+			(xy 190.5 96.52) (xy 99.06 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a226680d-7599-4623-b8dd-b10c55ea5f73")
+	)
+	(wire
+		(pts
+			(xy 185.42 90.17) (xy 185.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a382966f-e0f7-448b-8d09-578fc50a25a5")
 	)
 	(wire
 		(pts
@@ -385,13 +475,33 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 106.68) (xy 83.82 71.12)
+			(xy 185.42 66.04) (xy 148.59 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be104f69-c0ac-428d-bb0e-cda471ecaf37")
+	)
+	(wire
+		(pts
+			(xy 83.82 106.68) (xy 83.82 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c849c5d1-538c-486e-adec-f3317594a8e9")
+	)
+	(wire
+		(pts
+			(xy 101.6 99.06) (xy 190.5 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cac14c2a-ee51-451c-a599-7a7f73fbe9cd")
 	)
 	(wire
 		(pts
@@ -422,6 +532,16 @@
 			(type default)
 		)
 		(uuid "f17eaf52-b016-4c04-a398-8aa57b22fcb3")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 185.42 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4cfead-f5e8-4083-af32-4c5d06c48aa0")
 	)
 	(symbol
 		(lib_id "WA-SMSI_9774XXX151:WA-SMSI_9774XXX151")
@@ -1390,7 +1510,7 @@
 			)
 		)
 		(pin "MODEM_USB_DN" bidirectional
-			(at 80.01 109.22 0)
+			(at 80.01 111.76 0)
 			(uuid "ff4d83e1-653c-43c3-a7a6-c5888247cff0")
 			(effects
 				(font
@@ -1400,7 +1520,7 @@
 			)
 		)
 		(pin "MODEM_USB_DP" bidirectional
-			(at 80.01 111.76 0)
+			(at 80.01 109.22 0)
 			(uuid "3c5c8648-a599-46f7-9f51-68d198294f4e")
 			(effects
 				(font
@@ -1478,8 +1598,8 @@
 		)
 	)
 	(sheet
-		(at 121.92 99.06)
-		(size 53.34 48.26)
+		(at 121.92 105.41)
+		(size 53.34 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1494,7 +1614,7 @@
 		)
 		(uuid "19a8d5c6-db4f-4fc8-ad15-158c7bfaff85")
 		(property "Sheetname" "Raspberry Pi CM 4"
-			(at 121.92 98.3484 0)
+			(at 121.92 104.6984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,8 +1740,8 @@
 		)
 	)
 	(sheet
-		(at 97.79 160.02)
-		(size 45.72 24.13)
+		(at 97.79 167.64)
+		(size 45.72 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1636,7 +1756,7 @@
 		)
 		(uuid "4408de3e-a395-4433-a2e1-ccefac59f96e")
 		(property "Sheetname" "Power supply"
-			(at 97.79 159.3084 0)
+			(at 97.79 166.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,7 +1782,7 @@
 		)
 	)
 	(sheet
-		(at 121.92 57.15)
+		(at 101.6 46.99)
 		(size 46.99 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1678,7 +1798,7 @@
 		)
 		(uuid "9cdc091d-5c59-45ee-8211-bdd0f330a333")
 		(property "Sheetname" "Microcontroller"
-			(at 121.92 56.4384 0)
+			(at 101.6 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,7 +1807,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 121.92 88.2146 0)
+			(at 101.6 78.0546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1696,7 +1816,7 @@
 			)
 		)
 		(pin "RPI_5v" input
-			(at 168.91 69.85 0)
+			(at 148.59 59.69 0)
 			(uuid "8f0fef94-1e70-412e-84c8-c39a7e8202b3")
 			(effects
 				(font
@@ -1706,7 +1826,7 @@
 			)
 		)
 		(pin "USB_HS_N" bidirectional
-			(at 168.91 78.74 0)
+			(at 148.59 68.58 0)
 			(uuid "714f1698-ad53-4cc1-833e-79bc093730f5")
 			(effects
 				(font
@@ -1716,7 +1836,7 @@
 			)
 		)
 		(pin "USB_HS_P" bidirectional
-			(at 168.91 76.2 0)
+			(at 148.59 66.04 0)
 			(uuid "14743f3e-bad2-4775-9bd0-6c2bc58be511")
 			(effects
 				(font
@@ -1726,7 +1846,7 @@
 			)
 		)
 		(pin "MODEM_SAFE_PWR_REMOVE" output
-			(at 121.92 71.12 180)
+			(at 101.6 60.96 180)
 			(uuid "2a4694b5-6345-4519-baea-91d24d42f682")
 			(effects
 				(font
@@ -1787,16 +1907,6 @@
 				(justify left)
 			)
 		)
-		(pin "USB_HUB_IN_M" bidirectional
-			(at 190.5 110.49 180)
-			(uuid "469f8c93-c087-4445-bf5f-26358ecc5cf2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_HUB_IN_P" bidirectional
 			(at 190.5 107.95 180)
 			(uuid "1f265db9-8835-4f3e-ba85-2fb4dbe685f5")
@@ -1807,18 +1917,8 @@
 				(justify left)
 			)
 		)
-		(pin "USB_HUB_OUT_1_M" bidirectional
-			(at 190.5 90.17 180)
-			(uuid "6fe4e154-0eb1-4d23-85b1-d694c3763300")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_HUB_OUT_1_P" bidirectional
-			(at 190.5 92.71 180)
+			(at 190.5 90.17 180)
 			(uuid "6b7488b8-6c0e-4384-8b8c-3744bf85a420")
 			(effects
 				(font
@@ -1827,9 +1927,9 @@
 				(justify left)
 			)
 		)
-		(pin "USB_HUB_OUT_2_M" bidirectional
+		(pin "USB_HUB_OUT_2_P" bidirectional
 			(at 190.5 96.52 180)
-			(uuid "5d6adb50-2e95-44e5-8239-b4dafda34bbb")
+			(uuid "a3a8e49b-763d-40e1-bcaa-486826ab778a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,9 +1937,29 @@
 				(justify left)
 			)
 		)
-		(pin "USB_HUB_OUT_2_P" bidirectional
+		(pin "USB_HUB_IN_N" bidirectional
+			(at 190.5 110.49 180)
+			(uuid "f278f71c-5c14-4404-bbd2-16323cb60224")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HUB_OUT_1_N" bidirectional
+			(at 190.5 92.71 180)
+			(uuid "26b9dd59-1640-4c42-82c4-7b54fc19221e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HUB_OUT_2_N" bidirectional
 			(at 190.5 99.06 180)
-			(uuid "a3a8e49b-763d-40e1-bcaa-486826ab778a")
+			(uuid "5cb2b790-ca7b-46fd-9e41-0d2b0e39b308")
 			(effects
 				(font
 					(size 1.27 1.27)
