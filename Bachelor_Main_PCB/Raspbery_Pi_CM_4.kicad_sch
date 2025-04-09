@@ -5974,6 +5974,16 @@
 		(at 200.66 40.64)
 		(uuid "1864cd71-38db-47b2-a98b-5e9d08a47260")
 	)
+	(wire
+		(pts
+			(xy 167.64 45.72) (xy 166.37 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850713d4-0813-4cd4-ab7e-5c765d8fd8c5")
+	)
 	(hierarchical_label "RESET_IN_N"
 		(shape output)
 		(at 166.37 73.66 0)
@@ -5984,6 +5994,17 @@
 			(justify left)
 		)
 		(uuid "1911808d-933f-4239-ad70-feed3c4dc1c0")
+	)
+	(hierarchical_label "nEXTRST"
+		(shape output)
+		(at 167.64 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f688cfb-2dc7-4c03-a2ff-a1f21d181b79")
 	)
 	(hierarchical_label "TX_ON"
 		(shape input)

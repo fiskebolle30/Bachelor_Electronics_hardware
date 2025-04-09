@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "847ea2ca-532c-4e3b-9afe-bcff5ef4201f")
+	(uuid "465b5303-ee41-4b99-b32f-517ea394a4b6")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -1958,6 +1958,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 90.17) (xy 102.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c66b1a-1d2f-4ed0-a670-7379287fee46")
+	)
+	(wire
+		(pts
 			(xy 102.87 128.27) (xy 95.25 128.27)
 		)
 		(stroke
@@ -2215,6 +2225,39 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "nEXTRST"
+		(shape input)
+		(at 101.6 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a118b94d-2219-4a72-a623-92e1500bc60e")
+	)
+	(hierarchical_label "USB_HUB_IN_M"
+		(shape bidirectional)
+		(at 102.87 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5d32f0d-c214-431d-b962-337335da284b")
+	)
+	(hierarchical_label "USB_HUB_IN_P"
+		(shape bidirectional)
+		(at 102.87 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eae1001a-080a-4908-a512-e4f467dc577f")
 	)
 	(symbol
 		(lib_id "Interface_USB:USB2514B_Bi")
