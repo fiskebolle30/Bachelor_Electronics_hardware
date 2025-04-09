@@ -1991,7 +1991,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e2053849-b1b4-4732-a0d8-f90e27301853")
-		(property "Sheetname" "SD-Card Inteface"
+		(property "Sheetname" "SD-Card Interface Audiomoth"
 			(at 30.48 25.9584 0)
 			(effects
 				(font
