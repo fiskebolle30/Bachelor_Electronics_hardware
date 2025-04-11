@@ -7306,9 +7306,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Main antenna connector"
+	(text "Main antenna\nconnector"
 		(exclude_from_sim no)
-		(at 24.892 91.186 0)
+		(at 22.098 99.568 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7329,7 +7329,7 @@
 	)
 	(text "Diversity \nantenna connector"
 		(exclude_from_sim no)
-		(at 23.114 104.648 0)
+		(at 23.368 124.206 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7339,7 +7339,7 @@
 	)
 	(text "INPUT"
 		(exclude_from_sim no)
-		(at 20.574 132.08 0)
+		(at 21.844 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7359,7 +7359,7 @@
 	)
 	(text "OUTPUT\n"
 		(exclude_from_sim no)
-		(at 34.036 132.842 0)
+		(at 35.306 148.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7376,6 +7376,16 @@
 			)
 		)
 		(uuid "7aa53b94-843b-494c-9249-a3c5ed484ee9")
+	)
+	(text "GNSS antenna\nConnector"
+		(exclude_from_sim no)
+		(at 39.37 89.916 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80f19dcb-e392-47cf-86b4-aeaf813c3215")
 	)
 	(text "Needs fixing\n"
 		(exclude_from_sim no)
@@ -7429,7 +7439,7 @@
 	)
 	(text "Signal inverter"
 		(exclude_from_sim no)
-		(at 60.198 156.464 0)
+		(at 61.468 171.704 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7449,7 +7459,7 @@
 	)
 	(text "WIRELESS MODEM power jumper"
 		(exclude_from_sim no)
-		(at 29.718 118.11 0)
+		(at 29.718 135.636 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7458,10 +7468,16 @@
 		(uuid "fac6b82e-0113-4a8d-a147-4c4c46541a3b")
 	)
 	(junction
-		(at 29.21 134.62)
+		(at 30.48 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f8afd8a-3dae-4c6c-b20b-e57e8eff4f5d")
+	)
+	(junction
+		(at 38.1 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18fdc353-c2f1-4aa0-8f46-3c752ca5c9a2")
 	)
 	(junction
 		(at 237.49 59.69)
@@ -7486,6 +7502,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32c27115-cf31-43ca-8c49-09e7027dad96")
+	)
+	(junction
+		(at 40.64 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b440e27-4b57-4a12-a5a0-839fda7fdedd")
 	)
 	(junction
 		(at 181.61 157.48)
@@ -7534,12 +7556,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f23c75a-2b05-4646-a6c3-4eb6f4339732")
-	)
-	(junction
-		(at 46.99 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70c040a8-fd35-46c4-a12f-2e959b35d6d5")
 	)
 	(junction
 		(at 212.09 64.77)
@@ -7614,12 +7630,6 @@
 		(uuid "bffd9fed-b510-4aa7-8c7b-832ecc62dfef")
 	)
 	(junction
-		(at 46.99 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1a23626-10ca-41db-8a5d-549c0a0f2646")
-	)
-	(junction
 		(at 135.89 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7662,7 +7672,7 @@
 		(uuid "e1d64829-03f8-4ce2-a257-4d998bf0f13e")
 	)
 	(junction
-		(at 49.53 147.32)
+		(at 50.8 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5ae0090-b558-416a-bdea-5cb234a1ebf2")
@@ -7686,6 +7696,12 @@
 		(uuid "f5b28b18-a84b-4e94-a49c-3cdfae979705")
 	)
 	(junction
+		(at 49.53 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9cb38a4-f442-4742-bb2a-ff401981f8e0")
+	)
+	(junction
 		(at 207.01 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7702,10 +7718,6 @@
 	(no_connect
 		(at 143.51 46.99)
 		(uuid "11273788-b5dd-4295-b4b7-1ad0d2210b88")
-	)
-	(no_connect
-		(at 62.23 100.33)
-		(uuid "125153da-086b-4b68-b0f8-363ba58b6381")
 	)
 	(no_connect
 		(at 143.51 143.51)
@@ -7987,6 +7999,26 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 93.98) (xy 57.15 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1189eb3c-3f0f-4b68-b509-b5eb3f4ea390")
+	)
+	(wire
+		(pts
+			(xy 40.64 119.38) (xy 44.45 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122375ab-7de0-46af-9bed-7e6702596ecd")
+	)
+	(wire
+		(pts
 			(xy 121.92 189.23) (xy 121.92 190.5)
 		)
 		(stroke
@@ -8047,7 +8079,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 154.94) (xy 29.21 152.4)
+			(xy 30.48 170.18) (xy 30.48 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8057,7 +8089,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 96.52) (xy 26.67 96.52)
+			(xy 29.21 105.41) (xy 30.48 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8104,16 +8136,6 @@
 			(type solid)
 		)
 		(uuid "1ef485f0-cd4f-42f8-a39d-43cffb3d4412")
-	)
-	(wire
-		(pts
-			(xy 33.02 93.98) (xy 33.02 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f3f4810-6bcf-49f9-be75-02f9187b483c")
 	)
 	(wire
 		(pts
@@ -8247,6 +8269,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 121.92) (xy 35.56 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb8b585-2217-484f-a941-9ca90fc52b9e")
+	)
+	(wire
+		(pts
 			(xy 144.78 107.95) (xy 143.51 107.95)
 		)
 		(stroke
@@ -8287,16 +8319,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 102.87) (xy 62.23 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4498d304-be83-4cd2-a8af-075e04e6e541")
-	)
-	(wire
-		(pts
 			(xy 243.84 49.53) (xy 237.49 49.53)
 		)
 		(stroke
@@ -8314,6 +8336,16 @@
 			(type default)
 		)
 		(uuid "46c55408-334c-4aa9-b766-28c2b44a5588")
+	)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 62.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a3c16d-3d4d-47d1-bd5a-7ff4fe0c5aff")
 	)
 	(wire
 		(pts
@@ -8357,17 +8389,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 102.87) (xy 46.99 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f48ef6c-3b47-45f1-b2ff-57676b44ab8a")
-	)
-	(wire
-		(pts
-			(xy 49.53 134.62) (xy 49.53 138.43)
+			(xy 50.8 149.86) (xy 50.8 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8507,7 +8529,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 107.95) (xy 33.02 107.95)
+			(xy 35.56 119.38) (xy 40.64 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8567,17 +8589,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 105.41) (xy 46.99 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76669466-f0e4-432a-b474-a847403b8630")
-	)
-	(wire
-		(pts
-			(xy 49.53 143.51) (xy 49.53 147.32)
+			(xy 50.8 158.75) (xy 50.8 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8727,6 +8739,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 93.98) (xy 49.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c8eb93-893f-4223-a394-5d142d2fec15")
+	)
+	(wire
+		(pts
 			(xy 154.94 24.13) (xy 143.51 24.13)
 		)
 		(stroke
@@ -8817,7 +8839,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 147.32) (xy 49.53 147.32)
+			(xy 38.1 162.56) (xy 50.8 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8857,13 +8879,13 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 105.41) (xy 62.23 105.41)
+			(xy 44.45 105.41) (xy 62.23 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a98f9343-4145-4347-a28c-e9154a0bd1ee")
+		(uuid "a8eaf66f-be73-420b-9192-b006c1657094")
 	)
 	(wire
 		(pts
@@ -8907,7 +8929,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 93.98) (xy 33.02 93.98)
+			(xy 29.21 102.87) (xy 38.1 102.87)
 		)
 		(stroke
 			(width 0)
@@ -9067,7 +9089,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 134.62) (xy 25.4 134.62)
+			(xy 27.94 149.86) (xy 26.67 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9087,7 +9109,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 153.67) (xy 58.42 153.67)
+			(xy 58.42 168.91) (xy 59.69 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9177,6 +9199,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 93.98) (xy 57.15 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec45e94-7df6-4ea7-b5bb-047e138c9cd5")
+	)
+	(wire
+		(pts
 			(xy 227.33 46.99) (xy 207.01 46.99)
 		)
 		(stroke
@@ -9187,7 +9219,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 147.32) (xy 49.53 148.59)
+			(xy 50.8 162.56) (xy 50.8 163.83)
 		)
 		(stroke
 			(width 0)
@@ -9227,6 +9259,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 100.33) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9525a74-300b-4cdc-b28d-2c97e3964b40")
+	)
+	(wire
+		(pts
 			(xy 144.78 120.65) (xy 143.51 120.65)
 		)
 		(stroke
@@ -9237,7 +9279,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 134.62) (xy 49.53 134.62)
+			(xy 30.48 149.86) (xy 50.8 149.86)
 		)
 		(stroke
 			(width 0)
@@ -9267,7 +9309,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 134.62) (xy 29.21 137.16)
+			(xy 30.48 149.86) (xy 30.48 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9277,7 +9319,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 107.95) (xy 33.02 105.41)
+			(xy 44.45 105.41) (xy 44.45 119.38)
 		)
 		(stroke
 			(width 0)
@@ -9587,7 +9629,7 @@
 	)
 	(global_label "+3V5"
 		(shape input)
-		(at 25.4 134.62 180)
+		(at 26.67 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9597,7 +9639,7 @@
 		)
 		(uuid "129902e7-8386-43f7-90b0-259c05c63e25")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.3348 134.62 0)
+			(at 18.6048 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9609,7 +9651,7 @@
 	)
 	(global_label "+3V5_MODEM"
 		(shape input)
-		(at 29.21 154.94 180)
+		(at 30.48 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9619,7 +9661,7 @@
 		)
 		(uuid "2f5d0572-5856-4702-b476-d3c777c8b2fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.5249 154.94 0)
+			(at 14.7949 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9796,7 +9838,7 @@
 	)
 	(hierarchical_label "MODEM_3V5_EN"
 		(shape input)
-		(at 58.42 153.67 0)
+		(at 59.69 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10128,7 +10170,7 @@
 	)
 	(symbol
 		(lib_id "CONMHF1-SMD-G-T:CONMHF1-SMD-G-T")
-		(at 22.86 107.95 0)
+		(at 33.02 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10137,7 +10179,7 @@
 		(dnp yes)
 		(uuid "099ec789-b48d-4e87-ba64-2a851339e7c7")
 		(property "Reference" "J19"
-			(at 17.78 108.2039 0)
+			(at 27.94 119.6339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10188,7 @@
 			)
 		)
 		(property "Value" "CONMHF1-SMD-G-T"
-			(at 34.29 104.648 0)
+			(at 44.45 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,7 +10198,7 @@
 			)
 		)
 		(property "Footprint" "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +10208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10175,7 +10217,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10184,7 +10226,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,7 +10236,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10204,7 +10246,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10214,7 +10256,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10224,7 +10266,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10234,7 +10276,7 @@
 			)
 		)
 		(property "MP" "CONMHF1-SMD-G-T"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,7 +10286,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180172&manufacturer=Linx Technologies Inc.&part_name=CONMHF1-SMD-G-T&search_term=None"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10296,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10264,7 +10306,7 @@
 			)
 		)
 		(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
-			(at 22.86 107.95 0)
+			(at 33.02 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,7 +10489,7 @@
 	)
 	(symbol
 		(lib_id "M20-9990245:M20-9990245")
-		(at 29.21 127 90)
+		(at 30.48 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10456,7 +10498,7 @@
 		(fields_autoplaced yes)
 		(uuid "0beadbed-fa2c-43c5-a0ab-4caa99ba5309")
 		(property "Reference" "J12"
-			(at 33.02 125.0949 90)
+			(at 34.29 140.3349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,7 +10507,7 @@
 			)
 		)
 		(property "Value" "M20-9990245"
-			(at 33.02 127.6349 90)
+			(at 34.29 142.8749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10474,7 +10516,7 @@
 			)
 		)
 		(property "Footprint" "M20-9990245:HARWIN_M20-9990245"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10484,7 +10526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10493,7 +10535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10502,7 +10544,7 @@
 			)
 		)
 		(property "MF" "Harwin"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10554,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "9.64mm"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10522,7 +10564,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +10574,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10542,7 +10584,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=eda"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10552,7 +10594,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10604,7 @@
 			)
 		)
 		(property "PARTREV" "14"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +10614,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=snap"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +10624,7 @@
 			)
 		)
 		(property "MP" "M20-9990245"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,7 +10634,7 @@
 			)
 		)
 		(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Pin Header, 6.1mm mating pin height, gold (hi-temp mould), 2 contacts"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10644,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +10654,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Harwin"
-			(at 29.21 127 0)
+			(at 30.48 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,7 +11058,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 158.75 0)
+		(at 50.8 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11025,7 +11067,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f017a92-85a0-4e1b-a3f8-7a8793c1e775")
 		(property "Reference" "#PWR025"
-			(at 49.53 165.1 0)
+			(at 50.8 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11034,7 +11076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 163.83 0)
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11042,7 +11084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 158.75 0)
+			(at 50.8 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11051,7 +11093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 158.75 0)
+			(at 50.8 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11060,7 +11102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 158.75 0)
+			(at 50.8 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11989,7 +12031,7 @@
 	)
 	(symbol
 		(lib_id "0402ESDA-MLP1:0402ESDA-MLP1")
-		(at 46.99 97.79 270)
+		(at 38.1 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11997,7 +12039,7 @@
 		(dnp no)
 		(uuid "2890fffc-c1d9-40f7-9492-081d700e3f5d")
 		(property "Reference" "D1"
-			(at 44.45 99.0601 90)
+			(at 40.132 108.204 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12006,16 +12048,17 @@
 			)
 		)
 		(property "Value" "0402ESDA-MLP1"
-			(at 52.832 94.742 90)
+			(at 32.258 110.998 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12025,7 +12068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12034,7 +12077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12043,7 +12086,7 @@
 			)
 		)
 		(property "MF" "Eaton"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12053,7 +12096,7 @@
 			)
 		)
 		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12063,7 +12106,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 Eaton"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,7 +12116,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,7 +12126,7 @@
 			)
 		)
 		(property "Package" "0402 Eaton"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12093,7 +12136,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,7 +12146,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12113,7 +12156,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12123,7 +12166,7 @@
 			)
 		)
 		(property "MP" "0402ESDA-MLP1"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12133,7 +12176,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12143,7 +12186,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +12196,7 @@
 			)
 		)
 		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
-			(at 46.99 97.79 0)
+			(at 38.1 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15294,6 +15337,174 @@
 		)
 	)
 	(symbol
+		(lib_id "CONMHF1-SMD-G-T:CONMHF1-SMD-G-T")
+		(at 40.64 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "68f26c44-e966-43e8-b7dc-43b78742e7ee")
+		(property "Reference" "J20"
+			(at 35.56 94.2339 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CONMHF1-SMD-G-T"
+			(at 52.07 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CONMHF1-SMD-G-T"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180172&manufacturer=Linx Technologies Inc.&part_name=CONMHF1-SMD-G-T&search_term=None"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "S1"
+			(uuid "3b19d06d-e5f8-4d35-8282-23dc11572818")
+		)
+		(pin "S3"
+			(uuid "f4df0132-49ad-49ec-9392-1a04d9b3aff7")
+		)
+		(pin "1"
+			(uuid "0ad3fb5c-318e-47b3-a361-e9339a959d45")
+		)
+		(pin "S2"
+			(uuid "5b999cf6-6269-4500-834a-4c715a0b0fbe")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 144.78 113.03 270)
 		(unit 1)
@@ -15826,7 +16037,7 @@
 	)
 	(symbol
 		(lib_id "0402ESDA-MLP1:0402ESDA-MLP1")
-		(at 46.99 110.49 270)
+		(at 40.64 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15834,7 +16045,7 @@
 		(dnp yes)
 		(uuid "71aa3509-9e9e-47c3-89ad-5abf1e6c5fec")
 		(property "Reference" "D2"
-			(at 44.45 111.7601 90)
+			(at 44.958 124.714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15843,16 +16054,17 @@
 			)
 		)
 		(property "Value" "0402ESDA-MLP1"
-			(at 52.832 107.442 90)
+			(at 46.482 121.412 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15862,7 +16074,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15871,7 +16083,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15880,7 +16092,7 @@
 			)
 		)
 		(property "MF" "Eaton"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +16102,7 @@
 			)
 		)
 		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15900,7 +16112,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 Eaton"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15910,7 +16122,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15920,7 +16132,7 @@
 			)
 		)
 		(property "Package" "0402 Eaton"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15930,7 +16142,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15940,7 +16152,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15950,7 +16162,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15960,7 +16172,7 @@
 			)
 		)
 		(property "MP" "0402ESDA-MLP1"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15970,7 +16182,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15980,7 +16192,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15990,7 +16202,7 @@
 			)
 		)
 		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
-			(at 46.99 110.49 0)
+			(at 40.64 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16331,7 +16543,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 115.57 0)
+		(at 40.64 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16339,7 +16551,7 @@
 		(dnp no)
 		(uuid "77cafc9b-61e5-4b2b-a2e0-e2293e0a0ef6")
 		(property "Reference" "#PWR041"
-			(at 46.99 121.92 0)
+			(at 40.64 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16348,7 +16560,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 117.348 0)
+			(at 40.386 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16356,7 +16568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 115.57 0)
+			(at 40.64 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16365,7 +16577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 115.57 0)
+			(at 40.64 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16374,7 +16586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 115.57 0)
+			(at 40.64 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16395,8 +16607,199 @@
 		)
 	)
 	(symbol
+		(lib_id "0402ESDA-MLP1:0402ESDA-MLP1")
+		(at 49.53 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "7b2a5407-dc4c-4638-b6e8-2d98bec18457")
+		(property "Reference" "D4"
+			(at 48.26 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0402ESDA-MLP1"
+			(at 55.372 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Eaton"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "0402 Eaton"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0402 Eaton"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "0402ESDA-MLP1"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "In Stock"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
+			(at 49.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b767335b-14cb-4b83-aef5-072f14420647")
+		)
+		(pin "1"
+			(uuid "2723754b-c901-4f42-a973-fc954e7f88de")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 26.67 96.52 0)
+		(at 30.48 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16404,7 +16807,7 @@
 		(dnp no)
 		(uuid "7ef2115e-09c1-4338-9ed7-0cb1d8f29116")
 		(property "Reference" "#PWR042"
-			(at 26.67 102.87 0)
+			(at 30.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16413,7 +16816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 98.298 0)
+			(at 30.48 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16421,7 +16824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 96.52 0)
+			(at 30.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16430,7 +16833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 96.52 0)
+			(at 30.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16439,7 +16842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 96.52 0)
+			(at 30.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16461,7 +16864,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 49.53 140.97 0)
+		(at 50.8 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16470,7 +16873,7 @@
 		(fields_autoplaced yes)
 		(uuid "805666f0-a14c-4940-8367-783268efb029")
 		(property "Reference" "R41"
-			(at 52.07 140.335 0)
+			(at 53.34 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16479,7 +16882,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 52.07 142.875 0)
+			(at 53.34 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16488,7 +16891,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16497,7 +16900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16506,7 +16909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16515,7 +16918,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16524,7 +16927,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16533,7 +16936,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16542,7 +16945,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16551,7 +16954,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16560,7 +16963,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16569,7 +16972,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16578,7 +16981,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16587,7 +16990,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 49.53 140.97 0)
+			(at 50.8 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17076,7 +17479,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
-		(at 52.07 153.67 0)
+		(at 53.34 168.91 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17085,7 +17488,7 @@
 		(dnp no)
 		(uuid "9ea7a306-5991-485c-8a33-015a10d385d9")
 		(property "Reference" "Q10"
-			(at 46.99 152.654 0)
+			(at 48.26 167.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17094,7 +17497,7 @@
 			)
 		)
 		(property "Value" "NX3008NBKW"
-			(at 46.736 154.94 0)
+			(at 48.006 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17103,7 +17506,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 46.99 151.13 0)
+			(at 48.26 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17112,7 +17515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17121,7 +17524,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17130,7 +17533,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17139,7 +17542,7 @@
 			)
 		)
 		(property "Digikey" "1727-1280-6-ND"
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17148,7 +17551,7 @@
 			)
 		)
 		(property "MPN" "NX3008NBKW"
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17157,7 +17560,7 @@
 			)
 		)
 		(property "Mouser" "771-NX3008NBKW,115"
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17166,7 +17569,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17175,7 +17578,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17184,7 +17587,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17193,7 +17596,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17202,7 +17605,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17211,7 +17614,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 52.07 153.67 0)
+			(at 53.34 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17388,7 +17791,7 @@
 	)
 	(symbol
 		(lib_id "SSM3J358R_LF:SSM3J358R,LF")
-		(at 36.83 147.32 0)
+		(at 38.1 162.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17397,7 +17800,7 @@
 		(dnp no)
 		(uuid "9f572b5c-4583-4512-922e-2275a5339f0e")
 		(property "Reference" "Q1"
-			(at 25.4 143.5099 0)
+			(at 26.67 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17406,7 +17809,7 @@
 			)
 		)
 		(property "Value" "SSM3J358R,LF"
-			(at 25.4 146.0499 0)
+			(at 26.67 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17415,7 +17818,7 @@
 			)
 		)
 		(property "Footprint" "KiCad4:SOTFL95P240X88-3N"
-			(at 25.4 246.05 0)
+			(at 26.67 261.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17425,7 +17828,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/ap-en/product/mosfet/detail.SSM3J358R.html"
-			(at 25.4 346.05 0)
+			(at 26.67 361.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17435,7 +17838,7 @@
 			)
 		)
 		(property "Description" "MOSFET LowON Res MOSFET ID=-6A VDSS=-20V"
-			(at 36.83 147.32 0)
+			(at 38.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17444,7 +17847,7 @@
 			)
 		)
 		(property "Height" "0.88"
-			(at 25.4 546.05 0)
+			(at 26.67 561.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17454,7 +17857,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Toshiba"
-			(at 25.4 646.05 0)
+			(at 26.67 661.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17464,7 +17867,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SSM3J358R,LF"
-			(at 25.4 746.05 0)
+			(at 26.67 761.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17474,7 +17877,7 @@
 			)
 		)
 		(property "Mouser Part Number" "757-SSM3J358RLF"
-			(at 25.4 846.05 0)
+			(at 26.67 861.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17484,7 +17887,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J358RLF?qs=HXFqYaX1Q2xwvCtt1GGmkw%3D%3D"
-			(at 25.4 946.05 0)
+			(at 26.67 961.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17494,7 +17897,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SSM3J358R,LF"
-			(at 25.4 1046.05 0)
+			(at 26.67 1061.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17504,7 +17907,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssm3j358rlf/toshiba?region=nac"
-			(at 25.4 1146.05 0)
+			(at 26.67 1161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18052,7 +18455,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 92.71 180)
+		(at 38.1 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18060,7 +18463,7 @@
 		(dnp no)
 		(uuid "a45b6cad-ffa8-4f9f-9508-5f4233b9df72")
 		(property "Reference" "#PWR040"
-			(at 46.99 86.36 0)
+			(at 38.1 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18069,7 +18472,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 90.932 0)
+			(at 41.148 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18077,7 +18480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 92.71 0)
+			(at 38.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18086,7 +18489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 92.71 0)
+			(at 38.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18095,7 +18498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 92.71 0)
+			(at 38.1 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19563,7 +19966,7 @@
 	)
 	(symbol
 		(lib_id "CONMHF1-SMD-G-T:CONMHF1-SMD-G-T")
-		(at 22.86 93.98 0)
+		(at 26.67 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19572,7 +19975,7 @@
 		(dnp no)
 		(uuid "cb186624-f482-43d3-bc53-758c93f7c03d")
 		(property "Reference" "J18"
-			(at 17.78 94.2339 0)
+			(at 21.59 103.1239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19581,7 +19984,7 @@
 			)
 		)
 		(property "Value" "CONMHF1-SMD-G-T"
-			(at 33.02 90.932 0)
+			(at 36.83 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19591,7 +19994,7 @@
 			)
 		)
 		(property "Footprint" "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19601,7 +20004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19610,7 +20013,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19619,7 +20022,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19629,7 +20032,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19639,7 +20042,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19649,7 +20052,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19659,7 +20062,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19669,7 +20072,7 @@
 			)
 		)
 		(property "MP" "CONMHF1-SMD-G-T"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19679,7 +20082,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180172&manufacturer=Linx Technologies Inc.&part_name=CONMHF1-SMD-G-T&search_term=None"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19689,7 +20092,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19699,7 +20102,7 @@
 			)
 		)
 		(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
-			(at 22.86 93.98 0)
+			(at 26.67 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19875,6 +20278,71 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd92e79f-910f-46e7-86a0-73c828172de7")
+		(property "Reference" "#PWR044"
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e0cfc31-1a34-4057-853c-d73ec5be8512")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -21456,7 +21924,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 110.49 0)
+		(at 35.56 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21464,7 +21932,7 @@
 		(dnp no)
 		(uuid "fae67f0a-dd04-4117-b022-49f93a7ceb6c")
 		(property "Reference" "#PWR043"
-			(at 25.4 116.84 0)
+			(at 35.56 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21473,7 +21941,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 112.268 0)
+			(at 35.56 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21481,7 +21949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 110.49 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21490,7 +21958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 110.49 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21499,7 +21967,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 110.49 0)
+			(at 35.56 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
