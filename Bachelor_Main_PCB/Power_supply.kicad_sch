@@ -1047,6 +1047,18 @@
 		(uuid "089453bb-ef0d-4503-9d83-76e8e39d603a")
 	)
 	(junction
+		(at 45.72 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69205df7-d592-47c1-a63c-29fd1c9b2e3d")
+	)
+	(junction
+		(at 45.72 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aa5a927-b94c-4b96-b33c-2388f47e47e2")
+	)
+	(junction
 		(at 45.72 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1057,6 +1069,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ece08f06-75cf-416d-844d-db6ce7db90e1")
+	)
+	(no_connect
+		(at 58.42 35.56)
+		(uuid "3e09b379-3029-417f-adf2-5bb7ca11ecc0")
+	)
+	(no_connect
+		(at 93.98 35.56)
+		(uuid "7a616f6f-89ac-445a-8719-4ef18455348f")
+	)
+	(no_connect
+		(at 93.98 30.48)
+		(uuid "ea675432-7cc1-476c-8a9e-e42ac8d3b393")
 	)
 	(wire
 		(pts
@@ -1070,6 +1094,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 33.02) (xy 45.72 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "119cfc4c-8e6f-4059-b333-e365964dee6b")
+	)
+	(wire
+		(pts
+			(xy 58.42 30.48) (xy 54.61 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "351bab71-6e2f-4a14-9b1d-8db0fb9ac47c")
+	)
+	(wire
+		(pts
 			(xy 24.13 31.75) (xy 24.13 33.02)
 		)
 		(stroke
@@ -1077,6 +1121,56 @@
 			(type default)
 		)
 		(uuid "3756120e-2482-4f7b-98ec-557559851152")
+	)
+	(wire
+		(pts
+			(xy 93.98 48.26) (xy 93.98 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427dc947-0e13-4d02-a01a-23ca983243e4")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 45.72 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f86e498-ca88-4303-9ada-f0f78a318c3b")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 45.72 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de6cd9b-f74e-415e-876e-764e487eb534")
+	)
+	(wire
+		(pts
+			(xy 45.72 39.37) (xy 45.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eacfcb8-09a2-49ca-a2e0-e4a1889f8235")
+	)
+	(wire
+		(pts
+			(xy 93.98 33.02) (xy 104.14 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c111625-4cc7-4c7a-a9de-bb50d60fd58e")
 	)
 	(wire
 		(pts
@@ -1100,6 +1194,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 30.48) (xy 54.61 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aebb5f67-1d0e-47ed-ba15-9eaf9f89b294")
+	)
+	(wire
+		(pts
 			(xy 24.13 26.67) (xy 24.13 25.4)
 		)
 		(stroke
@@ -1107,6 +1211,26 @@
 			(type default)
 		)
 		(uuid "bc728f35-9fde-41bc-a46a-5ce8403eb1d4")
+	)
+	(wire
+		(pts
+			(xy 45.72 33.02) (xy 58.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4c19e3-8946-455e-b6c6-ec19335deede")
+	)
+	(wire
+		(pts
+			(xy 54.61 40.64) (xy 45.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f49ced-b061-4f8c-b63c-340d6f7b58fa")
 	)
 	(wire
 		(pts
@@ -1127,6 +1251,16 @@
 			(type default)
 		)
 		(uuid "dfbc5ccb-e449-4a50-9881-e518699a95b8")
+	)
+	(wire
+		(pts
+			(xy 45.72 31.75) (xy 45.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97b1563-4c9a-40a7-b4a0-13e090925cc6")
 	)
 	(wire
 		(pts
@@ -1179,7 +1313,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "470k"
 			(at 48.26 30.4799 0)
 			(effects
 				(font
@@ -1376,6 +1510,142 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 45.72 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70310d58-f972-484e-827e-e9751a5fc4ee")
+		(property "Reference" "R13"
+			(at 48.26 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "36k"
+			(at 48.26 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f03aa72e-2a14-4897-a873-55363e07f655")
+		)
+		(pin "2"
+			(uuid "7fce5098-005f-4ba8-90b1-10d15f3f890b")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7962511e-f6ac-4846-8955-5521c0ef7bfb")
+		(property "Reference" "#PWR049"
+			(at 104.14 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0c0a095-cb2f-4171-9175-5ed90d89c537")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -1658,6 +1928,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 45.72 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a25d1827-a5fe-40ad-bcd0-2e30f14365f5")
+		(property "Reference" "R12"
+			(at 48.26 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "82k"
+			(at 48.26 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fde7a18-515f-4580-9c3d-16b8c4482a14")
+		)
+		(pin "2"
+			(uuid "5e1d12f2-381b-4869-a92c-32ff91baebc1")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 24.13 33.02 0)
 		(unit 1)
@@ -1718,6 +2058,72 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 45.72 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd832797-aff7-4cc0-92d3-1bd081ebf1c1")
+		(property "Reference" "#PWR048"
+			(at 45.72 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d968c8a3-478a-4332-817d-9eff22773039")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -1947,8 +2353,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 104.14 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc310378-fe5f-4543-945f-593898a292bb")
+		(property "Reference" "R14"
+			(at 105.918 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k26"
+			(at 105.41 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4c26447-b295-4c21-9b99-9de3dcc02cce")
+		)
+		(pin "2"
+			(uuid "1879138a-f0fc-422a-ada2-df4288c02033")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 93.98 45.72 0)
+		(at 93.98 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1957,7 +2432,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0654d58-d0b9-474e-be7c-14492424c317")
 		(property "Reference" "#PWR045"
-			(at 93.98 52.07 0)
+			(at 93.98 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +2441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 50.8 0)
+			(at 93.98 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +2449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 45.72 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +2458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 45.72 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1992,7 +2467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 45.72 0)
+			(at 93.98 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
