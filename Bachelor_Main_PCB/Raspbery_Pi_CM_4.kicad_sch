@@ -6636,6 +6636,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "RPI CM power jumper"
+		(exclude_from_sim no)
+		(at 89.662 13.462 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a73d9c98-8b7e-421a-bed5-05000dfdf826")
+	)
 	(text "DF40HC(3.0)-10DV-0.4V connectors for the BOM"
 		(exclude_from_sim no)
 		(at 41.148 27.686 0)
@@ -6766,6 +6776,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 68.58) (xy 153.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d87c7bfd-632b-4177-aa67-ed7131862aee")
+	)
+	(wire
+		(pts
 			(xy 87.63 27.94) (xy 88.9 27.94)
 		)
 		(stroke
@@ -6783,6 +6803,28 @@
 			(type default)
 		)
 		(uuid "dff5f735-986a-464f-a81d-b225cf477cb1")
+	)
+	(global_label "5V_RPI_CM"
+		(shape input)
+		(at 173.99 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "06d48e00-2f5d-44ef-91ed-4554358824ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.0747 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "5V"
 		(shape input)
