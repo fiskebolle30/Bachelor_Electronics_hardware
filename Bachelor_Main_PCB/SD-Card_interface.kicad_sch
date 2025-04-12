@@ -701,6 +701,16 @@
 		)
 		(uuid "dd609a9a-b944-47b3-a8f9-eb6e323c0a8c")
 	)
+	(text "Audiomoth used SPI interface for the SD card slot"
+		(exclude_from_sim no)
+		(at 123.698 117.348 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e38befe5-d93b-4fe9-bd76-588a719bb5d6")
+	)
 	(junction
 		(at 146.05 82.55)
 		(diameter 0)
