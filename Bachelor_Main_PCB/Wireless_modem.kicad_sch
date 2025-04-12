@@ -7468,12 +7468,6 @@
 		(uuid "fac6b82e-0113-4a8d-a147-4c4c46541a3b")
 	)
 	(junction
-		(at 30.48 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0f8afd8a-3dae-4c6c-b20b-e57e8eff4f5d")
-	)
-	(junction
 		(at 38.1 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7582,6 +7576,12 @@
 		(uuid "8d85730b-f422-45de-8662-4fa59732fddb")
 	)
 	(junction
+		(at 30.48 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9180400c-7b2c-4823-9e42-449ea78ce651")
+	)
+	(junction
 		(at 215.9 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7666,16 +7666,16 @@
 		(uuid "da34f815-d05c-4b0f-bab0-59a18a16f34b")
 	)
 	(junction
+		(at 50.8 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e02eb952-ffe4-47eb-a71b-c3a779299320")
+	)
+	(junction
 		(at 128.27 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1d64829-03f8-4ce2-a257-4d998bf0f13e")
-	)
-	(junction
-		(at 50.8 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5ae0090-b558-416a-bdea-5cb234a1ebf2")
 	)
 	(junction
 		(at 181.61 135.89)
@@ -8079,16 +8079,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 170.18) (xy 30.48 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "188bcffc-dc8e-4e38-b45f-559ab79ec99a")
-	)
-	(wire
-		(pts
 			(xy 29.21 105.41) (xy 30.48 105.41)
 		)
 		(stroke
@@ -8206,6 +8196,16 @@
 			(type default)
 		)
 		(uuid "2bd64fb5-2308-4979-a0e4-4718bdbe765d")
+	)
+	(wire
+		(pts
+			(xy 50.8 156.21) (xy 50.8 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7a4db3-d08e-4d9d-8dc8-88c89b4e2c6c")
 	)
 	(wire
 		(pts
@@ -8389,7 +8389,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 149.86) (xy 50.8 153.67)
+			(xy 50.8 149.86) (xy 50.8 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8406,6 +8406,16 @@
 			(type default)
 		)
 		(uuid "525caf71-f6bf-4fca-8e74-23daaadb3a8f")
+	)
+	(wire
+		(pts
+			(xy 30.48 168.91) (xy 30.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557d33fb-22b7-4985-97b2-18bc1319d7c1")
 	)
 	(wire
 		(pts
@@ -8589,16 +8599,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 158.75) (xy 50.8 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76b7f785-3091-42de-9060-5961ae652af8")
-	)
-	(wire
-		(pts
 			(xy 121.92 176.53) (xy 128.27 176.53)
 		)
 		(stroke
@@ -8779,6 +8779,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 158.75) (xy 50.8 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dfc715e-ad91-4555-97a3-21f1f5f5ea4a")
+	)
+	(wire
+		(pts
 			(xy 181.61 114.3) (xy 181.61 115.57)
 		)
 		(stroke
@@ -8836,16 +8846,6 @@
 			(type default)
 		)
 		(uuid "965e551c-9c87-4bf7-84f4-6673511e7d50")
-	)
-	(wire
-		(pts
-			(xy 38.1 162.56) (xy 50.8 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96e2720e-4b8f-4ec6-8a30-d3e2f224141a")
 	)
 	(wire
 		(pts
@@ -9219,7 +9219,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 162.56) (xy 50.8 163.83)
+			(xy 50.8 158.75) (xy 50.8 163.83)
 		)
 		(stroke
 			(width 0)
@@ -9309,16 +9309,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 149.86) (xy 30.48 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f133a989-ba63-4e27-bd7a-90c7ee8f12e9")
-	)
-	(wire
-		(pts
 			(xy 44.45 105.41) (xy 44.45 119.38)
 		)
 		(stroke
@@ -9336,6 +9326,16 @@
 			(type solid)
 		)
 		(uuid "f448308d-724f-4e01-81df-bea55e88cc5c")
+	)
+	(wire
+		(pts
+			(xy 30.48 149.86) (xy 30.48 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a66a76-1ffe-4ae2-968f-95438fe9a066")
 	)
 	(wire
 		(pts
@@ -16864,7 +16864,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 50.8 156.21 0)
+		(at 50.8 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16873,7 +16873,7 @@
 		(fields_autoplaced yes)
 		(uuid "805666f0-a14c-4940-8367-783268efb029")
 		(property "Reference" "R41"
-			(at 53.34 155.575 0)
+			(at 53.34 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16882,7 +16882,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 53.34 158.115 0)
+			(at 53.34 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16891,7 +16891,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16900,7 +16900,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16909,7 +16909,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16918,7 +16918,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16927,7 +16927,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16936,7 +16936,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16945,7 +16945,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16954,7 +16954,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16963,7 +16963,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16972,7 +16972,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16981,7 +16981,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16990,7 +16990,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 50.8 156.21 0)
+			(at 50.8 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17791,8 +17791,7 @@
 	)
 	(symbol
 		(lib_id "SSM3J358R_LF:SSM3J358R,LF")
-		(at 38.1 162.56 0)
-		(mirror y)
+		(at 38.1 158.75 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17800,7 +17799,7 @@
 		(dnp no)
 		(uuid "9f572b5c-4583-4512-922e-2275a5339f0e")
 		(property "Reference" "Q1"
-			(at 26.67 158.7499 0)
+			(at 26.67 162.5601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17809,7 +17808,7 @@
 			)
 		)
 		(property "Value" "SSM3J358R,LF"
-			(at 26.67 161.2899 0)
+			(at 26.67 160.0201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17818,7 +17817,7 @@
 			)
 		)
 		(property "Footprint" "KiCad4:SOTFL95P240X88-3N"
-			(at 26.67 261.29 0)
+			(at 26.67 60.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17828,7 +17827,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/ap-en/product/mosfet/detail.SSM3J358R.html"
-			(at 26.67 361.29 0)
+			(at 26.67 -39.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17838,7 +17837,7 @@
 			)
 		)
 		(property "Description" "MOSFET LowON Res MOSFET ID=-6A VDSS=-20V"
-			(at 38.1 162.56 0)
+			(at 38.1 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17847,7 +17846,7 @@
 			)
 		)
 		(property "Height" "0.88"
-			(at 26.67 561.29 0)
+			(at 26.67 -239.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17857,7 +17856,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Toshiba"
-			(at 26.67 661.29 0)
+			(at 26.67 -339.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17867,7 +17866,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SSM3J358R,LF"
-			(at 26.67 761.29 0)
+			(at 26.67 -439.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17877,7 +17876,7 @@
 			)
 		)
 		(property "Mouser Part Number" "757-SSM3J358RLF"
-			(at 26.67 861.29 0)
+			(at 26.67 -539.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17887,7 +17886,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J358RLF?qs=HXFqYaX1Q2xwvCtt1GGmkw%3D%3D"
-			(at 26.67 961.29 0)
+			(at 26.67 -639.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17897,7 +17896,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SSM3J358R,LF"
-			(at 26.67 1061.29 0)
+			(at 26.67 -739.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17907,7 +17906,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssm3j358rlf/toshiba?region=nac"
-			(at 26.67 1161.29 0)
+			(at 26.67 -839.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
