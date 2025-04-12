@@ -1268,7 +1268,7 @@
 	)
 	(text "3,5v here"
 		(exclude_from_sim no)
-		(at 111.252 75.438 0)
+		(at 139.192 77.978 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1289,7 +1289,7 @@
 		(uuid "69205df7-d592-47c1-a63c-29fd1c9b2e3d")
 	)
 	(junction
-		(at 160.02 71.12)
+		(at 187.96 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97083444-56ec-473b-8bd2-58a3def52baa")
@@ -1336,7 +1336,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 71.12) (xy 160.02 71.12)
+			(xy 193.04 73.66) (xy 187.96 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1356,7 +1356,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 72.39) (xy 160.02 71.12)
+			(xy 187.96 74.93) (xy 187.96 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +1426,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 106.68 73.66)
+			(xy 143.51 76.2) (xy 134.62 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 106.68 68.58)
+			(xy 134.62 76.2) (xy 134.62 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1466,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 68.58) (xy 146.05 68.58)
+			(xy 177.8 71.12) (xy 173.99 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1476,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 115.57 68.58)
+			(xy 134.62 71.12) (xy 143.51 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1486,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 72.39) (xy 149.86 68.58)
+			(xy 177.8 74.93) (xy 177.8 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 71.12) (xy 160.02 71.12)
+			(xy 173.99 73.66) (xy 187.96 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1618,7 @@
 	)
 	(global_label "1V8"
 		(shape output)
-		(at 165.1 71.12 0)
+		(at 193.04 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1628,7 +1628,7 @@
 		)
 		(uuid "ebac179a-86c5-434a-b31c-2dacb3ef03b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.5928 71.12 0)
+			(at 199.5328 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1795,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 160.02 74.93 0)
+		(at 187.96 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1803,7 +1803,7 @@
 		(dnp no)
 		(uuid "1dd0f796-e970-4241-b417-233437fb8b75")
 		(property "Reference" "C46"
-			(at 157.226 74.93 90)
+			(at 185.166 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +1811,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 162.56 74.422 90)
+			(at 190.5 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,7 +1819,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 160.02 74.93 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1828,7 +1828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 74.93 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +1837,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 160.02 74.93 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1846,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 160.02 74.93 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1855,7 +1855,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 160.02 74.93 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1880,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 71.12 270)
+		(at 143.51 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1888,7 +1888,7 @@
 		(dnp no)
 		(uuid "242827f9-7f2a-4a70-bacc-b70202c330d5")
 		(property "Reference" "#PWR051"
-			(at 109.22 71.12 0)
+			(at 137.16 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,7 +1897,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 71.12 90)
+			(at 140.97 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1906,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 71.12 0)
+			(at 143.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,7 +1915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 71.12 0)
+			(at 143.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1924,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 71.12 0)
+			(at 143.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2012,7 +2012,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 77.47 0)
+		(at 177.8 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2021,7 +2021,7 @@
 		(fields_autoplaced yes)
 		(uuid "48f12264-94fc-4d0f-84b1-44f53062466c")
 		(property "Reference" "#PWR053"
-			(at 149.86 83.82 0)
+			(at 177.8 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +2030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 82.55 0)
+			(at 177.8 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2038,7 +2038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 77.47 0)
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 77.47 0)
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2056,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 77.47 0)
+			(at 177.8 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2299,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 149.86 74.93 0)
+		(at 177.8 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2307,7 +2307,7 @@
 		(dnp no)
 		(uuid "95d1ed30-16ce-49bc-b5b7-735e82177d5b")
 		(property "Reference" "C47"
-			(at 147.066 74.93 90)
+			(at 175.006 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2315,7 +2315,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 152.4 74.422 90)
+			(at 180.34 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2323,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 149.86 74.93 0)
+			(at 177.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2332,7 +2332,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 74.93 0)
+			(at 177.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2341,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 149.86 74.93 0)
+			(at 177.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2350,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 149.86 74.93 0)
+			(at 177.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 149.86 74.93 0)
+			(at 177.8 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2575,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 77.47 0)
+		(at 187.96 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2584,7 +2584,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f4ae692-01e1-48e3-833a-dce2296b0cb0")
 		(property "Reference" "#PWR052"
-			(at 160.02 83.82 0)
+			(at 187.96 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 82.55 0)
+			(at 187.96 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2601,7 +2601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 77.47 0)
+			(at 187.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 77.47 0)
+			(at 187.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,7 +2619,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 77.47 0)
+			(at 187.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,7 +3267,7 @@
 	)
 	(symbol
 		(lib_id "LD3985M18R:LD3985M18R")
-		(at 115.57 68.58 0)
+		(at 143.51 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3276,7 +3276,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed231100-a6bc-4ff5-91ea-765f31d71559")
 		(property "Reference" "IC1"
-			(at 130.81 60.96 0)
+			(at 158.75 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3284,7 @@
 			)
 		)
 		(property "Value" "LD3985M18R"
-			(at 130.81 63.5 0)
+			(at 158.75 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +3292,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P280X145-5N"
-			(at 142.24 163.5 0)
+			(at 170.18 166.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,7 +3302,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00003395.pdf"
-			(at 142.24 263.5 0)
+			(at 170.18 266.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3312,7 +3312,7 @@
 			)
 		)
 		(property "Description" "LD3985M18R, Low Dropout Voltage Regulator, 0.55A, 1.8 V +/-3%, 2.5  6 Vin, 5-Pin SOT-23"
-			(at 115.57 68.58 0)
+			(at 143.51 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3321,7 +3321,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 142.24 463.5 0)
+			(at 170.18 466.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3331,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 142.24 563.5 0)
+			(at 170.18 566.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3341,7 +3341,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LD3985M18R"
-			(at 142.24 663.5 0)
+			(at 170.18 666.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,7 +3351,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-LD3985M18R"
-			(at 142.24 763.5 0)
+			(at 170.18 766.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3361,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LD3985M18R?qs=xaanzPuKu%252BCT%252BZrNaSjvng%3D%3D"
-			(at 142.24 863.5 0)
+			(at 170.18 866.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,7 +3371,7 @@
 			)
 		)
 		(property "Arrow Part Number" "LD3985M18R"
-			(at 142.24 963.5 0)
+			(at 170.18 966.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3381,7 +3381,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ld3985m18r/stmicroelectronics?region=nac"
-			(at 142.24 1063.5 0)
+			(at 170.18 1066.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
