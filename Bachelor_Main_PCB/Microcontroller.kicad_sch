@@ -7235,9 +7235,9 @@
 		)
 		(uuid "193262be-a9d8-447d-bfd9-c51c7967a50d")
 	)
-	(text "Not yet routed!!!!"
+	(text "SD cart detection pin\nRouted to GPIO port"
 		(exclude_from_sim no)
-		(at 381.508 162.56 0)
+		(at 381.762 163.068 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8972,6 +8972,26 @@
 			(type default)
 		)
 		(uuid "6f268c62-881f-4a62-8e24-9e32a5720688")
+	)
+	(wire
+		(pts
+			(xy 144.78 66.04) (xy 143.51 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e24a51-61ae-4016-bee8-879ecc3731cf")
+	)
+	(wire
+		(pts
+			(xy 144.78 68.58) (xy 143.51 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749abb48-727c-4bb1-8961-4b5b44ce2284")
 	)
 	(wire
 		(pts
@@ -12060,6 +12080,17 @@
 			)
 		)
 	)
+	(hierarchical_label "UART_TX"
+		(shape bidirectional)
+		(at 144.78 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b1bef91-8c58-49c6-8e7d-edc4ea7c668f")
+	)
 	(hierarchical_label "USB_HS_N"
 		(shape bidirectional)
 		(at 210.82 125.73 180)
@@ -12081,6 +12112,17 @@
 			(justify left)
 		)
 		(uuid "b725646d-52da-4464-9d4d-ada202519712")
+	)
+	(hierarchical_label "UART_RX"
+		(shape bidirectional)
+		(at 144.78 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c26c09a3-1c7c-461f-b8f6-d3ed94e098fd")
 	)
 	(hierarchical_label "USB_HS_P"
 		(shape bidirectional)

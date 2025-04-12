@@ -305,6 +305,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 74.93) (xy 152.4 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06d59f31-ba81-4243-9e2d-9c3bc720dc1f")
+	)
+	(wire
+		(pts
 			(xy 80.01 106.68) (xy 83.82 106.68)
 		)
 		(stroke
@@ -392,6 +402,16 @@
 			(type default)
 		)
 		(uuid "41cc331f-7063-430a-898b-2664e087ddf1")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e3a5bab-48d1-45a3-b89f-d269a02dc309")
 	)
 	(wire
 		(pts
@@ -495,6 +515,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 72.39) (xy 148.59 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c156a8dc-3804-4b08-9374-41f38af1e509")
+	)
+	(wire
+		(pts
 			(xy 83.82 106.68) (xy 83.82 60.96)
 		)
 		(stroke
@@ -532,6 +562,16 @@
 			(type default)
 		)
 		(uuid "d39d7638-ebbe-4fae-a4a4-689f30a04386")
+	)
+	(wire
+		(pts
+			(xy 148.59 74.93) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d67615b7-144a-41d3-9c28-cdca1dc1a7ff")
 	)
 	(wire
 		(pts
@@ -1741,6 +1781,26 @@
 				(justify right)
 			)
 		)
+		(pin "UART_RX" bidirectional
+			(at 152.4 105.41 90)
+			(uuid "33635fda-6636-4d50-9773-c66cff0a4fda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" bidirectional
+			(at 154.94 105.41 90)
+			(uuid "8eb7c261-7559-419b-a0bb-3a5b87c54aec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8"
@@ -1863,6 +1923,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "UART_RX" bidirectional
+			(at 148.59 74.93 0)
+			(uuid "00bd5d67-e932-4963-9785-603c1eb04aee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" bidirectional
+			(at 148.59 72.39 0)
+			(uuid "02a08593-56a8-43c8-afea-86f3c4642105")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

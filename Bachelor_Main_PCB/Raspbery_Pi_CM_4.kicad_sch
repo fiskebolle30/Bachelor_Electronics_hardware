@@ -6083,6 +6083,28 @@
 		)
 		(uuid "e9e032e8-6ca3-45a2-aab8-73000c25fcc6")
 	)
+	(hierarchical_label "UART_RX"
+		(shape bidirectional)
+		(at 166.37 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f6c98c2b-3f71-47f3-b23f-a2c8932be288")
+	)
+	(hierarchical_label "UART_TX"
+		(shape bidirectional)
+		(at 166.37 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7deb29a-c19f-458c-b399-6e11f98a19f6")
+	)
 	(hierarchical_label "POWER_ON_N"
 		(shape output)
 		(at 166.37 71.12 0)
