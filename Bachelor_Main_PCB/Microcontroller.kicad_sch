@@ -7255,6 +7255,16 @@
 		)
 		(uuid "1e958595-1e42-47c0-a14e-281023a71cb1")
 	)
+	(text "Dobbeltsjekk denne med Steinar"
+		(exclude_from_sim no)
+		(at 290.576 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20ef8f8c-9c39-4495-8f63-c77781885d3d")
+	)
 	(text "MCU_VDD"
 		(exclude_from_sim no)
 		(at 57.912 259.334 0)

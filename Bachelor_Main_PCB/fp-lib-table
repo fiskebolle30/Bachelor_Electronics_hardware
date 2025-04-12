@@ -16,4 +16,5 @@
   (lib (name "MEM2075-00-140-01-A")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/MEM2075-00-140-01-A")(options "")(descr ""))
   (lib (name "CONMHF1-SMD-G-T")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/CONMHF1-SMD-G-T")(options "")(descr ""))
   (lib (name "LM73100RPWR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LM73100RPWR")(options "")(descr ""))
+  (lib (name "KiCad5")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_LD3985M18R/LD3985M18R/KiCad5")(options "")(descr ""))
 )

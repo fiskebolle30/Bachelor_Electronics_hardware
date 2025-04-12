@@ -1,0 +1,18 @@
+.LD3985M18R :1 ;LD3985M18R, Low Dropout Voltage Regulator, 0.55A, 1.8 V +/-3%, 2.5  6 Vin, 5-Pin SOT-23
+SOT95P280X145-5N
+*STM IC
+*NGS
+*PLB 1="VI" 2="GND" 3="VINH" 4="BYPASS" 5="VO"
+*MXP 5
+*DFN LD3985M18R
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LD3985M18R)
+~!Mouser Part Number (511-LD3985M18R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LD3985M18R?qs=xaanzPuKu%252BCT%252BZrNaSjvng%3D%3D)
+~!Arrow Part Number (LD3985M18R)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ld3985m18r/stmicroelectronics?region=nac)
+~!Link Datasheet (http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00003395.pdf)
+~!Height (1.45mm)
+~!3D_Model (LD3985M18R)
+LD3985M18R
+1.1!I 2.1!G 3.1!I 4.1!U 5.1!Y 
