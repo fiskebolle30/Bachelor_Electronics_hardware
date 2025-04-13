@@ -473,6 +473,20 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.421,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Antenna-waveguide",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.41,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
         "diff_pair_width": 0.23,
@@ -480,7 +494,7 @@
         "microvia_drill": 0.1,
         "name": "DP_90ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.23,
         "via_diameter": 0.6,
@@ -509,6 +523,15 @@
       ],
       "/USB Hub/USB_HUB_OUT_2_P": [
         "DP_90ohm"
+      ],
+      "/Wireless modem/DIV_ANT": [
+        "Antenna-waveguide"
+      ],
+      "/Wireless modem/GNSS_ANT": [
+        "Antenna-waveguide"
+      ],
+      "/Wireless modem/MAIN_ANT": [
+        "Antenna-waveguide"
       ]
     },
     "netclass_patterns": []

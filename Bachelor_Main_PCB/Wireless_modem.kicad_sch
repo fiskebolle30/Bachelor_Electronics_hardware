@@ -7370,7 +7370,7 @@
 	)
 	(text "GNSS antenna\nConnector"
 		(exclude_from_sim no)
-		(at 39.37 89.916 0)
+		(at 34.29 89.916 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7687,7 +7687,7 @@
 		(uuid "f5b28b18-a84b-4e94-a49c-3cdfae979705")
 	)
 	(junction
-		(at 49.53 93.98)
+		(at 44.45 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9cb38a4-f442-4742-bb2a-ff401981f8e0")
@@ -7990,7 +7990,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 93.98) (xy 57.15 100.33)
+			(xy 52.07 93.98) (xy 52.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8730,7 +8730,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 93.98) (xy 49.53 93.98)
+			(xy 38.1 93.98) (xy 44.45 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9190,7 +9190,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 93.98) (xy 57.15 93.98)
+			(xy 44.45 93.98) (xy 52.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9250,7 +9250,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 100.33) (xy 62.23 100.33)
+			(xy 52.07 100.33) (xy 62.23 100.33)
 		)
 		(stroke
 			(width 0)
@@ -9488,6 +9488,27 @@
 		)
 		(uuid "4fcddfaf-9321-407b-a3e4-640a380ee794")
 	)
+	(label "GNSS_ANT"
+		(at 46.99 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51ab7d6d-c299-48b8-bf27-0a7ce68413e8")
+		(property "Netclass" "Antenna-waveguide"
+			(at 46.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "UIM_DATA"
 		(at 180.34 54.61 0)
 		(effects
@@ -9497,6 +9518,48 @@
 			(justify left bottom)
 		)
 		(uuid "67a8a40c-fc1e-4a9e-9c01-35e75184d69c")
+	)
+	(label "MAIN_ANT"
+		(at 29.21 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "735c2d36-8ef0-4c9c-90b7-3197d32cb150")
+		(property "Netclass" "Antenna-waveguide"
+			(at 29.21 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "DIV_ANT"
+		(at 35.56 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7476df7d-f5b7-4724-9d8e-c84b5c6f985f")
+		(property "Netclass" "Antenna-waveguide"
+			(at 35.56 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "UIM_RESET_N"
 		(at 158.75 74.93 180)
@@ -15329,7 +15392,7 @@
 	)
 	(symbol
 		(lib_id "CONMHF1-SMD-G-T:CONMHF1-SMD-G-T")
-		(at 40.64 93.98 0)
+		(at 35.56 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15338,7 +15401,7 @@
 		(dnp yes)
 		(uuid "68f26c44-e966-43e8-b7dc-43b78742e7ee")
 		(property "Reference" "J20"
-			(at 35.56 94.2339 0)
+			(at 30.48 94.2339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15347,7 +15410,7 @@
 			)
 		)
 		(property "Value" "CONMHF1-SMD-G-T"
-			(at 52.07 90.678 0)
+			(at 46.99 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15357,7 +15420,7 @@
 			)
 		)
 		(property "Footprint" "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15367,7 +15430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15376,7 +15439,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15385,7 +15448,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15395,7 +15458,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15405,7 +15468,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15415,7 +15478,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15425,7 +15488,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15435,7 +15498,7 @@
 			)
 		)
 		(property "MP" "CONMHF1-SMD-G-T"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15445,7 +15508,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180172&manufacturer=Linx Technologies Inc.&part_name=CONMHF1-SMD-G-T&search_term=None"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15455,7 +15518,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15465,7 +15528,7 @@
 			)
 		)
 		(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
-			(at 40.64 93.98 0)
+			(at 35.56 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16599,7 +16662,7 @@
 	)
 	(symbol
 		(lib_id "0402ESDA-MLP1:0402ESDA-MLP1")
-		(at 49.53 88.9 270)
+		(at 44.45 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16607,7 +16670,7 @@
 		(dnp yes)
 		(uuid "7b2a5407-dc4c-4638-b6e8-2d98bec18457")
 		(property "Reference" "D4"
-			(at 48.26 88.9 90)
+			(at 43.18 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16616,7 +16679,7 @@
 			)
 		)
 		(property "Value" "0402ESDA-MLP1"
-			(at 55.372 85.852 90)
+			(at 50.292 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16626,7 +16689,7 @@
 			)
 		)
 		(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16636,7 +16699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16645,7 +16708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16654,7 +16717,7 @@
 			)
 		)
 		(property "MF" "Eaton"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16664,7 +16727,7 @@
 			)
 		)
 		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,7 +16737,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 Eaton"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16684,7 +16747,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16694,7 +16757,7 @@
 			)
 		)
 		(property "Package" "0402 Eaton"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16704,7 +16767,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16714,7 +16777,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16724,7 +16787,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16734,7 +16797,7 @@
 			)
 		)
 		(property "MP" "0402ESDA-MLP1"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16744,7 +16807,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16754,7 +16817,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16764,7 +16827,7 @@
 			)
 		)
 		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
-			(at 49.53 88.9 0)
+			(at 44.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20275,7 +20338,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 83.82 180)
+		(at 44.45 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20283,7 +20346,7 @@
 		(dnp no)
 		(uuid "dd92e79f-910f-46e7-86a0-73c828172de7")
 		(property "Reference" "#PWR044"
-			(at 49.53 77.47 0)
+			(at 44.45 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20292,7 +20355,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 80.264 0)
+			(at 44.45 80.264 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20300,7 +20363,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 83.82 0)
+			(at 44.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20309,7 +20372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 83.82 0)
+			(at 44.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20318,7 +20381,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 83.82 0)
+			(at 44.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
