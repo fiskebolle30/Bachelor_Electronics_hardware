@@ -480,7 +480,7 @@
         "microvia_drill": 0.1,
         "name": "Antenna-waveguide",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.41,
         "via_diameter": 0.6,
@@ -494,9 +494,23 @@
         "microvia_drill": 0.1,
         "name": "DP_90ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.23,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.4,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ULPI_55ohm",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.288,
         "via_diameter": 0.6,
         "via_drill": 0.3
       }
@@ -532,6 +546,42 @@
       ],
       "/Wireless modem/MAIN_ANT": [
         "Antenna-waveguide"
+      ],
+      "USB_ULPI_CLK": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_DIR": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_NXT": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_STP": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_data_0": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_data_1": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_data_2": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_data_3": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_data_4": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_data_5": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_data_6": [
+        "ULPI_55ohm"
+      ],
+      "USB_ULPI_data_7": [
+        "ULPI_55ohm"
       ]
     },
     "netclass_patterns": []

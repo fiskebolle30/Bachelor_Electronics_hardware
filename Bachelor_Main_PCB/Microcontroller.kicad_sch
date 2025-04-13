@@ -10252,7 +10252,17 @@
 		)
 		(uuid "0216e68c-9c5f-4103-b90b-48f8f63ee5a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8236 121.92 0)
+			(at 163.9349 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 124.1108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,7 +10372,17 @@
 		)
 		(uuid "0b3de14e-13d8-44cf-9f2e-3d0d717fc84b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8236 139.7 0)
+			(at 163.9349 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 141.8908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10385,6 +10405,16 @@
 		(uuid "1341161a-86d1-4a7e-a57e-93841442b8a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.0419 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 80.9308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10459,6 +10489,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 154.5908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "DEBUG_TDO"
 		(shape input)
@@ -10516,7 +10556,17 @@
 		)
 		(uuid "245c88c2-0cdc-465d-82cb-2043935f10b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8236 111.76 0)
+			(at 163.9349 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 113.9508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10657,6 +10707,16 @@
 				(hide yes)
 			)
 		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 159.6708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "USB_ULPI_data_0"
 		(shape bidirectional)
@@ -10670,7 +10730,17 @@
 		)
 		(uuid "3d6b609a-5b39-4707-ba8d-7db2911fc529")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8236 73.66 0)
+			(at 163.9349 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 75.8508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11198,7 +11268,17 @@
 		)
 		(uuid "924b7cef-494d-40a1-856d-5a2a2e61a10d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8236 142.24 0)
+			(at 163.9349 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 144.4308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +11366,17 @@
 		)
 		(uuid "9ccca156-7363-4005-a184-ac5b26982eff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8236 137.16 0)
+			(at 163.9349 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 139.3508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11309,6 +11399,16 @@
 		(uuid "9f7f9ddc-9a28-43fe-bef8-d5c12fe070ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.9814 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 162.2108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11594,7 +11694,17 @@
 		)
 		(uuid "d4bf3d04-135b-43a8-a7d1-7a7785bc075a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8236 134.62 0)
+			(at 163.9349 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 136.8108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11792,7 +11902,17 @@
 		)
 		(uuid "e0b67cf4-71ba-42bb-a75b-89f7c67fa04a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.8236 109.22 0)
+			(at 163.9349 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Netclass" "ULPI_55ohm"
+			(at 143.51 111.4108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
