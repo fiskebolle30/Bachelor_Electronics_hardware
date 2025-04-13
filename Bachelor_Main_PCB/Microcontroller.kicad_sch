@@ -11991,6 +11991,7 @@
 	(hierarchical_label "USB_HS_N"
 		(shape bidirectional)
 		(at 210.82 125.73 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11998,6 +11999,16 @@
 			(justify right)
 		)
 		(uuid "6a0512f0-751e-4629-8bd1-4a3c04885159")
+		(property "Netclass" "DP_90ohm"
+			(at 210.82 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "MODEM_SAFE_PWR_REMOVE"
 		(shape output)
@@ -12024,6 +12035,7 @@
 	(hierarchical_label "USB_HS_P"
 		(shape bidirectional)
 		(at 210.82 123.19 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12031,6 +12043,16 @@
 			(justify right)
 		)
 		(uuid "d1cadd8d-c2db-4a10-8b4d-ca5c14686dc8")
+		(property "Netclass" "DP_90ohm"
+			(at 210.82 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(hierarchical_label "RPI_5v"
 		(shape input)

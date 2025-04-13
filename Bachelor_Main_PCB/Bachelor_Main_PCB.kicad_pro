@@ -492,10 +492,22 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Microcontroller/USB_HS_N": [
+        "DP_90ohm"
+      ],
+      "/Microcontroller/USB_HS_P": [
+        "DP_90ohm"
+      ],
       "/Raspberry Pi CM 4/USB_HS_N": [
         "DP_90ohm"
       ],
       "/Raspberry Pi CM 4/USB_HS_P": [
+        "DP_90ohm"
+      ],
+      "/USB Hub/USB_HUB_OUT_2_N": [
+        "DP_90ohm"
+      ],
+      "/USB Hub/USB_HUB_OUT_2_P": [
         "DP_90ohm"
       ]
     },
