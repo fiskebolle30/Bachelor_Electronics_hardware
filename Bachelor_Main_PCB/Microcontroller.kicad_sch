@@ -7535,6 +7535,16 @@
 		)
 		(uuid "9e617768-405b-4234-8376-be9ca8b58685")
 	)
+	(text "Active Low"
+		(exclude_from_sim no)
+		(at 400.05 191.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a56485c2-64b7-499c-a6ea-e97bb2d0f55b")
+	)
 	(text "100nf MCU VDD decoupling caps, 1 per Pin pluss 4,7uF bulkcap"
 		(exclude_from_sim no)
 		(at 211.074 263.906 0)
@@ -7544,6 +7554,16 @@
 			)
 		)
 		(uuid "a8353031-4481-45bd-a022-3bc283d74427")
+	)
+	(text "MUST BE ROUTED!"
+		(exclude_from_sim no)
+		(at 209.55 192.024 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b428f3a1-ffd4-4fed-9134-8c716873b27c")
 	)
 	(text "OUTPUT\n"
 		(exclude_from_sim no)
@@ -11327,6 +11347,28 @@
 			)
 		)
 	)
+	(global_label "SDCARD_ENABLE"
+		(shape input)
+		(at 392.43 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66162df5-0254-468c-9268-3ae8fa809e2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 410.7761 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3V5_MCU"
 		(shape input)
 		(at 125.73 55.88 90)
@@ -12061,6 +12103,28 @@
 			)
 		)
 	)
+	(global_label "SDCARD_ENABLE"
+		(shape output)
+		(at 201.93 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c71859b3-de2a-42a9-9cec-319e84865ea8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.2761 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3V5_USB3320"
 		(shape input)
 		(at 209.55 93.98 90)
@@ -12555,7 +12619,7 @@
 	)
 	(hierarchical_label "RPI_CM_ENABLE"
 		(shape output)
-		(at 203.2 193.04 0)
+		(at 201.93 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)

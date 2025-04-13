@@ -6646,6 +6646,16 @@
 		)
 		(uuid "a73d9c98-8b7e-421a-bed5-05000dfdf826")
 	)
+	(text "Active Low"
+		(exclude_from_sim no)
+		(at 111.252 41.656 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c79db646-4884-47ef-80b9-22f47b116502")
+	)
 	(text "DF40HC(3.0)-10DV-0.4V connectors for the BOM"
 		(exclude_from_sim no)
 		(at 41.148 27.686 0)
