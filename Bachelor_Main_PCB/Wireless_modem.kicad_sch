@@ -7428,9 +7428,9 @@
 		)
 		(uuid "e6f8a348-34dc-4d39-b1b2-f243204fe1f2")
 	)
-	(text "Signal inverter"
+	(text "Signal inverter\nMeaning active High"
 		(exclude_from_sim no)
-		(at 61.468 171.704 0)
+		(at 62.992 172.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
