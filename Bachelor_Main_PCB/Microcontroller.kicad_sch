@@ -6206,6 +6206,331 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SSM3J358R_LF:SSM3J358R,LF"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 11.43 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SSM3J358R,LF"
+				(at 11.43 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOTFL95P240X88-3N"
+				(at 11.43 -98.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/ap-en/product/mosfet/detail.SSM3J358R.html"
+				(at 11.43 -198.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET LowON Res MOSFET ID=-6A VDSS=-20V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.88"
+				(at 11.43 -398.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Toshiba"
+				(at 11.43 -498.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SSM3J358R,LF"
+				(at 11.43 -598.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "757-SSM3J358RLF"
+				(at 11.43 -698.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J358RLF?qs=HXFqYaX1Q2xwvCtt1GGmkw%3D%3D"
+				(at 11.43 -798.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SSM3J358R,LF"
+				(at 11.43 -898.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssm3j358rlf/toshiba?region=nac"
+				(at 11.43 -998.73 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SSM3J358R,LF_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 5.588) (xy 5.842 4.572)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.032) (xy 5.842 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -0.508) (xy 5.842 0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 2.54)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 5.842 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 5.842 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "USB3320C-EZK-TR:USB3320C-EZK-TR"
 			(pin_names
 				(offset 1.016)
@@ -7399,6 +7724,12 @@
 		(uuid "29dad916-a84e-47ff-82b1-7287a1aea501")
 	)
 	(junction
+		(at 382.27 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bcc9a10-c60c-49c1-82c1-1bd45697567e")
+	)
+	(junction
 		(at 254 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7840,6 +8171,26 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 200.66) (xy 382.27 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02aef6f0-bb6e-489e-9e28-24582a7a7632")
+	)
+	(wire
+		(pts
+			(xy 382.27 179.07) (xy 392.43 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0398055b-0ba3-4d88-80f7-3e5739d2e289")
+	)
+	(wire
+		(pts
 			(xy 328.93 95.25) (xy 328.93 97.79)
 		)
 		(stroke
@@ -8087,6 +8438,16 @@
 			(type default)
 		)
 		(uuid "1a78f62b-a0e1-458d-bc82-8e8541114b76")
+	)
+	(wire
+		(pts
+			(xy 392.43 179.07) (xy 392.43 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d57325a-303b-4d65-a0ed-494a9d031e79")
 	)
 	(wire
 		(pts
@@ -8490,6 +8851,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 179.07) (xy 382.27 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4897e501-cc6b-40ca-b3e6-1bff1e911606")
+	)
+	(wire
+		(pts
 			(xy 34.29 93.98) (xy 34.29 97.79)
 		)
 		(stroke
@@ -8880,6 +9251,16 @@
 	)
 	(wire
 		(pts
+			(xy 382.27 173.99) (xy 382.27 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "755f34d9-8219-4946-bf10-90d0fcfd0b9a")
+	)
+	(wire
+		(pts
 			(xy 273.05 95.25) (xy 317.5 95.25)
 		)
 		(stroke
@@ -8917,6 +9298,16 @@
 			(type default)
 		)
 		(uuid "79417af8-963c-42a5-9d9e-41510a1141c6")
+	)
+	(wire
+		(pts
+			(xy 392.43 185.42) (xy 392.43 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7956a9f4-cc72-4a2d-8169-964161fedf5a")
 	)
 	(wire
 		(pts
@@ -9177,6 +9568,16 @@
 			(type default)
 		)
 		(uuid "8e839850-a4cc-43b9-9e1c-22fe7a048252")
+	)
+	(wire
+		(pts
+			(xy 392.43 187.96) (xy 389.89 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92151c22-50fe-418a-89dc-847db2b09e8b")
 	)
 	(wire
 		(pts
@@ -9527,16 +9928,6 @@
 			(type default)
 		)
 		(uuid "b9519df5-f451-4966-a0c2-737ca9abc864")
-	)
-	(wire
-		(pts
-			(xy 397.51 151.13) (xy 393.7 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b98208b1-f9fe-4184-975c-1c959f916cf7")
 	)
 	(wire
 		(pts
@@ -10087,6 +10478,16 @@
 			(type default)
 		)
 		(uuid "f28a93e5-2df8-4863-a01e-7891615e94e9")
+	)
+	(wire
+		(pts
+			(xy 394.97 151.13) (xy 393.7 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f31d9a4e-0f15-40bc-a175-591493d3cc01")
 	)
 	(wire
 		(pts
@@ -11484,6 +11885,28 @@
 			)
 		)
 	)
+	(global_label "+3V5_SDCARD"
+		(shape input)
+		(at 382.27 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a20ab46f-c883-4bb6-b717-c01c1c6616b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 365.8591 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DEBUG_TDI"
 		(shape input)
 		(at 38.1 269.24 0)
@@ -11574,7 +11997,7 @@
 	)
 	(global_label "+3V5_MCU"
 		(shape input)
-		(at 397.51 151.13 0)
+		(at 382.27 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11584,7 +12007,7 @@
 		)
 		(uuid "b59df8bc-cfe2-408c-934a-8c4f72c297c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 410.5947 151.13 0)
+			(at 395.3547 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,6 +12096,28 @@
 		(uuid "ccf4498c-e6fe-4016-98da-ab3f93052199")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 355.5008 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V5_SDCARD"
+		(shape input)
+		(at 394.97 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d17d1cca-b322-454f-8a0c-b6103a79541e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 411.3809 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12107,6 +12552,17 @@
 			(justify left)
 		)
 		(uuid "1b1bef91-8c58-49c6-8e7d-edc4ea7c668f")
+	)
+	(hierarchical_label "RPI_CM_ENABLE"
+		(shape output)
+		(at 203.2 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40ad7435-9725-45ad-90ab-9bc9367ef76f")
 	)
 	(hierarchical_label "USB_HS_N"
 		(shape bidirectional)
@@ -13978,7 +14434,7 @@
 		(dnp no)
 		(uuid "49f98c6f-9aa9-42ec-879a-b481e4dfbe17")
 		(property "Reference" "C43"
-			(at 390.906 153.67 90)
+			(at 396.748 154.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13986,7 +14442,7 @@
 			)
 		)
 		(property "Value" "4,7uF"
-			(at 396.24 153.162 90)
+			(at 390.906 153.924 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15953,6 +16409,157 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 392.43 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83f44b95-2c6c-484a-ac7a-0bc8b07d8474")
+		(property "Reference" "R52"
+			(at 394.97 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 394.97 184.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quantity" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 392.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb4ffef4-326e-446c-9ce8-01b17f05e3ae")
+		)
+		(pin "2"
+			(uuid "6d680dab-6199-4771-8045-14d08a618227")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 199.39 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17821,6 +18428,150 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SSM3J358R_LF:SSM3J358R,LF")
+		(at 389.89 187.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d43b94c4-5aad-4a93-aae7-48ccf295b9b6")
+		(property "Reference" "Q3"
+			(at 378.46 191.7701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSM3J358R,LF"
+			(at 378.46 189.2301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "KiCad4:SOTFL95P240X88-3N"
+			(at 378.46 89.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/ap-en/product/mosfet/detail.SSM3J358R.html"
+			(at 378.46 -10.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET LowON Res MOSFET ID=-6A VDSS=-20V"
+			(at 389.89 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.88"
+			(at 378.46 -210.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Toshiba"
+			(at 378.46 -310.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SSM3J358R,LF"
+			(at 378.46 -410.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "757-SSM3J358RLF"
+			(at 378.46 -510.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/SSM3J358RLF?qs=HXFqYaX1Q2xwvCtt1GGmkw%3D%3D"
+			(at 378.46 -610.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SSM3J358R,LF"
+			(at 378.46 -710.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ssm3j358rlf/toshiba?region=nac"
+			(at 378.46 -810.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a330c23b-11ec-41ea-98a5-2b49e7cbc7b8")
+		)
+		(pin "2"
+			(uuid "65313147-a542-4a9a-987b-bff82cec6826")
+		)
+		(pin "1"
+			(uuid "0bb26389-f27f-4ca9-8f0d-146c46713ec8")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
