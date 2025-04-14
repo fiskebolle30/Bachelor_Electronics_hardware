@@ -243,9 +243,19 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Power supply lines are not drawn as hierarcical but global lables\ndue to the high amount of them"
+	(text "Voltage and \ncurrent sense"
 		(exclude_from_sim no)
-		(at 120.142 163.576 0)
+		(at 78.74 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "555ee3e9-9d9b-4900-b7aa-dca76570bfa8")
+	)
+	(text "Power supply lines are not drawn as hierarcical but \nglobal lables due to the high amount of them"
+		(exclude_from_sim no)
+		(at 44.704 78.232 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -255,7 +265,7 @@
 	)
 	(text "Potential use pin. not used on BUGG"
 		(exclude_from_sim no)
-		(at 81.788 80.518 90)
+		(at 81.788 85.344 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -415,6 +425,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 57.15) (xy 86.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac6929a-2ae5-4623-a38a-f2254ac9985c")
+	)
+	(wire
+		(pts
 			(xy 120.65 30.48) (xy 82.55 30.48)
 		)
 		(stroke
@@ -465,7 +485,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 101.6 60.96)
+			(xy 83.82 66.04) (xy 101.6 66.04)
 		)
 		(stroke
 			(width 0)
@@ -525,6 +545,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 53.34) (xy 88.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6b9353-c85e-4466-b361-7d234b5b1272")
+	)
+	(wire
+		(pts
 			(xy 148.59 105.41) (xy 148.59 82.55)
 		)
 		(stroke
@@ -575,6 +605,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 50.8) (xy 101.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d926f9-f1c2-4fe9-9a33-40b1718106c1")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 68.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa71688f-3e99-488c-9d25-4ef9edced02d")
+	)
+	(wire
+		(pts
 			(xy 80.01 124.46) (xy 121.92 124.46)
 		)
 		(stroke
@@ -615,7 +665,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 106.68) (xy 83.82 60.96)
+			(xy 83.82 106.68) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
@@ -665,6 +715,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 53.34) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2541b6b-0836-4cb9-b69c-2afa2b8d7f26")
+	)
+	(wire
+		(pts
 			(xy 134.62 82.55) (xy 134.62 77.47)
 		)
 		(stroke
@@ -682,6 +742,16 @@
 			(type default)
 		)
 		(uuid "f17eaf52-b016-4c04-a398-8aa57b22fcb3")
+	)
+	(wire
+		(pts
+			(xy 68.58 57.15) (xy 86.36 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89bd9a1-1848-4b8b-9620-a6c53bd94d6a")
 	)
 	(wire
 		(pts
@@ -1930,7 +2000,7 @@
 		)
 	)
 	(sheet
-		(at 97.79 167.64)
+		(at 22.86 55.88)
 		(size 45.72 16.51)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1946,7 +2016,7 @@
 		)
 		(uuid "4408de3e-a395-4433-a2e1-ccefac59f96e")
 		(property "Sheetname" "Power supply"
-			(at 97.79 166.9284 0)
+			(at 22.86 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1955,12 +2025,32 @@
 			)
 		)
 		(property "Sheetfile" "Power_supply.kicad_sch"
-			(at 97.79 184.7346 0)
+			(at 22.86 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "V_IMON" output
+			(at 68.58 57.15 0)
+			(uuid "07d7aeaa-ff28-4b51-8ad7-15887b675752")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_IN" output
+			(at 68.58 59.69 0)
+			(uuid "bac9b5a2-1603-40e4-a552-6f2b201ced2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2036,7 +2126,7 @@
 			)
 		)
 		(pin "MODEM_SAFE_PWR_REMOVE" output
-			(at 101.6 60.96 180)
+			(at 101.6 66.04 180)
 			(uuid "2a4694b5-6345-4519-baea-91d24d42f682")
 			(effects
 				(font
@@ -2113,6 +2203,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "V_IMON" input
+			(at 101.6 50.8 180)
+			(uuid "f049e12f-688c-490d-bf68-725d7e2ea854")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_IN" input
+			(at 101.6 53.34 180)
+			(uuid "6ba6f739-944e-4bce-b38c-9e962a928869")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

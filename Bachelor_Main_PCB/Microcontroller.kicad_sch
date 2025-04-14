@@ -7495,6 +7495,16 @@
 		)
 		(uuid "3887203a-f056-4bfb-966b-96b9aea0de1e")
 	)
+	(text "ADC pins"
+		(exclude_from_sim no)
+		(at 205.74 208.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d711100-8d0b-4e17-9fd4-17e9c6919f84")
+	)
 	(text "VDDLDO bypass caps, 1 per Pin\n"
 		(exclude_from_sim no)
 		(at 281.178 245.11 0)
@@ -12649,6 +12659,17 @@
 			)
 		)
 	)
+	(hierarchical_label "V_IN"
+		(shape input)
+		(at 201.93 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b273ae6-7edc-4bd2-96b2-e806d30e5325")
+	)
 	(hierarchical_label "MODEM_SAFE_PWR_REMOVE"
 		(shape output)
 		(at 201.93 181.61 0)
@@ -12670,6 +12691,17 @@
 			(justify left)
 		)
 		(uuid "c26c09a3-1c7c-461f-b8f6-d3ed94e098fd")
+	)
+	(hierarchical_label "V_IMON"
+		(shape input)
+		(at 201.93 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d13fb802-40e7-40cd-aa74-bcc447d65361")
 	)
 	(hierarchical_label "USB_HS_P"
 		(shape bidirectional)

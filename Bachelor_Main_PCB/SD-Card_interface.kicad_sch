@@ -623,10 +623,10 @@
 	)
 	(text "Flat ribbon cable interface for AudioMoth SD card slot."
 		(exclude_from_sim no)
-		(at 126.238 53.34 0)
+		(at 125.73 44.704 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
 		)
 		(uuid "53ad908f-8cd9-4548-98d5-3fad3b7a0298")
@@ -701,9 +701,9 @@
 		)
 		(uuid "dd609a9a-b944-47b3-a8f9-eb6e323c0a8c")
 	)
-	(text "Audiomoth used SPI interface for the SD card slot"
+	(text "Audiomoth uses SPI interface for the SD card slot"
 		(exclude_from_sim no)
-		(at 123.698 117.348 0)
+		(at 123.952 48.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -775,7 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 80.01) (xy 163.83 80.01)
+			(xy 180.34 80.01) (xy 184.15 80.01)
 		)
 		(stroke
 			(width 0)
@@ -835,7 +835,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 101.6) (xy 160.02 101.6)
+			(xy 184.15 101.6) (xy 180.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 163.83 71.12)
+			(xy 180.34 71.12) (xy 184.15 71.12)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 163.83 93.98)
+			(xy 180.34 93.98) (xy 184.15 93.98)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +955,7 @@
 	)
 	(global_label "SD-pin7"
 		(shape input)
-		(at 160.02 71.12 180)
+		(at 180.34 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -965,7 +965,7 @@
 		)
 		(uuid "0acb3ab4-dcc2-483c-a7c9-892be9f2b5ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8706 71.12 0)
+			(at 169.1906 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1087,7 @@
 	)
 	(global_label "SD-pin2"
 		(shape input)
-		(at 160.02 101.6 180)
+		(at 180.34 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1097,7 +1097,7 @@
 		)
 		(uuid "7e18ddf2-cc76-4e9d-8d5c-b513cd25e386")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8706 101.6 0)
+			(at 169.1906 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1175,7 @@
 	)
 	(global_label "SD-pin3"
 		(shape input)
-		(at 160.02 93.98 180)
+		(at 180.34 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1185,7 +1185,7 @@
 		)
 		(uuid "b66beef2-e7ac-4654-b33e-b12e200ac367")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8706 93.98 0)
+			(at 169.1906 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1219,7 @@
 	)
 	(global_label "SD-pin5"
 		(shape input)
-		(at 160.02 80.01 180)
+		(at 180.34 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1229,7 +1229,7 @@
 		)
 		(uuid "d01750a7-10fb-4ccd-9519-b687bdf4a2fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.8706 80.01 0)
+			(at 169.1906 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1373,7 @@
 	)
 	(hierarchical_label "SPI1_MOSI"
 		(shape bidirectional)
-		(at 163.83 93.98 0)
+		(at 184.15 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1384,7 +1384,7 @@
 	)
 	(hierarchical_label "SPI1_SCK"
 		(shape output)
-		(at 163.83 80.01 0)
+		(at 184.15 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1395,7 +1395,7 @@
 	)
 	(hierarchical_label "SPI1_CS"
 		(shape output)
-		(at 163.83 101.6 0)
+		(at 184.15 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1406,7 +1406,7 @@
 	)
 	(hierarchical_label "SPI1_MISO"
 		(shape bidirectional)
-		(at 163.83 71.12 0)
+		(at 184.15 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
