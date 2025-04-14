@@ -1725,6 +1725,12 @@
 		(uuid "089453bb-ef0d-4503-9d83-76e8e39d603a")
 	)
 	(junction
+		(at 214.63 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32b0c5a1-79db-4ed6-bd12-232b36d19ea0")
+	)
+	(junction
 		(at 147.32 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1830,6 +1836,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 44.45) (xy 214.63 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085a8f4d-6f52-4794-bc1a-94d6babc6a45")
+	)
+	(wire
+		(pts
 			(xy 38.1 64.77) (xy 38.1 68.58)
 		)
 		(stroke
@@ -1887,6 +1903,16 @@
 			(type default)
 		)
 		(uuid "3756120e-2482-4f7b-98ec-557559851152")
+	)
+	(wire
+		(pts
+			(xy 214.63 52.07) (xy 214.63 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37677ec2-0910-420c-bf4e-7b4d4e9b0ff8")
 	)
 	(wire
 		(pts
@@ -2317,6 +2343,16 @@
 			(type default)
 		)
 		(uuid "f2eece42-04fc-4ff7-b7be-53eae35e340f")
+	)
+	(wire
+		(pts
+			(xy 193.04 35.56) (xy 214.63 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a68c3d-c736-4ed8-b695-02fc0ae7c4d9")
 	)
 	(global_label "V_IN"
 		(shape input)
@@ -2901,6 +2937,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 214.63 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cf4136b-74da-44bf-9b6d-b97f7acf72bf")
+		(property "Reference" "#PWR059"
+			(at 214.63 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c7c82aa-364e-42e6-aa46-ab5371c61591")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 193.04 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3469,6 +3571,83 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 214.63 33.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87869696-acbc-45c1-9bda-b6a957d6564f")
+		(property "Reference" "R22"
+			(at 212.852 33.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 213.36 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 216.916 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "208ada61-26a7-4a74-8470-1bcc34778035")
+		)
+		(pin "2"
+			(uuid "4466114f-8226-4202-bb99-3cbcf6f67103")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 38.1 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4010,6 +4189,83 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 214.63 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd52737b-8635-480f-a891-7bb991a16790")
+		(property "Reference" "R20"
+			(at 212.852 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "19.1k"
+			(at 213.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 214.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 214.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 216.916 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fd9459c-2b0b-48ff-ac5f-a22c0a11e051")
+		)
+		(pin "2"
+			(uuid "08c6248f-423d-49bb-95f5-811db34e2ee3")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "R20")
 					(unit 1)
 				)
 			)
