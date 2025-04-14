@@ -555,16 +555,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 105.41) (xy 148.59 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82c1b80c-ecee-4842-ad07-5ed7cf7d6044")
-	)
-	(wire
-		(pts
 			(xy 190.5 92.71) (xy 182.88 92.71)
 		)
 		(stroke
@@ -705,16 +695,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 82.55) (xy 134.62 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e01063e6-5b7c-4a9d-ad2f-d7306a342966")
-	)
-	(wire
-		(pts
 			(xy 88.9 53.34) (xy 88.9 59.69)
 		)
 		(stroke
@@ -722,16 +702,6 @@
 			(type default)
 		)
 		(uuid "e2541b6b-0836-4cb9-b69c-2afa2b8d7f26")
-	)
-	(wire
-		(pts
-			(xy 134.62 82.55) (xy 134.62 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c85678-c9a0-4f3f-9fe3-c23b5c8a28d1")
 	)
 	(wire
 		(pts
@@ -1981,16 +1951,6 @@
 				(justify right)
 			)
 		)
-		(pin "RPI_CM_ENABLE" input
-			(at 148.59 105.41 90)
-			(uuid "8080f607-20b0-4433-9602-3aa2f652c91c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8"
@@ -2156,7 +2116,7 @@
 			)
 		)
 		(pin "RPI_CM_ENABLE" output
-			(at 134.62 77.47 270)
+			(at 101.6 58.42 180)
 			(uuid "008172fc-ec88-4c0d-9c5c-b0a6d554c34e")
 			(effects
 				(font

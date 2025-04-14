@@ -1708,6 +1708,16 @@
 		)
 		(uuid "328c4637-17c0-4c25-b12a-6b766da5798c")
 	)
+	(text "High= ON"
+		(exclude_from_sim no)
+		(at 148.59 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50901ca0-4cd9-43aa-83af-a6e3867c4c16")
+	)
 	(junction
 		(at 33.02 25.4)
 		(diameter 0)
@@ -2134,6 +2144,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 30.48) (xy 157.48 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b429cf63-97ce-4b7e-8b4d-a0511923b765")
+	)
+	(wire
+		(pts
 			(xy 24.13 26.67) (xy 24.13 25.4)
 		)
 		(stroke
@@ -2316,16 +2336,16 @@
 			)
 		)
 	)
-	(hierarchical_label "5V_ENABLE"
-		(shape bidirectional)
-		(at 157.48 30.48 180)
+	(hierarchical_label "RPI_CM_ENABLE"
+		(shape input)
+		(at 156.21 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8e7efb8f-e93c-4eb1-a859-dc1a29f39d84")
+		(uuid "6bc52e1b-7302-4099-b522-1a719c65ebef")
 	)
 	(hierarchical_label "V_IN"
 		(shape output)
