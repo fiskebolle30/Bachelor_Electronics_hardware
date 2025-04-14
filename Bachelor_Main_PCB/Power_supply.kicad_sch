@@ -1710,7 +1710,7 @@
 	)
 	(text "High= ON"
 		(exclude_from_sim no)
-		(at 148.59 32.512 0)
+		(at 135.128 32.766 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1723,6 +1723,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "089453bb-ef0d-4503-9d83-76e8e39d603a")
+	)
+	(junction
+		(at 147.32 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "374980a6-b84c-431d-bccf-0f568284f1f9")
 	)
 	(junction
 		(at 102.87 33.02)
@@ -2034,6 +2040,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 30.48) (xy 157.48 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd21e41-812f-4f57-ad03-3d93e0891c64")
+	)
+	(wire
+		(pts
 			(xy 251.46 29.21) (xy 251.46 24.13)
 		)
 		(stroke
@@ -2061,6 +2077,16 @@
 			(type default)
 		)
 		(uuid "85e12d08-87b1-47b6-ab2f-9706d702ac7f")
+	)
+	(wire
+		(pts
+			(xy 147.32 31.75) (xy 147.32 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb10069-0f43-4293-854b-64cabfd175f5")
 	)
 	(wire
 		(pts
@@ -2144,7 +2170,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 30.48) (xy 157.48 30.48)
+			(xy 144.78 30.48) (xy 147.32 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2338,7 +2364,7 @@
 	)
 	(hierarchical_label "RPI_CM_ENABLE"
 		(shape input)
-		(at 156.21 30.48 180)
+		(at 144.78 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2736,6 +2762,72 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40f34beb-a70f-4491-bacb-7b01fb465e7d")
+		(property "Reference" "#PWR058"
+			(at 147.32 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0122ae52-c00e-4273-a650-06081f640b2f")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3300,6 +3392,76 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 147.32 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87868c40-19b1-4a76-a3a8-f77976d2ca85")
+		(property "Reference" "R19"
+			(at 149.86 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 149.86 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 147.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 147.32 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ee52048-84fc-4d48-a566-fcfdaa4f53a9")
+		)
+		(pin "2"
+			(uuid "593f928c-117f-4e2d-a69c-fec289214c7f")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "R19")
 					(unit 1)
 				)
 			)
