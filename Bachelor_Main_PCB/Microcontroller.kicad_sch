@@ -7497,7 +7497,7 @@
 	)
 	(text "ADC pins"
 		(exclude_from_sim no)
-		(at 205.74 208.788 0)
+		(at 157.226 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8191,6 +8191,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 165.1) (xy 143.51 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b493d1-e683-4269-af7b-cd9cef01f112")
+	)
+	(wire
+		(pts
 			(xy 210.82 113.03) (xy 210.82 110.49)
 		)
 		(stroke
@@ -8538,6 +8548,16 @@
 			(type default)
 		)
 		(uuid "23792f02-5e12-4d43-86e9-d279844f3679")
+	)
+	(wire
+		(pts
+			(xy 144.78 162.56) (xy 143.51 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24210d74-5f91-477f-a953-49145e4bd058")
 	)
 	(wire
 		(pts
@@ -12661,7 +12681,7 @@
 	)
 	(hierarchical_label "V_IN"
 		(shape input)
-		(at 201.93 214.63 0)
+		(at 144.78 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12694,7 +12714,7 @@
 	)
 	(hierarchical_label "V_IMON"
 		(shape input)
-		(at 201.93 212.09 0)
+		(at 144.78 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
