@@ -23,4 +23,6 @@
   (lib (name "LMR51450FNDRRR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LMR51450FNDRRR/LMR51450FNDRRR.kicad_sym")(options "")(descr ""))
   (lib (name "WE-LHMI_7050")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/WE-LHMI_7050/WE-LHMI_7050.kicad_sym")(options "")(descr ""))
   (lib (name "WE-LHMI_7050_3uH3")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/WE-LHMI_7050_3uH3/WE-LHMI_7050_3uH3.kicad_sym")(options "")(descr ""))
+  (lib (name "LQM2HPN1R0MJHL")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LQM2HPN1R0MJHL/LQM2HPN1R0MJHL.kicad_sym")(options "")(descr ""))
+  (lib (name "691137710002")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/691137710002/691137710002.kicad_sym")(options "")(descr ""))
 )
