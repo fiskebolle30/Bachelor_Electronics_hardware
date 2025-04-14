@@ -22,4 +22,5 @@
   (lib (name "LD3985M18R")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_LD3985M18R/LD3985M18R/KiCad5/LD3985M18R.kicad_sym")(options "")(descr ""))
   (lib (name "LMR51450FNDRRR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LMR51450FNDRRR/LMR51450FNDRRR.kicad_sym")(options "")(descr ""))
   (lib (name "WE-LHMI_7050")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/WE-LHMI_7050/WE-LHMI_7050.kicad_sym")(options "")(descr ""))
+  (lib (name "WE-LHMI_7050_3uH3")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/WE-LHMI_7050_3uH3/WE-LHMI_7050_3uH3.kicad_sym")(options "")(descr ""))
 )
