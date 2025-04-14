@@ -12572,6 +12572,28 @@
 			)
 		)
 	)
+	(hierarchical_label "SPI1_CS"
+		(shape input)
+		(at 201.93 201.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15f08928-2890-4939-81f5-41d4b6f8e8e0")
+	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape bidirectional)
+		(at 143.51 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19539abc-b8a7-494f-9907-8ee95fa89d27")
+	)
 	(hierarchical_label "UART_TX"
 		(shape bidirectional)
 		(at 144.78 66.04 0)
@@ -12593,6 +12615,17 @@
 			(justify left)
 		)
 		(uuid "40ad7435-9725-45ad-90ab-9bc9367ef76f")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape bidirectional)
+		(at 143.51 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40c056c8-9c75-4049-84c7-e5c39c29ab77")
 	)
 	(hierarchical_label "USB_HS_N"
 		(shape bidirectional)
@@ -12659,6 +12692,17 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "SPI1_SCK"
+		(shape input)
+		(at 57.15 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e79fd5e5-38e3-479a-88af-3a4011a04fd1")
 	)
 	(hierarchical_label "RPI_5v"
 		(shape input)

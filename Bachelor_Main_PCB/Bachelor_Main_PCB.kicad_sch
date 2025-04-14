@@ -315,6 +315,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 33.02) (xy 118.11 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "085ef12f-73ac-401f-9d8a-83b3404e4d0a")
+	)
+	(wire
+		(pts
 			(xy 80.01 106.68) (xy 83.82 106.68)
 		)
 		(stroke
@@ -332,6 +342,16 @@
 			(type default)
 		)
 		(uuid "0e2801b1-5bb4-46d4-addb-6ac26b609835")
+	)
+	(wire
+		(pts
+			(xy 123.19 27.94) (xy 123.19 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c5dee6-6932-40d3-a6bf-13ca55c8c498")
 	)
 	(wire
 		(pts
@@ -395,6 +415,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 30.48) (xy 82.55 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f9394c8-96d6-413f-8f89-23754bbb683f")
+	)
+	(wire
+		(pts
 			(xy 182.88 68.58) (xy 148.59 68.58)
 		)
 		(stroke
@@ -405,6 +435,36 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 25.4) (xy 82.55 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5075c2b4-e824-4955-bcb1-ee6f12fbd28e")
+	)
+	(wire
+		(pts
+			(xy 125.73 46.99) (xy 125.73 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b542506-9655-4b0f-9927-70a907f8c37b")
+	)
+	(wire
+		(pts
+			(xy 82.55 27.94) (xy 123.19 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6512ec93-a161-4710-8fd6-0644eda969f7")
+	)
+	(wire
+		(pts
 			(xy 83.82 60.96) (xy 101.6 60.96)
 		)
 		(stroke
@@ -412,6 +472,16 @@
 			(type default)
 		)
 		(uuid "69685361-46ce-4998-9b2d-56ff17f1fb55")
+	)
+	(wire
+		(pts
+			(xy 82.55 33.02) (xy 118.11 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "696b34c4-28dc-4629-83c3-fccf120c3d5f")
 	)
 	(wire
 		(pts
@@ -532,6 +602,16 @@
 			(type default)
 		)
 		(uuid "be104f69-c0ac-428d-bb0e-cda471ecaf37")
+	)
+	(wire
+		(pts
+			(xy 120.65 46.99) (xy 120.65 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be794d43-230e-4220-a77f-7eeaecc33317")
 	)
 	(wire
 		(pts
@@ -1995,6 +2075,46 @@
 				(justify left)
 			)
 		)
+		(pin "SPI1_CS" input
+			(at 118.11 46.99 90)
+			(uuid "50d73847-fa2f-4b4d-bde1-b703f19a2e7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" bidirectional
+			(at 123.19 46.99 90)
+			(uuid "fabad89d-5c5c-45be-acfc-b44c3acd8d31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" bidirectional
+			(at 120.65 46.99 90)
+			(uuid "e5b6c386-93fa-4223-abdc-86bf53c32e9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" input
+			(at 125.73 46.99 90)
+			(uuid "e72caa8e-0904-4404-b0eb-c9d794378ce9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8"
@@ -2116,7 +2236,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 26.67)
+		(at 38.1 17.78)
 		(size 44.45 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2132,7 +2252,7 @@
 		)
 		(uuid "e2053849-b1b4-4732-a0d8-f90e27301853")
 		(property "Sheetname" "SD-Card Interface Audiomoth"
-			(at 30.48 25.9584 0)
+			(at 38.1 17.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,12 +2261,52 @@
 			)
 		)
 		(property "Sheetfile" "SD-Card_interface.kicad_sch"
-			(at 30.48 51.3846 0)
+			(at 38.1 42.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SPI1_CS" output
+			(at 82.55 33.02 0)
+			(uuid "558ba550-8c0a-4dd1-88d1-f807fc8df82e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" bidirectional
+			(at 82.55 27.94 0)
+			(uuid "36be334a-05dd-4fe6-b385-4301e48ba6fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" bidirectional
+			(at 82.55 30.48 0)
+			(uuid "af26a209-6c49-44d5-8874-a92682d3519b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" output
+			(at 82.55 25.4 0)
+			(uuid "5ca08ca0-a398-4cf7-9a66-a71a1144eeac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

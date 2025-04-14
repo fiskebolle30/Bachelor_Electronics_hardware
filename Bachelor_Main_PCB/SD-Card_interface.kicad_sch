@@ -673,7 +673,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 160.528 75.438 0)
+		(at 159.512 57.658 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -775,13 +775,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 74.93) (xy 146.05 74.93)
+			(xy 160.02 80.01) (xy 163.83 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "226cca97-9dd2-4259-8528-7e3b7d0b9bb6")
+		(uuid "42b7600e-ed6b-484f-aff3-88516f09063b")
 	)
 	(wire
 		(pts
@@ -835,6 +835,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f27f461-48ab-43c4-92b2-2030dfc76f52")
+	)
+	(wire
+		(pts
 			(xy 146.05 74.93) (xy 146.05 67.31)
 		)
 		(stroke
@@ -885,6 +895,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 71.12) (xy 163.83 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47bdb91-2dc7-43f6-b84e-3653fc8733f6")
+	)
+	(wire
+		(pts
 			(xy 114.3 67.31) (xy 146.05 67.31)
 		)
 		(stroke
@@ -905,6 +925,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 93.98) (xy 163.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d77cc991-7ab1-4fe9-86f1-1dbc652041e0")
+	)
+	(wire
+		(pts
 			(xy 146.05 74.93) (xy 146.05 82.55)
 		)
 		(stroke
@@ -922,6 +952,28 @@
 			(type default)
 		)
 		(uuid "ea1aa334-b2ca-497b-83b8-5ce744203349")
+	)
+	(global_label "SD-pin7"
+		(shape input)
+		(at 160.02 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0acb3ab4-dcc2-483c-a7c9-892be9f2b5ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.8706 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "SD-pin8"
 		(shape input)
@@ -1033,6 +1085,28 @@
 			)
 		)
 	)
+	(global_label "SD-pin2"
+		(shape input)
+		(at 160.02 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7e18ddf2-cc76-4e9d-8d5c-b513cd25e386")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.8706 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD-pin3"
 		(shape input)
 		(at 114.3 95.25 0)
@@ -1099,9 +1173,31 @@
 			)
 		)
 	)
+	(global_label "SD-pin3"
+		(shape input)
+		(at 160.02 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b66beef2-e7ac-4654-b33e-b12e200ac367")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.8706 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD-pin6"
 		(shape input)
-		(at 147.32 74.93 0)
+		(at 146.05 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1111,12 +1207,34 @@
 		)
 		(uuid "b97af58a-eba6-4b09-bfd0-7fc55b17d813")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.4694 74.93 0)
+			(at 157.1994 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD-pin5"
+		(shape input)
+		(at 160.02 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d01750a7-10fb-4ccd-9519-b687bdf4a2fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.8706 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1252,6 +1370,50 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape bidirectional)
+		(at 163.83 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b94c41a-8695-4193-9c24-99c2e6c1feb0")
+	)
+	(hierarchical_label "SPI1_SCK"
+		(shape output)
+		(at 163.83 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a4bef95-1902-41ff-8a9a-557a696671cd")
+	)
+	(hierarchical_label "SPI1_CS"
+		(shape output)
+		(at 163.83 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7efe5109-8d03-4261-8f4e-083beccd79ea")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape bidirectional)
+		(at 163.83 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8692bb5f-79d9-4789-bd42-f849b3bf2853")
 	)
 	(symbol
 		(lib_id "F32Q-1A7H1-11022:F32Q-1A7H1-11022")
