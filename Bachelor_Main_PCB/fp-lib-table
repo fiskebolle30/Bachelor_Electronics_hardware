@@ -18,4 +18,5 @@
   (lib (name "LM73100RPWR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LM73100RPWR")(options "")(descr ""))
   (lib (name "KiCad5")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_LD3985M18R/LD3985M18R/KiCad5")(options "")(descr ""))
   (lib (name "LMR51450FNDRRR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LMR51450FNDRRR")(options "")(descr ""))
+  (lib (name "WE-LHMI_7050")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/WE-LHMI_7050")(options "")(descr ""))
 )
