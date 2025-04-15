@@ -547,6 +547,283 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BC817-40Q-13-F:BC817-40Q-13-F"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 13.97 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BC817-40Q-13-F"
+				(at 13.97 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT96P240X110-3N"
+				(at 13.97 -101.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/BC817-16Q_40Q.pdf"
+				(at 13.97 -201.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "BVCEO > 45V  IC = 0.5A Continuous Collector Current  ICM = 1A Peak Pulse Current  Complementary PNP Types: BC807-xxQ  Ideally Suited for Automatic Insertion  Epitaxial Planar Die Construction  For Switching and AF Amplifier Applications  Totally Lead-Free & Fully RoHS Compliant (Notes 1 & 2)  Halogen and Antimony Free. \"Green\" Device (Note 3)  The BC817-16Q /-25Q/-40Q are suitable for automotive applications requiring specific change control; these parts are AEC-Q101 qualified, PPAP ca"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.1"
+				(at 13.97 -401.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Diodes Incorporated"
+				(at 13.97 -501.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BC817-40Q-13-F"
+				(at 13.97 -601.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-BC817-40Q-13-F"
+				(at 13.97 -701.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BC817-40Q-13-F?qs=4EhzHfbM1Ghn23Xx55KmTw%3D%3D"
+				(at 13.97 -801.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "BC817-40Q-13-F"
+				(at 13.97 -901.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bc817-40q-13-f/diodes-incorporated?region=europe"
+				(at 13.97 -1001.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BC817-40Q-13-F_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 10.16 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -2.54) (xy 8.89 -2.032) (xy 9.398 -3.048) (xy 8.382 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 0)
+					(radius 4.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2685,6 +2962,16 @@
 		)
 		(uuid "01fc13de-95c8-4423-ac28-b53a5553fb2e")
 	)
+	(text "Ideal Diode reverse polarity protection"
+		(exclude_from_sim no)
+		(at 81.788 14.986 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "1187f914-c9e1-4794-aece-d1741a296e5d")
+	)
 	(text "input voltage sampling with lowpass filter"
 		(exclude_from_sim no)
 		(at 51.054 85.344 0)
@@ -2707,13 +2994,33 @@
 	)
 	(text "Audiomoth power header"
 		(exclude_from_sim no)
-		(at 136.652 146.812 0)
+		(at 93.472 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "424bf595-2b2e-400b-aaa3-056d4f48712c")
+	)
+	(text "With over and undervoltage shutoff"
+		(exclude_from_sim no)
+		(at 77.978 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "44fb5ce3-5bd3-4d9d-81c7-cb512d60266d")
+	)
+	(text "Capacitance multiplier"
+		(exclude_from_sim no)
+		(at 64.77 132.842 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "7b115566-790a-4379-a979-55902a274f87")
 	)
 	(text "3,5V supply"
 		(exclude_from_sim no)
@@ -2828,6 +3135,12 @@
 		(uuid "716f2a73-92b6-4675-b64f-dceda02025ee")
 	)
 	(junction
+		(at 63.5 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72b7a814-633d-450c-9839-7f979fb78429")
+	)
+	(junction
 		(at 242.57 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2838,6 +3151,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f1ea52e-6fc0-4618-a754-67d031162944")
+	)
+	(junction
+		(at 76.2 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87aa0223-9474-4efe-8bb4-56aeca15db0c")
 	)
 	(junction
 		(at 53.34 68.58)
@@ -2918,6 +3237,12 @@
 		(uuid "e5f1df37-0041-4705-a9e5-5374b9642535")
 	)
 	(junction
+		(at 46.99 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea4a14dd-6df7-44e6-8b56-b2b471984211")
+	)
+	(junction
 		(at 24.13 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2952,6 +3277,26 @@
 	(no_connect
 		(at 93.98 30.48)
 		(uuid "ea675432-7cc1-476c-8a9e-e42ac8d3b393")
+	)
+	(wire
+		(pts
+			(xy 46.99 152.4) (xy 50.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016a57ba-4339-4f7c-86e6-3d7f5e44b8d3")
+	)
+	(wire
+		(pts
+			(xy 44.45 140.97) (xy 46.99 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0244c058-c653-4687-a29e-d42b70ed68f9")
 	)
 	(wire
 		(pts
@@ -3005,6 +3350,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 140.97) (xy 83.82 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea6995e-cecf-4388-af7f-1bd16f5c0cbc")
+	)
+	(wire
+		(pts
 			(xy 160.02 30.48) (xy 156.21 30.48)
 		)
 		(stroke
@@ -3032,6 +3387,16 @@
 			(type default)
 		)
 		(uuid "119cfc4c-8e6f-4059-b333-e365964dee6b")
+	)
+	(wire
+		(pts
+			(xy 63.5 151.13) (xy 63.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1406599a-867d-4519-a75f-c69c026a2908")
 	)
 	(wire
 		(pts
@@ -3065,6 +3430,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 149.86) (xy 76.2 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18937628-d706-48b2-bba8-ef8328191413")
+	)
+	(wire
+		(pts
 			(xy 113.03 26.67) (xy 113.03 25.4)
 		)
 		(stroke
@@ -3072,6 +3447,16 @@
 			(type default)
 		)
 		(uuid "1be5f5e8-0db1-4ed2-9cb2-dd5854b95fdb")
+	)
+	(wire
+		(pts
+			(xy 63.5 152.4) (xy 63.5 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e59ce0e-ae72-483f-966c-74e2db2ca6d8")
 	)
 	(wire
 		(pts
@@ -3295,6 +3680,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 143.51) (xy 76.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63056448-019a-431a-ba49-7f66e53ec5d6")
+	)
+	(wire
+		(pts
 			(xy 53.34 77.47) (xy 53.34 74.93)
 		)
 		(stroke
@@ -3372,6 +3767,16 @@
 			(type default)
 		)
 		(uuid "725ac997-63e6-4652-bc42-e20aebdf0e31")
+	)
+	(wire
+		(pts
+			(xy 46.99 140.97) (xy 46.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f63e74-841e-4b20-a8bc-c77c26fa6607")
 	)
 	(wire
 		(pts
@@ -3615,6 +4020,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 140.97) (xy 76.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2742f7f-cbe2-4561-bab8-b13e880c3bb1")
+	)
+	(wire
+		(pts
 			(xy 158.75 113.03) (xy 156.21 113.03)
 		)
 		(stroke
@@ -3745,6 +4160,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 143.51) (xy 86.36 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb8d160-d863-4d55-9b9b-cfe0493765fb")
+	)
+	(wire
+		(pts
 			(xy 218.44 30.48) (xy 223.52 30.48)
 		)
 		(stroke
@@ -3752,6 +4177,16 @@
 			(type default)
 		)
 		(uuid "d0677fe2-f21a-4320-a79f-f4efed5bf7e2")
+	)
+	(wire
+		(pts
+			(xy 55.88 152.4) (xy 63.5 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1421403-5b06-4446-82bf-25ab4f5b8770")
 	)
 	(wire
 		(pts
@@ -3975,6 +4410,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 140.97) (xy 55.88 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f3e478-77a9-47c2-9189-229cb07b4d26")
+	)
+	(wire
+		(pts
 			(xy 194.31 102.87) (xy 198.12 102.87)
 		)
 		(stroke
@@ -4022,6 +4467,28 @@
 			(type default)
 		)
 		(uuid "fd9bc0e8-64b2-40d6-9e2a-06523ef37ef1")
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 44.45 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "070a3043-5480-48a5-87b7-6956f190c8ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 37.5943 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "+3V5"
 		(shape output)
@@ -5612,6 +6079,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 76.2 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52285dee-0b13-4e94-a7bd-fd6eaed21b36")
+		(property "Reference" "#PWR074"
+			(at 76.2 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4e9a972-9174-48d1-a70b-fe0a3bae3d73")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 53.34 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5888,6 +6421,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d08a96f-e423-4475-98f9-77f82e43a83d")
+		(property "Reference" "C64"
+			(at 73.406 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 78.74 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 76.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 76.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 76.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 76.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bbe5a98f-ca46-4d47-96ae-bb47bb055508")
+		)
+		(pin "1"
+			(uuid "6c856000-c80f-4f46-8272-57298a6274d2")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 45.72 44.45 0)
 		(unit 1)
@@ -6037,6 +6655,148 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "C60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BC817-40Q-13-F:BC817-40Q-13-F")
+		(at 63.5 151.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "721a69e6-bf02-4b1b-9f2d-8514a9a88aa9")
+		(property "Reference" "Q4"
+			(at 63.5 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BC817-40Q-13-F"
+			(at 63.5 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT96P240X110-3N"
+			(at 164.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/BC817-16Q_40Q.pdf"
+			(at 264.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "BVCEO > 45V  IC = 0.5A Continuous Collector Current  ICM = 1A Peak Pulse Current  Complementary PNP Types: BC807-xxQ  Ideally Suited for Automatic Insertion  Epitaxial Planar Die Construction  For Switching and AF Amplifier Applications  Totally Lead-Free & Fully RoHS Compliant (Notes 1 & 2)  Halogen and Antimony Free. \"Green\" Device (Note 3)  The BC817-16Q /-25Q/-40Q are suitable for automotive applications requiring specific change control; these parts are AEC-Q101 qualified, PPAP ca"
+			(at 63.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.1"
+			(at 464.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 564.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BC817-40Q-13-F"
+			(at 664.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-BC817-40Q-13-F"
+			(at 764.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BC817-40Q-13-F?qs=4EhzHfbM1Ghn23Xx55KmTw%3D%3D"
+			(at 864.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "BC817-40Q-13-F"
+			(at 964.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bc817-40q-13-f/diodes-incorporated?region=europe"
+			(at 1064.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f721648-9da6-48dc-95ea-9fd526721e59")
+		)
+		(pin "1"
+			(uuid "b1dd12f6-caa8-46ea-b66c-9e5c4b71eb68")
+		)
+		(pin "3"
+			(uuid "c25e267d-b2e7-4463-87ba-7749eb2ce82b")
+		)
+		(instances
+			(project ""
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8124,6 +8884,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 63.5 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb6bda85-11c9-4494-bb81-94feacb216c6")
+		(property "Reference" "C63"
+			(at 60.706 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 66.04 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 63.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d20a1c3-9d5a-4cb5-8609-7e19bef0ed39")
+		)
+		(pin "1"
+			(uuid "bb2b257e-5cd2-4418-9d82-dcdf99545d04")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 223.52 46.99 180)
 		(unit 1)
@@ -8353,7 +9198,7 @@
 	)
 	(symbol
 		(lib_id "691137710002:691137710002")
-		(at 129.54 148.59 0)
+		(at 86.36 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8362,7 +9207,7 @@
 		(fields_autoplaced yes)
 		(uuid "be82f22a-2256-4832-98a8-e0995008ec38")
 		(property "Reference" "J22"
-			(at 132.08 148.5899 0)
+			(at 88.9 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +9216,7 @@
 			)
 		)
 		(property "Value" "691137710002"
-			(at 132.08 151.1299 0)
+			(at 88.9 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8380,7 +9225,7 @@
 			)
 		)
 		(property "Footprint" "691137710002:691137710002"
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,7 +9235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,7 +9244,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8408,7 +9253,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,7 +9263,7 @@
 			)
 		)
 		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +9273,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +9283,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +9293,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,7 +9303,7 @@
 			)
 		)
 		(property "MP" "691137710002"
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8468,7 +9313,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8478,7 +9323,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 129.54 148.59 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8497,6 +9342,72 @@
 			(project ""
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1522f91-c313-414f-a0a2-21fbe5fd17e9")
+		(property "Reference" "#PWR058"
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c202e225-30cf-44c2-b111-82e9fedf65d5")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8732,10 +9643,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c65e5c61-bc94-434b-a887-3557719760cd")
 		(property "Reference" "U9"
-			(at 76.2 17.78 0)
+			(at 65.278 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +9653,7 @@
 			)
 		)
 		(property "Value" "LM73100RPWR"
-			(at 76.2 20.32 0)
+			(at 86.614 21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,6 +9852,74 @@
 			(project ""
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 53.34 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7d0f093-4718-4818-9709-a52b9fbd7efc")
+		(property "Reference" "R19"
+			(at 53.34 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510"
+			(at 53.34 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3730f84-d396-4c22-af78-0b01ed915a6d")
+		)
+		(pin "2"
+			(uuid "7b04099f-b1bb-4cb7-8f0b-0ec8dec71b8f")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10002,6 +10980,72 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 63.5 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec7b591c-bd62-46f2-9eea-ba7a21bae296")
+		(property "Reference" "#PWR073"
+			(at 63.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5620ec76-2618-43ee-a62a-3dedb294229e")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

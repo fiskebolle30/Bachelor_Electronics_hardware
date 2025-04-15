@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BC817-40Q-13-F
+D  BVCEO > 45V  IC = 0.5A Continuous Collector Current  ICM = 1A Peak Pulse Current  Complementary PNP Types: BC807-xxQ  Ideally Suited for Automatic Insertion  Epitaxial Planar Die Construction  For Switching and AF Amplifier Applications  Totally Lead-Free & Fully RoHS Compliant (Notes 1 & 2)  Halogen and Antimony Free. "Green" Device (Note 3)  The BC817-16Q /-25Q/-40Q are suitable for automotive applications requiring specific change control; these parts are AEC-Q101 qualified, PPAP ca
+K
+F https://www.diodes.com//assets/Datasheets/BC817-16Q_40Q.pdf
+$ENDCMP
+#
+#End Doc Library

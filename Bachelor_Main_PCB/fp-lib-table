@@ -22,4 +22,5 @@
   (lib (name "WE-LHMI_7050_3uH3")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/WE-LHMI_7050_3uH3")(options "")(descr ""))
   (lib (name "LQM2HPN1R0MJHL")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LQM2HPN1R0MJHL")(options "")(descr ""))
   (lib (name "691137710002")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/691137710002")(options "")(descr ""))
+  (lib (name "KiCad7")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_BC817-40Q-13-F/BC817-40Q-13-F/KiCad7")(options "")(descr ""))
 )

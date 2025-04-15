@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=BC817-40Q-13-F
+PartCategory=Transistor BJT NPN
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=5.1
+Released=2019-10-23 02:55:00
+Downloaded=2025-04-15 14:08:51
+3D=Y

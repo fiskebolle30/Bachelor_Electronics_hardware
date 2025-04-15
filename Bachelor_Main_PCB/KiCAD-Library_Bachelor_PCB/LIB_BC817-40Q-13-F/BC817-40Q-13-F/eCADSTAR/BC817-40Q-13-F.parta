@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_519138"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-23-02:55:00)
+    (utime 2024-06-25-08:05:05)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "BC817-40Q-13-F")
+)
+
+
+(pinAssign "ECS_519138"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-23-02:55:00)
+    (utime 2024-06-25-08:05:05)
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_519138")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BC817-40Q-13-F")
+)
+
+
+(part "BC817-40Q-13-F"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-10-23-02:55:00)
+    (utime 2024-06-25-08:05:05)
+    (packageRef "BC817-40Q-13-F")
+    (pinAssignRef "ECS_519138")
+    (interface
+        (port "1" (symbPinId 1) (portName "B") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "E") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "C") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" " BVCEO > 45V  IC = 0.5A Continuous Collector Current  ICM = 1A Peak Pulse Current  Complementary PNP Types: BC807-xxQ  Ideally Suited for Automatic Insertion  Epitaxial Planar Die Construction  For Switching and AF Amplifier Applications  Totally Lead-Free & Fully RoHS Compliant (Notes 1 & 2)  Halogen and Antimony Free. \"Green\" Device (Note 3)  The BC817-16Q /-25Q/-40Q are suitable for automotive applications requiring specific change control; these parts are AEC-Q101 qualified, PPAP ca")
+    (property "Manufacturer_Name" "Diodes Incorporated")
+    (property "Manufacturer_Part_Number" "BC817-40Q-13-F")
+    (property "Mouser_Part_Number" "621-BC817-40Q-13-F")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/BC817-40Q-13-F?qs=4EhzHfbM1Ghn23Xx55KmTw%3D%3D")
+    (property "Arrow_Part_Number" "BC817-40Q-13-F")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/bc817-40q-13-f/diodes-incorporated?region=europe")
+    (property "Datasheet_Link" "https://www.diodes.com//assets/Datasheets/BC817-16Q_40Q.pdf")
+    (property "compAreaTopHeight" 1.1)
+)
+
+
