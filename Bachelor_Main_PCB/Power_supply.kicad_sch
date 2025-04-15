@@ -2338,6 +2338,333 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LTST-C190GKT:LTST-C190GKT"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -2.0323 4.0647 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C190GKT"
+				(at -2.0347 -3.815 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LTST-C190GKT:LEDM1608X80"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Lite-On Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Green 569nm LED Indication - Discrete 2.1V 0603 (1608 Metric)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "0603 Lite-On"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/LTST-C190GKT/Lite-On/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C190GKT/Lite-On/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "LTST-C190GKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Lite On"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C190GKT_0_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 3.302) (xy 0.127 2.921) (xy -0.381 2.413) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.429) (xy 1.27 3.048) (xy 0.762 2.54) (xy 0.381 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy -0.762 3.302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 2.032) (xy 0.381 3.429)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "WE-LHMI_7050:WE-LHMI_7050"
 			(pin_names
 				(offset 1.016)
@@ -2992,9 +3319,19 @@
 		)
 		(uuid "328c4637-17c0-4c25-b12a-6b766da5798c")
 	)
+	(text "Burde denne vere med?"
+		(exclude_from_sim no)
+		(at 156.21 183.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41088f7e-db7e-4905-b7d3-419e81483faf")
+	)
 	(text "Audiomoth power header"
 		(exclude_from_sim no)
-		(at 93.472 134.62 0)
+		(at 101.092 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3032,11 +3369,21 @@
 		)
 		(uuid "ad5454f2-f4f4-4bbe-a1df-756b6e356553")
 	)
+	(text "VIN power\nheader"
+		(exclude_from_sim no)
+		(at 16.256 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "af3c6a3f-7c84-4111-ad44-5334ccc210fa")
+	)
 	(junction
-		(at 33.02 25.4)
+		(at 34.29 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "089453bb-ef0d-4503-9d83-76e8e39d603a")
+		(uuid "056410f1-a7c7-4596-a4cf-f6371841f032")
 	)
 	(junction
 		(at 234.95 107.95)
@@ -3147,6 +3494,12 @@
 		(uuid "7ef8cf90-9bee-44e8-9b3a-33b69489a7fd")
 	)
 	(junction
+		(at 83.82 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f1c3672-4de6-4a54-81d7-bc53a4b25c81")
+	)
+	(junction
 		(at 38.1 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3189,6 +3542,12 @@
 		(uuid "9aa5a927-b94c-4b96-b33c-2388f47e47e2")
 	)
 	(junction
+		(at 63.5 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9eec14fe-d0a4-4b5f-9f8f-45dc2136d9bf")
+	)
+	(junction
 		(at 113.03 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3199,6 +3558,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a80694e6-5035-4004-afa0-026370b0fdf0")
+	)
+	(junction
+		(at 29.21 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a98e1bd0-c8bb-4f0a-824c-ad21b08c2de9")
 	)
 	(junction
 		(at 224.79 107.95)
@@ -3241,12 +3606,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea4a14dd-6df7-44e6-8b56-b2b471984211")
-	)
-	(junction
-		(at 24.13 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ece08f06-75cf-416d-844d-db6ce7db90e1")
 	)
 	(junction
 		(at 223.52 30.48)
@@ -3300,16 +3659,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 25.4) (xy 24.13 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "040d9cbc-97ac-4ef7-b0f3-4af7e2e40582")
-	)
-	(wire
-		(pts
 			(xy 121.92 185.42) (xy 116.84 185.42)
 		)
 		(stroke
@@ -3317,6 +3666,26 @@
 			(type default)
 		)
 		(uuid "061091e5-a672-46ef-b780-c730b4e40110")
+	)
+	(wire
+		(pts
+			(xy 22.86 29.21) (xy 22.86 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063947a7-b0f2-4fb0-942b-4edb1910f205")
+	)
+	(wire
+		(pts
+			(xy 29.21 25.4) (xy 34.29 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068bc3e6-737b-4046-93f2-0e4a5b9108cf")
 	)
 	(wire
 		(pts
@@ -3440,6 +3809,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 148.59) (xy 83.82 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5c63d3-89ba-4745-bd6b-091cee63a8bf")
+	)
+	(wire
+		(pts
 			(xy 113.03 26.67) (xy 113.03 25.4)
 		)
 		(stroke
@@ -3520,7 +3899,17 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 31.75) (xy 24.13 33.02)
+			(xy 60.96 182.88) (xy 63.5 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3527445c-392a-4275-9224-f4f2efccb97e")
+	)
+	(wire
+		(pts
+			(xy 29.21 33.02) (xy 29.21 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3567,6 +3956,26 @@
 			(type default)
 		)
 		(uuid "3cc380e7-3f28-4561-8d9f-3d342ad8fec2")
+	)
+	(wire
+		(pts
+			(xy 140.97 167.64) (xy 116.84 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dce4b0b-e45f-4df1-b257-e5f0c01dd07b")
+	)
+	(wire
+		(pts
+			(xy 22.86 25.4) (xy 29.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea6ddf9-06d0-4ef1-ac82-6dbae3d1fbe6")
 	)
 	(wire
 		(pts
@@ -3680,6 +4089,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 167.64) (xy 140.97 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a240b1-db1d-4779-bce8-0d736359a407")
+	)
+	(wire
+		(pts
 			(xy 76.2 143.51) (xy 76.2 140.97)
 		)
 		(stroke
@@ -3737,6 +4156,16 @@
 			(type default)
 		)
 		(uuid "67229937-258e-4a79-85c1-c8a59ebce92b")
+	)
+	(wire
+		(pts
+			(xy 116.84 167.64) (xy 116.84 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c682628-1909-43bd-9de2-01f92381b3a8")
 	)
 	(wire
 		(pts
@@ -3860,6 +4289,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 140.97) (xy 83.82 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8baa7e70-a34e-4676-99a0-7dfa4f9495b5")
+	)
+	(wire
+		(pts
 			(xy 158.75 38.1) (xy 158.75 35.56)
 		)
 		(stroke
@@ -3867,6 +4306,16 @@
 			(type default)
 		)
 		(uuid "8d1468c4-6c85-49dc-b1e8-b5ec96575531")
+	)
+	(wire
+		(pts
+			(xy 83.82 140.97) (xy 91.44 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91810fb4-f311-4c99-ada7-05dc0b8908ca")
 	)
 	(wire
 		(pts
@@ -3947,16 +4396,6 @@
 			(type default)
 		)
 		(uuid "a3db0252-306f-43bc-b6d6-27da7fa7e31d")
-	)
-	(wire
-		(pts
-			(xy 24.13 25.4) (xy 33.02 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aab32c73-559b-4055-a6af-f07c8f8b7044")
 	)
 	(wire
 		(pts
@@ -4050,7 +4489,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 26.67) (xy 24.13 25.4)
+			(xy 29.21 27.94) (xy 29.21 25.4)
 		)
 		(stroke
 			(width 0)
@@ -4160,7 +4599,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 143.51) (xy 86.36 140.97)
+			(xy 93.98 143.51) (xy 93.98 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4277,16 +4716,6 @@
 			(type default)
 		)
 		(uuid "d6f1adaf-ca36-4253-882f-ed482776e27c")
-	)
-	(wire
-		(pts
-			(xy 33.02 25.4) (xy 38.1 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8bb48dd-8840-4bbd-8630-0a2699efde63")
 	)
 	(wire
 		(pts
@@ -4410,6 +4839,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 25.4) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f872c7-8626-4b20-9575-20cf3e23828e")
+	)
+	(wire
+		(pts
 			(xy 46.99 140.97) (xy 55.88 140.97)
 		)
 		(stroke
@@ -4457,6 +4896,16 @@
 			(type default)
 		)
 		(uuid "fc145652-186a-4557-a327-38b438340c0d")
+	)
+	(wire
+		(pts
+			(xy 38.1 24.13) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcfcbe0d-aa2e-4eaf-9c97-cde4ae36c9ef")
 	)
 	(wire
 		(pts
@@ -4512,6 +4961,28 @@
 			)
 		)
 	)
+	(global_label "+3V5"
+		(shape input)
+		(at 60.96 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a9c5385-f5bd-4e84-9a1b-072ba2d4b652")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.8948 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape output)
 		(at 265.43 30.48 0)
@@ -4536,22 +5007,22 @@
 	)
 	(global_label "V_IN"
 		(shape input)
-		(at 19.05 25.4 180)
+		(at 38.1 24.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "de3d6961-3f98-470d-b67d-c20e10fc0c1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.0733 25.4 0)
+			(at 38.1 17.1533 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4750,6 +5221,91 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 83.82 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d8e71bd-191f-45ce-8845-5add2054297e")
+		(property "Reference" "C65"
+			(at 81.026 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 86.36 145.542 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3dec5cd-c03a-4c5f-8d00-bb94ab273d3e")
+		)
+		(pin "1"
+			(uuid "2df593f0-d466-436d-85c5-0450c3a087ee")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -5372,6 +5928,155 @@
 		)
 	)
 	(symbol
+		(lib_id "691137710002:691137710002")
+		(at 17.78 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2173910f-cb00-4424-aba4-8bf2942ce9ab")
+		(property "Reference" "J23"
+			(at 19.05 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "691137710002"
+			(at 19.05 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "691137710002:691137710002"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Würth Elektronik"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "691137710002"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bfd853c-5d70-4890-8aca-c40d66bd0484")
+		)
+		(pin "2"
+			(uuid "544239a7-b1a5-4865-8f9d-39d708585dc6")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 72.39 185.42 270)
 		(unit 1)
@@ -5664,7 +6369,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 33.02 35.56 0)
+		(at 34.29 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5673,7 +6378,7 @@
 		(fields_autoplaced yes)
 		(uuid "3678fc77-4567-4a80-967d-fa449799dc85")
 		(property "Reference" "#PWR047"
-			(at 33.02 41.91 0)
+			(at 34.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +6387,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 40.64 0)
+			(at 34.29 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +6395,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 35.56 0)
+			(at 34.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +6404,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 35.56 0)
+			(at 34.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +6413,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 35.56 0)
+			(at 34.29 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,6 +6984,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 83.82 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60ad1875-74f0-47e4-ac44-de8877d82389")
+		(property "Reference" "#PWR075"
+			(at 83.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 83.82 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f204076a-e5e5-4fe3-bce0-40e14efe82dd")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 254 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6500,6 +7271,72 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d4a0d18-3d40-4aff-87ab-6ba18b5c74ed")
+		(property "Reference" "#PWR076"
+			(at 22.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dc967f2-5d0f-46a2-bc37-7915137a15fd")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -7024,7 +7861,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 24.13 29.21 0)
+		(at 29.21 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7032,7 +7869,7 @@
 		(dnp no)
 		(uuid "87866834-72d1-4eed-bc1a-7b18390bb258")
 		(property "Reference" "C44"
-			(at 21.336 29.21 90)
+			(at 26.416 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7877,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 26.67 28.702 90)
+			(at 31.75 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,7 +7885,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 24.13 29.21 0)
+			(at 29.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +7894,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 29.21 0)
+			(at 29.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7903,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 24.13 29.21 0)
+			(at 29.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7075,7 +7912,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 24.13 29.21 0)
+			(at 29.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7921,7 @@
 			)
 		)
 		(property "Field6" ""
-			(at 24.13 29.21 0)
+			(at 29.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,6 +8173,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 140.97 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "936f28d8-5e56-4e5a-ac5b-4efa7266fb32")
+		(property "Reference" "#PWR079"
+			(at 140.97 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1abb720-21fb-453a-9ab3-ea28b7774d1b")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 38.1 62.23 0)
 		(unit 1)
@@ -7492,7 +8395,7 @@
 	)
 	(symbol
 		(lib_id "0402ESDA-MLP1:0402ESDA-MLP1")
-		(at 33.02 30.48 90)
+		(at 34.29 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7500,7 +8403,7 @@
 		(dnp no)
 		(uuid "9cf39816-7700-4975-8d3a-2857599f0e8f")
 		(property "Reference" "D5"
-			(at 35.052 30.734 90)
+			(at 36.322 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7509,7 +8412,7 @@
 			)
 		)
 		(property "Value" "0402ESDA-MLP1"
-			(at 27.178 33.528 90)
+			(at 28.448 33.528 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7519,7 +8422,7 @@
 			)
 		)
 		(property "Footprint" "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +8432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +8441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,7 +8450,7 @@
 			)
 		)
 		(property "MF" "Eaton"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +8460,7 @@
 			)
 		)
 		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7567,7 +8470,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 Eaton"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7577,7 +8480,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +8490,7 @@
 			)
 		)
 		(property "Package" "0402 Eaton"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7597,7 +8500,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7607,7 +8510,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +8520,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +8530,7 @@
 			)
 		)
 		(property "MP" "0402ESDA-MLP1"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7637,7 +8540,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,7 +8550,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +8560,7 @@
 			)
 		)
 		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
-			(at 33.02 30.48 0)
+			(at 34.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8555,7 +9458,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 33.02 0)
+		(at 29.21 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8564,7 +9467,7 @@
 		(fields_autoplaced yes)
 		(uuid "b125ccc1-6391-431f-9eb7-335580a8ea1f")
 		(property "Reference" "#PWR046"
-			(at 24.13 39.37 0)
+			(at 29.21 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8573,7 +9476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 38.1 0)
+			(at 29.21 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +9484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 33.02 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8590,7 +9493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 33.02 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +9502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 33.02 0)
+			(at 29.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,6 +9583,164 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LTST-C190GKT:LTST-C190GKT")
+		(at 140.97 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b50e0117-d8c5-442a-aaa8-2d2119a22318")
+		(property "Reference" "D9"
+			(at 136.398 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C190GKT"
+			(at 143.51 182.372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTST-C190GKT:LEDM1608X80"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Lite-On Inc."
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Green 569nm LED Indication - Discrete 2.1V 0603 (1608 Metric)"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Lite-On"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C190GKT/Lite-On/view-part/?ref=eda"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C190GKT/Lite-On/view-part/?ref=snap"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LTST-C190GKT"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite On"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "f09b1e71-8970-4f87-90ba-acb2209e2b65")
+		)
+		(pin "C"
+			(uuid "4e160262-593a-4751-8bc5-6071f75e05d6")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9198,7 +10259,7 @@
 	)
 	(symbol
 		(lib_id "691137710002:691137710002")
-		(at 86.36 135.89 0)
+		(at 93.98 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9207,7 +10268,7 @@
 		(fields_autoplaced yes)
 		(uuid "be82f22a-2256-4832-98a8-e0995008ec38")
 		(property "Reference" "J22"
-			(at 88.9 135.8899 0)
+			(at 96.52 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9216,7 +10277,7 @@
 			)
 		)
 		(property "Value" "691137710002"
-			(at 88.9 138.4299 0)
+			(at 96.52 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,7 +10286,7 @@
 			)
 		)
 		(property "Footprint" "691137710002:691137710002"
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9235,7 +10296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9244,7 +10305,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9253,7 +10314,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,7 +10324,7 @@
 			)
 		)
 		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.197 (5.00mm) Through Hole"
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9273,7 +10334,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +10344,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9293,7 +10354,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9303,7 +10364,7 @@
 			)
 		)
 		(property "MP" "691137710002"
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +10374,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +10384,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/691137710002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 86.36 135.89 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +10410,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 143.51 0)
+		(at 93.98 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9358,7 +10419,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1522f91-c313-414f-a0a2-21fbe5fd17e9")
 		(property "Reference" "#PWR058"
-			(at 86.36 149.86 0)
+			(at 93.98 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9367,7 +10428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 148.59 0)
+			(at 93.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9375,7 +10436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 143.51 0)
+			(at 93.98 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,7 +10445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 143.51 0)
+			(at 93.98 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,7 +10454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 143.51 0)
+			(at 93.98 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,6 +10913,76 @@
 			(project ""
 				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 140.97 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6f3a014-ec66-4ed7-a9a4-6e52c7eb796d")
+		(property "Reference" "R30"
+			(at 143.51 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 143.51 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 140.97 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 140.97 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa0fc734-e8b5-436b-ba6d-73af33d612b9")
+		)
+		(pin "2"
+			(uuid "73a96ef8-acf6-4dd8-b342-146857b3970e")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/4408de3e-a395-4433-a2e1-ccefac59f96e"
+					(reference "R30")
 					(unit 1)
 				)
 			)
