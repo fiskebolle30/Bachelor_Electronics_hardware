@@ -415,6 +415,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 86.36) (xy 146.05 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312d13f1-5f34-4ca1-9bfd-1990c710d904")
+	)
+	(wire
+		(pts
 			(xy 101.6 111.76) (xy 101.6 99.06)
 		)
 		(stroke
@@ -462,6 +472,16 @@
 			(type default)
 		)
 		(uuid "5075c2b4-e824-4955-bcb1-ee6f12fbd28e")
+	)
+	(wire
+		(pts
+			(xy 134.62 86.36) (xy 146.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a2b0cb-b6df-4cd6-aa57-e0f0426bcee1")
 	)
 	(wire
 		(pts
@@ -522,6 +542,16 @@
 			(type default)
 		)
 		(uuid "715382b4-6bd8-45b5-b0bd-f113a34d4a04")
+	)
+	(wire
+		(pts
+			(xy 134.62 77.47) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729e1311-ec46-4c81-bfd0-33525131d2e5")
 	)
 	(wire
 		(pts
@@ -1951,6 +1981,16 @@
 				(justify right)
 			)
 		)
+		(pin "RPI_CM_ENABLE" input
+			(at 146.05 105.41 90)
+			(uuid "006c0191-4be7-4a12-8bc3-9ef580ede9ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8"
@@ -1960,8 +2000,8 @@
 		)
 	)
 	(sheet
-		(at 22.86 55.88)
-		(size 45.72 16.51)
+		(at 22.86 52.07)
+		(size 45.72 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1976,7 +2016,7 @@
 		)
 		(uuid "4408de3e-a395-4433-a2e1-ccefac59f96e")
 		(property "Sheetname" "Power supply"
-			(at 22.86 55.1684 0)
+			(at 22.86 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,7 +2156,7 @@
 			)
 		)
 		(pin "RPI_CM_ENABLE" output
-			(at 101.6 58.42 180)
+			(at 134.62 77.47 270)
 			(uuid "008172fc-ec88-4c0d-9c5c-b0a6d554c34e")
 			(effects
 				(font
