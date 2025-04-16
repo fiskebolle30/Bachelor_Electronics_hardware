@@ -9146,6 +9146,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 127) (xy 30.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ace50a-7aa3-4d98-b4b4-f56806a15316")
+	)
+	(wire
+		(pts
 			(xy 289.56 247.65) (xy 289.56 248.92)
 		)
 		(stroke
@@ -10713,6 +10723,16 @@
 			(type default)
 		)
 		(uuid "dcf8fc9c-ef0c-48be-a88c-b1823f2e1b63")
+	)
+	(wire
+		(pts
+			(xy 22.86 134.62) (xy 22.86 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd069378-4a83-4bed-95ad-dcf7714c78e4")
 	)
 	(wire
 		(pts
@@ -12574,6 +12594,28 @@
 	)
 	(global_label "+3V5_USB3320"
 		(shape input)
+		(at 22.86 127 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbe0c3d5-4ea7-499c-88c4-fce9660f9d4d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.86 109.3192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V5_USB3320"
+		(shape input)
 		(at 337.82 92.71 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14057,6 +14099,72 @@
 			(project ""
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0db97869-543d-4a63-b60e-77a9a32f611e")
+		(property "Reference" "#PWR083"
+			(at 30.48 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4870c214-abe5-4fd2-aea4-5d84e2a08991")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -15791,6 +15899,79 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Oscillator:SG-210STF")
+		(at 30.48 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d0d95fb-7dd5-45a9-95ed-41d63e6d70c5")
+		(property "Reference" "Y4"
+			(at 33.274 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SG-210STF 24Mhz"
+			(at 30.226 125.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG210-4Pin_2.5x2.0mm"
+			(at 41.91 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210STF"
+			(at 27.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CMOS Crystal Oscillator SPXO"
+			(at 30.48 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfc308e2-2333-48a4-8ca4-49db1fa96d26")
+		)
+		(pin "2"
+			(uuid "3ef5b7e3-23df-408d-b877-0dad70fcc9be")
+		)
+		(pin "3"
+			(uuid "9ba116dd-fffc-4a50-a8a9-8b6c921cbda2")
+		)
+		(pin "4"
+			(uuid "b3dafd17-9a60-4494-99c4-2d66f1f7805f")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "Y4")
 					(unit 1)
 				)
 			)
