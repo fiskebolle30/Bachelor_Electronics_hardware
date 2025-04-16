@@ -1154,7 +1154,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECS-327TXO-33-TR:ECS-327TXO-33-TR"
+		(symbol "ECS-327TXO-30-TR:ECS-327TXO-30-TR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1170,7 +1170,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "ECS-327TXO-33-TR"
+			(property "Value" "ECS-327TXO-30-TR"
 				(at -17.78 -10.16 0)
 				(effects
 					(font
@@ -1179,7 +1179,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ECS-327TXO-33-TR:OSC_ECS-327TXO-33-TR"
+			(property "Footprint" "ECS-327TXO-30-TR:OSC_ECS-327TXO-30-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1247,7 +1247,7 @@
 					(hide yes)
 				)
 			)
-			(property "Check_prices" "https://www.snapeda.com/parts/ECS-327TXO-33-TR/ECS/view-part/?ref=eda"
+			(property "Check_prices" "https://www.snapeda.com/parts/ECS-327TXO-30-TR/ECS/view-part/?ref=eda"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1277,7 +1277,7 @@
 					(hide yes)
 				)
 			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-327TXO-33-TR/ECS/view-part/?ref=snap"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-327TXO-30-TR/ECS/view-part/?ref=snap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1287,7 +1287,7 @@
 					(hide yes)
 				)
 			)
-			(property "MP" "ECS-327TXO-33-TR"
+			(property "MP" "ECS-327TXO-30-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1297,7 +1297,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "32.768 kHz TCXO CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
+			(property "Description_1" "32.768 kHz TCXO CMOS Oscillator 3V Enable/Disable 4-SMD, No Lead"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1327,7 +1327,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ECS-327TXO-33-TR_0_0"
+			(symbol "ECS-327TXO-30-TR_0_0"
 				(rectangle
 					(start -17.78 -7.62)
 					(end 17.78 7.62)
@@ -16857,6 +16857,201 @@
 		)
 	)
 	(symbol
+		(lib_id "ECS-327TXO-30-TR:ECS-327TXO-30-TR")
+		(at 43.18 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70a27754-f954-4191-94eb-40310ab2a5c1")
+		(property "Reference" "Y5"
+			(at 43.18 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ECS-327TXO-30-TR"
+			(at 43.18 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ECS-327TXO-30-TR:OSC_ECS-327TXO-30-TR"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "ECS Inc."
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.4 mm"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "ECS-327TXO-0-4 ECS"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/ECS-327TXO-30-TR/ECS/view-part/?ref=eda"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev.2019"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-327TXO-30-TR/ECS/view-part/?ref=snap"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "ECS-327TXO-30-TR"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "32.768 kHz TCXO CMOS Oscillator 3V Enable/Disable 4-SMD, No Lead"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ECS"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "68429741-469e-49ce-928c-982ae6904720")
+		)
+		(pin "2"
+			(uuid "dcd93fd5-9b76-4663-b835-aa556181bc94")
+		)
+		(pin "3"
+			(uuid "19e5f6de-9b18-4aa1-be82-dc017135b5e8")
+		)
+		(pin "1"
+			(uuid "a868c0fc-7618-4dae-9880-22d1ac49f2b0")
+		)
+		(instances
+			(project ""
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "Y5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 204.47 269.24 0)
 		(unit 1)
@@ -18617,201 +18812,6 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ECS-327TXO-33-TR:ECS-327TXO-33-TR")
-		(at 43.18 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7882e68-870f-4256-9c71-bd3f36f8e0f8")
-		(property "Reference" "Y2"
-			(at 43.18 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECS-327TXO-33-TR"
-			(at 43.18 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ECS-327TXO-33-TR:OSC_ECS-327TXO-33-TR"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "ECS Inc."
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.4 mm"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "ECS-327TXO-0-4 ECS"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ECS-327TXO-33-TR/ECS/view-part/?ref=eda"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "Rev.2019"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-327TXO-33-TR/ECS/view-part/?ref=snap"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ECS-327TXO-33-TR"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "32.768 kHz TCXO CMOS Oscillator 3.3V Enable/Disable 4-SMD, No Lead"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "ECS"
-			(at 43.18 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0d21698-cf7f-43f7-95a9-e41c025a0c80")
-		)
-		(pin "3"
-			(uuid "d715681a-e645-4409-b0a2-c73ceda4b67d")
-		)
-		(pin "2"
-			(uuid "24f060e6-e3e4-43c4-ab48-a368f633b51f")
-		)
-		(pin "4"
-			(uuid "948bdf1e-3aee-45cc-9937-8b2ef1cabfd4")
-		)
-		(instances
-			(project ""
-				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
