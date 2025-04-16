@@ -4794,7 +4794,7 @@
 			)
 		)
 		(property "Value" "SG-210STF 24Mhz"
-			(at 73.406 93.726 0)
+			(at 75.438 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)

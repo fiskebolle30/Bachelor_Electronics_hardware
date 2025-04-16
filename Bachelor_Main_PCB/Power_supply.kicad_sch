@@ -10996,10 +10996,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c7d0f093-4718-4818-9709-a52b9fbd7efc")
 		(property "Reference" "R19"
-			(at 53.34 147.32 90)
+			(at 51.562 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11007,7 +11006,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 53.34 149.86 90)
+			(at 55.626 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
