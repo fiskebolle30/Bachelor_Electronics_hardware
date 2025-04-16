@@ -661,9 +661,9 @@
 		)
 		(uuid "c729a959-0cfb-4fae-8687-f418fa33931e")
 	)
-	(text "DO"
+	(text "MISO"
 		(exclude_from_sim no)
-		(at 127 71.628 0)
+		(at 128.016 71.628 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -691,9 +691,9 @@
 		)
 		(uuid "d5e21c95-8d45-4e93-bef4-bead4d0d6d54")
 	)
-	(text "DI"
+	(text "MOSI"
 		(exclude_from_sim no)
-		(at 127 94.234 0)
+		(at 128.524 94.234 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -775,7 +775,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 80.01) (xy 184.15 80.01)
+			(xy 161.29 80.01) (xy 165.1 80.01)
 		)
 		(stroke
 			(width 0)
@@ -835,7 +835,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 101.6) (xy 180.34 101.6)
+			(xy 165.1 101.6) (xy 161.29 101.6)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 184.15 71.12)
+			(xy 161.29 71.12) (xy 165.1 71.12)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 184.15 93.98)
+			(xy 161.29 93.98) (xy 165.1 93.98)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +955,7 @@
 	)
 	(global_label "SD-pin7"
 		(shape input)
-		(at 180.34 71.12 180)
+		(at 161.29 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -965,7 +965,7 @@
 		)
 		(uuid "0acb3ab4-dcc2-483c-a7c9-892be9f2b5ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.1906 71.12 0)
+			(at 150.1406 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1087,7 @@
 	)
 	(global_label "SD-pin2"
 		(shape input)
-		(at 180.34 101.6 180)
+		(at 161.29 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1097,7 +1097,7 @@
 		)
 		(uuid "7e18ddf2-cc76-4e9d-8d5c-b513cd25e386")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.1906 101.6 0)
+			(at 150.1406 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1175,7 @@
 	)
 	(global_label "SD-pin3"
 		(shape input)
-		(at 180.34 93.98 180)
+		(at 161.29 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1185,7 +1185,7 @@
 		)
 		(uuid "b66beef2-e7ac-4654-b33e-b12e200ac367")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.1906 93.98 0)
+			(at 150.1406 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1219,7 @@
 	)
 	(global_label "SD-pin5"
 		(shape input)
-		(at 180.34 80.01 180)
+		(at 161.29 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1229,7 +1229,7 @@
 		)
 		(uuid "d01750a7-10fb-4ccd-9519-b687bdf4a2fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.1906 80.01 0)
+			(at 150.1406 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1373,7 +1373,7 @@
 	)
 	(hierarchical_label "SPI1_MOSI"
 		(shape bidirectional)
-		(at 184.15 93.98 0)
+		(at 165.1 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1384,7 +1384,7 @@
 	)
 	(hierarchical_label "SPI1_SCK"
 		(shape output)
-		(at 184.15 80.01 0)
+		(at 165.1 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1395,7 +1395,7 @@
 	)
 	(hierarchical_label "SPI1_CS"
 		(shape output)
-		(at 184.15 101.6 0)
+		(at 165.1 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1406,7 +1406,7 @@
 	)
 	(hierarchical_label "SPI1_MISO"
 		(shape bidirectional)
-		(at 184.15 71.12 0)
+		(at 165.1 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)

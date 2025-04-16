@@ -7782,16 +7782,6 @@
 		)
 		(uuid "1e958595-1e42-47c0-a14e-281023a71cb1")
 	)
-	(text "Dobbeltsjekk denne med Steinar"
-		(exclude_from_sim no)
-		(at 289.052 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "20ef8f8c-9c39-4495-8f63-c77781885d3d")
-	)
 	(text "MCU_VDD"
 		(exclude_from_sim no)
 		(at 57.912 259.334 0)
@@ -7832,7 +7822,7 @@
 		)
 		(uuid "3d711100-8d0b-4e17-9fd4-17e9c6919f84")
 	)
-	(text "VDDLDO bypass caps, 1 per Pin\n"
+	(text "VDDLDO/VCAP bypass caps, 1 per Pin\n"
 		(exclude_from_sim no)
 		(at 281.178 245.11 0)
 		(effects
@@ -8321,12 +8311,6 @@
 		(uuid "9b47e423-8132-4eb5-bd02-553e30d44a03")
 	)
 	(junction
-		(at 266.7 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9bca2346-da17-4749-9f5d-93996eba1a42")
-	)
-	(junction
 		(at 227.33 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8397,6 +8381,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b808c455-46a5-4049-9285-7e579a4c48f6")
+	)
+	(junction
+		(at 323.85 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8e10250-070f-4b03-8f09-9a2dc3795fb3")
 	)
 	(junction
 		(at 74.93 46.99)
@@ -9296,7 +9286,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 105.41) (xy 328.93 105.41)
+			(xy 317.5 105.41) (xy 323.85 105.41)
 		)
 		(stroke
 			(width 0)
@@ -9536,7 +9526,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 90.17) (xy 284.48 90.17)
+			(xy 289.56 90.17) (xy 284.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10426,16 +10416,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 100.33) (xy 266.7 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0c26396-c056-4407-9024-c821b596db0b")
-	)
-	(wire
-		(pts
 			(xy 254 265.43) (xy 254 266.7)
 		)
 		(stroke
@@ -10913,6 +10893,16 @@
 			(type default)
 		)
 		(uuid "ed8eddee-a97d-4719-a18d-8b571cf2d1ca")
+	)
+	(wire
+		(pts
+			(xy 323.85 105.41) (xy 328.93 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1686f5c-7911-41a4-b3df-901617e4c8f4")
 	)
 	(wire
 		(pts
@@ -11839,6 +11829,28 @@
 		(uuid "69edd941-5a8c-44fe-a04f-5131f7c3ec17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 253.1147 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 289.56 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "71c24250-3a16-4e81-a5b3-4e294a51c832")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 296.4157 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13150,17 +13162,6 @@
 			(justify right)
 		)
 		(uuid "e79fd5e5-38e3-479a-88af-3a4011a04fd1")
-	)
-	(hierarchical_label "RPI_5v"
-		(shape input)
-		(at 287.02 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb8be919-24aa-4dea-affb-935a64e086f0")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -17532,10 +17533,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5d7b47d-69e8-44d5-9456-1876d2d93eb5")
 		(property "Reference" "R3"
-			(at 281.94 85.09 90)
+			(at 279.908 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17543,7 +17543,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 281.94 87.63 90)
+			(at 283.464 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20096,6 +20096,72 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 323.85 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dadc2074-319b-4235-9a54-6587a5063fbe")
+		(property "Reference" "#PWR082"
+			(at 323.85 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.326 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 323.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 323.85 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7c10651-ab70-442b-829b-2dce8887469b")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
