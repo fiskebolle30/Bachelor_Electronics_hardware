@@ -6095,6 +6095,22 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "CL10B105KO8NNNC "
+			(at 116.84 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage rating" "16v"
+			(at 116.84 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f8a2eebc-9554-4498-8f36-f69d95a66445")
 		)
