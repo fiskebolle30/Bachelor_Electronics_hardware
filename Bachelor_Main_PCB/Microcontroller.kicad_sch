@@ -13611,7 +13611,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 311.15 142.494 0)
 			(effects
 				(font
@@ -13812,7 +13812,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 304.292 142.494 0)
 			(effects
 				(font
@@ -15674,6 +15674,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "RC0603FR-0710KL"
+			(at 209.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cf77d57b-751b-49b4-ba0e-d33635fa8586")
 		)
@@ -15707,7 +15715,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 370.586 142.748 0)
 			(effects
 				(font
@@ -15994,6 +16002,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "RC0603FR-0710KL"
+			(at 397.51 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43a5e44d-2889-4894-a970-ecf5ac6048a6")
 		)
@@ -16233,7 +16249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 329.946 142.748 0)
 			(effects
 				(font
@@ -19075,6 +19091,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "RC0603FR-0710KL"
+			(at 391.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb4ffef4-326e-446c-9ce8-01b17f05e3ae")
 		)
@@ -19379,6 +19403,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC0603FR-0710KL"
+			(at 281.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20351,7 +20383,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 317.246 142.748 0)
 			(effects
 				(font
@@ -23210,7 +23242,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 323.342 142.24 0)
 			(effects
 				(font

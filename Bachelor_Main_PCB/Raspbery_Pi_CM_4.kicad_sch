@@ -11197,6 +11197,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "RC0603FR-0710KL"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b036d11d-3df4-47c2-9364-ca7b4e2b6292")
 		)
@@ -11513,6 +11521,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC0603FR-0710KL"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -11864,6 +11880,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC0603FR-0710KL"
+			(at 111.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

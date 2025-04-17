@@ -5429,6 +5429,14 @@
 				)
 			)
 		)
+		(property "Part-no" "RMCF0603FT470K"
+			(at 45.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f6985cd-36df-466f-9391-c72d788c4a2e")
 		)
@@ -6624,6 +6632,14 @@
 				)
 			)
 		)
+		(property "Part-no" "RC0603FR-0719K1L"
+			(at 224.79 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "88f0c4ea-9119-474a-9760-d5c7452ee841")
 		)
@@ -7623,6 +7639,14 @@
 				)
 			)
 		)
+		(property "Part-no" "RC0603FR-0715KL"
+			(at 158.75 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "32dea4ec-072f-4e8e-adb7-41a71bf17a44")
 		)
@@ -7863,6 +7887,14 @@
 		)
 		(property "Tolerance" "1%"
 			(at 43.688 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-no" "RMCF0603FT30K1"
+			(at 45.72 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,6 +8573,14 @@
 				)
 			)
 		)
+		(property "Part-no" "RMCF0603FT100K"
+			(at 223.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "208ada61-26a7-4a74-8470-1bcc34778035")
 		)
@@ -8916,6 +8956,14 @@
 		)
 		(property "Tolerance" "1%"
 			(at 36.068 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-no" "RC0603FR-0710KL"
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9500,6 +9548,14 @@
 				)
 			)
 		)
+		(property "Part-no" "RC0603FR-0786K6L"
+			(at 45.72 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7fde7a18-515f-4580-9c3d-16b8c4482a14")
 		)
@@ -9571,6 +9627,14 @@
 		)
 		(property "Tolerance" "1%"
 			(at 227.076 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-no" "RC0603FR-0764K9L"
+			(at 224.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,6 +10866,14 @@
 		)
 		(property "Tolerance" "1%"
 			(at 225.806 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-no" "RC0603FR-0719K1L"
+			(at 223.52 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12048,6 +12120,14 @@
 				)
 			)
 		)
+		(property "Part-no" "RC0603FR-0715KL"
+			(at 156.21 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a63aef3e-fd52-48e6-abd5-d78da6242aa4")
 		)
@@ -12222,6 +12302,14 @@
 		)
 		(property "Tolerance" "1%"
 			(at 36.068 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-no" "RC0603FR-0791KL"
+			(at 38.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12727,6 +12815,14 @@
 		)
 		(property "Tolerance" "1%"
 			(at 98.044 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part-no" "RC0603FR-072K26L"
+			(at 100.33 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
