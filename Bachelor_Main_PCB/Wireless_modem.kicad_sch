@@ -7591,6 +7591,12 @@
 		(uuid "fac6b82e-0113-4a8d-a147-4c4c46541a3b")
 	)
 	(junction
+		(at 209.55 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10416149-7848-481f-9371-745cc6b7daa4")
+	)
+	(junction
 		(at 38.1 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7703,6 +7709,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9180400c-7b2c-4823-9e42-449ea78ce651")
+	)
+	(junction
+		(at 209.55 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "922ca7df-8988-4654-8386-ebbe046667f2")
 	)
 	(junction
 		(at 215.9 33.02)
@@ -8092,6 +8104,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 33.02) (xy 209.55 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df3026a-9e84-4e0d-8503-6503331df291")
+	)
+	(wire
+		(pts
 			(xy 128.27 181.61) (xy 135.89 181.61)
 		)
 		(stroke
@@ -8189,6 +8211,16 @@
 			(type default)
 		)
 		(uuid "16991d7c-505a-4eaa-80ba-91171447de3d")
+	)
+	(wire
+		(pts
+			(xy 209.55 41.91) (xy 209.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cfbc39-acae-4106-8ba2-c6652962e2f7")
 	)
 	(wire
 		(pts
@@ -8782,6 +8814,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 33.02) (xy 215.9 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d56ae01-7dae-4e40-9cd5-105b83933ebe")
+	)
+	(wire
+		(pts
 			(xy 193.04 107.95) (xy 193.04 109.22)
 		)
 		(stroke
@@ -8912,7 +8954,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 33.02) (xy 215.9 33.02)
+			(xy 198.12 33.02) (xy 209.55 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9022,7 +9064,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 54.61) (xy 212.09 54.61)
+			(xy 180.34 54.61) (xy 209.55 54.61)
 		)
 		(stroke
 			(width 0)
@@ -9399,6 +9441,16 @@
 			(type default)
 		)
 		(uuid "e6a34c17-e6f3-45b3-8250-8b5f43eb3ce3")
+	)
+	(wire
+		(pts
+			(xy 209.55 54.61) (xy 212.09 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8128a02-30e2-4eca-9a44-011ba43e531c")
 	)
 	(wire
 		(pts
@@ -20502,6 +20554,157 @@
 			(project ""
 				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
 					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 209.55 39.37 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "d218af4b-559e-475f-a117-fcab17fabc5d")
+		(property "Reference" "R34"
+			(at 207.01 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 207.01 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quantity" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 209.55 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a0a04dc-b5e8-446f-b7e3-6b9e1bae5e02")
+		)
+		(pin "2"
+			(uuid "7cfc6193-0adc-4636-8007-c0c227ce713f")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "R34")
 					(unit 1)
 				)
 			)
