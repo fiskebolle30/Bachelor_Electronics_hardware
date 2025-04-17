@@ -465,6 +465,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 87.63) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4676121d-3ef9-4819-912b-491a1604c26b")
+	)
+	(wire
+		(pts
 			(xy 125.73 25.4) (xy 82.55 25.4)
 		)
 		(stroke
@@ -722,6 +732,16 @@
 			(type default)
 		)
 		(uuid "d39d7638-ebbe-4fae-a4a4-689f30a04386")
+	)
+	(wire
+		(pts
+			(xy 215.9 62.23) (xy 148.59 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df0eaf69-0ccd-4e1e-a478-156dce7bdaf7")
 	)
 	(wire
 		(pts
@@ -2225,6 +2245,16 @@
 				(justify left)
 			)
 		)
+		(pin "24Mhz_CLK" output
+			(at 148.59 62.23 0)
+			(uuid "baad77c5-28ae-4144-9cfd-7927b4459851")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8"
@@ -2335,6 +2365,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "24Mhz_CLK" input
+			(at 215.9 87.63 90)
+			(uuid "718ee848-df26-477d-811a-7fcec55b88ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
