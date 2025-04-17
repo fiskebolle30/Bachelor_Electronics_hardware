@@ -6208,7 +6208,7 @@
 				)
 			)
 		)
-		(property "Value" "4,7uH"
+		(property "Value" "4.7uH"
 			(at 214.122 26.416 0)
 			(effects
 				(font
@@ -9510,7 +9510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "86k6"
+		(property "Value" "86.6k"
 			(at 48.26 38.0999 0)
 			(effects
 				(font
@@ -12631,7 +12631,7 @@
 				)
 			)
 		)
-		(property "Value" "3,3uH"
+		(property "Value" "3.3uH"
 			(at 213.36 81.026 0)
 			(effects
 				(font
@@ -12788,7 +12788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2k26"
+		(property "Value" "2.26k"
 			(at 101.6 39.37 0)
 			(effects
 				(font
