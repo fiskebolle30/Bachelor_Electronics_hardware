@@ -7969,6 +7969,16 @@
 		)
 		(uuid "8d2f3591-e7aa-4b94-8b6b-0d61182b3cb4")
 	)
+	(text "Has to be enabled\nto conserve power"
+		(exclude_from_sim no)
+		(at 13.716 139.192 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9720b61e-b0af-4e3f-a90e-0742c9069dd8")
+	)
 	(text "JTDO/SWO"
 		(exclude_from_sim no)
 		(at 58.42 261.874 0)
@@ -8300,12 +8310,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c9cfb84-7903-4903-a916-384a349d6761")
-	)
-	(junction
-		(at 26.67 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cd9b926-67be-49ff-9d23-64e6d1685d83")
 	)
 	(junction
 		(at 34.29 97.79)
@@ -8968,16 +8972,6 @@
 			(type default)
 		)
 		(uuid "174a689e-3721-4b4e-bf2c-ca669195d1bd")
-	)
-	(wire
-		(pts
-			(xy 25.4 134.62) (xy 26.67 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17dbe3a8-9ff6-483a-991d-be323664f78f")
 	)
 	(wire
 		(pts
@@ -10251,16 +10245,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 142.24) (xy 26.67 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "952a5d0b-1091-436e-bc61-7b4f0c1e5c50")
-	)
-	(wire
-		(pts
 			(xy 316.23 137.16) (xy 316.23 138.43)
 		)
 		(stroke
@@ -10651,7 +10635,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 134.62) (xy 27.94 134.62)
+			(xy 25.4 134.62) (xy 27.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11288,16 +11272,6 @@
 			(type default)
 		)
 		(uuid "f8973daf-6cf0-4820-ab3c-6ac315b9914c")
-	)
-	(wire
-		(pts
-			(xy 26.67 137.16) (xy 26.67 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9b5f760-c37f-4656-87b5-7fafb992b45f")
 	)
 	(wire
 		(pts
@@ -14537,6 +14511,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -14545,6 +14520,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14723,6 +14699,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -14731,6 +14708,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14743,75 +14721,6 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 26.67 139.7 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f017721-e317-4f95-b02a-9d7039f67768")
-		(property "Reference" "R35"
-			(at 21.59 138.938 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "47K"
-			(at 21.59 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 26.67 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "826ac31e-801e-48b4-abd1-c128b7a84825")
-		)
-		(pin "2"
-			(uuid "02b485be-289e-468b-9aa7-15c8ca89d1bf")
-		)
-		(instances
-			(project "Bachelor_Main_PCB"
-				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
-					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -15040,6 +14949,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -15048,6 +14958,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15141,6 +15052,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -15149,6 +15061,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15242,6 +15155,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -15250,6 +15164,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15500,72 +15415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 26.67 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37b295b3-e5d7-4fed-a9b8-ae3dfdec70c9")
-		(property "Reference" "#PWR086"
-			(at 26.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a191a544-8abf-4784-9139-3d2816f23f74")
-		)
-		(instances
-			(project "Bachelor_Main_PCB"
-				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
-					(reference "#PWR086")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 289.56 251.46 0)
 		(unit 1)
@@ -15641,6 +15490,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -15649,6 +15499,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15742,6 +15593,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -15750,6 +15602,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15981,6 +15834,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -15989,6 +15843,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16333,6 +16188,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -16341,6 +16197,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16503,6 +16360,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -16511,6 +16369,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16604,6 +16463,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -16612,6 +16472,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16771,6 +16632,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -16779,6 +16641,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16872,6 +16735,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -16880,6 +16744,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17427,6 +17292,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -17435,6 +17301,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18244,6 +18111,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -18252,6 +18120,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -19603,6 +19472,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -19611,6 +19481,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -20202,6 +20073,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -20210,6 +20082,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22327,6 +22200,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -22335,6 +22209,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22476,6 +22351,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -22484,6 +22360,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22577,6 +22454,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -22585,6 +22463,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22949,6 +22828,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -22957,6 +22837,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23050,6 +22931,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -23058,6 +22940,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -23282,6 +23165,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -23290,6 +23174,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"

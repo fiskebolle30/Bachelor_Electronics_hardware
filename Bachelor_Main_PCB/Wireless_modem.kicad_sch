@@ -7562,7 +7562,7 @@
 	)
 	(text "Signal inverter\nMeaning active High"
 		(exclude_from_sim no)
-		(at 62.992 172.466 0)
+		(at 65.532 165.862 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7619,6 +7619,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20edcd99-10f3-4b73-9ef5-6f8d594b6dc8")
+	)
+	(junction
+		(at 68.58 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2241acec-b6e7-46cd-84c6-4504cf158909")
 	)
 	(junction
 		(at 135.89 176.53)
@@ -8364,7 +8370,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 168.91) (xy 64.77 168.91)
+			(xy 63.5 168.91) (xy 68.58 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8651,6 +8657,16 @@
 			(type solid)
 		)
 		(uuid "61760041-dd9f-4dc7-bcba-a2e63452a316")
+	)
+	(wire
+		(pts
+			(xy 68.58 168.91) (xy 73.66 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "617f9b0b-15cf-4579-a85d-9c61cdba872e")
 	)
 	(wire
 		(pts
@@ -9151,6 +9167,16 @@
 			(type solid)
 		)
 		(uuid "b4dfa13a-4a23-48bb-ba59-21419b0860e6")
+	)
+	(wire
+		(pts
+			(xy 68.58 168.91) (xy 68.58 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b729cb2a-942b-4b17-8dcd-bd75adb5b356")
 	)
 	(wire
 		(pts
@@ -10096,7 +10122,7 @@
 	)
 	(hierarchical_label "MODEM_3V5_EN"
 		(shape input)
-		(at 64.77 168.91 0)
+		(at 73.66 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12825,6 +12851,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 68.58 175.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29ce62f8-ce88-4e8a-b687-53add1b81b45")
+		(property "Reference" "#PWR087"
+			(at 68.58 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d73994f2-52da-4bdd-9a00-d0f8797580ba")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESD7004MUTAG:ESD7004MUTAG")
 		(at 214.63 66.04 270)
 		(unit 1)
@@ -13500,6 +13592,157 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
 					(reference "T7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 68.58 172.72 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3450b172-7606-490b-b91d-c42fcd9f8cba")
+		(property "Reference" "R58"
+			(at 71.12 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.12 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quantity" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 68.58 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea8cc142-d1f4-47f8-8218-c2e1283d6423")
+		)
+		(pin "2"
+			(uuid "5d06f07a-870b-4e33-aa61-272be7bb11da")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -15761,6 +16004,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -15769,6 +16013,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17075,6 +17320,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Voltage rating" "50v"
@@ -17083,6 +17329,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22749,10 +22996,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f270dfd4-76b2-4a56-a9e7-97c752a1e615")
 		(property "Reference" "R54"
-			(at 60.96 163.83 90)
+			(at 60.96 171.196 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22760,7 +23006,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 60.96 166.37 90)
+			(at 60.96 173.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)

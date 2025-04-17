@@ -7303,6 +7303,12 @@
 		(uuid "1344f7a1-e0c6-4dbe-8d75-45b1cdf29f97")
 	)
 	(junction
+		(at 135.89 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "107a39c5-336d-4072-aca9-cb6f67cb360b")
+	)
+	(junction
 		(at 91.44 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7343,6 +7349,16 @@
 			(type default)
 		)
 		(uuid "163ff9e4-ad6d-4247-a1ce-28a478b8211f")
+	)
+	(wire
+		(pts
+			(xy 135.89 49.53) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6c721d-4fca-4c36-8d10-a7898e9243c3")
 	)
 	(wire
 		(pts
@@ -7446,13 +7462,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 43.18) (xy 124.46 43.18)
+			(xy 139.7 43.18) (xy 135.89 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bf68d4b8-b21b-4112-a6d1-ef5ce037e221")
+	)
+	(wire
+		(pts
+			(xy 135.89 44.45) (xy 135.89 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa1876b-a4da-46e6-942a-1b5339ff6ddd")
 	)
 	(wire
 		(pts
@@ -7483,6 +7509,16 @@
 			(type default)
 		)
 		(uuid "d8cf0f2a-c5f9-4c3e-836d-f2aa9455ab3f")
+	)
+	(wire
+		(pts
+			(xy 135.89 43.18) (xy 124.46 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db5b1cd6-59eb-4611-9f30-83e09ee79419")
 	)
 	(wire
 		(pts
@@ -7669,7 +7705,7 @@
 	)
 	(hierarchical_label "RPI_CM_ENABLE"
 		(shape input)
-		(at 125.73 43.18 0)
+		(at 139.7 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11344,6 +11380,157 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6979220-0b3c-48af-b254-52176566cc77")
+		(property "Reference" "R57"
+			(at 138.43 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.43 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quantity" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8216f575-bcc7-4849-a6d0-61282d91ccde")
+		)
+		(pin "2"
+			(uuid "bf45dd40-f3cc-49c6-a141-3571a597b865")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/19a8d5c6-db4f-4fc8-ad15-158c7bfaff85"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "M20-9990245:M20-9990245")
 		(at 91.44 20.32 90)
 		(unit 1)
@@ -11689,6 +11876,72 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/19a8d5c6-db4f-4fc8-ad15-158c7bfaff85"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f35d0d-8a80-49f9-bea6-db69372e20ec")
+		(property "Reference" "#PWR086"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c00eccfb-dffc-4775-b974-9035f4547d12")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/19a8d5c6-db4f-4fc8-ad15-158c7bfaff85"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
