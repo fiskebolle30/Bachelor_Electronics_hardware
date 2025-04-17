@@ -5780,7 +5780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 259.08 34.29 0)
 			(effects
 				(font
@@ -5817,6 +5817,24 @@
 			)
 		)
 		(property "Field6" ""
+			(at 259.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-no" "GRM31CR61A476ME15L "
+			(at 259.08 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "10v"
 			(at 259.08 34.29 0)
 			(effects
 				(font
@@ -6082,7 +6100,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "202c3d6d-a877-4abc-94be-9b631d46e85b")
 		(property "Reference" "L2"
@@ -9693,7 +9711,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 251.46 34.29 0)
 			(effects
 				(font
@@ -9720,7 +9738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field5" ""
+		(property "Part-no" "GRM31CR61A476ME15L "
 			(at 251.46 34.29 0)
 			(effects
 				(font
@@ -9729,7 +9747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field6" ""
+		(property "Voltage rating" "10v"
 			(at 251.46 34.29 0)
 			(effects
 				(font
@@ -10563,7 +10581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 261.62 88.9 0)
 			(effects
 				(font
@@ -10600,6 +10618,24 @@
 			)
 		)
 		(property "Field6" ""
+			(at 261.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-no" "GRM31CR61A476ME15L "
+			(at 261.62 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "10v"
 			(at 261.62 88.9 0)
 			(effects
 				(font
@@ -12787,7 +12823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 254 88.9 0)
 			(effects
 				(font
@@ -12824,6 +12860,24 @@
 			)
 		)
 		(property "Field6" ""
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-no" "GRM31CR61A476ME15L "
+			(at 254 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "10v"
 			(at 254 88.9 0)
 			(effects
 				(font
