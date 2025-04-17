@@ -1511,6 +1511,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "F32Q-1A7H1-11022"
+			(at 104.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "22"
 			(uuid "d96d4445-175f-42cd-b2d6-d4f254fa6d4d")
 		)

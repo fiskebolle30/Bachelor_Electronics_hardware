@@ -2316,6 +2316,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "USB2514B-I/M2"
+			(at 130.81 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5565d96-c729-4597-a74f-7f75befcc39d")
 		)
@@ -3313,6 +3321,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "M20-9990245"
+			(at 33.02 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"

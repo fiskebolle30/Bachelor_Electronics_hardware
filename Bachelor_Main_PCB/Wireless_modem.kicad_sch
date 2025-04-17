@@ -10573,6 +10573,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "CONMHF1-SMD-G-T"
+			(at 33.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S1"
 			(uuid "35a64c83-3d8b-47c2-bfce-af6fff80ec5f")
 		)
@@ -10921,6 +10929,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "M20-9990245"
+			(at 30.48 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bc4d05c0-878e-459f-aa40-e80dc89f94d3")
 		)
@@ -11142,6 +11158,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "LTST-C190GKT"
+			(at 24.13 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -11523,6 +11547,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "NX3008NBKW"
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "588a1f0f-6d19-470b-bfee-eb38a7b945b4")
 		)
@@ -11690,7 +11722,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104625"
+		(property "Value" "RC7620_1104627"
 			(at 102.87 19.05 0)
 			(effects
 				(font
@@ -11766,7 +11798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RC7620_1104625/Sierra+Wireless/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/RC7620_1104627/Sierra+Wireless/view-part/?ref=eda"
 			(at 102.87 82.55 0)
 			(effects
 				(font
@@ -11796,7 +11828,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC7620_1104625/Sierra+Wireless/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC7620_1104627/Sierra+Wireless/view-part/?ref=snap"
 			(at 102.87 82.55 0)
 			(effects
 				(font
@@ -11806,7 +11838,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC7620_1104625"
+		(property "MP" "RC7620_1104627"
 			(at 102.87 82.55 0)
 			(effects
 				(font
@@ -11846,7 +11878,7 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "RC7620_1104625"
+		(property "SNAPEDA_PN" "RC7620_1104627"
 			(at 102.87 82.55 0)
 			(effects
 				(font
@@ -11854,6 +11886,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC7620_1104627"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "38"
@@ -12755,6 +12795,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "0402ESDA-MLP1"
+			(at 38.1 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "43671b3d-c335-4f04-981d-02100bfe438f")
 		)
@@ -12895,6 +12943,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "ESD7004MUTAG"
+			(at 214.63 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "6"
@@ -13840,6 +13896,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "NX3008NBKW"
+			(at 252.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "566706f0-4473-497f-91fd-73d1fe17c5b1")
 		)
@@ -14065,6 +14129,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "NX3008NBKW"
+			(at 190.5 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14429,7 +14501,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104625"
+		(property "Value" "RC7620_1104627"
 			(at 101.6 171.45 0)
 			(effects
 				(font
@@ -14505,7 +14577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RC7620_1104625/Sierra+Wireless/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/RC7620_1104627/Sierra+Wireless/view-part/?ref=eda"
 			(at 101.6 184.15 0)
 			(effects
 				(font
@@ -14535,7 +14607,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC7620_1104625/Sierra+Wireless/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC7620_1104627/Sierra+Wireless/view-part/?ref=snap"
 			(at 101.6 184.15 0)
 			(effects
 				(font
@@ -14545,7 +14617,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC7620_1104625"
+		(property "MP" "RC7620_1104627"
 			(at 101.6 184.15 0)
 			(effects
 				(font
@@ -14585,7 +14657,7 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "RC7620_1104625"
+		(property "SNAPEDA_PN" "RC7620_1104627"
 			(at 101.6 184.15 0)
 			(effects
 				(font
@@ -14593,6 +14665,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC7620_1104627"
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "38"
@@ -15893,6 +15973,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "CONMHF1-SMD-G-T"
+			(at 35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S1"
 			(uuid "3b19d06d-e5f8-4d35-8282-23dc11572818")
 		)
@@ -16113,6 +16201,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "SF72S006"
+			(at 243.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "C6"
@@ -16621,6 +16717,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "0402ESDA-MLP1"
+			(at 40.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e9cabe32-1b77-46d8-b299-3ffaa655ec05")
 		)
@@ -16810,7 +16914,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 215.9 35.56 0)
 			(effects
 				(font
@@ -17190,6 +17294,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "0402ESDA-MLP1"
+			(at 44.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17887,6 +17999,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "NX3008NBKW"
+			(at 193.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "adb6b747-da5e-490c-b807-34e9b7cd589f")
 		)
@@ -18048,6 +18168,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "NX3008NBKW"
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18341,6 +18469,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "SSM3J358R,LF"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -18795,6 +18931,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "NX3008NBKW"
+			(at 251.46 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20538,6 +20682,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "CONMHF1-SMD-G-T"
+			(at 26.67 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "S1"
 			(uuid "b497f03e-4e03-48b5-97d2-d3d683e984d6")
 		)
@@ -20851,6 +21003,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "LTST-C190GKT"
+			(at 246.38 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -21586,6 +21746,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "NX3008NBKW"
+			(at 190.5 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "de5cce5b-4e14-40c1-b77b-d3c21cc469db")
 		)
@@ -21622,7 +21790,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104625"
+		(property "Value" "RC7620_1104627"
 			(at 101.6 154.94 0)
 			(effects
 				(font
@@ -21698,7 +21866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/RC7620_1104625/Sierra+Wireless/view-part/?ref=eda"
+		(property "Check_prices" "https://www.snapeda.com/parts/RC7620_1104627/Sierra+Wireless/view-part/?ref=eda"
 			(at 101.6 160.02 0)
 			(effects
 				(font
@@ -21728,7 +21896,7 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC7620_1104625/Sierra+Wireless/view-part/?ref=snap"
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/RC7620_1104627/Sierra+Wireless/view-part/?ref=snap"
 			(at 101.6 160.02 0)
 			(effects
 				(font
@@ -21738,7 +21906,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC7620_1104625"
+		(property "MP" "RC7620_1104627"
 			(at 101.6 160.02 0)
 			(effects
 				(font
@@ -21778,7 +21946,7 @@
 				(hide yes)
 			)
 		)
-		(property "SNAPEDA_PN" "RC7620_1104625"
+		(property "SNAPEDA_PN" "RC7620_1104627"
 			(at 101.6 160.02 0)
 			(effects
 				(font
@@ -21786,6 +21954,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC7620_1104627"
+			(at 101.6 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "38"

@@ -1009,6 +1009,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "9774030151R"
+			(at 237.49 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "84edc652-298f-45f8-8a7a-47a4cf13d924")
 		)
@@ -1235,6 +1243,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "9774030151R"
+			(at 237.49 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1465,6 +1481,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "9774030151R"
+			(at 237.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c77062d5-10b6-4d65-853e-e4758c1d4af8")
 		)
@@ -1691,6 +1715,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "9774030151R"
+			(at 237.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

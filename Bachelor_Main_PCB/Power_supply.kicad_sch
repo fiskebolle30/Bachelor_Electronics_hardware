@@ -5740,6 +5740,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "LQM2HPN1R0MJHL"
+			(at 133.35 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "85d3ff05-2525-4d13-9f5b-815a41eaa8fa")
 		)
@@ -6258,6 +6266,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "74437349047"
+			(at 210.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5493bea6-eb62-4113-b1de-5141883b0f26")
 		)
@@ -6405,6 +6421,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "691137710002"
+			(at 17.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6696,6 +6720,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "LQM2HPN1R0MJHL"
+			(at 133.35 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7983,6 +8015,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "BC817-40Q-13-F"
+			(at 63.5 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4f721648-9da6-48dc-95ea-9fd526721e59")
 		)
@@ -9016,6 +9056,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "0402ESDA-MLP1"
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c733f2f3-d897-4f34-84c1-c4c75a06ee07")
 		)
@@ -9635,6 +9683,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "LMR51450FNDRRR"
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "1dd8c0b2-dfe2-4041-9046-2708ffd5e1c0")
 		)
@@ -10176,6 +10232,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "LTST-C190GKT"
+			(at 140.97 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "A"
@@ -10874,6 +10938,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "691137710002"
+			(at 118.11 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5a109fb-6aa4-4856-b91e-4f9dd089deac")
 		)
@@ -11129,6 +11201,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "LMR51450FNDRRR"
+			(at 177.8 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "11"
 			(uuid "dde801e0-2aaa-4d1e-b16f-ad27394c5417")
 		)
@@ -11358,6 +11438,14 @@
 				)
 				(justify bottom)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "LM73100RPWR"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12319,6 +12407,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "74437349033"
+			(at 209.55 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f62c0a9a-a2b7-4ae1-aa41-0a6dfe66012c")
 		)
@@ -12816,6 +12912,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "LD3985M18R"
+			(at 72.39 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
