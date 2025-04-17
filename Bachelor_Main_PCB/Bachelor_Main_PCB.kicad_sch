@@ -21,14 +21,13 @@
 					(justify bottom)
 				)
 			)
-			(property "Value" "M2.5 x 3mm"
-				(at 0 0 0)
+			(property "Value" "WA-SMSI_9774XXX151"
+				(at -3.048 -4.572 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
@@ -130,6 +129,16 @@
 				)
 			)
 			(property "INNER-THREAD-LENGTH" "-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "VALUE" "M2.5 x 3mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -312,6 +321,22 @@
 			(justify left top)
 		)
 		(uuid "252103d8-40e5-4e27-91f8-4c95bd7d1e51")
+	)
+	(no_connect
+		(at 232.41 38.1)
+		(uuid "05d2a654-22a1-41fb-99b1-0a266f683f3f")
+	)
+	(no_connect
+		(at 232.41 25.4)
+		(uuid "6d8d24b6-7ff8-43f4-a18f-64eb169233ba")
+	)
+	(no_connect
+		(at 232.41 31.75)
+		(uuid "ad39ce8a-c27a-4c63-b1e7-c01ec5f4145e")
+	)
+	(no_connect
+		(at 232.41 44.45)
+		(uuid "f8e467eb-6756-4c95-8b93-b65ca964254b")
 	)
 	(wire
 		(pts
@@ -2149,16 +2174,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "RPI_5v" input
-			(at 148.59 59.69 0)
-			(uuid "8f0fef94-1e70-412e-84c8-c39a7e8202b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "USB_HS_N" bidirectional
