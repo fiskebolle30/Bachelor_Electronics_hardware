@@ -8052,7 +8052,7 @@
 	)
 	(text "Testpounkter for ubrukte GPIO"
 		(exclude_from_sim no)
-		(at 225.552 215.9 0)
+		(at 187.452 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8062,7 +8062,7 @@
 	)
 	(text "Has to be enabled\nto conserve power"
 		(exclude_from_sim no)
-		(at 13.716 139.192 0)
+		(at 34.544 153.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8102,7 +8102,7 @@
 	)
 	(text "MUST BE ROUTED!"
 		(exclude_from_sim no)
-		(at 209.55 192.024 0)
+		(at 212.852 185.166 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8793,16 +8793,176 @@
 		(uuid "ff4c2ba8-a02f-4902-af54-e1c8df5560d6")
 	)
 	(no_connect
+		(at 57.15 104.14)
+		(uuid "05a2a756-eb2b-49c1-82d4-03fb69f01c29")
+	)
+	(no_connect
 		(at 57.15 93.98)
 		(uuid "0a69e25e-d4db-457f-b33e-15df78bfdf42")
+	)
+	(no_connect
+		(at 143.51 96.52)
+		(uuid "19d8df09-ceb3-4c64-a283-6f803edd5fdd")
+	)
+	(no_connect
+		(at 143.51 114.3)
+		(uuid "1b0458ce-c230-4c25-b518-a0daffd7b678")
+	)
+	(no_connect
+		(at 143.51 228.6)
+		(uuid "1dbfd044-16ae-4891-8dc0-9510e5c8c6cf")
+	)
+	(no_connect
+		(at 57.15 119.38)
+		(uuid "1e05208e-d823-4fe2-82e0-b1d6a554a288")
+	)
+	(no_connect
+		(at 57.15 139.7)
+		(uuid "20efc5ed-becd-44aa-b119-1553413d6f23")
+	)
+	(no_connect
+		(at 143.51 218.44)
+		(uuid "212bf8ce-8e77-4cfe-b6a1-529dbbe26d3b")
+	)
+	(no_connect
+		(at 57.15 124.46)
+		(uuid "24de800e-194e-4391-a9fc-e7b3dde6db5d")
+	)
+	(no_connect
+		(at 57.15 101.6)
+		(uuid "2a2d1043-0b86-40f4-9014-b4fdeff1e261")
+	)
+	(no_connect
+		(at 57.15 149.86)
+		(uuid "331d0ba3-1377-480f-a987-2ac59476a55a")
+	)
+	(no_connect
+		(at 143.51 226.06)
+		(uuid "357d0b31-f908-4c7b-ab19-b605cb0262e1")
+	)
+	(no_connect
+		(at 143.51 170.18)
+		(uuid "37f746b9-3bd0-4ddd-9394-953fcfb0c422")
+	)
+	(no_connect
+		(at 143.51 154.94)
+		(uuid "38a02fc3-221e-4f93-b1c7-6350169d1122")
+	)
+	(no_connect
+		(at 143.51 144.78)
+		(uuid "3bf29f82-c550-4b53-86ad-37b3db9e094b")
+	)
+	(no_connect
+		(at 143.51 203.2)
+		(uuid "3f10b47f-6d4a-462f-b899-ca1ef05d0220")
+	)
+	(no_connect
+		(at 143.51 76.2)
+		(uuid "45c4b972-fd36-4f03-a58a-b26c87698860")
+	)
+	(no_connect
+		(at 57.15 147.32)
+		(uuid "4b898627-c372-499a-a509-5d6a2cdac8d2")
+	)
+	(no_connect
+		(at 143.51 147.32)
+		(uuid "5135d3db-0784-4036-bcf4-9deb1de69b33")
+	)
+	(no_connect
+		(at 57.15 99.06)
+		(uuid "539e3d22-b5c4-4f36-a3c8-48e82190ceef")
+	)
+	(no_connect
+		(at 143.51 71.12)
+		(uuid "548a10f9-e6f1-4654-b29c-c59f97e2008d")
+	)
+	(no_connect
+		(at 57.15 182.88)
+		(uuid "5ddb5c62-df75-45f3-acef-8e9891636a03")
+	)
+	(no_connect
+		(at 143.51 210.82)
+		(uuid "618eb00b-b6ed-4a31-9fd9-d0237f00c165")
 	)
 	(no_connect
 		(at 266.7 138.43)
 		(uuid "62a8afb7-a052-4709-8754-0a5389586e25")
 	)
 	(no_connect
+		(at 143.51 124.46)
+		(uuid "64f7b46f-8726-4d20-90ed-86a35ad5f377")
+	)
+	(no_connect
+		(at 143.51 132.08)
+		(uuid "6e26aff6-74e5-4c63-be3e-2f0f941fdbb0")
+	)
+	(no_connect
+		(at 143.51 93.98)
+		(uuid "73e9f3ad-ac06-489c-be7d-1f179c7967e0")
+	)
+	(no_connect
+		(at 57.15 106.68)
+		(uuid "747f6bd4-d84a-4803-bb07-de422a6b6e4e")
+	)
+	(no_connect
+		(at 57.15 114.3)
+		(uuid "79d0b860-f2ce-4d37-87a1-fe913079ea20")
+	)
+	(no_connect
+		(at 143.51 119.38)
+		(uuid "7c199ac4-b3fe-453d-866d-863c53475a0c")
+	)
+	(no_connect
+		(at 57.15 160.02)
+		(uuid "923eda8a-4234-4537-ad84-7373d3379c44")
+	)
+	(no_connect
+		(at 57.15 185.42)
+		(uuid "9265e516-ce6e-4a95-b495-630603da1ddf")
+	)
+	(no_connect
+		(at 57.15 142.24)
+		(uuid "98eba7dc-0579-4e24-a7e6-f4430c6a7240")
+	)
+	(no_connect
+		(at 57.15 154.94)
+		(uuid "99855364-d44b-4bae-984a-2f7285083a96")
+	)
+	(no_connect
+		(at 143.51 195.58)
+		(uuid "9d4aed15-0126-478b-a3c1-7469d14d4e34")
+	)
+	(no_connect
+		(at 57.15 132.08)
+		(uuid "9dea7f80-93f7-4d7b-856d-67e0e6dea5c6")
+	)
+	(no_connect
+		(at 143.51 233.68)
+		(uuid "a2572eb3-95c7-4b6b-acb8-ecb5965355a2")
+	)
+	(no_connect
+		(at 57.15 167.64)
+		(uuid "ab1c8c9e-4688-4774-92e9-0dc75d32583e")
+	)
+	(no_connect
+		(at 143.51 127)
+		(uuid "ad0947fa-ee4f-4975-98dd-ce36d6d2d90e")
+	)
+	(no_connect
+		(at 57.15 127)
+		(uuid "b459a07c-1a84-46f7-bbb2-b40cc7d1e7f2")
+	)
+	(no_connect
 		(at 143.51 190.5)
 		(uuid "b489aadf-bcaa-4437-a9f4-df105fe8c358")
+	)
+	(no_connect
+		(at 57.15 162.56)
+		(uuid "bc69a021-01a0-4adc-a5a4-d6b954677cd8")
+	)
+	(no_connect
+		(at 143.51 91.44)
+		(uuid "c07e2bc2-5427-43b7-886f-7a3fc6f047b2")
 	)
 	(no_connect
 		(at 332.74 173.99)
@@ -8813,6 +8973,46 @@
 		(uuid "caa07f1a-6ea7-45df-9f22-ce15ee73fa57")
 	)
 	(no_connect
+		(at 57.15 116.84)
+		(uuid "cce8b287-44da-485d-922f-71e833fa79fc")
+	)
+	(no_connect
+		(at 57.15 129.54)
+		(uuid "cf2adfb5-1195-4a3f-b4a4-5f09f387281f")
+	)
+	(no_connect
+		(at 57.15 177.8)
+		(uuid "d1a6cdbe-3f19-4325-9af3-ba0f2d59556c")
+	)
+	(no_connect
+		(at 57.15 152.4)
+		(uuid "d65f1b87-21ea-4676-b921-7ffd98146e46")
+	)
+	(no_connect
+		(at 143.51 213.36)
+		(uuid "dd8ce56a-d240-47e4-ae52-905d2bb63eb1")
+	)
+	(no_connect
+		(at 57.15 109.22)
+		(uuid "e0b703e0-cbba-41b0-b278-31abdfbc85e9")
+	)
+	(no_connect
+		(at 143.51 198.12)
+		(uuid "e1a1f455-1389-46fc-b41b-e4c610d2fe58")
+	)
+	(no_connect
+		(at 57.15 137.16)
+		(uuid "e2a54652-6e12-4c36-8527-11ac4eb2acfc")
+	)
+	(no_connect
+		(at 143.51 205.74)
+		(uuid "e5b07e36-92d3-41fd-b0f8-ca6bfcbc486a")
+	)
+	(no_connect
+		(at 143.51 129.54)
+		(uuid "e6541069-c9a5-4b30-a556-06b9d23bc312")
+	)
+	(no_connect
 		(at 210.82 130.81)
 		(uuid "e93fd629-4e5d-48ef-a8da-7ae9dbf23c46")
 	)
@@ -8821,8 +9021,20 @@
 		(uuid "eb7c30e7-b633-422c-8a41-e481e1e55caf")
 	)
 	(no_connect
+		(at 57.15 172.72)
+		(uuid "f0312d35-2d46-436f-85ed-36db0eb899d5")
+	)
+	(no_connect
+		(at 143.51 220.98)
+		(uuid "f82be74a-2899-4742-81fa-c883c5505898")
+	)
+	(no_connect
 		(at 266.7 140.97)
 		(uuid "fa2a1d27-96cb-4231-b67f-dd7e7692b5b0")
+	)
+	(no_connect
+		(at 143.51 88.9)
+		(uuid "fc6919db-6a26-4d21-a11b-4c737631cd57")
 	)
 	(wire
 		(pts
@@ -8853,6 +9065,16 @@
 			(type default)
 		)
 		(uuid "01fff4b1-f0b3-4050-a6e1-84835ceb060b")
+	)
+	(wire
+		(pts
+			(xy 25.4 149.86) (xy 25.4 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0259cb66-f91f-4490-921a-1eff18b3efba")
 	)
 	(wire
 		(pts
@@ -9063,6 +9285,16 @@
 			(type default)
 		)
 		(uuid "0fa7f0cc-4825-40d0-8230-cc0468d67189")
+	)
+	(wire
+		(pts
+			(xy 55.88 180.34) (xy 57.15 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10bc5152-4a0b-4c97-994e-b2542b051cab")
 	)
 	(wire
 		(pts
@@ -9693,6 +9925,16 @@
 			(type default)
 		)
 		(uuid "4897e501-cc6b-40ca-b3e6-1bff1e911606")
+	)
+	(wire
+		(pts
+			(xy 54.61 149.86) (xy 25.4 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e8f65e-e444-429f-ab27-23dcf2e24c3a")
 	)
 	(wire
 		(pts
@@ -10336,7 +10578,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 134.62) (xy 53.34 134.62)
+			(xy 43.18 134.62) (xy 52.07 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10393,6 +10635,16 @@
 			(type default)
 		)
 		(uuid "8b8cfec2-626f-4946-bb03-84a7fd30ea4f")
+	)
+	(wire
+		(pts
+			(xy 55.88 170.18) (xy 57.15 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b949cbe-bb28-4626-b4f0-99de2d7c120a")
 	)
 	(wire
 		(pts
@@ -10453,6 +10705,16 @@
 			(type default)
 		)
 		(uuid "8e839850-a4cc-43b9-9e1c-22fe7a048252")
+	)
+	(wire
+		(pts
+			(xy 54.61 134.62) (xy 54.61 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f563349-8fad-4c1e-a394-aab8aba15478")
 	)
 	(wire
 		(pts
@@ -10523,6 +10785,16 @@
 			(type default)
 		)
 		(uuid "9c71c257-1608-4cb3-98e7-27e51d09e3ba")
+	)
+	(wire
+		(pts
+			(xy 55.88 165.1) (xy 57.15 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e52ce7c-bc26-491c-88e5-7fcbc4d81d76")
 	)
 	(wire
 		(pts
@@ -11046,13 +11318,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 134.62) (xy 53.34 91.44)
+			(xy 52.07 134.62) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c782f047-05fc-4f7a-83ec-efcdaa03f7d9")
+	)
+	(wire
+		(pts
+			(xy 54.61 134.62) (xy 57.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a3d9f4-68d4-4740-9696-7e42c8a22002")
 	)
 	(wire
 		(pts
@@ -11536,6 +11818,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 175.26) (xy 57.15 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2c3ee8-69f1-4f2a-9d2b-3db22f71d2b5")
+	)
+	(wire
+		(pts
 			(xy 49.53 86.36) (xy 49.53 97.79)
 		)
 		(stroke
@@ -11586,7 +11878,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 91.44) (xy 57.15 91.44)
+			(xy 52.07 91.44) (xy 57.15 91.44)
 		)
 		(stroke
 			(width 0)
@@ -11973,28 +12265,6 @@
 		(uuid "25dbee06-abf1-4489-adde-5712332cc559")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.288 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OSC_24Mhz_ENABLE"
-		(shape output)
-		(at 201.93 205.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "299f5c88-55ee-470b-87a5-bd6ab76ea6df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.7231 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12934,28 +13204,6 @@
 			)
 		)
 	)
-	(global_label "OSC_24Mhz_ENABLE"
-		(shape input)
-		(at 25.4 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1a7c9ee-ec73-4c26-a3b8-a4f032c8dd4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 3.6069 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DEBUG_TDI"
 		(shape input)
 		(at 38.1 269.24 0)
@@ -13112,7 +13360,7 @@
 	)
 	(global_label "SDCARD_ENABLE"
 		(shape output)
-		(at 201.93 198.12 0)
+		(at 143.51 185.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13122,7 +13370,7 @@
 		)
 		(uuid "c71859b3-de2a-42a9-9cec-319e84865ea8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.2761 198.12 0)
+			(at 161.8561 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13615,12 +13863,12 @@
 	)
 	(hierarchical_label "SPI1_CS"
 		(shape input)
-		(at 201.93 201.93 0)
+		(at 55.88 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "15f08928-2890-4939-81f5-41d4b6f8e8e0")
 	)
@@ -13648,12 +13896,12 @@
 	)
 	(hierarchical_label "RPI_CM_ENABLE"
 		(shape output)
-		(at 194.31 195.58 0)
+		(at 55.88 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "40ad7435-9725-45ad-90ab-9bc9367ef76f")
 	)
@@ -13703,12 +13951,12 @@
 	)
 	(hierarchical_label "RPI_GLOBAL_EN"
 		(shape output)
-		(at 201.93 228.6 0)
+		(at 55.88 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9e14c7c4-29f4-45af-b090-e5d91bcf5031")
 	)
@@ -13769,12 +14017,12 @@
 	)
 	(hierarchical_label "RPI_RUN_PG"
 		(shape output)
-		(at 201.93 226.06 0)
+		(at 55.88 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "e7fa2a99-a0da-4793-adef-b209cd7a532c")
 	)
@@ -14990,7 +15238,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 201.93 219.71 270)
+		(at 143.51 208.28 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14998,7 +15246,7 @@
 		(dnp no)
 		(uuid "20a5e8d4-a203-4858-b600-1827402664f5")
 		(property "Reference" "J28"
-			(at 207.01 219.71 90)
+			(at 148.59 208.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15007,7 +15255,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 207.01 220.98 90)
+			(at 148.59 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,7 +15264,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 224.79 0)
+			(at 143.51 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15025,7 +15273,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 224.79 0)
+			(at 143.51 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15034,7 +15282,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +15291,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15052,7 +15300,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15061,7 +15309,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15070,7 +15318,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15079,7 +15327,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15088,7 +15336,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15097,7 +15345,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15106,7 +15354,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15115,7 +15363,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 201.93 219.71 0)
+			(at 143.51 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18031,7 +18279,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 201.93 214.63 270)
+		(at 143.51 215.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -18039,7 +18287,7 @@
 		(dnp no)
 		(uuid "6efeb1af-d549-4815-822e-e118188d6ac1")
 		(property "Reference" "J26"
-			(at 207.01 214.63 90)
+			(at 148.59 215.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18048,7 +18296,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 207.01 215.9 90)
+			(at 148.59 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18057,7 +18305,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 219.71 0)
+			(at 143.51 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18066,7 +18314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 219.71 0)
+			(at 143.51 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18075,7 +18323,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18084,7 +18332,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18093,7 +18341,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18102,7 +18350,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18111,7 +18359,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18120,7 +18368,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18129,7 +18377,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18138,7 +18386,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18147,7 +18395,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18156,7 +18404,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 201.93 214.63 0)
+			(at 143.51 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19140,7 +19388,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 201.93 217.17 270)
+		(at 57.15 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -19148,7 +19396,7 @@
 		(dnp no)
 		(uuid "80d4e797-aa70-46fd-a226-b35cb140d6ab")
 		(property "Reference" "J27"
-			(at 207.01 217.17 90)
+			(at 52.07 157.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19157,7 +19405,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 207.01 218.44 90)
+			(at 52.07 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19166,7 +19414,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 222.25 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19175,7 +19423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 222.25 0)
+			(at 57.15 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19184,7 +19432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19193,7 +19441,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19202,7 +19450,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19211,7 +19459,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19220,7 +19468,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19229,7 +19477,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19238,7 +19486,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19247,7 +19495,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19256,7 +19504,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19265,7 +19513,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 201.93 217.17 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20899,7 +21147,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 201.93 212.09 270)
+		(at 143.51 223.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20907,7 +21155,7 @@
 		(dnp no)
 		(uuid "bcb4f20b-7a68-4a5f-86bf-7d575a4682d7")
 		(property "Reference" "J25"
-			(at 207.01 212.09 90)
+			(at 148.59 223.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20916,7 +21164,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 207.01 213.36 90)
+			(at 148.59 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20925,7 +21173,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 201.93 217.17 0)
+			(at 143.51 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20934,7 +21182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 201.93 217.17 0)
+			(at 143.51 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20943,7 +21191,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20952,7 +21200,7 @@
 			)
 		)
 		(property "Quantity" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20961,7 +21209,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20970,7 +21218,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20979,7 +21227,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20988,7 +21236,7 @@
 			)
 		)
 		(property "Farnell" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20997,7 +21245,7 @@
 			)
 		)
 		(property "Field-1" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21006,7 +21254,7 @@
 			)
 		)
 		(property "Field4" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21015,7 +21263,7 @@
 			)
 		)
 		(property "Field5" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21024,7 +21272,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 201.93 212.09 0)
+			(at 143.51 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
