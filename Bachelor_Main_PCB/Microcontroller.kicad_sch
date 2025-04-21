@@ -8022,7 +8022,7 @@
 	)
 	(text "ADC pins"
 		(exclude_from_sim no)
-		(at 157.226 163.83 0)
+		(at 174.752 164.084 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8132,7 +8132,7 @@
 	)
 	(text "RTC battery"
 		(exclude_from_sim no)
-		(at 45.72 45.466 0)
+		(at 38.608 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8239,6 +8239,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08fff98f-e457-4430-ba18-eee23c722382")
+	)
+	(junction
+		(at 46.99 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "094cf9d0-eaee-492e-8fb2-2214ca04e5c5")
 	)
 	(junction
 		(at 226.06 34.29)
@@ -8691,7 +8697,7 @@
 		(uuid "c6606e83-7922-49ae-9e21-f27dea52c171")
 	)
 	(junction
-		(at 57.15 193.04)
+		(at 55.88 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd369573-3bde-45eb-99bc-20c8fefcbb1d")
@@ -8830,7 +8836,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 165.1) (xy 143.51 165.1)
+			(xy 161.29 165.1) (xy 143.51 165.1)
 		)
 		(stroke
 			(width 0)
@@ -9230,7 +9236,27 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 193.04) (xy 57.15 195.58)
+			(xy 55.88 195.58) (xy 57.15 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e611d0-20a3-424c-8d76-e9ec9754c9d0")
+	)
+	(wire
+		(pts
+			(xy 55.88 193.04) (xy 57.15 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2344a70e-b4e9-401f-9840-38b7f35d78bf")
+	)
+	(wire
+		(pts
+			(xy 55.88 193.04) (xy 55.88 195.58)
 		)
 		(stroke
 			(width 0)
@@ -9240,7 +9266,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 162.56) (xy 143.51 162.56)
+			(xy 161.29 162.56) (xy 143.51 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9257,16 +9283,6 @@
 			(type default)
 		)
 		(uuid "25c8402e-0196-4e05-b2ed-144d99e7f241")
-	)
-	(wire
-		(pts
-			(xy 46.99 46.99) (xy 57.15 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2759dfa5-4b7d-4205-87c7-e818912a37ad")
 	)
 	(wire
 		(pts
@@ -9510,13 +9526,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 74.93 46.99)
+			(xy 74.93 46.99) (xy 74.93 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37443d0f-fe17-485a-ad17-7eb9285b8dbf")
+		(uuid "38b52e21-ccb3-4d6f-bd15-0db65597db40")
 	)
 	(wire
 		(pts
@@ -9587,6 +9603,16 @@
 			(type default)
 		)
 		(uuid "3de71e15-7b0b-4a73-a514-266e10f555e9")
+	)
+	(wire
+		(pts
+			(xy 55.88 190.5) (xy 57.15 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e2003a3-6a75-4e75-94fa-d9e5a74164e4")
 	)
 	(wire
 		(pts
@@ -9867,6 +9893,16 @@
 			(type default)
 		)
 		(uuid "5e92edf0-0d4a-4a8a-90fb-9f8c153c1e97")
+	)
+	(wire
+		(pts
+			(xy 46.99 46.99) (xy 57.15 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f24586c-387f-418b-b77f-8f9668f805e4")
 	)
 	(wire
 		(pts
@@ -10220,7 +10256,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 193.04) (xy 57.15 193.04)
+			(xy 53.34 193.04) (xy 55.88 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10960,7 +10996,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 190.5) (xy 57.15 193.04)
+			(xy 55.88 190.5) (xy 55.88 193.04)
 		)
 		(stroke
 			(width 0)
@@ -12540,7 +12576,7 @@
 	)
 	(global_label "SMPS_out"
 		(shape input)
-		(at 54.61 193.04 180)
+		(at 53.34 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12550,7 +12586,7 @@
 		)
 		(uuid "7fc3efca-3bfd-4f5b-b73b-618a2a54f020")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.4931 193.04 0)
+			(at 41.2231 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13656,7 +13692,7 @@
 	)
 	(hierarchical_label "V_IN"
 		(shape input)
-		(at 144.78 162.56 0)
+		(at 161.29 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13689,7 +13725,7 @@
 	)
 	(hierarchical_label "V_IMON"
 		(shape input)
-		(at 144.78 165.1 0)
+		(at 161.29 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15738,6 +15774,72 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 46.99 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3eab51ba-4702-4459-9887-85d974366fac")
+		(property "Reference" "#FLG017"
+			(at 46.99 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 46.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71255dfa-98ef-4c33-af25-9f190ad0fedb")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "#FLG017")
 					(unit 1)
 				)
 			)

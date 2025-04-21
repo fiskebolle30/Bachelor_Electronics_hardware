@@ -7883,7 +7883,7 @@
 		(uuid "bb4f0b94-e00a-4a9c-bffb-868744952921")
 	)
 	(junction
-		(at 121.92 189.23)
+		(at 123.19 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bffd9fed-b510-4aa7-8c7b-832ecc62dfef")
@@ -7907,7 +7907,7 @@
 		(uuid "d649a041-06ea-463f-aace-77f04fbbfb7c")
 	)
 	(junction
-		(at 121.92 186.69)
+		(at 123.19 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da13cff8-b478-4729-8f17-7a7eb0d7e7f5")
@@ -8139,6 +8139,16 @@
 	(no_connect
 		(at 62.23 140.97)
 		(uuid "ed17bbd9-d026-4602-9aef-2092de077ae9")
+	)
+	(wire
+		(pts
+			(xy 123.19 189.23) (xy 121.92 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a4f990-3229-465a-880c-c3b694013a5e")
 	)
 	(wire
 		(pts
@@ -8462,6 +8472,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 185.42) (xy 135.89 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2af09499-62e4-41fc-ba61-bee317415170")
+	)
+	(wire
+		(pts
 			(xy 158.75 77.47) (xy 143.51 77.47)
 		)
 		(stroke
@@ -8542,7 +8562,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 184.15) (xy 121.92 186.69)
+			(xy 123.19 184.15) (xy 123.19 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9332,6 +9352,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 184.15) (xy 121.92 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda87326-8339-4d08-a6c3-a1e2bffa503e")
+	)
+	(wire
+		(pts
 			(xy 180.34 59.69) (xy 190.5 59.69)
 		)
 		(stroke
@@ -9379,16 +9409,6 @@
 			(type default)
 		)
 		(uuid "c6151c0f-0361-4c22-aecf-dc3e373f3743")
-	)
-	(wire
-		(pts
-			(xy 123.19 189.23) (xy 121.92 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c686615e-5e80-4e72-9782-f64182066b26")
 	)
 	(wire
 		(pts
@@ -9572,7 +9592,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 186.69) (xy 121.92 189.23)
+			(xy 123.19 186.69) (xy 123.19 189.23)
 		)
 		(stroke
 			(width 0)
@@ -9759,6 +9779,16 @@
 			(type solid)
 		)
 		(uuid "f7832277-d6a0-4513-846e-b9d9c68c1432")
+	)
+	(wire
+		(pts
+			(xy 123.19 186.69) (xy 121.92 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7fd1781-4c35-4059-8dbe-ff54f4cbcc48")
 	)
 	(wire
 		(pts
@@ -14682,7 +14712,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 182.88 0)
+		(at 135.89 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14691,7 +14721,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b266749-46e6-4210-9cc4-d76379b132e2")
 		(property "Reference" "#PWR01"
-			(at 135.89 189.23 0)
+			(at 135.89 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14700,7 +14730,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 187.96 0)
+			(at 135.89 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14708,7 +14738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 182.88 0)
+			(at 135.89 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14717,7 +14747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 182.88 0)
+			(at 135.89 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14726,7 +14756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 182.88 0)
+			(at 135.89 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17678,6 +17708,71 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78be4eb9-5b95-4573-991c-2ca8a27583fc")
+		(property "Reference" "#PWR092"
+			(at 38.1 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 100.076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c430256-ed4a-4dc7-928f-4513b25d1518")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
