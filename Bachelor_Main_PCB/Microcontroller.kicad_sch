@@ -13480,6 +13480,17 @@
 		)
 		(uuid "8b273ae6-7edc-4bd2-96b2-e806d30e5325")
 	)
+	(hierarchical_label "RPI_GLOBAL_EN"
+		(shape output)
+		(at 201.93 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e14c7c4-29f4-45af-b090-e5d91bcf5031")
+	)
 	(hierarchical_label "MODEM_SAFE_PWR_REMOVE"
 		(shape output)
 		(at 201.93 187.96 0)
@@ -13545,6 +13556,17 @@
 			(justify right)
 		)
 		(uuid "e79fd5e5-38e3-479a-88af-3a4011a04fd1")
+	)
+	(hierarchical_label "RPI_RUN_PG"
+		(shape output)
+		(at 201.93 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7fa2a99-a0da-4793-adef-b209cd7a532c")
 	)
 	(hierarchical_label "24Mhz_CLK"
 		(shape output)
