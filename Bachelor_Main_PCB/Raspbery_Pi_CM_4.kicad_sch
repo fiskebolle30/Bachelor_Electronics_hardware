@@ -7280,6 +7280,16 @@
 		)
 		(uuid "e22168d2-61ae-4963-9e7f-f4b1c0b5f879")
 	)
+	(text "Activity LED"
+		(exclude_from_sim no)
+		(at 167.64 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f79775a3-63e7-4ce9-be50-9b9622ee5cd6")
+	)
 	(text_box ""
 		(exclude_from_sim no)
 		(at 13.97 25.4 0)
@@ -7327,8 +7337,204 @@
 		(uuid "544d67fd-8a3c-4bc5-8a90-342b960d384a")
 	)
 	(no_connect
+		(at 92.71 154.94)
+		(uuid "04954c5e-6edd-47a0-aecf-802c1754a6c7")
+	)
+	(no_connect
+		(at 153.67 154.94)
+		(uuid "07bd3bf8-b72e-4483-8eb2-db350566c2d3")
+	)
+	(no_connect
+		(at 92.71 177.8)
+		(uuid "0fc27895-a5ba-4355-93b0-b036b74c7cc0")
+	)
+	(no_connect
+		(at 153.67 167.64)
+		(uuid "181fefce-2ca0-49b3-ab78-d102f6901831")
+	)
+	(no_connect
 		(at 200.66 40.64)
 		(uuid "1864cd71-38db-47b2-a98b-5e9d08a47260")
+	)
+	(no_connect
+		(at 153.67 99.06)
+		(uuid "1e165ee4-fa37-481d-aa19-4aa2bfcc590e")
+	)
+	(no_connect
+		(at 153.67 119.38)
+		(uuid "1e55606f-6c36-4981-a603-9fac9d61fcd2")
+	)
+	(no_connect
+		(at 92.71 152.4)
+		(uuid "222bbd3f-c393-475f-a530-eb6fb99815d7")
+	)
+	(no_connect
+		(at 92.71 116.84)
+		(uuid "2bca00e9-5881-461e-b0fd-2c0ac3f818aa")
+	)
+	(no_connect
+		(at 92.71 147.32)
+		(uuid "2c8dd54d-69cf-4c7e-ad05-25eba4b2451a")
+	)
+	(no_connect
+		(at 153.67 162.56)
+		(uuid "317870ac-d780-4fca-a2bf-45bcb5c5e3d7")
+	)
+	(no_connect
+		(at 153.67 149.86)
+		(uuid "3546714d-f12a-47a4-a631-3ccdaa43f619")
+	)
+	(no_connect
+		(at 153.67 144.78)
+		(uuid "3ed8a2f0-d23e-4c0e-ac2e-3ce9bbae5087")
+	)
+	(no_connect
+		(at 153.67 73.66)
+		(uuid "3f262d00-b62a-47a4-bcd8-9e8b411938b4")
+	)
+	(no_connect
+		(at 92.71 137.16)
+		(uuid "43f33f1f-4bea-4c4a-a0d4-4d3834adde52")
+	)
+	(no_connect
+		(at 92.71 132.08)
+		(uuid "4b14a9ca-59c8-4d8a-a2a0-58a611d8e4c0")
+	)
+	(no_connect
+		(at 92.71 157.48)
+		(uuid "50f95d80-824b-4539-82df-e03a4420ae01")
+	)
+	(no_connect
+		(at 92.71 149.86)
+		(uuid "514e5527-eabc-4d6e-b538-7654b1c6763d")
+	)
+	(no_connect
+		(at 153.67 137.16)
+		(uuid "52e43bf8-68ed-4d78-94d1-f8b4053a9ecf")
+	)
+	(no_connect
+		(at 153.67 139.7)
+		(uuid "555aa1f9-c28b-45fc-a2c7-5cde7d7e075d")
+	)
+	(no_connect
+		(at 153.67 180.34)
+		(uuid "56dc9477-3f79-4634-bb51-3e34551c72dd")
+	)
+	(no_connect
+		(at 92.71 180.34)
+		(uuid "5e5e8580-4317-4113-9f8f-1d46927d9046")
+	)
+	(no_connect
+		(at 92.71 160.02)
+		(uuid "63008c45-721d-4253-a831-96e58cb289fd")
+	)
+	(no_connect
+		(at 92.71 172.72)
+		(uuid "63277426-04ba-4b57-b2ea-a1d969edfaab")
+	)
+	(no_connect
+		(at 153.67 160.02)
+		(uuid "63e16a2a-f193-460d-9e56-a6bd9dec95a0")
+	)
+	(no_connect
+		(at 92.71 119.38)
+		(uuid "64319dd5-dfa5-4833-8111-be750039f669")
+	)
+	(no_connect
+		(at 92.71 165.1)
+		(uuid "69f8cc55-0479-4f4e-b851-2a246b016ec1")
+	)
+	(no_connect
+		(at 153.67 114.3)
+		(uuid "6bfa8296-f241-42bc-a8ca-3d3f45c996fd")
+	)
+	(no_connect
+		(at 92.71 109.22)
+		(uuid "75a7f083-42f7-487d-a537-7d349e9f9209")
+	)
+	(no_connect
+		(at 153.67 152.4)
+		(uuid "76bdafa9-405a-4360-85b9-c60f94ffd976")
+	)
+	(no_connect
+		(at 92.71 129.54)
+		(uuid "776fe894-8117-4930-b9a9-f3008b2538e3")
+	)
+	(no_connect
+		(at 92.71 121.92)
+		(uuid "8777d2cf-2123-4027-8af2-4f3daa07b33d")
+	)
+	(no_connect
+		(at 92.71 127)
+		(uuid "8dfbe2c6-33de-47b6-9877-d26909cffa46")
+	)
+	(no_connect
+		(at 92.71 124.46)
+		(uuid "904b7142-80c0-4520-8a93-5c84ce3797f4")
+	)
+	(no_connect
+		(at 92.71 144.78)
+		(uuid "944688dc-c1a0-401c-8ae4-b14cacf07022")
+	)
+	(no_connect
+		(at 153.67 101.6)
+		(uuid "a25ab971-0553-4651-8c8f-306b8d1d844f")
+	)
+	(no_connect
+		(at 153.67 127)
+		(uuid "a3883170-37e3-45ec-a746-fe7e86b98042")
+	)
+	(no_connect
+		(at 92.71 134.62)
+		(uuid "a80fe518-bc63-44e8-b904-146602384ac0")
+	)
+	(no_connect
+		(at 92.71 167.64)
+		(uuid "a91edcc8-9033-4726-8629-97525fdf8446")
+	)
+	(no_connect
+		(at 153.67 142.24)
+		(uuid "aa52e90c-5276-4cd6-bd5e-bd4061db09da")
+	)
+	(no_connect
+		(at 92.71 111.76)
+		(uuid "ad8a6796-51d0-4610-b2f1-6deb437eb628")
+	)
+	(no_connect
+		(at 92.71 114.3)
+		(uuid "ae473695-278b-459f-ad91-637b4f542eb9")
+	)
+	(no_connect
+		(at 153.67 121.92)
+		(uuid "c2c5748a-bee1-47d5-bd9c-0937f966798b")
+	)
+	(no_connect
+		(at 153.67 157.48)
+		(uuid "d80ff8e2-33dc-41b0-b9bd-8c9689679439")
+	)
+	(no_connect
+		(at 153.67 170.18)
+		(uuid "db70aff1-1921-4694-938d-e986b2bcbf84")
+	)
+	(no_connect
+		(at 92.71 170.18)
+		(uuid "db810582-3437-4ee0-a231-680d1e0b9201")
+	)
+	(no_connect
+		(at 153.67 124.46)
+		(uuid "df0d7849-0ded-4d5d-b9ef-bfe787d98385")
+	)
+	(no_connect
+		(at 153.67 93.98)
+		(uuid "efed3f36-8464-4ab6-8d10-2a2d145f1baa")
+	)
+	(no_connect
+		(at 92.71 162.56)
+		(uuid "fb0f2d34-a66a-4ad5-a070-23460adf4a29")
+	)
+	(no_connect
+		(at 92.71 139.7)
+		(uuid "fde75f2b-2db4-4a9d-8357-f31917c520db")
 	)
 	(wire
 		(pts
@@ -7432,6 +7638,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 86.36) (xy 153.67 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8facf1a4-0b68-48b5-9788-9d99d8884f16")
+	)
+	(wire
+		(pts
 			(xy 99.06 38.1) (xy 111.76 38.1)
 		)
 		(stroke
@@ -7469,6 +7685,16 @@
 			(type default)
 		)
 		(uuid "bf68d4b8-b21b-4112-a6d1-ef5ce037e221")
+	)
+	(wire
+		(pts
+			(xy 179.07 86.36) (xy 181.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c048001a-104e-48ce-8e5b-e269a61d54ec")
 	)
 	(wire
 		(pts
@@ -7600,6 +7826,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_RPI_CM"
+		(shape input)
+		(at 181.61 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b9c1618-d0c1-4e30-898e-917b79ee3ca2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.2671 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7790,6 +8038,173 @@
 			(justify left)
 		)
 		(uuid "f861bc95-3fae-4940-b600-a2c70fcab2b5")
+	)
+	(symbol
+		(lib_id "LTST-C190GKT:LTST-C190GKT")
+		(at 163.83 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e070cd8-d13c-4dc1-840b-518843b7e1d3")
+		(property "Reference" "D13"
+			(at 168.402 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C190GKT"
+			(at 165.608 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LTST-C190GKT:LEDM1608X80"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Lite-On Inc."
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Green 569nm LED Indication - Discrete 2.1V 0603 (1608 Metric)"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "0603 Lite-On"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LTST-C190GKT/Lite-On/view-part/?ref=eda"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LTST-C190GKT/Lite-On/view-part/?ref=snap"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LTST-C190GKT"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Lite On"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Part-no" "LTST-C190GKT"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "9dea82ba-eb4b-4d98-857f-933b86dbd28f")
+		)
+		(pin "C"
+			(uuid "5d05e9bc-ca1e-47bd-a4fc-ec7b0dcb7a0f")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/19a8d5c6-db4f-4fc8-ad15-158c7bfaff85"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -10227,6 +10642,155 @@
 				(path "/3544d663-329e-4884-b753-28436ca187e8/19a8d5c6-db4f-4fc8-ad15-158c7bfaff85"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 176.53 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cbe61e4-8edd-45b2-865d-df0d5b815d6e")
+		(property "Reference" "R59"
+			(at 176.53 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 176.53 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Quantity" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Farnell" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field-1" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e34f38c7-3250-4e01-be2f-f002c096ff90")
+		)
+		(pin "2"
+			(uuid "1844f47c-771b-458e-a039-eea7e76c8d7f")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/19a8d5c6-db4f-4fc8-ad15-158c7bfaff85"
+					(reference "R59")
+					(unit 1)
 				)
 			)
 		)
