@@ -273,6 +273,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Interface_USB:USB2514B_Bi"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1367,6 +1370,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "CLK from MCU"
 		(exclude_from_sim no)
@@ -1407,6 +1511,12 @@
 			)
 		)
 		(uuid "f88d3f78-c6c1-40de-a0be-520ded666a81")
+	)
+	(junction
+		(at 34.29 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ea306ee-e633-416f-909e-5a64976307d5")
 	)
 	(junction
 		(at 140.97 182.88)
@@ -1622,6 +1732,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 33.02) (xy 34.29 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "285c9da3-fa07-495a-b4df-5cae7957ce2a")
+	)
+	(wire
+		(pts
 			(xy 97.79 97.79) (xy 102.87 97.79)
 		)
 		(stroke
@@ -1779,6 +1899,16 @@
 			(type default)
 		)
 		(uuid "809eb129-011a-4811-8e1e-947a45f48f1f")
+	)
+	(wire
+		(pts
+			(xy 34.29 33.02) (xy 33.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822576ec-3f3e-45b5-9dd4-716f71f1560c")
 	)
 	(wire
 		(pts
@@ -2014,7 +2144,7 @@
 	)
 	(global_label "+3V5_USB_HUB"
 		(shape input)
-		(at 33.02 33.02 0)
+		(at 44.45 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2024,7 +2154,7 @@
 		)
 		(uuid "9d9915c7-ad48-4292-90f2-858900035ced")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7008 33.02 0)
+			(at 62.1308 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0 Hi-Speed Hub Controller"
 			(at 130.81 100.33 0)
 			(effects
 				(font
@@ -3484,6 +3614,71 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/a2efe210-cbe4-4166-b2f4-897451b29d8a"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 34.29 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64cf7dff-e9db-4769-8683-fbcdc8452399")
+		(property "Reference" "#FLG05"
+			(at 34.29 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.132 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 34.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "225c8e25-a87d-44f5-bbc0-38ee9072bd64")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/a2efe210-cbe4-4166-b2f4-897451b29d8a"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
