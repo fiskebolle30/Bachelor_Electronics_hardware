@@ -8050,6 +8050,16 @@
 		)
 		(uuid "6add6109-7318-4968-b0cd-66a46c866c70")
 	)
+	(text "Should be routed to GPIO\nis 1.8V though"
+		(exclude_from_sim no)
+		(at 215.138 184.404 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ff152e6-438b-406c-a453-dfb14bd33bac")
+	)
 	(text "Testpounkter for ubrukte GPIO"
 		(exclude_from_sim no)
 		(at 225.552 215.9 0)
@@ -13675,6 +13685,17 @@
 			(justify left)
 		)
 		(uuid "9e14c7c4-29f4-45af-b090-e5d91bcf5031")
+	)
+	(hierarchical_label "MODEM_SAFE_PWR_REMOVE"
+		(shape output)
+		(at 201.93 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b725646d-52da-4464-9d4d-ada202519712")
 	)
 	(hierarchical_label "UART_RX"
 		(shape bidirectional)

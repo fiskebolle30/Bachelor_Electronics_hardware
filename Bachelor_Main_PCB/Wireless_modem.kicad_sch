@@ -7640,16 +7640,6 @@
 		)
 		(uuid "c7e5872a-f402-491f-975d-3caee630eb05")
 	)
-	(text "Potential use pin. not used on BUGG"
-		(exclude_from_sim no)
-		(at 161.29 27.686 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d8628ac0-b96d-4208-9e63-cb8deb4fb93e")
-	)
 	(text "RC7620_1105025 is only CAT 1 and should not be used"
 		(exclude_from_sim no)
 		(at 43.942 195.326 0)
@@ -7991,10 +7981,6 @@
 		(uuid "237bdb53-880c-4111-8868-5e72b4dd58cd")
 	)
 	(no_connect
-		(at 127 160.02)
-		(uuid "2513f37e-5578-4de5-b783-b0a6f89113e0")
-	)
-	(no_connect
 		(at 143.51 138.43)
 		(uuid "251edf93-005a-4995-bfa6-6cc01f7ea17d")
 	)
@@ -8051,12 +8037,12 @@
 		(uuid "82c0b982-d397-480d-9d61-d792c882b7b1")
 	)
 	(no_connect
-		(at 62.23 85.09)
-		(uuid "86151131-4d3e-4481-88af-8aac9d643d93")
+		(at 143.51 29.21)
+		(uuid "839afd1f-3294-45d2-8c11-56818977dbd4")
 	)
 	(no_connect
-		(at 76.2 160.02)
-		(uuid "8909bc92-cebc-4e52-88ff-443a50beed7a")
+		(at 62.23 85.09)
+		(uuid "86151131-4d3e-4481-88af-8aac9d643d93")
 	)
 	(no_connect
 		(at 143.51 92.71)
@@ -10316,17 +10302,6 @@
 			(justify left)
 		)
 		(uuid "d96a2051-68d5-4a00-b67b-c52ac033a0fe")
-	)
-	(hierarchical_label "MODEM_SAFE_PWR_REMOVE"
-		(shape input)
-		(at 143.51 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e66bda06-64f3-4d0b-8b9d-f1dde4bd60bf")
 	)
 	(hierarchical_label "WAKE"
 		(shape input)

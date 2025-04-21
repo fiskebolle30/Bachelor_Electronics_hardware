@@ -7543,6 +7543,12 @@
 		(uuid "15fbe464-61f7-4c6d-8f78-ea643dba2286")
 	)
 	(junction
+		(at 179.07 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d920578-a99d-43fe-8b84-9903df53da9e")
+	)
+	(junction
 		(at 111.76 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8898,13 +8904,23 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 179.07 76.2)
+			(xy 179.07 71.12) (xy 179.07 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "66195974-d408-4f0c-a8aa-52551afca3d0")
+	)
+	(wire
+		(pts
+			(xy 179.07 73.66) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690610f2-a444-4924-b24b-c66475e3cbca")
 	)
 	(wire
 		(pts
@@ -9470,6 +9486,73 @@
 			(justify left)
 		)
 		(uuid "f861bc95-3fae-4940-b600-a2c70fcab2b5")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 179.07 73.66 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e040de2-d79b-4bfb-89cc-e10905c5f9a3")
+		(property "Reference" "#FLG014"
+			(at 180.975 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 182.88 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 179.07 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b03e7de-bb56-4ddd-84f2-8b5a6833f2b6")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/19a8d5c6-db4f-4fc8-ad15-158c7bfaff85"
+					(reference "#FLG014")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "LTST-C190GKT:LTST-C190GKT")

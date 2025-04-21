@@ -1732,7 +1732,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 33.02) (xy 34.29 33.02)
+			(xy 43.18 33.02) (xy 34.29 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2144,7 +2144,7 @@
 	)
 	(global_label "+3V5_USB_HUB"
 		(shape input)
-		(at 44.45 33.02 0)
+		(at 43.18 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2154,7 +2154,7 @@
 		)
 		(uuid "9d9915c7-ad48-4292-90f2-858900035ced")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.1308 33.02 0)
+			(at 60.8608 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)

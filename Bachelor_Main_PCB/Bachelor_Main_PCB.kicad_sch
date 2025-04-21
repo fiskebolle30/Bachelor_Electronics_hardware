@@ -282,16 +282,6 @@
 		)
 		(uuid "7695f9be-7ae7-4628-b564-901ffb2c5b48")
 	)
-	(text "Potential use pin. not used on BUGG"
-		(exclude_from_sim no)
-		(at 81.788 85.344 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e8601899-0bdb-4105-b18f-de3b5fa97626")
-	)
 	(text_box " "
 		(exclude_from_sim no)
 		(at 219.71 22.86 0)
@@ -380,16 +370,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 106.68) (xy 83.82 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0952675d-9453-462c-90ef-6448d3cf1cef")
-	)
-	(wire
-		(pts
 			(xy 140.97 91.44) (xy 129.54 91.44)
 		)
 		(stroke
@@ -467,16 +447,6 @@
 			(type default)
 		)
 		(uuid "22a57ac8-634d-4447-980a-2b4f7d8d9cf9")
-	)
-	(wire
-		(pts
-			(xy 83.82 66.04) (xy 96.52 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fa74341-cff5-4bd4-a203-cc18e7dd5543")
 	)
 	(wire
 		(pts
@@ -807,16 +777,6 @@
 			(type default)
 		)
 		(uuid "be794d43-230e-4220-a77f-7eeaecc33317")
-	)
-	(wire
-		(pts
-			(xy 83.82 106.68) (xy 83.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c849c5d1-538c-486e-adec-f3317594a8e9")
 	)
 	(wire
 		(pts
@@ -1900,16 +1860,6 @@
 				(justify right)
 			)
 		)
-		(pin "MODEM_SAFE_PWR_REMOVE" input
-			(at 80.01 106.68 0)
-			(uuid "bf2ae084-2eb5-4727-b7c1-3f22df2df9d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "MODEM_USB_DN" bidirectional
 			(at 80.01 111.76 0)
 			(uuid "ff4d83e1-653c-43c3-a7a6-c5888247cff0")
@@ -2304,16 +2254,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "MODEM_SAFE_PWR_REMOVE" output
-			(at 96.52 66.04 180)
-			(uuid "2a4694b5-6345-4519-baea-91d24d42f682")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "UART_RX" bidirectional

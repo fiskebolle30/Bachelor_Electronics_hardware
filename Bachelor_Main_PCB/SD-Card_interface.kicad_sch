@@ -671,16 +671,6 @@
 		)
 		(uuid "ce30dfb0-1712-48ab-9426-180f5e5c5f1f")
 	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 159.512 57.658 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cfb0f3ad-2d9f-46e6-b4a0-a6919d558759")
-	)
 	(text "Chip Select"
 		(exclude_from_sim no)
 		(at 132.08 101.854 0)
@@ -710,6 +700,16 @@
 			)
 		)
 		(uuid "e38befe5-d93b-4fe9-bd76-588a719bb5d6")
+	)
+	(text "SD-pin6 is connected to GND"
+		(exclude_from_sim no)
+		(at 129.54 120.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e68dafb6-819d-4dfc-bbc0-3e23defa4997")
 	)
 	(junction
 		(at 146.05 82.55)
@@ -1191,28 +1191,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD-pin6"
-		(shape input)
-		(at 146.05 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b97af58a-eba6-4b09-bfd0-7fc55b17d813")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.1994 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
