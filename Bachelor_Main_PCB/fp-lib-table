@@ -25,4 +25,5 @@
   (lib (name "KiCad7")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LIB_BC817-40Q-13-F/BC817-40Q-13-F/KiCad7")(options "")(descr ""))
   (lib (name "LTST-C190GKT")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/LTST-C190GKT")(options "")(descr ""))
   (lib (name "ECS-327TXO-30-TR")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/ECS-327TXO-30-TR")(options "")(descr ""))
+  (lib (name "DFE252012P-2R2M_P2")(type "KiCad")(uri "${KICAD9_3DMODEL_DIR}/DFE252012P-2R2M_P2")(options "")(descr ""))
 )
