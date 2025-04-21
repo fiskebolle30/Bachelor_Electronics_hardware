@@ -1403,7 +1403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5617441-bc5c-48bc-8db8-b4fc26b16464")
-		(property "Reference" "J16"
+		(property "Reference" "J11"
 			(at 97.79 82.5499 0)
 			(effects
 				(font
@@ -1567,7 +1567,7 @@
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/e2053849-b1b4-4732-a0d8-f90e27301853"
-					(reference "J16")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -1583,7 +1583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4734761-c9e3-4b90-a3d3-6e030b0144fb")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR038"
 			(at 146.05 115.57 0)
 			(effects
 				(font
@@ -1633,7 +1633,7 @@
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/e2053849-b1b4-4732-a0d8-f90e27301853"
-					(reference "#PWR02")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
