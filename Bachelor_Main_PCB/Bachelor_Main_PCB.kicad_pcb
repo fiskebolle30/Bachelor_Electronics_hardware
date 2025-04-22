@@ -17300,6 +17300,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/SG-210STF_1.2000ML/SG-210STF_1.2000ML.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -69991,6 +70002,17 @@
 			(uuid "3e150d64-f11c-4dbe-80ed-c4f82f690732")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/LM73100RPWR/LM73100RPWR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "WA-SMSI_9774XXX151:WA-SMSI_9774030151"
 		(layer "F.Cu")
