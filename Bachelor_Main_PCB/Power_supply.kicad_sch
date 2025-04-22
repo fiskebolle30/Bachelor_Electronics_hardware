@@ -6385,7 +6385,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "202c3d6d-a877-4abc-94be-9b631d46e85b")
 		(property "Reference" "L3"

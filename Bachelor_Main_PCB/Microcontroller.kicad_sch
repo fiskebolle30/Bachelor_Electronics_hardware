@@ -13314,6 +13314,28 @@
 			)
 		)
 	)
+	(global_label "+3V5_MCU"
+		(shape input)
+		(at 35.56 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c47e38e4-baeb-4ad0-8a1c-f66b04ba812d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.6447 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDIO_Detect"
 		(shape output)
 		(at 374.65 158.75 0)
@@ -13393,28 +13415,6 @@
 		(uuid "c9096418-880c-4f5a-ae82-be55eac205aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 209.55 76.2992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3V5_USB3320"
-		(shape input)
-		(at 35.56 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cbe0c3d5-4ea7-499c-88c4-fce9660f9d4d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.2408 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
