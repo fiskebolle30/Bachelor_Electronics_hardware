@@ -1,21 +1,159 @@
-
-(footprint ESD_0402ESDA-MLP1 (layer F.Cu) (tedit 67F6695B)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.682 -1.2564 0) (layer F.SilkS)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (fp_text value ESD_0402ESDA-MLP1 (at 5.5588 1.2564 0) (layer F.Fab)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.65 0.0) (size 0.9 0.7) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.65 0.0) (size 0.9 0.7) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -0.55 -0.265) (end -0.55 0.265) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.55 -0.265) (end 0.55 0.265) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.55 -0.265) (end 0.55 -0.265) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.55 0.265) (end 0.55 0.265) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.35 -0.6) (end -1.35 0.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.35 0.6) (end 1.35 0.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.35 0.6) (end 1.35 -0.6) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.35 -0.6) (end -1.35 -0.6) (layer F.CrtYd) (width 0.05))
+(footprint "ESD_0402ESDA-MLP1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.682 -1.2564 0)
+		(layer "F.SilkS")
+		(uuid "aa8ddcc9-ec63-4d3a-8c04-ea8d2954325a")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ESD_0402ESDA-MLP1"
+		(at 5.5588 1.2564 0)
+		(layer "F.Fab")
+		(uuid "f62a0742-8321-439e-9c7d-0e507bc8c3b4")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32a80d42-6d0e-42c3-a46e-589cc444ac2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce7b00bd-ed1e-4558-8fb7-961897222648")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.35 -0.6)
+		(end -1.35 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19654a8f-32c3-4e56-a2fe-2f59e10f9339")
+	)
+	(fp_line
+		(start -1.35 0.6)
+		(end 1.35 0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ed20db9-fb52-4591-be15-14cfabd72187")
+	)
+	(fp_line
+		(start 1.35 -0.6)
+		(end -1.35 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65c83f63-66eb-4945-9f5d-54ee78712af3")
+	)
+	(fp_line
+		(start 1.35 0.6)
+		(end 1.35 -0.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0df0a32-bb2c-4e74-b04d-8f3a3c0642dc")
+	)
+	(fp_line
+		(start -0.55 -0.265)
+		(end -0.55 0.265)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4f57c069-e49c-4778-ba3e-3458b50d3acc")
+	)
+	(fp_line
+		(start -0.55 -0.265)
+		(end 0.55 -0.265)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "92614321-5eab-4ab2-a6db-025672a6fea0")
+	)
+	(fp_line
+		(start -0.55 0.265)
+		(end 0.55 0.265)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75d4ef14-57d4-4a3f-8d29-68bce4f4fb3b")
+	)
+	(fp_line
+		(start 0.55 -0.265)
+		(end 0.55 0.265)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "518c706a-751b-4eaf-8ce6-9b0d871066f7")
+	)
+	(pad "1" smd rect
+		(at -0.65 0)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "e2fbe74e-60f2-4298-82a1-e5ba61e38cf1")
+	)
+	(pad "2" smd rect
+		(at 0.65 0)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "3b1fe16b-a692-485d-a816-1cd10a104519")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/0402ESDA-MLP1/0402ESDA-MLP1.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

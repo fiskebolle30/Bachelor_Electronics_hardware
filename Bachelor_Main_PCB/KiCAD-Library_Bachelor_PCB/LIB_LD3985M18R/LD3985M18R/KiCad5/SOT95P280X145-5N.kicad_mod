@@ -1,38 +1,260 @@
-(module "SOT95P280X145-5N" (layer F.Cu)
-  (descr "SOT23-5L-ren1")
-  (tags "Integrated Circuit")
-  (attr smd)
-  (fp_text reference IC** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SOT95P280X145-5N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -2.075 -1.725) (end 2.075 -1.725) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.075 -1.725) (end 2.075 1.725) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.075 1.725) (end -2.075 1.725) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.075 1.725) (end -2.075 -1.725) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.8 -1.475) (end 0.8 -1.475) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -1.475) (end 0.8 1.475) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 1.475) (end -0.8 1.475) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 1.475) (end -0.8 -1.475) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 -0.525) (end 0.15 -1.475) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.325 -1.475) (end 0.325 -1.475) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.325 -1.475) (end 0.325 1.475) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.325 1.475) (end -0.325 1.475) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.325 1.475) (end -0.325 -1.475) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.825 -1.5) (end -0.675 -1.5) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.25 -0.95 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.25 0 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at -1.25 0.95 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at 1.25 0.95 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (pad 5 smd rect (at 1.25 -0.95 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (model LD3985M18R.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SOT95P280X145-5N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SOT23-5L-ren1")
+	(tags "Integrated Circuit")
+	(property "Reference" "IC**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "99478fb8-c15e-45e0-8b0d-9de287b6ee43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT95P280X145-5N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fa36e8a8-cf77-4e49-8fd7-23037281cb7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7523fb25-0a62-42eb-946b-1ac1c5724d34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be278d17-ee4f-4558-a1fa-1832d4209880")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.825 -1.5)
+		(end -0.675 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fd78a42-4cbe-462c-8349-db7dada60d99")
+	)
+	(fp_line
+		(start -0.325 -1.475)
+		(end 0.325 -1.475)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3227810-5595-4b82-8280-124f057ce290")
+	)
+	(fp_line
+		(start -0.325 1.475)
+		(end -0.325 -1.475)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "83d01fc4-7770-404c-99fe-b66ac276c67c")
+	)
+	(fp_line
+		(start 0.325 -1.475)
+		(end 0.325 1.475)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "922eb384-1cce-4c8c-8746-6d4fa129347e")
+	)
+	(fp_line
+		(start 0.325 1.475)
+		(end -0.325 1.475)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3497cb0-d93e-4b40-a255-21f70082fda4")
+	)
+	(fp_line
+		(start -2.075 -1.725)
+		(end 2.075 -1.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce962196-d245-486f-b92f-26d58c40bc63")
+	)
+	(fp_line
+		(start -2.075 1.725)
+		(end -2.075 -1.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ae6c2a3-84fb-4e90-8733-d962c3e74fe4")
+	)
+	(fp_line
+		(start 2.075 -1.725)
+		(end 2.075 1.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e39f915-9b06-4ca9-b6b3-6cfe16a0adb0")
+	)
+	(fp_line
+		(start 2.075 1.725)
+		(end -2.075 1.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "577b2359-c8df-4d14-963e-d4f903d845d9")
+	)
+	(fp_line
+		(start -0.8 -1.475)
+		(end 0.8 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "99cd1cfe-2100-49d6-b7c6-6c0a9c001941")
+	)
+	(fp_line
+		(start -0.8 -0.525)
+		(end 0.15 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0676707-77d9-4bca-b553-3f7282f927d5")
+	)
+	(fp_line
+		(start -0.8 1.475)
+		(end -0.8 -1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "75af0b2a-7d31-48f7-ab63-fdcbc40f930a")
+	)
+	(fp_line
+		(start 0.8 -1.475)
+		(end 0.8 1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d685a8e-90ca-4a7d-b15b-138fbd7e8356")
+	)
+	(fp_line
+		(start 0.8 1.475)
+		(end -0.8 1.475)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2aaf1ac-0fa7-4124-8239-e0bbb8201c78")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "095479ec-caa9-4094-afe1-2627faa30270")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 -0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4ac803e0-cee3-4307-b988-50ed6b251176")
+	)
+	(pad "2" smd rect
+		(at -1.25 0 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ab3396df-7774-4202-ae48-1d421f84464e")
+	)
+	(pad "3" smd rect
+		(at -1.25 0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "38b5de76-11ad-4865-b4b9-058f9e49246b")
+	)
+	(pad "4" smd rect
+		(at 1.25 0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "85f08a35-764c-44c3-85b2-cf3c70d74c73")
+	)
+	(pad "5" smd rect
+		(at 1.25 -0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "57671f88-7edc-4ba9-8dc3-78738359038b")
+	)
+	(embedded_fonts no)
+	(model "LD3985M18R.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/LIB_LD3985M18R/LD3985M18R/3D/LD3985M18R.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
