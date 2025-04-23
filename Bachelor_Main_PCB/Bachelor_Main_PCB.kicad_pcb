@@ -636,7 +636,7 @@
 	(footprint "LTST-C190GKT:LEDM1608X80"
 		(layer "F.Cu")
 		(uuid "022fc84a-c480-41fb-a60d-4e17a692b634")
-		(at 232.925 63.25 180)
+		(at 228.975 63.1 180)
 		(property "Reference" "D10"
 			(at 0.175 -1.5 180)
 			(layer "F.SilkS")
@@ -4994,226 +4994,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
-		(uuid "1083f649-faea-4598-b9a7-eaec49dff157")
-		(at 84.975 169.795)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J15"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "2e769a53-8959-4b5c-9312-e856537a59af")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "84ae7572-861c-4281-b1d0-70923de3053a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "73e537d2-74ba-4a70-bdd4-246152d009c2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f88397d3-dfa5-4817-a94c-c02d61f0af67")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Quantity" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "254dca70-0588-48af-a116-b0a049c1dfe6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d6910d7e-d41c-4d31-a272-2106b8bba869")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "96cc737b-8bc9-46d3-82ca-8a0e54b85f8a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d698f82c-7393-48a0-b6d6-da3e4c90eae6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4bc61766-d9a2-46f5-abe1-eaf1ffe77658")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc0b21d9-8dd8-4f89-a9ae-a4343ed553fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68cd6db0-9be1-4c7d-9132-ccbae7a6834e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "208cace6-7db6-4ead-aaef-be27b5b5b9b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "12e26842-56e3-4e9f-b6f2-7710bf8a3b6e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/bc9b9917-cac1-4a77-9a8e-1f527cd2bc20")
-		(sheetname "/Wireless modem/")
-		(sheetfile "Wireless_modem.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "ce54fe20-12e7-4c39-a6a2-499032a6e086")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "4ef74afb-5871-4760-970e-acd128c05d86")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "3dfe2509-4a86-48f1-aa81-ea4c2d3f19ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(net 124 "Net-(U7A-J1)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "184227df-b559-4078-a444-1d39d7ab3fc1")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "11927242-4ab2-4737-8a03-6f3be0184979")
@@ -5470,7 +5250,7 @@
 	(footprint "Net_tie_footprint_Waveguide_transmissionline:0.3mm_to_0.41_net_tie"
 		(layer "F.Cu")
 		(uuid "122e47ac-aad5-4e53-a2f9-f4bb38dddf91")
-		(at 233.5 96.55 -90)
+		(at 229.55 96.4 -90)
 		(property "Reference" "NT1"
 			(at 0 -0.5 270)
 			(unlocked yes)
@@ -7832,7 +7612,7 @@
 	(footprint "Net_tie_footprint_Waveguide_transmissionline:0.3mm_to_0.41_net_tie"
 		(layer "F.Cu")
 		(uuid "19547788-dbd8-4eb6-924c-8f706e314798")
-		(at 240.5 79.8)
+		(at 236.55 79.65)
 		(property "Reference" "NT2"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -8806,7 +8586,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1b15d142-c58a-496a-9302-9a46656273d6")
-		(at 62.415 182.645)
+		(at 190.9885 151.47)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R18"
@@ -11286,7 +11066,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "218f5e43-54cf-4591-8e6b-28051eeeab4e")
-		(at 225.525 68 180)
+		(at 221.575 67.85 180)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C37"
@@ -12697,7 +12477,7 @@
 		(property "Reference" "R34"
 			(at 0 -1.43 0)
 			(layer "F.SilkS")
-			(uuid "d3b3997c-35ef-49f3-a65f-136db7b83f35")
+			(uuid "7d18807e-111e-4410-80d6-9a480436b3c7")
 			(effects
 				(font
 					(size 1 1)
@@ -12708,7 +12488,7 @@
 		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "6d04d53d-31f4-4e49-9c63-6eb5b0c47382")
+			(uuid "02a63460-6fa7-4421-9fc5-1edcc68f3bb0")
 			(effects
 				(font
 					(size 1 1)
@@ -12721,7 +12501,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc194f57-1be1-47e7-bf78-7f3680ce11ad")
+			(uuid "4cfffee0-7f7b-43d8-9342-79d0a4a7ebb8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12734,7 +12514,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63e1dfa5-1c91-4faf-9742-5ae1cfd770d7")
+			(uuid "aca15df4-d97b-4ad2-a0ee-6856b7a06bf6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,7 +12802,7 @@
 	(footprint "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
 		(layer "F.Cu")
 		(uuid "2dd8c52d-7028-468c-adfc-d2a31d48352e")
-		(at 244.15 89.25 90)
+		(at 240.2 89.1 90)
 		(property "Reference" "D6"
 			(at -2.25 -0.025 90)
 			(layer "F.SilkS")
@@ -15128,7 +14908,7 @@
 		(property "Reference" "R37"
 			(at 0 -1.43 90)
 			(layer "F.SilkS")
-			(uuid "32638a91-fe0d-4667-b407-7463b44adc0f")
+			(uuid "d8b83d0b-c59d-4735-a8cc-d2ffd88ebcc8")
 			(effects
 				(font
 					(size 1 1)
@@ -15139,7 +14919,7 @@
 		(property "Value" "10k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
-			(uuid "4584d43f-e49e-41ae-a32f-1aa4cb7a2265")
+			(uuid "2f7256b1-a046-4302-b7d5-32920de0a627")
 			(effects
 				(font
 					(size 1 1)
@@ -15152,7 +14932,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d11f7996-7ba2-4465-94ee-4c1bfd092dc5")
+			(uuid "9271664c-cc90-47f8-be42-a5b35e5f3d0f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15165,7 +14945,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02a59324-9db2-454f-8ab4-06c20ec1dcf0")
+			(uuid "1114fe85-f8b0-4c56-b0b9-1b229d7b5bb0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15907,7 +15687,7 @@
 	(footprint "M20-9990245:HARWIN_M20-9990245"
 		(layer "F.Cu")
 		(uuid "3abd36c0-7aa1-4352-b059-ea9abd520f4c")
-		(at 68.22 183.615)
+		(at 184.8425 142.65)
 		(property "Reference" "J9"
 			(at 0.425 -2.385 0)
 			(layer "F.SilkS")
@@ -16880,7 +16660,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3b90deb4-3ffb-4def-bf3a-db16f6ff8eb5")
-		(at 229.425 63.25)
+		(at 225.475 63.1)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R39"
@@ -20351,7 +20131,7 @@
 	(footprint "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
 		(layer "F.Cu")
 		(uuid "50939ed5-63da-4c58-94a0-d281d6e6afaf")
-		(at 244.15 80.45 90)
+		(at 240.2 80.3 90)
 		(property "Reference" "D7"
 			(at -2.25 0.225 90)
 			(layer "F.SilkS")
@@ -21256,7 +21036,7 @@
 	(footprint "LTST-C190GKT:LEDM1608X80"
 		(layer "F.Cu")
 		(uuid "527cfd95-7e55-4c2a-9275-6b52da1bcb79")
-		(at 66.747 186.835)
+		(at 190.9145 153.85)
 		(property "Reference" "D4"
 			(at 0.5 -1.5 0)
 			(layer "F.SilkS")
@@ -21948,226 +21728,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
-		(uuid "55680e75-1c54-4aed-8835-f84d206630d6")
-		(at 84.975 172.845)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J16"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "b01d4846-ae72-4184-a57f-c7f0c43b2de5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "5dae56b4-93b8-4b90-8b1d-06af4d9b8352")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a792a15b-9367-439d-8fe5-d04e20606035")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b385fd6d-ece9-4ecd-90ca-ea2ebbb47383")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Quantity" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "16893fab-983b-4001-8565-3f9baf0d44b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "916e3504-5dc1-42eb-ab3b-effe8b474048")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57f6d263-ad76-4055-8ad8-34ab3143d55d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "387c7063-0886-4dbc-a94a-2381519def0f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b02b852a-c76b-4df0-89cc-2389a37b0f5f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4eda8413-53f4-4644-9a35-69d466dc5dc2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9263a62-034e-43fc-a5f7-d6a2e2c83026")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e16d3b6-fda1-44f6-925f-8dc11c982efc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "653ede9c-9d8a-4705-bcb9-1626096daa84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/71c5fde6-ea8e-4a25-b812-c100c43f1000")
-		(sheetname "/Wireless modem/")
-		(sheetfile "Wireless_modem.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "9c42af90-a90a-4328-b2b5-bb822b3c3fe8")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ec47fe88-be43-4a5b-8f4d-4872bf698d9b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "193cd1bf-11b9-43e1-8c96-8669e541ba2e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(net 125 "Net-(U7A-J2)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "a07b3052-f17b-46c3-bf43-830a3039762c")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "5845d345-a6cd-4d20-87bf-f78c1ced4c49")
@@ -22568,9 +22128,9 @@
 	(footprint "LTST-C190GKT:LEDM1608X80"
 		(layer "F.Cu")
 		(uuid "5a8419ae-bac2-46f4-a4b0-31d753ae5ef4")
-		(at 219.25 70)
+		(at 220.526 70.2)
 		(property "Reference" "D9"
-			(at 0 -1.25 0)
+			(at 2.474 0 0)
 			(layer "F.SilkS")
 			(uuid "f7e968e7-40a2-4cf3-8b27-896badab39e2")
 			(effects
@@ -23766,226 +23326,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
-		(uuid "63358b62-84fe-40f6-ab71-05ba658be4e0")
-		(at 91.075 169.795)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J24"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "a96a8bd3-65b3-4b4a-ba43-f19c56bdf959")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "ec94bee5-819e-4e7f-bf31-8a1ae6aa4946")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "51157553-740b-44dd-a48f-ef736fe2513f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8664ad56-a86b-4888-b04f-f13dccfa5a48")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Quantity" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0957d8c5-6898-485d-acaa-c960e7a541c1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e8aa96b-30bc-40da-a456-7196b927b8c4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c13faa54-65a0-4271-adb5-6d5fa1c61040")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9bcea3fd-749c-4440-be7a-672f61b5a09b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f06942c2-9c88-4ca4-b599-4c3ba7641bfb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "068b02fb-4d95-49dc-913a-69801b74dfa4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ffbe1c8c-fbb1-4a1e-b216-f4e5c9dc1650")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5fd44b5e-d31c-427b-9ca2-264caa2ff732")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55a44072-0e1e-4b38-a0cc-5fb7a37c441a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/2fed218d-8a81-48b5-af19-c2609dc0f6fd")
-		(sheetname "/Wireless modem/")
-		(sheetfile "Wireless_modem.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "0c02dbc2-0d97-4250-92ca-0d0cf7c466ab")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ff01772b-7410-454a-bb97-6a2c4f54a4a1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "bf4656de-207c-4917-89c1-11483280c11c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(net 132 "Net-(U7A-J9)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "36e251dd-729a-439a-81be-4089aee5420c")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "65c71cdc-527c-4cea-85aa-07f1d0c97005")
@@ -24914,226 +24254,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
-		(uuid "6aeb7523-6cfd-46e7-ab34-c27485a16210")
-		(at 88.025 175.895)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J22"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "e04f9f7e-082b-421d-8755-3966bb6a7344")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "31f1a65e-1372-4108-8f3d-28160e12daf8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5609b8cc-ab57-4e5c-92a0-10470775ad6a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2e555872-375f-499e-a4ad-47117b7e1d19")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Quantity" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f363e371-eb3e-489c-b691-30f4a79a0f68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d873ec0-c993-4627-8360-1f78ceac7c0d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4cd80b90-330f-4afd-8a81-e7752d1e7e04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75ca5b89-a7e8-4cf8-a37e-d25a44e83540")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "597b413c-d33e-40b4-98ad-5ee401a370cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c660abfc-bc2e-425c-a194-4b4b09ec15b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6fd5f5b9-b705-4a5e-b583-2a1f1b22b320")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23ceb52c-1e34-4f01-b016-9b47504617fb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "940e01f5-4513-4608-ae25-4b823fd02030")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/bc80e6c0-7a93-4bed-9670-bad6a73a2e85")
-		(sheetname "/Wireless modem/")
-		(sheetfile "Wireless_modem.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "c3da3059-ced0-41ac-b42c-d8cbc8782fad")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "944811ca-df33-4765-94ef-475c0ec3c1eb")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "1d73edc8-d6a6-4c28-837c-fb4eaa212c68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(net 130 "Net-(U7A-J7)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2d229310-b23c-48e3-992c-19fd815e009c")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "6cb24b8a-1d6a-4783-91e1-fdbdb73c9f35")
@@ -25783,14 +24903,13 @@
 		)
 	)
 	(footprint "SC0683:MODULE_SC0683"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "7231a1f5-61fb-4ab6-b49e-3f517e4bc71e")
 		(at 183 84)
 		(property "Reference" "U5"
 			(at -24.575 -21.075 0)
 			(layer "F.SilkS")
-			(uuid "ebd1fa65-ba02-4ee9-8bf1-f7696ec1abb3")
+			(uuid "1ec8707b-16b6-4b1e-bb98-b8942662776e")
 			(effects
 				(font
 					(size 1 1)
@@ -25801,7 +24920,7 @@
 		(property "Value" "SC0683"
 			(at -19.495 21.085 0)
 			(layer "F.Fab")
-			(uuid "5e64a0d7-274f-416e-a39e-a364f259823d")
+			(uuid "0f869e60-81e6-4a42-8b09-571ba459a17f")
 			(effects
 				(font
 					(size 1 1)
@@ -25813,7 +24932,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa2f3968-14c4-4e15-a837-ce25258ba6c7")
+			(uuid "48756fc5-ca7c-4072-8784-b378b2663402")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25825,7 +24944,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9a33049a-7a74-41e4-861e-f67c87198e6a")
+			(uuid "eb172277-3877-417b-b5e6-5191f9007c79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26014,7 +25133,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "05d5e75f-03bc-48f1-8b74-f07435583f5b")
+			(uuid "7d27dd29-484b-4c58-aae3-a92d7b4e616e")
 		)
 		(fp_line
 			(start -24.5 20)
@@ -26024,7 +25143,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e8b97863-ad72-4973-9930-4ec387aacad4")
+			(uuid "3d2a33ea-2766-4f9e-bbf6-7123199de1cb")
 		)
 		(fp_line
 			(start -13.8 -18.44)
@@ -26034,7 +25153,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dd1144b4-e888-43b7-b073-ffb606ef439a")
+			(uuid "392898bf-a68a-45a4-b0dd-a272ddbe8e07")
 		)
 		(fp_line
 			(start -13.8 -15.56)
@@ -26044,7 +25163,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d73201ca-228f-46da-b728-5be4dfc19832")
+			(uuid "2d1b37d3-b663-4083-9731-083f55689668")
 		)
 		(fp_line
 			(start -13.8 15.56)
@@ -26054,7 +25173,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "04acc543-47c5-4a9a-89da-b26ca45eb9f0")
+			(uuid "15f524fd-4727-4d84-a0e4-514d21d8df31")
 		)
 		(fp_line
 			(start -13.8 18.44)
@@ -26064,7 +25183,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5fe08eb3-91aa-4b79-ae8c-cd244875ec41")
+			(uuid "327a5107-0ae6-4f1d-b405-15af723d553f")
 		)
 		(fp_line
 			(start -12.72 -18.44)
@@ -26074,7 +25193,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3943a112-fb58-47ff-9c22-c49ed09da87f")
+			(uuid "844a2260-660f-456a-819e-4603de17a9f9")
 		)
 		(fp_line
 			(start -12.72 15.56)
@@ -26084,7 +25203,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "28de9eba-f2df-40eb-a9c9-20e0f7729adf")
+			(uuid "b798b463-77d7-4ec9-9027-e8b85cb0b70d")
 		)
 		(fp_line
 			(start 7.72 -18.44)
@@ -26094,7 +25213,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2fc5e099-84ac-437f-bd33-7746403857d1")
+			(uuid "4a2d2154-d0f4-4543-9b11-289f43016496")
 		)
 		(fp_line
 			(start 7.72 15.56)
@@ -26104,7 +25223,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a10a3d57-0181-4f52-befc-ec45490f5531")
+			(uuid "ed4c7622-1c84-420e-9d6e-b1d068b47d4b")
 		)
 		(fp_line
 			(start 8.8 -18.44)
@@ -26114,7 +25233,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6ba8e386-5a76-4a30-8f25-6b83d88e5ed8")
+			(uuid "12706b10-a87b-4975-887b-71fb2a84d24d")
 		)
 		(fp_line
 			(start 8.8 -15.56)
@@ -26124,7 +25243,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b1286360-fe6e-41fc-a923-54bb2d5fba30")
+			(uuid "f15cbcf8-b82a-415b-bfcd-9361950fda8a")
 		)
 		(fp_line
 			(start 8.8 15.56)
@@ -26134,7 +25253,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4864b328-4805-45cc-b4fe-06ead28ab04c")
+			(uuid "18b7de85-5377-4827-84eb-e2d15f2e8cfd")
 		)
 		(fp_line
 			(start 8.8 18.44)
@@ -26144,7 +25263,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c045886d-83f4-434a-a1bb-51e83367f8fe")
+			(uuid "b778c9fe-20e9-4b61-bc08-6eccca00601f")
 		)
 		(fp_line
 			(start 24.5 -20)
@@ -26154,7 +25273,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "790a8d14-2783-4b7e-84bb-fc16e00a9c47")
+			(uuid "e44bb0e6-aa7d-4b88-8bef-a06bea0ef5f5")
 		)
 		(fp_line
 			(start 27.5 17)
@@ -26164,7 +25283,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f0184193-8d33-40de-a56e-679f49a9faf1")
+			(uuid "7a30cad0-86d7-4df2-b1d0-f11f7bfe3f23")
 		)
 		(fp_arc
 			(start -27.5 -17)
@@ -26175,7 +25294,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "835df7fb-9bfc-47e9-b40d-6fae52056202")
+			(uuid "79e5201a-93a5-498a-bc4e-16c8173e607d")
 		)
 		(fp_arc
 			(start -24.5 20)
@@ -26186,7 +25305,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6c740895-e692-44f6-96ab-80cab13b071b")
+			(uuid "ca77b692-1fe3-4431-8cdd-297ef6a0c49c")
 		)
 		(fp_arc
 			(start 24.5 -20)
@@ -26197,7 +25316,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "07d76441-0385-4529-ba19-42da2ebc928c")
+			(uuid "aa119efc-6509-4e2f-8ff4-80676f9d42e1")
 		)
 		(fp_arc
 			(start 27.5 17)
@@ -26208,7 +25327,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3788034e-b806-4243-9e69-0649cb5d3cfd")
+			(uuid "fa5f1a33-1016-48d0-8710-cecf522a9ab8")
 		)
 		(fp_circle
 			(center 7.3 -20.75)
@@ -26219,47 +25338,73 @@
 			)
 			(fill no)
 			(layer "F.SilkS")
-			(uuid "7af8814e-76fd-4b3b-9495-2ef6a5d6d283")
+			(uuid "b52ab965-0aae-4885-a815-9ca4c8429e33")
 		)
-		(fp_line
-			(start -27.75 -20.25)
-			(end -27.75 20.25)
+		(fp_rect
+			(start -14.5 -19.5)
+			(end 9.5 -14.5)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
+			(fill no)
 			(layer "F.CrtYd")
-			(uuid "96f76192-ae65-4fd6-bab8-88c0e594e370")
+			(uuid "1d14b3fe-9f3e-4a23-a566-23932de9dbf0")
 		)
-		(fp_line
-			(start -27.75 20.25)
-			(end 27.75 20.25)
+		(fp_rect
+			(start -14.5 14.5)
+			(end 9.5 19.5)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
+			(fill no)
 			(layer "F.CrtYd")
-			(uuid "7a216f96-88c4-4e60-a216-31a820ff78bb")
+			(uuid "9aa2a063-0694-4204-aeb6-48200f05bfc5")
 		)
-		(fp_line
-			(start 27.75 -20.25)
-			(end -27.75 -20.25)
+		(fp_circle
+			(center -24 -16.5)
+			(end -20.5 -16.5)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
+			(fill no)
 			(layer "F.CrtYd")
-			(uuid "6e611809-38af-48a2-b5db-9b232660f735")
+			(uuid "545742f6-305d-4a3b-8898-9c4e44070157")
 		)
-		(fp_line
-			(start 27.75 20.25)
-			(end 27.75 -20.25)
+		(fp_circle
+			(center -24 16.5)
+			(end -20.5 16.5)
 			(stroke
 				(width 0.05)
-				(type solid)
+				(type default)
 			)
+			(fill no)
 			(layer "F.CrtYd")
-			(uuid "69229710-1e73-4cff-999f-1187456e9de9")
+			(uuid "05e037e3-5ba9-4b50-bb3f-4be93a6fa76a")
+		)
+		(fp_circle
+			(center 24 -16.5)
+			(end 27.5 -16.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "33655ecb-c15c-4817-81b4-e6448fca2666")
+		)
+		(fp_circle
+			(center 24 16.5)
+			(end 27.5 16.5)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "83340671-2c31-47e6-8388-61d3e21ff26f")
 		)
 		(fp_line
 			(start -27.5 -17)
@@ -26269,7 +25414,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "beece31f-0dc2-42a3-944c-9e421a33a374")
+			(uuid "1c4cd64e-b981-49d6-a0f1-86c8d50915eb")
 		)
 		(fp_line
 			(start -24.5 20)
@@ -26279,7 +25424,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e53fc3c7-453a-4404-8a19-356dc46d88ce")
+			(uuid "b6cfb2a9-c6bf-40f4-90ff-f1ec34361222")
 		)
 		(fp_line
 			(start -13.8 -18.44)
@@ -26289,7 +25434,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dd731f3c-f53b-4712-b7d8-7928416309b0")
+			(uuid "05a88c9f-29b3-40f0-ac44-15f0d8eb8d18")
 		)
 		(fp_line
 			(start -13.8 -15.56)
@@ -26299,7 +25444,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "89ec96c1-a163-4d85-a29c-995aff9af2f3")
+			(uuid "13fb55b9-1c41-446a-ae2e-497e39d4429d")
 		)
 		(fp_line
 			(start -13.8 15.56)
@@ -26309,7 +25454,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b5060fc2-1a4b-43cc-b134-9f8733361654")
+			(uuid "3468a3ce-27a2-4fe6-9723-4780ba18e622")
 		)
 		(fp_line
 			(start -13.8 18.44)
@@ -26319,7 +25464,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "aa5622d1-ab7f-4d38-86b0-2c4fd63f801b")
+			(uuid "abbff5ec-00cb-4aa8-889c-d4abdcc2544e")
 		)
 		(fp_line
 			(start 8.8 -18.44)
@@ -26329,7 +25474,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c7af2f32-0c10-4441-8b46-6ddc0a594329")
+			(uuid "fd4e3c77-949f-4b05-ad25-f30b04d84dea")
 		)
 		(fp_line
 			(start 8.8 -15.56)
@@ -26339,7 +25484,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "20a9f76a-e3ee-4aae-a74c-af338c5ca15f")
+			(uuid "d4e8f74a-c00c-41c1-a215-b5e7e0a5e3fc")
 		)
 		(fp_line
 			(start 8.8 15.56)
@@ -26349,7 +25494,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "31d1a306-d572-445b-9fd0-3efb4537a734")
+			(uuid "7ce8ae10-8b3f-41f8-96fa-f23a17370f2d")
 		)
 		(fp_line
 			(start 8.8 18.44)
@@ -26359,7 +25504,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "873ffa25-57bf-4689-99d0-1852b94dc2ba")
+			(uuid "b879e22e-5897-4626-a4c1-efbdf7e2f7d9")
 		)
 		(fp_line
 			(start 24.5 -20)
@@ -26369,7 +25514,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "134dfc16-1cc7-4cff-9a6a-fb013b593cbd")
+			(uuid "a60cc0de-6fb3-4d87-9c23-9f12ded9eb28")
 		)
 		(fp_line
 			(start 27.5 17)
@@ -26379,7 +25524,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "da0070bc-0a7f-43fd-9727-38cd3b0d6c61")
+			(uuid "6304a7a1-ec8f-494b-b09e-543ec159f31c")
 		)
 		(fp_arc
 			(start -27.5 -17)
@@ -26390,7 +25535,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a9829d05-a1e8-4a74-88b5-78568cc0d277")
+			(uuid "f8268564-3a56-443d-aa54-3e4ca29dedb6")
 		)
 		(fp_arc
 			(start -24.5 20)
@@ -26401,7 +25546,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f8ca8d03-936d-487e-bf06-b7ef649b60f1")
+			(uuid "f5d56968-0bf7-4998-8be1-517461a1cdf4")
 		)
 		(fp_arc
 			(start 24.5 -20)
@@ -26412,7 +25557,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bcd238e1-1760-4b07-a977-cdfa805e843d")
+			(uuid "179c44ca-aeea-40ea-b706-553f6be48d60")
 		)
 		(fp_arc
 			(start 27.5 17)
@@ -26423,7 +25568,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fb2a5367-bea7-482c-bae8-21a57cfe6eb1")
+			(uuid "83180b8b-66fc-4407-a3ff-7427fd46fc9b")
 		)
 		(fp_circle
 			(center 7.3 -20.75)
@@ -26434,7 +25579,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "d8b3ce87-0677-4041-a829-775d64b558ac")
+			(uuid "36dfff21-44c5-4cff-877e-82dd6b307d3e")
 		)
 		(fp_text user "101-200"
 			(at -2.5 17 0)
@@ -28507,39 +27652,6 @@
 			(uuid "9d98103a-acad-4155-a65a-d042efa18238")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/SC0683/SC0683.step"
-			(offset
-				(xyz 0 0 3)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/DF40HC_3.0_-100DS-0.4V_58/DF40HC_3.0_-100DS-0.4V_58.step"
-			(offset
-				(xyz -2.5 -17 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/DF40HC_3.0_-100DS-0.4V_58/DF40HC_3.0_-100DS-0.4V_58.step"
-			(offset
-				(xyz -2.5 17 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "KiCad5:SOT95P280X145-5N"
 		(layer "F.Cu")
@@ -32114,230 +31226,10 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
-		(uuid "7c8efb2c-2951-473c-a12d-0b7c244a8498")
-		(at 88.025 172.845)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J20"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "eb6ed345-d952-4efd-8d52-25b76434e662")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "b8b2eadc-dfeb-4848-a0e1-53d6838f4270")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a47347b-2d9d-4fd7-81fe-9e92fba31641")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5701f28b-8461-4e60-82fc-4ac971513a17")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Quantity" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0de91e45-4d85-4919-8d8c-68499bf98a81")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7997fa1d-19ff-47a6-8257-e9cc16fcbf15")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3aed3c2f-1774-487c-b14b-38d2ddf57660")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "46cf4db7-8f85-4e7d-b704-312603e666c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52a50e86-ae4c-4cd3-8e48-da11e1d07dbd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6871166d-0439-43a0-967c-0729a9cf86e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6fcf9bdd-7104-4610-b3ae-393d181367d0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "127a3b46-4a8f-4655-9342-5520514f52d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "392f4cdb-60a3-4621-8abd-3094ce612490")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/b9c2e443-b0cb-47d6-8be2-f35e932ebe97")
-		(sheetname "/Wireless modem/")
-		(sheetfile "Wireless_modem.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "00964475-fae2-4afe-b100-b02a96873890")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "321224fc-9866-466b-93fd-9561cfc966b2")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "290586b2-52bb-4104-bf4b-9b07769554c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(net 129 "Net-(U7A-J6)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9b59ad2d-23bc-4655-bb8b-76553a663a9e")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
 		(layer "F.Cu")
 		(uuid "7ea294b5-df01-4aec-aeb6-b473799b58be")
-		(at 247.75 79.8 90)
+		(at 243.8 79.65 90)
 		(property "Reference" "J14"
 			(at 3.75 0 90)
 			(layer "F.SilkS")
@@ -32684,7 +31576,7 @@
 			)
 			(polygon
 				(pts
-					(xy 246.75 80.75) (xy 246.75 78.85) (xy 248.75 78.85) (xy 248.75 80.75)
+					(xy 242.8 80.6) (xy 242.8 78.7) (xy 244.8 78.7) (xy 244.8 80.6)
 				)
 			)
 		)
@@ -32716,7 +31608,7 @@
 			)
 			(polygon
 				(pts
-					(xy 246.75 80.75) (xy 246.75 78.85) (xy 248.75 78.85) (xy 248.75 80.75)
+					(xy 242.8 80.6) (xy 242.8 78.7) (xy 244.8 78.7) (xy 244.8 80.6)
 				)
 			)
 		)
@@ -32748,7 +31640,7 @@
 			)
 			(polygon
 				(pts
-					(xy 246.75 80.75) (xy 246.75 78.85) (xy 248.75 78.85) (xy 248.75 80.75)
+					(xy 242.8 80.6) (xy 242.8 78.7) (xy 244.8 78.7) (xy 244.8 80.6)
 				)
 			)
 		)
@@ -33459,226 +32351,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
-		(uuid "811ac1d7-1fa8-4b79-b426-6955b530314d")
-		(at 84.975 178.945)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J18"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "a2a3e1c2-13fa-4a67-a4b6-afd5e78a5117")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "9f58c607-3d31-477f-a4af-093619f83f82")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8c60c68-d403-42b2-bf2c-f604614c4478")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "82b06bf1-e728-4b7e-8135-4c056611da8f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Quantity" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "67cff714-dda5-4266-b1ef-e84bb68a6de2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6e10bbf-87f3-4f57-94ac-c88d295c128e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ee5a0e7e-037a-440c-a636-b7be07219180")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "daec1843-6b5e-41dc-9c0c-ab24d8740904")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3416b21-89e9-4e1e-971a-1c03b411194f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a928cb4-60d4-4e61-9fbb-897d6d62158c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1dce8fc9-1277-427b-bc7d-cb35471d2dc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1da295d-b3ba-4fd8-b50d-ed1c077a6b9b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "614abf00-48ed-4fed-8c75-7ad6661d1ac2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/694b0f99-eecd-4855-a6bb-e9c237213df8")
-		(sheetname "/Wireless modem/")
-		(sheetfile "Wireless_modem.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "63f169f8-f392-419c-9d59-5b0aed8f90c9")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "af02f340-8dc9-4cd4-974b-679781622bc4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "b83f956d-a253-49df-ad79-0579b1d916a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(net 127 "Net-(U7A-J4)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b39920bc-1859-4661-8a25-76ecfed26c7b")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -34926,7 +33598,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8691a487-74d0-40d2-ab5b-86d85000dff0")
-		(at 215.675 65)
+		(at 215.12 65.0525)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R35"
@@ -35763,7 +34435,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "8746fbe8-0491-4364-8ff2-fe76c912ba16")
-		(at 66.645 175.89)
+		(at 182.5885 147.5525)
 		(descr "SOT-323, SC-70")
 		(tags "SOT-323 SC-70")
 		(property "Reference" "Q3"
@@ -36160,7 +34832,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "89b805ec-9af9-4514-9875-0abb93575e8c")
-		(at 62.415 180.135)
+		(at 190.9885 148.96)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
@@ -38772,226 +37444,6 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
-		(uuid "942e5659-6564-4757-9d20-d1c254f1f2a0")
-		(at 88.025 169.795)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J19"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "3e7ef794-a205-4186-901c-67f2cbc2d6f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "fad93897-60b3-4282-a8e5-0a1971c058a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8880bbf6-e0b5-4a38-9549-fcfd99cbecb2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1465c87d-5461-4a54-92ef-933250989e1a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Quantity" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbbb27a7-fd63-496b-b930-d9900d6c32a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7636a7f4-01c3-4b3f-ba68-05dff3d4cc14")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e0d443ab-3227-4f52-9af3-aae85139e0c0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05831e6f-564a-4fed-9695-f027b35850f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7eea7963-f6b8-4888-97f8-41e2d5fc8341")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4addba64-2be4-4dc6-b4e5-547848d74d98")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bed61a77-4d89-468f-a232-b74d709fb035")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dfea9de1-4b66-499f-ac25-8d594efec6d4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3470fc4a-5846-4788-9bad-cc33ebd0fdf8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/54242c37-3f43-4825-9ad4-1fed0be3a3c5")
-		(sheetname "/Wireless modem/")
-		(sheetfile "Wireless_modem.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "18783608-881e-4682-9196-d69fbdd8e3c3")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "fddb2d59-9d92-4ea8-a1cb-cb886d9960ca")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "e32689fb-df66-48a9-849b-29853d6fa512")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(net 128 "Net-(U7A-J5)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b7bcc510-1e60-426e-bec2-e917912fa30e")
-		)
-		(embedded_fonts no)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9810598b-1b7e-428a-bd44-76957d059245")
@@ -40015,7 +38467,7 @@
 	(footprint "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
 		(layer "F.Cu")
 		(uuid "99764d03-bed6-41fd-ba7a-2ad85d916931")
-		(at 247.775 88.6 90)
+		(at 243.825 88.45 90)
 		(property "Reference" "J13"
 			(at 3.75 -0.025 90)
 			(layer "F.SilkS")
@@ -40362,7 +38814,7 @@
 			)
 			(polygon
 				(pts
-					(xy 246.775 89.55) (xy 246.775 87.65) (xy 248.775 87.65) (xy 248.775 89.55)
+					(xy 242.825 89.4) (xy 242.825 87.5) (xy 244.825 87.5) (xy 244.825 89.4)
 				)
 			)
 		)
@@ -40394,7 +38846,7 @@
 			)
 			(polygon
 				(pts
-					(xy 246.775 89.55) (xy 246.775 87.65) (xy 248.775 87.65) (xy 248.775 89.55)
+					(xy 242.825 89.4) (xy 242.825 87.5) (xy 244.825 87.5) (xy 244.825 89.4)
 				)
 			)
 		)
@@ -40426,7 +38878,7 @@
 			)
 			(polygon
 				(pts
-					(xy 246.775 89.55) (xy 246.775 87.65) (xy 248.775 87.65) (xy 248.775 89.55)
+					(xy 242.825 89.4) (xy 242.825 87.5) (xy 244.825 87.5) (xy 244.825 89.4)
 				)
 			)
 		)
@@ -40926,7 +39378,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9cbfc416-1e0c-443d-8544-6df2ebce9ab7")
-		(at 213.75 80 180)
+		(at 208.45 80.75 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R29"
@@ -42898,7 +41350,7 @@
 		(property "Reference" "J25"
 			(at -4.5 1 90)
 			(layer "F.SilkS")
-			(uuid "29dc8a25-08e2-4b72-af04-fa30797566f1")
+			(uuid "eadda4b5-168d-4471-afad-c2e503140c7e")
 			(effects
 				(font
 					(size 1 1)
@@ -42909,7 +41361,7 @@
 		(property "Value" "M20-9990245"
 			(at 8.68 2.365 90)
 			(layer "F.Fab")
-			(uuid "0983d52c-c385-415f-b857-7312ee545e9b")
+			(uuid "281e4ebb-e660-4b89-8f0f-3574b2cbecf4")
 			(effects
 				(font
 					(size 1 1)
@@ -42921,7 +41373,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e926fa4-3c14-4923-86e1-d68eead1f91c")
+			(uuid "803bf3eb-a4ac-45a8-9b63-955525b0ca03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42933,7 +41385,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d787922-e6d9-45f3-8419-f81a53f1094f")
+			(uuid "b83247b0-9d3d-4306-8d7d-ee2901886b2c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44905,7 +43357,7 @@
 		(property "Reference" "Q11"
 			(at 2.562 0.2 0)
 			(layer "F.SilkS")
-			(uuid "351964eb-04a8-4bb7-a45e-454b06dddf6f")
+			(uuid "ab50d997-c615-44a7-9072-6d9c3e24bab5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44917,7 +43369,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "30275055-88ad-4b73-a561-43c1534af8c2")
+			(uuid "4e3410b6-40d9-4f4f-9127-ddf9c9b7ae93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44929,7 +43381,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16203804-51e7-4bc2-9d89-3afe91e9650d")
+			(uuid "e2dde189-fa51-43e8-a557-16947ec4b05d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44941,7 +43393,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19fe1443-a3af-4ffe-aae1-63ca35668be2")
+			(uuid "f09f999e-f209-48e6-96c9-0b67bfc5fa43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47950,7 +46402,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b1b70645-6c8d-42ff-97d2-f286bf470b24")
-		(at 62.415 177.625)
+		(at 190.9885 146.45)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R19"
@@ -48268,7 +46720,7 @@
 	(footprint "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
 		(layer "F.Cu")
 		(uuid "b217a40e-4059-457f-9e4e-4d35cfc3a3d9")
-		(at 233.5 103.5)
+		(at 229.55 103.35)
 		(property "Reference" "J21"
 			(at 3.75 0 0)
 			(layer "F.SilkS")
@@ -48615,7 +47067,7 @@
 			)
 			(polygon
 				(pts
-					(xy 232.55 102.5) (xy 234.45 102.5) (xy 234.45 104.5) (xy 232.55 104.5)
+					(xy 228.6 102.35) (xy 230.5 102.35) (xy 230.5 104.35) (xy 228.6 104.35)
 				)
 			)
 		)
@@ -48647,7 +47099,7 @@
 			)
 			(polygon
 				(pts
-					(xy 232.55 102.5) (xy 234.45 102.5) (xy 234.45 104.5) (xy 232.55 104.5)
+					(xy 228.6 102.35) (xy 230.5 102.35) (xy 230.5 104.35) (xy 228.6 104.35)
 				)
 			)
 		)
@@ -48679,7 +47131,7 @@
 			)
 			(polygon
 				(pts
-					(xy 232.55 102.5) (xy 234.45 102.5) (xy 234.45 104.5) (xy 232.55 104.5)
+					(xy 228.6 102.35) (xy 230.5 102.35) (xy 230.5 104.35) (xy 228.6 104.35)
 				)
 			)
 		)
@@ -49283,7 +47735,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b57bbb09-08cf-41e4-a596-7a876adb3ec4")
-		(at 229.775 70.25)
+		(at 225.825 70.1)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C35"
@@ -51015,7 +49467,7 @@
 	(footprint "RC7620_1104625:XCVR_RC7620_1104625"
 		(layer "F.Cu")
 		(uuid "bc92c2f9-6e6f-4018-aabc-1e8d28ca5b2c")
-		(at 229.5 85 90)
+		(at 225.55 84.85 90)
 		(property "Reference" "U7"
 			(at -8.325 -14.135 90)
 			(layer "F.SilkS")
@@ -63204,7 +61656,7 @@
 	(footprint "KiCad4:SOTFL95P240X88-3N"
 		(layer "F.Cu")
 		(uuid "c52339eb-a51c-46ea-85e5-4fc3b24f5f4f")
-		(at 66.57 192.585)
+		(at 186.7505 147.7)
 		(descr "SOT-23F (2-3Z1A)_1")
 		(tags "MOSFET (P-Channel)")
 		(property "Reference" "Q2"
@@ -63790,226 +62242,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
-		(uuid "c75632bb-171e-469b-9809-5aa551b25cd8")
-		(at 88.025 178.945)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J23"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "c2e49be5-1083-427d-aad5-500c99a728a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "c14c452d-cf91-4079-8c54-96dc9207e9f4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3de71d8e-ed93-4072-8ad3-a1ccb09b6bf7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "56a6f854-9c22-4e4f-995e-71cc4659684e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Quantity" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4bb80df4-6e63-4072-9168-5f4b20f8b561")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fcfc6e34-bbce-4b18-8144-9e992b64764d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2719cf68-d275-4745-9c4e-2bfba1ce6550")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50bea4c9-03ff-475e-91d0-338c2b542576")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e1a850f-928f-4510-8ef1-71ef522ea4ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d72ff59-291e-4a8f-aeb6-3d5d76af3260")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e96aced4-971e-4ddc-a961-a4baea11a50e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce876d19-b88f-4a08-95c1-bfdc6b7da4a3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b8b2ed49-b146-495c-a38a-eb5e0cc538ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/f83bd1b3-2bc8-4a3f-a4c7-105c7910098b")
-		(sheetname "/Wireless modem/")
-		(sheetfile "Wireless_modem.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "f6d68a4b-55d0-4611-affb-5521fb6639d0")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "5ca70dcc-f9a7-4509-9fca-9f50ad4c41ca")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "9f0f63f8-9685-49e2-b549-8b6b5af1502f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(net 131 "Net-(U7A-J8)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "04d5aacf-87ef-4238-b8d3-28a62cedde3c")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -64960,7 +63192,7 @@
 		(property "Reference" "Q12"
 			(at -0.05 -2.25 90)
 			(layer "F.SilkS")
-			(uuid "b4af084f-40dd-40e8-9b42-a1494313fe6f")
+			(uuid "eb677894-eafe-4571-a0e0-3bdf4e31d34d")
 			(effects
 				(font
 					(size 1 1)
@@ -64971,7 +63203,7 @@
 		(property "Value" "NX3008NBKW"
 			(at -0.05 2.05 90)
 			(layer "F.Fab")
-			(uuid "54534366-1319-444e-a4a1-e589789713bf")
+			(uuid "2350b5c8-e690-4758-81fa-9fb9a47bddbd")
 			(effects
 				(font
 					(size 1 1)
@@ -64984,7 +63216,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea547747-f39d-4277-b27d-70754219702e")
+			(uuid "22d79393-acfd-4c6f-81da-87d833d897f0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64997,7 +63229,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66308969-15c4-43ae-b3bd-33010a394d22")
+			(uuid "753ac34e-c109-4692-b303-52e1405ae198")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66510,7 +64742,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "d2b0a8e4-cb56-4ebe-803c-4068033e5c41")
-		(at 215.905 67.5)
+		(at 215.35 67.5525)
 		(descr "SOT-323, SC-70")
 		(tags "SOT-323 SC-70")
 		(property "Reference" "Q9"
@@ -70263,7 +68495,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "dfb6840e-6921-4fb6-88dc-2d9f427ebd36")
-		(at 214 77.5)
+		(at 208.7 78.25)
 		(descr "SOT-323, SC-70")
 		(tags "SOT-323 SC-70")
 		(property "Reference" "Q6"
@@ -70656,226 +68888,6 @@
 				(xyz 0 0 0)
 			)
 		)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
-		(layer "F.Cu")
-		(uuid "e0189014-84b9-4864-9299-5f641b079585")
-		(at 84.975 175.895)
-		(descr "SMD pad as test Point, diameter 1.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "J17"
-			(at 0 -1.448 0)
-			(layer "F.SilkS")
-			(uuid "bb71466c-96de-43b2-acd6-a543b0246fec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 0 1.55 0)
-			(layer "F.Fab")
-			(uuid "6395fd55-677e-450f-8837-060e3e3861a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "54363bd6-536f-45f0-9b6e-cc145e10b7e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "177b0054-a72f-446b-8699-ede501f08034")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Quantity" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdfbea7c-2686-4448-a0e9-7c57b67ca2b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Digikey" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0286dad5-b08a-40a6-a717-2ce81aa7ddad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24d2e7fe-4a12-4093-abf3-deb787fa9983")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c587a554-aeed-487b-9da1-7ea874bf66d5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Farnell" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "519cc215-d032-4802-8e86-25f8ca566840")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field-1" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99fe4201-5166-43b6-b508-cecb9aacaff9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2d55c75-0d7b-4a9c-bfe0-d05bd347be52")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bd90f9d9-6232-4443-9096-309b828e2ed7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "167c8845-eeca-4aa0-927c-351cca395d08")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/2d6fd9c8-d99d-4912-b47f-54bfd6e5f33d")
-		(sheetname "/Wireless modem/")
-		(sheetfile "Wireless_modem.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 0 0.7)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "b35ba8cc-26cd-4555-b3ad-a3663b700bcd")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "b080d5ec-10b5-4aca-b997-4e5fe8b2d9c8")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 0)
-			(layer "F.Fab")
-			(uuid "297e792a-95d9-4161-8021-9bdb60a5dfdd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd circle
-			(at 0 0)
-			(size 1 1)
-			(layers "F.Cu" "F.Mask")
-			(net 126 "Net-(U7A-J3)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ad7ff932-191e-45b0-a8f7-635686af8a17")
-		)
-		(embedded_fonts no)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -71333,7 +69345,7 @@
 		(property "Reference" "R38"
 			(at 0 1.5 0)
 			(layer "F.SilkS")
-			(uuid "ddd29ce6-0975-4ce7-b9d1-ea2dd066c7b0")
+			(uuid "0dd86bd8-2f6e-43d3-9d49-62ac551cc25b")
 			(effects
 				(font
 					(size 1 1)
@@ -71344,7 +69356,7 @@
 		(property "Value" "10k"
 			(at 0 1.43 0)
 			(layer "F.Fab")
-			(uuid "5562d6c7-5b5f-4d46-90d6-04fac72177db")
+			(uuid "59fc0542-9c80-4c9e-b1b6-2c23bd40ec7d")
 			(effects
 				(font
 					(size 1 1)
@@ -71357,7 +69369,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b72c2485-d5fb-47a8-942b-f88846695f74")
+			(uuid "6256513a-9478-4ea9-8393-93a64dd0a86d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71370,7 +69382,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9f883ce-3841-4348-9913-e6faec8498f6")
+			(uuid "16e460aa-7456-4619-ae8c-4cb468592cbd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71658,7 +69670,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e2a701d9-cc46-4dab-a4da-5a5ecd856a79")
-		(at 213.75 74.75)
+		(at 208.45 75.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R30"
@@ -72859,7 +70871,7 @@
 	(footprint "Net_tie_footprint_Waveguide_transmissionline:0.3mm_to_0.41_net_tie"
 		(layer "F.Cu")
 		(uuid "e948023a-71a7-453f-8a2d-4776fb7337a0")
-		(at 240.5 88.6)
+		(at 236.55 88.45)
 		(property "Reference" "NT3"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -75806,7 +73818,7 @@
 	(footprint "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
 		(layer "F.Cu")
 		(uuid "f5d8c87b-f7f2-47d6-8e88-1d22ebe881ad")
-		(at 232.85 100 180)
+		(at 228.9 99.85 180)
 		(property "Reference" "D8"
 			(at 2.25 0 0)
 			(layer "F.SilkS")
@@ -76140,11 +74152,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "f64276a5-76eb-45a7-a44d-4ffcdf8f3f34")
-		(at 215.675 70 180)
+		(at 217.05 70.2 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R33"
-			(at 0.175 -1.5 0)
+			(at 2.85 -0.15 0)
 			(layer "F.SilkS")
 			(uuid "9367c18e-3d57-46d8-9445-bc2863a5a99f")
 			(effects
@@ -79872,7 +77884,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "fd0d2ef9-21e4-41e1-9e62-58d283835333")
-		(at 230.525 68)
+		(at 226.575 67.85)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C36"
@@ -80443,7 +78455,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ff9aef0b-3752-45bd-9209-8c08f93b1141")
-		(at 62.415 175.115)
+		(at 190.9885 143.94)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R16"
@@ -80773,6 +78785,240 @@
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
+		(uuid "1083f649-faea-4598-b9a7-eaec49dff157")
+		(at 220.3 78.55 -90)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "J15"
+			(at 0 1.448 90)
+			(layer "B.SilkS")
+			(uuid "419eaf5f-c0c3-463e-a2ff-331cb544c3aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1.55 90)
+			(layer "B.Fab")
+			(uuid "011c5378-70e6-40c1-91e8-0da5a2008479")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0f5b8300-7c95-4191-a6a2-8cadd59c850a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1a70f46c-3afa-432a-87e8-2307f399c6e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Quantity" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "254dca70-0588-48af-a116-b0a049c1dfe6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d6910d7e-d41c-4d31-a272-2106b8bba869")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "96cc737b-8bc9-46d3-82ca-8a0e54b85f8a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d698f82c-7393-48a0-b6d6-da3e4c90eae6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4bc61766-d9a2-46f5-abe1-eaf1ffe77658")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bc0b21d9-8dd8-4f89-a9ae-a4343ed553fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "68cd6db0-9be1-4c7d-9132-ccbae7a6834e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field5" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "208cace6-7db6-4ead-aaef-be27b5b5b9b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12e26842-56e3-4e9f-b6f2-7710bf8a3b6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/bc9b9917-cac1-4a77-9a8e-1f527cd2bc20")
+		(sheetname "/Wireless modem/")
+		(sheetfile "Wireless_modem.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "ce54fe20-12e7-4c39-a6a2-499032a6e086")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "4ef74afb-5871-4760-970e-acd128c05d86")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.45 90)
+			(layer "B.Fab")
+			(uuid "3dfe2509-4a86-48f1-aa81-ea4c2d3f19ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 124 "Net-(U7A-J1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "184227df-b559-4078-a444-1d39d7ab3fc1")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "B.Cu")
 		(uuid "27cb454f-b86c-4332-8300-0604b5cb8fcc")
 		(at 206.5 39.5 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
@@ -81007,6 +79253,708 @@
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
+		(uuid "55680e75-1c54-4aed-8835-f84d206630d6")
+		(at 221.9 80.15 90)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "J16"
+			(at 0 1.448 90)
+			(layer "B.SilkS")
+			(uuid "40e8347d-4153-450a-a8d1-3cd6c33d8563")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1.55 90)
+			(layer "B.Fab")
+			(uuid "6f88d8f8-ac43-4ccb-aea2-7f0c265c8327")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0e98f505-5c82-458d-b749-6004687e8b59")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "685caf72-d15d-435d-8b9d-ba9f3b160f90")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Quantity" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "16893fab-983b-4001-8565-3f9baf0d44b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "916e3504-5dc1-42eb-ab3b-effe8b474048")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "57f6d263-ad76-4055-8ad8-34ab3143d55d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "387c7063-0886-4dbc-a94a-2381519def0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b02b852a-c76b-4df0-89cc-2389a37b0f5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4eda8413-53f4-4644-9a35-69d466dc5dc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e9263a62-034e-43fc-a5f7-d6a2e2c83026")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field5" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e16d3b6-fda1-44f6-925f-8dc11c982efc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "653ede9c-9d8a-4705-bcb9-1626096daa84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/71c5fde6-ea8e-4a25-b812-c100c43f1000")
+		(sheetname "/Wireless modem/")
+		(sheetfile "Wireless_modem.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "9c42af90-a90a-4328-b2b5-bb822b3c3fe8")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "ec47fe88-be43-4a5b-8f4d-4872bf698d9b")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.45 90)
+			(layer "B.Fab")
+			(uuid "193cd1bf-11b9-43e1-8c96-8669e541ba2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 90)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 125 "Net-(U7A-J2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a07b3052-f17b-46c3-bf43-830a3039762c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "B.Cu")
+		(uuid "63358b62-84fe-40f6-ab71-05ba658be4e0")
+		(at 220.3 91.15 -90)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "J24"
+			(at 0 1.448 90)
+			(layer "B.SilkS")
+			(uuid "70defeea-d3dd-4958-8d5a-9526f21e5d06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1.55 90)
+			(layer "B.Fab")
+			(uuid "3d4068b8-dae3-445f-8024-17868e19298c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a67e2e5-d7cf-47c5-909b-d6d2be017892")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bb0a414e-5a07-4750-ab9a-9adb169c6360")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Quantity" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0957d8c5-6898-485d-acaa-c960e7a541c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7e8aa96b-30bc-40da-a456-7196b927b8c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c13faa54-65a0-4271-adb5-6d5fa1c61040")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9bcea3fd-749c-4440-be7a-672f61b5a09b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f06942c2-9c88-4ca4-b599-4c3ba7641bfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "068b02fb-4d95-49dc-913a-69801b74dfa4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ffbe1c8c-fbb1-4a1e-b216-f4e5c9dc1650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field5" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5fd44b5e-d31c-427b-9ca2-264caa2ff732")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "55a44072-0e1e-4b38-a0cc-5fb7a37c441a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/2fed218d-8a81-48b5-af19-c2609dc0f6fd")
+		(sheetname "/Wireless modem/")
+		(sheetfile "Wireless_modem.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "0c02dbc2-0d97-4250-92ca-0d0cf7c466ab")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "ff01772b-7410-454a-bb97-6a2c4f54a4a1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.45 90)
+			(layer "B.Fab")
+			(uuid "bf4656de-207c-4917-89c1-11483280c11c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 132 "Net-(U7A-J9)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "36e251dd-729a-439a-81be-4089aee5420c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "B.Cu")
+		(uuid "6aeb7523-6cfd-46e7-ab34-c27485a16210")
+		(at 220.3 88 -90)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "J22"
+			(at 0 1.448 90)
+			(layer "B.SilkS")
+			(uuid "ff69dc16-b604-473a-b694-234843271fc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1.55 90)
+			(layer "B.Fab")
+			(uuid "24c94f8c-614f-4b1d-a2b9-009b602bdc1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "31da9aa5-3aac-48fb-ad17-afcd54000a0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5d1583be-3b2e-4724-83c9-bf0b7286251a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Quantity" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f363e371-eb3e-489c-b691-30f4a79a0f68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d873ec0-c993-4627-8360-1f78ceac7c0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4cd80b90-330f-4afd-8a81-e7752d1e7e04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "75ca5b89-a7e8-4cf8-a37e-d25a44e83540")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "597b413c-d33e-40b4-98ad-5ee401a370cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c660abfc-bc2e-425c-a194-4b4b09ec15b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6fd5f5b9-b705-4a5e-b583-2a1f1b22b320")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field5" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "23ceb52c-1e34-4f01-b016-9b47504617fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "940e01f5-4513-4608-ae25-4b823fd02030")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/bc80e6c0-7a93-4bed-9670-bad6a73a2e85")
+		(sheetname "/Wireless modem/")
+		(sheetfile "Wireless_modem.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "c3da3059-ced0-41ac-b42c-d8cbc8782fad")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "944811ca-df33-4765-94ef-475c0ec3c1eb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.45 90)
+			(layer "B.Fab")
+			(uuid "1d73edc8-d6a6-4c28-837c-fb4eaa212c68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 130 "Net-(U7A-J7)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "2d229310-b23c-48e3-992c-19fd815e009c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "B.Cu")
 		(uuid "7a55bd6f-bb4d-40b7-b2d1-4384cfcf6499")
 		(at 212.6 39.5 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
@@ -81236,6 +80184,474 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "8141f74c-1ca4-49a8-b943-a4faaf0c455e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "B.Cu")
+		(uuid "7c8efb2c-2951-473c-a12d-0b7c244a8498")
+		(at 221.9 86.416667 90)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "J20"
+			(at 0 1.448 90)
+			(layer "B.SilkS")
+			(uuid "2953dd07-125e-45a0-8cd9-2de8bd88c9b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1.55 90)
+			(layer "B.Fab")
+			(uuid "92201f52-8ebb-4215-8d9a-538e7d01db89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "98ab9d7d-9934-4d74-9d31-e227a0cc1cb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d4d73c4e-76d0-4f73-9d46-9dd72dce61a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Quantity" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0de91e45-4d85-4919-8d8c-68499bf98a81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7997fa1d-19ff-47a6-8257-e9cc16fcbf15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3aed3c2f-1774-487c-b14b-38d2ddf57660")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "46cf4db7-8f85-4e7d-b704-312603e666c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "52a50e86-ae4c-4cd3-8e48-da11e1d07dbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6871166d-0439-43a0-967c-0729a9cf86e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6fcf9bdd-7104-4610-b3ae-393d181367d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field5" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "127a3b46-4a8f-4655-9342-5520514f52d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "392f4cdb-60a3-4621-8abd-3094ce612490")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/b9c2e443-b0cb-47d6-8be2-f35e932ebe97")
+		(sheetname "/Wireless modem/")
+		(sheetfile "Wireless_modem.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "00964475-fae2-4afe-b100-b02a96873890")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "321224fc-9866-466b-93fd-9561cfc966b2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.45 90)
+			(layer "B.Fab")
+			(uuid "290586b2-52bb-4104-bf4b-9b07769554c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 90)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 129 "Net-(U7A-J6)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "9b59ad2d-23bc-4655-bb8b-76553a663a9e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "B.Cu")
+		(uuid "811ac1d7-1fa8-4b79-b426-6955b530314d")
+		(at 221.9 83.283333 90)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "J18"
+			(at 0 1.448 90)
+			(layer "B.SilkS")
+			(uuid "b17616c9-39fa-4527-86da-d18e88c8897d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1.55 90)
+			(layer "B.Fab")
+			(uuid "5e919fc4-5112-43c2-b138-22435e9bf3a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c3caa51-b7d2-4179-8395-d2841ccb6e42")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "13c8faf1-8eaa-4148-9d0c-1a419be2f725")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Quantity" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "67cff714-dda5-4266-b1ef-e84bb68a6de2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c6e10bbf-87f3-4f57-94ac-c88d295c128e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ee5a0e7e-037a-440c-a636-b7be07219180")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "daec1843-6b5e-41dc-9c0c-ab24d8740904")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b3416b21-89e9-4e1e-971a-1c03b411194f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1a928cb4-60d4-4e61-9fbb-897d6d62158c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1dce8fc9-1277-427b-bc7d-cb35471d2dc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field5" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a1da295d-b3ba-4fd8-b50d-ed1c077a6b9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "614abf00-48ed-4fed-8c75-7ad6661d1ac2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/694b0f99-eecd-4855-a6bb-e9c237213df8")
+		(sheetname "/Wireless modem/")
+		(sheetfile "Wireless_modem.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "63f169f8-f392-419c-9d59-5b0aed8f90c9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "af02f340-8dc9-4cd4-974b-679781622bc4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.45 90)
+			(layer "B.Fab")
+			(uuid "b83f956d-a253-49df-ad79-0579b1d916a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 90)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 127 "Net-(U7A-J4)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b39920bc-1859-4661-8a25-76ecfed26c7b")
 		)
 		(embedded_fonts no)
 	)
@@ -81503,6 +80919,240 @@
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
+		(uuid "942e5659-6564-4757-9d20-d1c254f1f2a0")
+		(at 220.3 84.85 -90)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "J19"
+			(at 0 1.448 90)
+			(layer "B.SilkS")
+			(uuid "aeb42a20-d184-4891-aec4-08f70a4d183d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1.55 90)
+			(layer "B.Fab")
+			(uuid "cf0e0da3-20fe-4a98-b96f-e4a70f79596d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "9e7ac15a-263c-40ff-b366-a564cdb33dff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8a7cf561-0467-43fc-92e1-987bcaf74e51")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Quantity" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fbbb27a7-fd63-496b-b930-d9900d6c32a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7636a7f4-01c3-4b3f-ba68-05dff3d4cc14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e0d443ab-3227-4f52-9af3-aae85139e0c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "05831e6f-564a-4fed-9695-f027b35850f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7eea7963-f6b8-4888-97f8-41e2d5fc8341")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4addba64-2be4-4dc6-b4e5-547848d74d98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bed61a77-4d89-468f-a232-b74d709fb035")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field5" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dfea9de1-4b66-499f-ac25-8d594efec6d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3470fc4a-5846-4788-9bad-cc33ebd0fdf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/54242c37-3f43-4825-9ad4-1fed0be3a3c5")
+		(sheetname "/Wireless modem/")
+		(sheetfile "Wireless_modem.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "18783608-881e-4682-9196-d69fbdd8e3c3")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "fddb2d59-9d92-4ea8-a1cb-cb886d9960ca")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.45 90)
+			(layer "B.Fab")
+			(uuid "e32689fb-df66-48a9-849b-29853d6fa512")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 128 "Net-(U7A-J5)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b7bcc510-1e60-426e-bec2-e917912fa30e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "B.Cu")
 		(uuid "9e2e711a-f2c6-4ea1-a64f-55a633d666ec")
 		(at 203.7 39.5 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
@@ -81737,6 +81387,240 @@
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
+		(uuid "c75632bb-171e-469b-9809-5aa551b25cd8")
+		(at 221.9 89.55 90)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "J23"
+			(at 0 1.448 90)
+			(layer "B.SilkS")
+			(uuid "c5aaf4bf-afc9-435d-b0d4-926d113c5b40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1.55 90)
+			(layer "B.Fab")
+			(uuid "d5aefc18-ff13-451e-9813-538d415e015d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a897e0fb-f4a1-4c72-978e-6a0c68e38cad")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3686d804-fd2d-4429-8450-5691fc96ef73")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Quantity" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4bb80df4-6e63-4072-9168-5f4b20f8b561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fcfc6e34-bbce-4b18-8144-9e992b64764d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2719cf68-d275-4745-9c4e-2bfba1ce6550")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "50bea4c9-03ff-475e-91d0-338c2b542576")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5e1a850f-928f-4510-8ef1-71ef522ea4ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8d72ff59-291e-4a8f-aeb6-3d5d76af3260")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e96aced4-971e-4ddc-a961-a4baea11a50e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field5" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ce876d19-b88f-4a08-95c1-bfdc6b7da4a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b8b2ed49-b146-495c-a38a-eb5e0cc538ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/f83bd1b3-2bc8-4a3f-a4c7-105c7910098b")
+		(sheetname "/Wireless modem/")
+		(sheetfile "Wireless_modem.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "f6d68a4b-55d0-4611-affb-5521fb6639d0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "5ca70dcc-f9a7-4509-9fca-9f50ad4c41ca")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.45 90)
+			(layer "B.Fab")
+			(uuid "9f0f63f8-9685-49e2-b549-8b6b5af1502f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 90)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 131 "Net-(U7A-J8)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "04d5aacf-87ef-4238-b8d3-28a62cedde3c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "B.Cu")
 		(uuid "d0bd1b25-bbc9-425f-91e5-9cc6fef4463c")
 		(at 209.55 39.5 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
@@ -81966,6 +81850,240 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(uuid "0a258e9e-083c-4ee8-b5f4-f35bd8161fcf")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
+		(layer "B.Cu")
+		(uuid "e0189014-84b9-4864-9299-5f641b079585")
+		(at 220.3 81.7 -90)
+		(descr "SMD pad as test Point, diameter 1.0mm")
+		(tags "test point SMD pad")
+		(property "Reference" "J17"
+			(at 0 1.448 90)
+			(layer "B.SilkS")
+			(uuid "ff9274f3-0576-48e2-9c3f-1cc81ef17435")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1.55 90)
+			(layer "B.Fab")
+			(uuid "d318cf5c-1926-4758-bbcf-a8812dde989e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7cdcfedb-7c24-438a-9a70-95ae9c9eed0c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "db7ca860-0586-4cbf-9ca7-c5e293a8764a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Quantity" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fdfbea7c-2686-4448-a0e9-7c57b67ca2b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Digikey" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "0286dad5-b08a-40a6-a717-2ce81aa7ddad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "24d2e7fe-4a12-4093-abf3-deb787fa9983")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Mouser" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c587a554-aeed-487b-9da1-7ea874bf66d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Farnell" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "519cc215-d032-4802-8e86-25f8ca566840")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field-1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "99fe4201-5166-43b6-b508-cecb9aacaff9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field4" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e2d55c75-0d7b-4a9c-bfe0-d05bd347be52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Field5" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bd90f9d9-6232-4443-9096-309b828e2ed7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "167c8845-eeca-4aa0-927c-351cca395d08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/2d6fd9c8-d99d-4912-b47f-54bfd6e5f33d")
+		(sheetname "/Wireless modem/")
+		(sheetfile "Wireless_modem.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 -0.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "b35ba8cc-26cd-4555-b3ad-a3663b700bcd")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "b080d5ec-10b5-4aca-b997-4e5fe8b2d9c8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 1.45 90)
+			(layer "B.Fab")
+			(uuid "297e792a-95d9-4161-8021-9bdb60a5dfdd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0 270)
+			(size 1 1)
+			(layers "B.Cu" "B.Mask")
+			(net 126 "Net-(U7A-J3)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "ad7ff932-191e-45b0-a8f7-635686af8a17")
 		)
 		(embedded_fonts no)
 	)
@@ -83792,20 +83910,12 @@
 		(uuid "29f0d6c7-53c5-4355-aa79-1fb3a7c5298b")
 	)
 	(segment
-		(start 229.5 93.18)
-		(end 229.5 94.449998)
+		(start 225.55 93.03)
+		(end 225.55 94.299998)
 		(width 0.4)
 		(layer "F.Cu")
 		(net 7)
 		(uuid "52241236-0f0f-4eb5-b68a-5bb1fc1dccd9")
-	)
-	(segment
-		(start 212.75 60.175)
-		(end 212.575 60)
-		(width 0.4)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "5417a041-44c7-4a6f-9122-38bd3bad6154")
 	)
 	(segment
 		(start 214.25 49.275)
@@ -83814,14 +83924,6 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "65b0009d-85e1-46d6-a037-13bbe3f705d4")
-	)
-	(segment
-		(start 212.75 61.5)
-		(end 212.75 60.175)
-		(width 0.4)
-		(layer "F.Cu")
-		(net 7)
-		(uuid "6d3640cd-745b-45a5-84b2-81d7e41646ad")
 	)
 	(segment
 		(start 214.25 54.5)
@@ -83856,26 +83958,7 @@
 		(uuid "f47207c6-51fc-46d5-a732-5144a3e1b719")
 	)
 	(via
-		(at 212.75 61.5)
-		(size 1)
-		(drill 0.6)
-		(layers "F.Cu" "B.Cu")
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(net 7)
-		(uuid "29060630-73e4-49b4-8994-797e296c52e6")
-	)
-	(via
-		(at 229.5 94.449998)
+		(at 225.55 94.299998)
 		(size 1)
 		(drill 0.6)
 		(layers "F.Cu" "B.Cu")
@@ -83894,40 +83977,24 @@
 		(uuid "58c40aa6-84c5-4aec-af8b-d8171b14fe7b")
 	)
 	(segment
-		(start 229.5 94.449998)
-		(end 212.75 77.699998)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 7)
-		(uuid "5ef98303-c263-4a80-ad6f-8a781f13a17c")
-	)
-	(segment
-		(start 212.75 77.699998)
-		(end 212.75 61.5)
-		(width 0.4)
-		(layer "B.Cu")
-		(net 7)
-		(uuid "83e03b4b-7145-40a0-8391-616dbbb309b6")
-	)
-	(segment
-		(start 246.225 79.8)
-		(end 241 79.8)
+		(start 242.275 79.65)
+		(end 237.05 79.65)
 		(width 0.41)
 		(layer "F.Cu")
 		(net 27)
 		(uuid "57315dab-89c5-47eb-9c6f-7a8aa5216741")
 	)
 	(segment
-		(start 233.5 97.05)
-		(end 233.5 101.975)
+		(start 229.55 96.9)
+		(end 229.55 101.825)
 		(width 0.41)
 		(layer "F.Cu")
 		(net 28)
 		(uuid "2911ffdc-ca6d-4864-9446-569b01cbcbf4")
 	)
 	(segment
-		(start 246.25 88.6)
-		(end 241 88.6)
+		(start 242.3 88.45)
+		(end 237.05 88.45)
 		(width 0.41)
 		(layer "F.Cu")
 		(net 29)
@@ -84310,24 +84377,24 @@
 		(uuid "5841828c-c45e-4e52-9488-212602b8c7af")
 	)
 	(segment
-		(start 233.5 96.05)
-		(end 233.5 93.18)
+		(start 229.55 95.9)
+		(end 229.55 93.03)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 485)
 		(uuid "c3ef4815-bfa4-4895-9a7e-6acd9d7f5ac9")
 	)
 	(segment
-		(start 236.28 88.6)
-		(end 240 88.6)
+		(start 232.33 88.45)
+		(end 236.05 88.45)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 486)
 		(uuid "9dddf73a-9afd-4598-863f-30b496ab98d1")
 	)
 	(segment
-		(start 236.28 79.8)
-		(end 240 79.8)
+		(start 232.33 79.65)
+		(end 236.05 79.65)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 487)
@@ -84337,7 +84404,7 @@
 		(net 7)
 		(net_name "/Wireless modem/UIM_VCC")
 		(layer "F.Cu")
-		(uuid "4480bb50-6fa2-451b-b74f-8b073b5eff81")
+		(uuid "303f639f-8baf-4542-9b11-220d30b957ec")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30000)
@@ -84359,87 +84426,13 @@
 		)
 		(polygon
 			(pts
-				(xy 212.95 60.509607) (xy 212.55 60.509607) (xy 212.259607 61.402455) (xy 212.75 61.501) (xy 213.240393 61.402455)
+				(xy 225.75 93.309605) (xy 225.35 93.309605) (xy 225.059607 94.202453) (xy 225.55 94.300998) (xy 226.040393 94.202453)
 			)
 		)
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 212.95 60.509607) (xy 212.55 60.509607) (xy 212.259607 61.402455) (xy 212.75 61.501) (xy 213.240393 61.402455)
-			)
-		)
-	)
-	(zone
-		(net 7)
-		(net_name "/Wireless modem/UIM_VCC")
-		(layer "B.Cu")
-		(uuid "4d3565d4-51b4-4bfd-b43e-c78147d36fa3")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 212.55 62.490393) (xy 212.95 62.490393) (xy 213.240393 61.597545) (xy 212.75 61.499) (xy 212.259607 61.597545)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 212.55 62.490393) (xy 212.95 62.490393) (xy 213.240393 61.597545) (xy 212.75 61.499) (xy 212.259607 61.597545)
-			)
-		)
-	)
-	(zone
-		(net 7)
-		(net_name "/Wireless modem/UIM_VCC")
-		(layer "B.Cu")
-		(uuid "5cc1bca5-0f88-4bd4-9dc3-415773ef1026")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 228.941108 93.608264) (xy 228.658266 93.891106) (xy 229.084265 94.727783) (xy 229.500707 94.450705)
-				(xy 229.777785 94.034263)
-			)
-		)
-		(filled_polygon
-			(layer "B.Cu")
-			(pts
-				(xy 228.941108 93.608264) (xy 228.658266 93.891106) (xy 229.084265 94.727783) (xy 229.500707 94.450705)
-				(xy 229.777785 94.034263)
+				(xy 225.75 93.309605) (xy 225.35 93.309605) (xy 225.059607 94.202453) (xy 225.55 94.300998) (xy 226.040393 94.202453)
 			)
 		)
 	)
