@@ -7722,7 +7722,7 @@
 	(footprint "SF70S006VBAR2000:JAE_SF70S006VBAR2000"
 		(layer "F.Cu")
 		(uuid "19fe0a85-4abd-4943-af2f-699f05c8bf78")
-		(at 207 55.75 180)
+		(at 207 57.695 180)
 		(property "Reference" "P1"
 			(at -6.886035 12.75 0)
 			(layer "F.SilkS")
@@ -8218,7 +8218,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.00528 54.95) (xy 208.95 54.95) (xy 208.95 52.44419) (xy 210.00528 52.44419)
+					(xy 210.00528 56.895) (xy 208.95 56.895) (xy 208.95 54.38919) (xy 210.00528 54.38919)
 				)
 			)
 		)
@@ -8250,7 +8250,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.25493 51.27) (xy 203.75 51.27) (xy 203.75 46.25563) (xy 210.25493 46.25563)
+					(xy 210.25493 53.215) (xy 203.75 53.215) (xy 203.75 48.20063) (xy 210.25493 48.20063)
 				)
 			)
 		)
@@ -8282,7 +8282,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.45035 54.73) (xy 210 54.73) (xy 210 52.44967) (xy 210.45035 52.44967)
+					(xy 210.45035 56.675) (xy 210 56.675) (xy 210 54.39467) (xy 210.45035 54.39467)
 				)
 			)
 		)
@@ -8314,7 +8314,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.80647 44.37) (xy 203.2 44.37) (xy 203.2 40.8447) (xy 210.80647 40.8447)
+					(xy 210.80647 46.315) (xy 203.2 46.315) (xy 203.2 42.7897) (xy 210.80647 42.7897)
 				)
 			)
 		)
@@ -8346,7 +8346,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.00556 54.95) (xy 208.95 54.95) (xy 208.95 52.44388) (xy 210.00556 52.44388)
+					(xy 210.00556 56.895) (xy 208.95 56.895) (xy 208.95 54.38888) (xy 210.00556 54.38888)
 				)
 			)
 		)
@@ -8378,7 +8378,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.25641 51.27) (xy 203.75 51.27) (xy 203.75 46.2513) (xy 210.25641 46.2513)
+					(xy 210.25641 53.215) (xy 203.75 53.215) (xy 203.75 48.1963) (xy 210.25641 48.1963)
 				)
 			)
 		)
@@ -8410,7 +8410,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.45536 54.73) (xy 210 54.73) (xy 210 52.44487) (xy 210.45536 52.44487)
+					(xy 210.45536 56.675) (xy 210 56.675) (xy 210 54.38987) (xy 210.45536 54.38987)
 				)
 			)
 		)
@@ -8442,7 +8442,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.80453 44.37) (xy 203.2 44.37) (xy 203.2 40.8522) (xy 210.80453 40.8522)
+					(xy 210.80453 46.315) (xy 203.2 46.315) (xy 203.2 42.7972) (xy 210.80453 42.7972)
 				)
 			)
 		)
@@ -8474,7 +8474,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.00164 54.95) (xy 208.95 54.95) (xy 208.95 52.44819) (xy 210.00164 52.44819)
+					(xy 210.00164 56.895) (xy 208.95 56.895) (xy 208.95 54.39319) (xy 210.00164 54.39319)
 				)
 			)
 		)
@@ -8506,7 +8506,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.25 51.27) (xy 203.75 51.27) (xy 203.75 46.26999) (xy 210.25 46.26999)
+					(xy 210.25 53.215) (xy 203.75 53.215) (xy 203.75 48.21499) (xy 210.25 48.21499)
 				)
 			)
 		)
@@ -8538,7 +8538,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.45115 54.73) (xy 210 54.73) (xy 210 52.4489) (xy 210.45115 52.4489)
+					(xy 210.45115 56.675) (xy 210 56.675) (xy 210 54.3939) (xy 210.45115 54.3939)
 				)
 			)
 		)
@@ -8570,7 +8570,7 @@
 			)
 			(polygon
 				(pts
-					(xy 210.80585 44.37) (xy 203.2 44.37) (xy 203.2 40.8471) (xy 210.80585 40.8471)
+					(xy 210.80585 46.315) (xy 203.2 46.315) (xy 203.2 42.7921) (xy 210.80585 42.7921)
 				)
 			)
 		)
@@ -11069,11 +11069,11 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "218f5e43-54cf-4591-8e6b-28051eeeab4e")
-		(at 225.75 67.25 180)
+		(at 225.525 68 180)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C37"
-			(at 0 -1.85 0)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "0ad1eaa1-933b-4802-ab83-6b3cf0b35f3a")
 			(effects
@@ -13025,9 +13025,9 @@
 	(footprint "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
 		(layer "F.Cu")
 		(uuid "2dd8c52d-7028-468c-adfc-d2a31d48352e")
-		(at 106.255 196.885)
+		(at 244.275 89.25 90)
 		(property "Reference" "D6"
-			(at 0.682 -1.2564 0)
+			(at -2.25 -0.025 90)
 			(layer "F.SilkS")
 			(uuid "42e1ce9a-9c29-4dad-b669-015bce4b153c")
 			(effects
@@ -13038,7 +13038,7 @@
 			)
 		)
 		(property "Value" "0402ESDA-MLP1"
-			(at 5.5588 1.2564 0)
+			(at 5.5588 1.2564 90)
 			(layer "F.Fab")
 			(uuid "1c5db95b-ac8a-4e9d-b53a-fcce27baa22d")
 			(effects
@@ -13049,7 +13049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "068b27d8-26c5-43e2-a66f-160e7104397e")
@@ -13061,7 +13061,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "507e01d7-6c3b-4e00-977a-1287483ff696")
@@ -13073,7 +13073,7 @@
 			)
 		)
 		(property "MF" "Eaton"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13086,7 +13086,7 @@
 			)
 		)
 		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13099,7 +13099,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 Eaton"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13112,7 +13112,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13125,7 +13125,7 @@
 			)
 		)
 		(property "Package" "0402 Eaton"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13138,7 +13138,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13151,7 +13151,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13164,7 +13164,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13177,7 +13177,7 @@
 			)
 		)
 		(property "MP" "0402ESDA-MLP1"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13190,7 +13190,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13203,7 +13203,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13216,7 +13216,7 @@
 			)
 		)
 		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13229,7 +13229,7 @@
 			)
 		)
 		(property "Part-no" "0402ESDA-MLP1"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -13246,26 +13246,6 @@
 		(sheetfile "Wireless_modem.kicad_sch")
 		(attr smd dnp)
 		(fp_line
-			(start -1.35 -0.6)
-			(end -1.35 0.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bfe199db-0f08-445c-9bb8-cb2fb0e816e9")
-		)
-		(fp_line
-			(start -1.35 0.6)
-			(end 1.35 0.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a8ff330e-6b7e-4e16-9826-7e6e54dd96e8")
-		)
-		(fp_line
 			(start 1.35 -0.6)
 			(end -1.35 -0.6)
 			(stroke
@@ -13274,6 +13254,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "b8f2b1ef-084e-4222-baf4-248ec16b91e3")
+		)
+		(fp_line
+			(start -1.35 -0.6)
+			(end -1.35 0.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bfe199db-0f08-445c-9bb8-cb2fb0e816e9")
 		)
 		(fp_line
 			(start 1.35 0.6)
@@ -13286,14 +13276,24 @@
 			(uuid "786404c2-d261-4491-91d6-ef848d2dcd38")
 		)
 		(fp_line
-			(start -0.55 -0.265)
-			(end -0.55 0.265)
+			(start -1.35 0.6)
+			(end 1.35 0.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a8ff330e-6b7e-4e16-9826-7e6e54dd96e8")
+		)
+		(fp_line
+			(start 0.55 -0.265)
+			(end 0.55 0.265)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "17c06d66-49fc-44d3-bc4c-30e837df979f")
+			(uuid "b3d0583d-5d31-485f-8327-747c2a9488ec")
 		)
 		(fp_line
 			(start -0.55 -0.265)
@@ -13306,6 +13306,16 @@
 			(uuid "6ea4f003-f450-4795-bb5a-c488909062c7")
 		)
 		(fp_line
+			(start -0.55 -0.265)
+			(end -0.55 0.265)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "17c06d66-49fc-44d3-bc4c-30e837df979f")
+		)
+		(fp_line
 			(start -0.55 0.265)
 			(end 0.55 0.265)
 			(stroke
@@ -13315,18 +13325,8 @@
 			(layer "F.Fab")
 			(uuid "e7294d0e-79b0-49ad-ab83-189656a59d2d")
 		)
-		(fp_line
-			(start 0.55 -0.265)
-			(end 0.55 0.265)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b3d0583d-5d31-485f-8327-747c2a9488ec")
-		)
 		(pad "1" smd rect
-			(at -0.65 0)
+			(at -0.65 0 90)
 			(size 0.9 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -13335,7 +13335,7 @@
 			(uuid "b3a689e7-7afe-49b3-b32a-6c4f602d20af")
 		)
 		(pad "2" smd rect
-			(at 0.65 0)
+			(at 0.65 0 90)
 			(size 0.9 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "/Wireless modem/GNSS_ANT")
@@ -20354,9 +20354,9 @@
 	(footprint "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
 		(layer "F.Cu")
 		(uuid "50939ed5-63da-4c58-94a0-d281d6e6afaf")
-		(at 106.255 192.385)
+		(at 244.275 80.75 90)
 		(property "Reference" "D7"
-			(at 0.682 -1.2564 0)
+			(at -2.25 0.225 90)
 			(layer "F.SilkS")
 			(uuid "25d41c6e-345e-4786-a4f5-c6ca18b5a7aa")
 			(effects
@@ -20367,7 +20367,7 @@
 			)
 		)
 		(property "Value" "0402ESDA-MLP1"
-			(at 5.5588 1.2564 0)
+			(at 5.5588 1.2564 90)
 			(layer "F.Fab")
 			(uuid "82aae0e6-9084-44b0-9022-30fe1209d181")
 			(effects
@@ -20378,7 +20378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "218b1e8c-1044-4839-b854-04b64a5bb3bf")
@@ -20390,7 +20390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8a4697b6-94e2-42b2-9882-9c27750e2608")
@@ -20402,7 +20402,7 @@
 			)
 		)
 		(property "MF" "Eaton"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20415,7 +20415,7 @@
 			)
 		)
 		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20428,7 +20428,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 Eaton"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20441,7 +20441,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20454,7 +20454,7 @@
 			)
 		)
 		(property "Package" "0402 Eaton"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20467,7 +20467,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20480,7 +20480,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20493,7 +20493,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20506,7 +20506,7 @@
 			)
 		)
 		(property "MP" "0402ESDA-MLP1"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20519,7 +20519,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20532,7 +20532,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20545,7 +20545,7 @@
 			)
 		)
 		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20558,7 +20558,7 @@
 			)
 		)
 		(property "Part-no" "0402ESDA-MLP1"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -20575,26 +20575,6 @@
 		(sheetfile "Wireless_modem.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.35 -0.6)
-			(end -1.35 0.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "98555b3b-469b-43ef-a405-b60b45ba4f82")
-		)
-		(fp_line
-			(start -1.35 0.6)
-			(end 1.35 0.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b3148476-9cf7-4c86-b920-f2fb15e19346")
-		)
-		(fp_line
 			(start 1.35 -0.6)
 			(end -1.35 -0.6)
 			(stroke
@@ -20603,6 +20583,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "959c1297-a90b-49fc-885c-0b0ce2afb66b")
+		)
+		(fp_line
+			(start -1.35 -0.6)
+			(end -1.35 0.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "98555b3b-469b-43ef-a405-b60b45ba4f82")
 		)
 		(fp_line
 			(start 1.35 0.6)
@@ -20615,14 +20605,24 @@
 			(uuid "8daab9e4-a7d8-4657-8f08-e6bd8f4c85da")
 		)
 		(fp_line
-			(start -0.55 -0.265)
-			(end -0.55 0.265)
+			(start -1.35 0.6)
+			(end 1.35 0.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b3148476-9cf7-4c86-b920-f2fb15e19346")
+		)
+		(fp_line
+			(start 0.55 -0.265)
+			(end 0.55 0.265)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0f217432-30ef-46d9-9d0f-582895d20b50")
+			(uuid "493d436b-6ecb-4031-aea8-8eed1fddaa81")
 		)
 		(fp_line
 			(start -0.55 -0.265)
@@ -20635,6 +20635,16 @@
 			(uuid "4edd1b51-19ba-48fa-9021-9e469b27ff33")
 		)
 		(fp_line
+			(start -0.55 -0.265)
+			(end -0.55 0.265)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0f217432-30ef-46d9-9d0f-582895d20b50")
+		)
+		(fp_line
 			(start -0.55 0.265)
 			(end 0.55 0.265)
 			(stroke
@@ -20644,18 +20654,8 @@
 			(layer "F.Fab")
 			(uuid "972cda72-302b-4e67-922b-9fb4471ec578")
 		)
-		(fp_line
-			(start 0.55 -0.265)
-			(end 0.55 0.265)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "493d436b-6ecb-4031-aea8-8eed1fddaa81")
-		)
 		(pad "1" smd rect
-			(at -0.65 0)
+			(at -0.65 0 90)
 			(size 0.9 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -20664,7 +20664,7 @@
 			(uuid "4a0c247d-5b1c-4f4d-8d08-69125de88e46")
 		)
 		(pad "2" smd rect
-			(at 0.65 0)
+			(at 0.65 0 90)
 			(size 0.9 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "/Wireless modem/MAIN_ANT")
@@ -32557,11 +32557,11 @@
 	(footprint "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
 		(layer "F.Cu")
 		(uuid "7ea294b5-df01-4aec-aeb6-b473799b58be")
-		(at 101.475 171.67)
+		(at 247.775 80 90)
 		(property "Reference" "J14"
-			(at 0.3 -4.076 0)
+			(at 3.75 0 90)
 			(layer "F.SilkS")
-			(uuid "b2b87fe2-b747-4a2b-9092-47adf8c6d1f9")
+			(uuid "1c670525-e385-4ab1-aeb9-bcc4bf55c42f")
 			(effects
 				(font
 					(size 1 1)
@@ -32570,9 +32570,9 @@
 			)
 		)
 		(property "Value" "CONMHF1-SMD-G-T"
-			(at 9.571 3.8 0)
+			(at 9.571 3.8 90)
 			(layer "F.Fab")
-			(uuid "40b57444-f898-4862-b74a-866ff3d05fb9")
+			(uuid "ff05871e-7956-4301-9f5f-1226ab37cd3c")
 			(effects
 				(font
 					(size 1 1)
@@ -32581,10 +32581,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57b7890a-4974-4f45-a825-1e69779044c7")
+			(uuid "513129c8-a20e-4f3a-a0e3-260aa506199e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32593,10 +32593,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7de1f630-6b48-4ff4-b27b-f55e11777056")
+			(uuid "580f26b0-0520-4398-8058-69b486abfafd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32605,7 +32605,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32618,7 +32618,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32631,7 +32631,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32644,7 +32644,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32657,7 +32657,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32670,7 +32670,7 @@
 			)
 		)
 		(property "MP" "CONMHF1-SMD-G-T"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32683,7 +32683,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180172&manufacturer=Linx Technologies Inc.&part_name=CONMHF1-SMD-G-T&search_term=None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32696,7 +32696,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32709,7 +32709,7 @@
 			)
 		)
 		(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32722,7 +32722,7 @@
 			)
 		)
 		(property "Part-no" "CONMHF1-SMD-G-T"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -32750,26 +32750,6 @@
 			(uuid "67bd6e09-c927-4041-bb67-0fd8a769c83f")
 		)
 		(fp_line
-			(start -2.25 -2.3)
-			(end -2.25 2.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ae73b42c-da09-4991-ad32-92b7493de5dc")
-		)
-		(fp_line
-			(start -2.25 2.3)
-			(end 2.25 2.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "b660fb0a-e125-4b2a-830d-753fafa6e9a7")
-		)
-		(fp_line
 			(start 2.25 -2.3)
 			(end -2.25 -2.3)
 			(stroke
@@ -32778,6 +32758,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "1d3b9dd8-dfc6-4738-ae81-70c32bff5666")
+		)
+		(fp_line
+			(start -2.25 -2.3)
+			(end -2.25 2.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ae73b42c-da09-4991-ad32-92b7493de5dc")
 		)
 		(fp_line
 			(start 2.25 2.3)
@@ -32790,24 +32780,14 @@
 			(uuid "a2a45339-62c6-4414-8770-3a83e883f466")
 		)
 		(fp_line
-			(start -1.3 -1.3)
-			(end -1.3 1.3)
+			(start -2.25 2.3)
+			(end 2.25 2.3)
 			(stroke
-				(width 0.127)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "947537ae-ccea-42ad-bc95-01b171c9a0db")
-		)
-		(fp_line
-			(start -1.3 1.3)
-			(end 1.3 1.3)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4613219f-6cfd-4bff-b6bd-7c0e11611ed9")
+			(layer "F.CrtYd")
+			(uuid "b660fb0a-e125-4b2a-830d-753fafa6e9a7")
 		)
 		(fp_line
 			(start 1.3 -1.3)
@@ -32820,6 +32800,16 @@
 			(uuid "e4015da7-3d12-4e99-9577-d70bc48be1ec")
 		)
 		(fp_line
+			(start -1.3 -1.3)
+			(end -1.3 1.3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "947537ae-ccea-42ad-bc95-01b171c9a0db")
+		)
+		(fp_line
 			(start 1.3 1.3)
 			(end 1.3 -1.3)
 			(stroke
@@ -32828,6 +32818,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "f9b05f0e-4286-4852-857f-0bda9fec03cb")
+		)
+		(fp_line
+			(start -1.3 1.3)
+			(end 1.3 1.3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4613219f-6cfd-4bff-b6bd-7c0e11611ed9")
 		)
 		(fp_circle
 			(center 0 -2.7)
@@ -32841,7 +32841,7 @@
 			(uuid "1dcbb31d-821b-4cef-bbcc-4a9e607d7b7e")
 		)
 		(pad "1" smd rect
-			(at 0 -1.525)
+			(at 0 -1.525 90)
 			(size 1 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 27 "/Wireless modem/MAIN_ANT")
@@ -32850,7 +32850,7 @@
 			(uuid "0bc8acbf-07a8-4a13-ad58-35f89c1fbc9e")
 		)
 		(pad "S1" smd rect
-			(at -1.475 0)
+			(at -1.475 0 90)
 			(size 1.05 2.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -32859,7 +32859,7 @@
 			(uuid "6ed438b6-0019-4d07-bc51-db15f24a34a4")
 		)
 		(pad "S2" smd rect
-			(at 0 1.525)
+			(at 0 1.525 90)
 			(size 1 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -32868,7 +32868,7 @@
 			(uuid "e87c83a4-076c-4bef-8631-336057fda8ce")
 		)
 		(pad "S3" smd rect
-			(at 1.475 0)
+			(at 1.475 0 90)
 			(size 1.05 2.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -32904,7 +32904,7 @@
 			)
 			(polygon
 				(pts
-					(xy 100.525 170.67) (xy 102.425 170.67) (xy 102.425 172.67) (xy 100.525 172.67)
+					(xy 246.775 80.95) (xy 246.775 79.05) (xy 248.775 79.05) (xy 248.775 80.95)
 				)
 			)
 		)
@@ -32936,7 +32936,7 @@
 			)
 			(polygon
 				(pts
-					(xy 100.525 170.67) (xy 102.425 170.67) (xy 102.425 172.67) (xy 100.525 172.67)
+					(xy 246.775 80.95) (xy 246.775 79.05) (xy 248.775 79.05) (xy 248.775 80.95)
 				)
 			)
 		)
@@ -32968,7 +32968,7 @@
 			)
 			(polygon
 				(pts
-					(xy 100.525 170.67) (xy 102.425 170.67) (xy 102.425 172.67) (xy 100.525 172.67)
+					(xy 246.775 80.95) (xy 246.775 79.05) (xy 248.775 79.05) (xy 248.775 80.95)
 				)
 			)
 		)
@@ -34220,7 +34220,7 @@
 	(footprint "KiCad2:UDFN10_CASE_517BB"
 		(layer "F.Cu")
 		(uuid "85fb165a-ffab-4dd0-a175-e728f189102e")
-		(at 188.25 59.75 180)
+		(at 188.25 61.15 180)
 		(descr "UDFN10_CASE_517BB")
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "U3"
@@ -36710,7 +36710,7 @@
 	(footprint "MEM2075-00-140-01-A:GCT_MEM2075-00-140-01-A"
 		(layer "F.Cu")
 		(uuid "89c217b3-c2e9-4682-b29e-364e003eb78d")
-		(at 189.975 44.8825 180)
+		(at 189.975 46.8275 180)
 		(property "Reference" "J4"
 			(at 9.475 2.3825 0)
 			(layer "F.SilkS")
@@ -37371,7 +37371,7 @@
 			)
 			(polygon
 				(pts
-					(xy 197.025 52.8025) (xy 186.825 52.8025) (xy 186.825 48.7525) (xy 197.025 48.7525)
+					(xy 197.025 54.7475) (xy 186.825 54.7475) (xy 186.825 50.6975) (xy 197.025 50.6975)
 				)
 			)
 		)
@@ -37403,7 +37403,7 @@
 			)
 			(polygon
 				(pts
-					(xy 197.025 52.8025) (xy 186.825 52.8025) (xy 186.825 48.7525) (xy 197.025 48.7525)
+					(xy 197.025 54.7475) (xy 186.825 54.7475) (xy 186.825 50.6975) (xy 197.025 50.6975)
 				)
 			)
 		)
@@ -40234,11 +40234,11 @@
 	(footprint "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
 		(layer "F.Cu")
 		(uuid "99764d03-bed6-41fd-ba7a-2ad85d916931")
-		(at 112.575 171.67)
+		(at 247.775 88.5 90)
 		(property "Reference" "J13"
-			(at 0.3 -4.076 0)
+			(at 3.75 -0.025 90)
 			(layer "F.SilkS")
-			(uuid "6bb8b27a-244c-4535-a12d-a35ef4fc27f7")
+			(uuid "4849fe4d-e52d-45d5-b528-cc17ecb02278")
 			(effects
 				(font
 					(size 1 1)
@@ -40247,9 +40247,9 @@
 			)
 		)
 		(property "Value" "CONMHF1-SMD-G-T"
-			(at 9.571 3.8 0)
+			(at 9.571 3.8 90)
 			(layer "F.Fab")
-			(uuid "d80f58d7-6ad2-496e-a818-d555729b2f3f")
+			(uuid "c454bd94-9043-4a98-94fc-636d67cdf0c4")
 			(effects
 				(font
 					(size 1 1)
@@ -40258,10 +40258,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bad38a71-be86-4de1-9fe2-d7574f290160")
+			(uuid "d3e107a8-136d-4885-ac2d-cc75211e0d74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40270,10 +40270,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24d01cef-1edd-4109-9b5a-ffec980aeb23")
+			(uuid "bce6d2a3-cfe6-492b-8bcb-5ab4216f204b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40282,7 +40282,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40295,7 +40295,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONMHF1-SMD-G-T/TE+Connectivity/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40308,7 +40308,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40321,7 +40321,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40334,7 +40334,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40347,7 +40347,7 @@
 			)
 		)
 		(property "MP" "CONMHF1-SMD-G-T"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40360,7 +40360,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=9180172&manufacturer=Linx Technologies Inc.&part_name=CONMHF1-SMD-G-T&search_term=None"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40373,7 +40373,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40386,7 +40386,7 @@
 			)
 		)
 		(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40399,7 +40399,7 @@
 			)
 		)
 		(property "Part-no" "CONMHF1-SMD-G-T"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -40427,26 +40427,6 @@
 			(uuid "f20ab206-7954-45de-92c8-92e86006cf1e")
 		)
 		(fp_line
-			(start -2.25 -2.3)
-			(end -2.25 2.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "25bffdc1-0308-451a-9ea2-e2b8d7d3df78")
-		)
-		(fp_line
-			(start -2.25 2.3)
-			(end 2.25 2.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "dca1cfff-39d2-492c-aab8-f21fba234da1")
-		)
-		(fp_line
 			(start 2.25 -2.3)
 			(end -2.25 -2.3)
 			(stroke
@@ -40455,6 +40435,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "763f07ed-513d-457f-8f02-a9eb781de884")
+		)
+		(fp_line
+			(start -2.25 -2.3)
+			(end -2.25 2.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "25bffdc1-0308-451a-9ea2-e2b8d7d3df78")
 		)
 		(fp_line
 			(start 2.25 2.3)
@@ -40467,24 +40457,14 @@
 			(uuid "f0dddbfc-cdf9-451c-a050-ee983efd235c")
 		)
 		(fp_line
-			(start -1.3 -1.3)
-			(end -1.3 1.3)
+			(start -2.25 2.3)
+			(end 2.25 2.3)
 			(stroke
-				(width 0.127)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "129f7d2e-9e0a-48f2-8652-ad938c1014c1")
-		)
-		(fp_line
-			(start -1.3 1.3)
-			(end 1.3 1.3)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1fdf8f5e-2e35-47ca-91d9-3caf601db425")
+			(layer "F.CrtYd")
+			(uuid "dca1cfff-39d2-492c-aab8-f21fba234da1")
 		)
 		(fp_line
 			(start 1.3 -1.3)
@@ -40497,6 +40477,16 @@
 			(uuid "a5ef8a4a-ae41-44e6-a147-8d55760703b8")
 		)
 		(fp_line
+			(start -1.3 -1.3)
+			(end -1.3 1.3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "129f7d2e-9e0a-48f2-8652-ad938c1014c1")
+		)
+		(fp_line
 			(start 1.3 1.3)
 			(end 1.3 -1.3)
 			(stroke
@@ -40505,6 +40495,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "931a4286-fb7d-44b8-b6ba-274e494b77ca")
+		)
+		(fp_line
+			(start -1.3 1.3)
+			(end 1.3 1.3)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1fdf8f5e-2e35-47ca-91d9-3caf601db425")
 		)
 		(fp_circle
 			(center 0 -2.7)
@@ -40518,7 +40518,7 @@
 			(uuid "dd208b38-3c5c-4b21-a57a-56cdf1d36795")
 		)
 		(pad "1" smd rect
-			(at 0 -1.525)
+			(at 0 -1.525 90)
 			(size 1 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 29 "/Wireless modem/GNSS_ANT")
@@ -40527,7 +40527,7 @@
 			(uuid "965b5620-ce64-487e-bf0a-a9d9c9880b0c")
 		)
 		(pad "S1" smd rect
-			(at -1.475 0)
+			(at -1.475 0 90)
 			(size 1.05 2.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -40536,7 +40536,7 @@
 			(uuid "7c828b8a-cca9-4e69-86fe-e6b97c153f2e")
 		)
 		(pad "S2" smd rect
-			(at 0 1.525)
+			(at 0 1.525 90)
 			(size 1 1.05)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -40545,7 +40545,7 @@
 			(uuid "88e0f166-e71b-447f-bf8b-50cbd9b32098")
 		)
 		(pad "S3" smd rect
-			(at 1.475 0)
+			(at 1.475 0 90)
 			(size 1.05 2.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -40581,7 +40581,7 @@
 			)
 			(polygon
 				(pts
-					(xy 111.625 170.67) (xy 113.525 170.67) (xy 113.525 172.67) (xy 111.625 172.67)
+					(xy 246.775 89.45) (xy 246.775 87.55) (xy 248.775 87.55) (xy 248.775 89.45)
 				)
 			)
 		)
@@ -40613,7 +40613,7 @@
 			)
 			(polygon
 				(pts
-					(xy 111.625 170.67) (xy 113.525 170.67) (xy 113.525 172.67) (xy 111.625 172.67)
+					(xy 246.775 89.45) (xy 246.775 87.55) (xy 248.775 87.55) (xy 248.775 89.45)
 				)
 			)
 		)
@@ -40645,7 +40645,7 @@
 			)
 			(polygon
 				(pts
-					(xy 111.625 170.67) (xy 113.525 170.67) (xy 113.525 172.67) (xy 111.625 172.67)
+					(xy 246.775 89.45) (xy 246.775 87.55) (xy 248.775 87.55) (xy 248.775 89.45)
 				)
 			)
 		)
@@ -46752,7 +46752,7 @@
 	(footprint "KiCad2:UDFN10_CASE_517BB"
 		(layer "F.Cu")
 		(uuid "ace6db56-dcde-426d-9b53-e572a7051236")
-		(at 206.25 58.35 180)
+		(at 206.25 60.295 180)
 		(descr "UDFN10_CASE_517BB")
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "U6"
@@ -48707,9 +48707,9 @@
 	(footprint "CONMHF1-SMD-G-T:LINX_CONMHF1-SMD-G-T"
 		(layer "F.Cu")
 		(uuid "b217a40e-4059-457f-9e4e-4d35cfc3a3d9")
-		(at 107.025 171.67)
+		(at 233.5 103.5)
 		(property "Reference" "J21"
-			(at 0.3 -4.076 0)
+			(at 3.75 0 0)
 			(layer "F.SilkS")
 			(uuid "6faec35e-e675-4db1-a646-c72201468c93")
 			(effects
@@ -49054,7 +49054,7 @@
 			)
 			(polygon
 				(pts
-					(xy 106.075 170.67) (xy 107.975 170.67) (xy 107.975 172.67) (xy 106.075 172.67)
+					(xy 232.55 102.5) (xy 234.45 102.5) (xy 234.45 104.5) (xy 232.55 104.5)
 				)
 			)
 		)
@@ -49086,7 +49086,7 @@
 			)
 			(polygon
 				(pts
-					(xy 106.075 170.67) (xy 107.975 170.67) (xy 107.975 172.67) (xy 106.075 172.67)
+					(xy 232.55 102.5) (xy 234.45 102.5) (xy 234.45 104.5) (xy 232.55 104.5)
 				)
 			)
 		)
@@ -49118,7 +49118,7 @@
 			)
 			(polygon
 				(pts
-					(xy 106.075 170.67) (xy 107.975 170.67) (xy 107.975 172.67) (xy 106.075 172.67)
+					(xy 232.55 102.5) (xy 234.45 102.5) (xy 234.45 104.5) (xy 232.55 104.5)
 				)
 			)
 		)
@@ -49722,11 +49722,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b57bbb09-08cf-41e4-a596-7a876adb3ec4")
-		(at 229.775 70.5)
+		(at 229.775 70.25)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C35"
-			(at 0 -1.43 0)
+			(at 3.225 0.25 0)
 			(layer "F.SilkS")
 			(uuid "876bb22b-4c82-43c1-be43-544cf09a4156")
 			(effects
@@ -66042,7 +66042,7 @@
 	(footprint "KiCad2:UDFN10_CASE_517BB"
 		(layer "F.Cu")
 		(uuid "ce6fc3f6-fb19-479b-b76b-eaa6a574e909")
-		(at 192.5 59.75 180)
+		(at 192.5 61.15 180)
 		(descr "UDFN10_CASE_517BB")
 		(tags "Undefined or Miscellaneous")
 		(property "Reference" "U4"
@@ -76577,9 +76577,9 @@
 	(footprint "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
 		(layer "F.Cu")
 		(uuid "f5d8c87b-f7f2-47d6-8e88-1d22ebe881ad")
-		(at 106.255 194.635)
+		(at 232.75 100 180)
 		(property "Reference" "D8"
-			(at 0.682 -1.2564 0)
+			(at 2.25 0 0)
 			(layer "F.SilkS")
 			(uuid "01ff954b-8717-4ff7-8335-77d5d838039d")
 			(effects
@@ -76625,7 +76625,7 @@
 			)
 		)
 		(property "MF" "Eaton"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76638,7 +76638,7 @@
 			)
 		)
 		(property "DESCRIPTION" "ESD Suppressor Diode Polymer Bi-Dir 30V 2-Pin Case 0402(1006Metric) T/R"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76651,7 +76651,7 @@
 			)
 		)
 		(property "PACKAGE" "0402 Eaton"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76664,7 +76664,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76677,7 +76677,7 @@
 			)
 		)
 		(property "Package" "0402 Eaton"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76690,7 +76690,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=eda"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76703,7 +76703,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76716,7 +76716,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0402ESDA-MLP1/Eaton/view-part/?ref=snap"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76729,7 +76729,7 @@
 			)
 		)
 		(property "MP" "0402ESDA-MLP1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76742,7 +76742,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76755,7 +76755,7 @@
 			)
 		)
 		(property "AVAILABILITY" "In Stock"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76768,7 +76768,7 @@
 			)
 		)
 		(property "Description_1" "SUPPRESSORS ESD SUPPRESSORS POLYSURG 0402 35V .05PF | Eaton Electronics 0402ESDA-MLP1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76781,7 +76781,7 @@
 			)
 		)
 		(property "Part-no" "0402ESDA-MLP1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -76798,24 +76798,14 @@
 		(sheetfile "Wireless_modem.kicad_sch")
 		(attr smd dnp)
 		(fp_line
-			(start -1.35 -0.6)
-			(end -1.35 0.6)
+			(start 1.35 0.6)
+			(end 1.35 -0.6)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "52c7d4b6-afb6-4268-a171-94aaaa35a6e6")
-		)
-		(fp_line
-			(start -1.35 0.6)
-			(end 1.35 0.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bec4ab13-5ee0-47a7-8fcf-874e02a4564d")
+			(uuid "75a581f0-bd3a-4a5f-8337-ce1018b01470")
 		)
 		(fp_line
 			(start 1.35 -0.6)
@@ -76828,34 +76818,34 @@
 			(uuid "6113ec8e-925e-48b3-bb66-69f81af1300c")
 		)
 		(fp_line
-			(start 1.35 0.6)
-			(end 1.35 -0.6)
+			(start -1.35 0.6)
+			(end 1.35 0.6)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "75a581f0-bd3a-4a5f-8337-ce1018b01470")
+			(uuid "bec4ab13-5ee0-47a7-8fcf-874e02a4564d")
 		)
 		(fp_line
-			(start -0.55 -0.265)
-			(end -0.55 0.265)
+			(start -1.35 -0.6)
+			(end -1.35 0.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "52c7d4b6-afb6-4268-a171-94aaaa35a6e6")
+		)
+		(fp_line
+			(start 0.55 -0.265)
+			(end 0.55 0.265)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b3db73d7-73a2-4fce-a375-fc4ef4e9be5f")
-		)
-		(fp_line
-			(start -0.55 -0.265)
-			(end 0.55 -0.265)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "9eaa1797-7419-41e2-b2b8-8e2f32f1ba78")
+			(uuid "d8f76faa-3978-48cb-bd9d-1622be34a8a3")
 		)
 		(fp_line
 			(start -0.55 0.265)
@@ -76868,17 +76858,27 @@
 			(uuid "ef8e7054-0cb7-461d-a155-497811ec2650")
 		)
 		(fp_line
-			(start 0.55 -0.265)
-			(end 0.55 0.265)
+			(start -0.55 -0.265)
+			(end 0.55 -0.265)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d8f76faa-3978-48cb-bd9d-1622be34a8a3")
+			(uuid "9eaa1797-7419-41e2-b2b8-8e2f32f1ba78")
+		)
+		(fp_line
+			(start -0.55 -0.265)
+			(end -0.55 0.265)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b3db73d7-73a2-4fce-a375-fc4ef4e9be5f")
 		)
 		(pad "1" smd rect
-			(at -0.65 0)
+			(at -0.65 0 180)
 			(size 0.9 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 28 "/Wireless modem/DIV_ANT")
@@ -76887,7 +76887,7 @@
 			(uuid "712eb05a-e3a7-4c92-bcf8-e7b82944fc44")
 		)
 		(pad "2" smd rect
-			(at 0.65 0)
+			(at 0.65 0 180)
 			(size 0.9 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 1 "GND")
@@ -80643,7 +80643,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "fd0d2ef9-21e4-41e1-9e62-58d283835333")
-		(at 230.75 67.25)
+		(at 230.525 68)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C36"
