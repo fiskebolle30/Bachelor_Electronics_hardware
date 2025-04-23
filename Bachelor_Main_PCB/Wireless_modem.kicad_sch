@@ -899,6 +899,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -7825,12 +7951,6 @@
 		(uuid "10416149-7848-481f-9371-745cc6b7daa4")
 	)
 	(junction
-		(at 38.1 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18fdc353-c2f1-4aa0-8f46-3c752ca5c9a2")
-	)
-	(junction
 		(at 237.49 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8045,6 +8165,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1d64829-03f8-4ce2-a257-4d998bf0f13e")
+	)
+	(junction
+		(at 38.1 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e61b85a9-5184-40aa-8877-2b24503fc9e4")
 	)
 	(junction
 		(at 181.61 135.89)
@@ -8698,6 +8824,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 105.41) (xy 62.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376ff2d7-67e7-4cb2-ade7-a1134f6384c2")
+	)
+	(wire
+		(pts
 			(xy 123.19 184.15) (xy 123.19 186.69)
 		)
 		(stroke
@@ -8758,6 +8894,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 102.87) (xy 62.23 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fc0528-960b-4054-97ab-d042ca94e15c")
+	)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 54.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46aa213a-0878-4dff-a288-f3b933f63c4d")
+	)
+	(wire
+		(pts
 			(xy 144.78 115.57) (xy 143.51 115.57)
 		)
 		(stroke
@@ -8765,16 +8921,6 @@
 			(type default)
 		)
 		(uuid "46c55408-334c-4aa9-b766-28c2b44a5588")
-	)
-	(wire
-		(pts
-			(xy 38.1 102.87) (xy 62.23 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a3c16d-3d4d-47d1-bd5a-7ff4fe0c5aff")
 	)
 	(wire
 		(pts
@@ -9398,16 +9544,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 105.41) (xy 62.23 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8eaf66f-be73-420b-9192-b006c1657094")
-	)
-	(wire
-		(pts
 			(xy 212.09 97.79) (xy 219.71 97.79)
 		)
 		(stroke
@@ -9558,6 +9694,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 105.41) (xy 54.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85b3c1a-0524-4efc-8bf8-e1fc7a38197e")
+	)
+	(wire
+		(pts
 			(xy 81.28 189.23) (xy 81.28 190.5)
 		)
 		(stroke
@@ -9635,6 +9781,16 @@
 			(type solid)
 		)
 		(uuid "d0c491ef-0d10-47c4-9d9d-e1878cee340e")
+	)
+	(wire
+		(pts
+			(xy 59.69 100.33) (xy 62.23 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d362d499-38a6-47f8-b1f9-a5c32212224a")
 	)
 	(wire
 		(pts
@@ -9758,6 +9914,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 100.33) (xy 54.61 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbab15f-1372-49c7-8c5f-c4aefaa62ab1")
+	)
+	(wire
+		(pts
 			(xy 50.8 158.75) (xy 50.8 163.83)
 		)
 		(stroke
@@ -9805,16 +9971,6 @@
 			(type default)
 		)
 		(uuid "e8128a02-30e2-4eca-9a44-011ba43e531c")
-	)
-	(wire
-		(pts
-			(xy 52.07 100.33) (xy 62.23 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9525a74-300b-4cdc-b28d-2c97e3964b40")
 	)
 	(wire
 		(pts
@@ -16735,6 +16891,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 57.15 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "68d01b78-92f7-483e-99b7-ee6930a08986")
+		(property "Reference" "NT2"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Net_tie_footprint_Waveguide_transmissionline:0.3mm_to_0.41_net_tie"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9da13585-d071-4408-848f-8c704cdbb1a6")
+		)
+		(pin "2"
+			(uuid "927664da-0f1e-470a-9ce0-3db7488dd24e")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CONMHF1-SMD-G-T:CONMHF1-SMD-G-T")
 		(at 35.56 93.98 0)
 		(mirror y)
@@ -18595,6 +18819,74 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 57.15 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "90df73fa-8758-4ee0-88d9-d5f2bdee36b8")
+		(property "Reference" "NT1"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 57.15 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Net_tie_footprint_Waveguide_transmissionline:0.3mm_to_0.41_net_tie"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 57.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e786a9fa-f54c-469a-9c02-c81db8e476cb")
+		)
+		(pin "2"
+			(uuid "bdc314e0-471e-4116-8e91-8b3d67c4af33")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -24074,6 +24366,74 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 57.15 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb3ed656-9a75-4443-aff7-fc4acc5ed59d")
+		(property "Reference" "NT3"
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 57.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Net_tie_footprint_Waveguide_transmissionline:0.3mm_to_0.41_net_tie"
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 57.15 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef2e5091-7604-4434-b187-217d69b60023")
+		)
+		(pin "2"
+			(uuid "af02bdd0-620b-4acf-91f5-34818c20f126")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/0bbef2a3-1d79-4cf0-b531-d6abf690b331"
+					(reference "NT3")
 					(unit 1)
 				)
 			)

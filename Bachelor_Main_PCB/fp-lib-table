@@ -28,4 +28,5 @@
   (lib (name "0402ESDA-MLP1")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/0402ESDA-MLP1")(options "")(descr ""))
   (lib (name "M20-9990245")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/M20-9990245")(options "")(descr ""))
   (lib (name "SF70S006VBAR2000")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/SF70S006VBAR2000")(options "")(descr ""))
+  (lib (name "Net_tie_footprint_Waveguide_transmissionline")(type "KiCad")(uri "${KIPRJMOD}/KiCAD-Library_Bachelor_PCB/Net_tie_footprint_Waveguide_transmissionline.pretty")(options "")(descr ""))
 )
