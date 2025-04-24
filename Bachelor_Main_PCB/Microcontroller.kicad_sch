@@ -13938,7 +13938,7 @@
 			)
 		)
 	)
-	(hierarchical_label "V_IN"
+	(hierarchical_label "V_IN_MEAS"
 		(shape input)
 		(at 161.29 162.56 0)
 		(effects
@@ -13947,7 +13947,7 @@
 			)
 			(justify left)
 		)
-		(uuid "8b273ae6-7edc-4bd2-96b2-e806d30e5325")
+		(uuid "8e208619-8ef4-4305-9218-55cb2746477d")
 	)
 	(hierarchical_label "RPI_GLOBAL_EN"
 		(shape output)

@@ -2175,9 +2175,9 @@
 				(justify right)
 			)
 		)
-		(pin "V_IN" output
+		(pin "V_IN_MEAS" output
 			(at 68.58 59.69 0)
-			(uuid "bac9b5a2-1603-40e4-a552-6f2b201ced2a")
+			(uuid "0a9cbce5-cdda-4c7f-b106-4b6f037973d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,16 +2327,6 @@
 				(justify left)
 			)
 		)
-		(pin "V_IN" input
-			(at 96.52 53.34 180)
-			(uuid "6ba6f739-944e-4bce-b38c-9e962a928869")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "24Mhz_CLK" output
 			(at 148.59 62.23 0)
 			(uuid "baad77c5-28ae-4144-9cfd-7927b4459851")
@@ -2360,6 +2350,16 @@
 		(pin "RPI_RUN_PG" output
 			(at 129.54 77.47 270)
 			(uuid "b7c07041-01e2-4cda-bc46-ac8bd767c4c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_IN_MEAS" input
+			(at 96.52 53.34 180)
+			(uuid "d96803c0-b99b-4f1a-a449-60580e791653")
 			(effects
 				(font
 					(size 1.27 1.27)

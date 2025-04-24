@@ -5524,7 +5524,7 @@
 			)
 		)
 	)
-	(hierarchical_label "V_IN"
+	(hierarchical_label "V_IN_MEAS"
 		(shape output)
 		(at 59.69 68.58 0)
 		(effects
@@ -9414,7 +9414,7 @@
 		(dnp no)
 		(uuid "9cf39816-7700-4975-8d3a-2857599f0e8f")
 		(property "Reference" "D11"
-			(at 36.322 30.734 90)
+			(at 35.56 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
