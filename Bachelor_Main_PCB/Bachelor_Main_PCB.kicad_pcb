@@ -633,6 +633,7 @@
 	(net 485 "Net-(U7A-RF_DIV)")
 	(net 486 "Net-(U7A-RF_GNSS)")
 	(net 487 "Net-(U7A-RF_MAIN)")
+	(net 488 "/Microcontroller/V_IN_MEAS")
 	(footprint "LTST-C190GKT:LEDM1608X80"
 		(layer "F.Cu")
 		(uuid "022fc84a-c480-41fb-a60d-4e17a692b634")
@@ -4452,6 +4453,149 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "MPD (Memory"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa6afca4-cae5-4981-94a8-eef41725e15b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "Battery Retainer Coin, 12.0mm 1 Cell SMD (SMT) Tab"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1d4d5fa-4615-474b-a158-9e85931385e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "MSOP-12 Memory Protection Devices"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71253efc-aff6-4980-9dc7-589dc8ae67a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1050c13-2fde-4857-b070-a67007edad67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BK-916-TR/MPD/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fb8cb52-377f-480e-a44c-e868d75173a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "MANUFACTURER RECOMMENDATIONS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a58f040-8c5f-4d4e-9431-50c5b9d2f5bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2752a790-70b3-4058-8733-f18c08efc583")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BK-916-TR/MPD/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cb257b0-61cc-4e17-8515-2e1bc1e81cf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "BK-916-TR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce87f891-3803-4940-bdf4-c5effb430f92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "633cc5b8-e58e-4d7b-a613-18e22276ec56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Memory Protection Devices INC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d2b5027-5230-44dc-bfe7-94b170d20e46")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10375,7 +10519,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "2164ad42-badb-44f0-a86f-8150f9ddacb3")
-		(at 230.2 128.35 180)
+		(at 228.75 131.375 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R49"
@@ -10547,7 +10691,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 9 "V_IN")
+			(net 488 "/Microcontroller/V_IN_MEAS")
 			(pintype "passive")
 			(uuid "e13109f5-6789-4e6c-a163-3841bb50ad63")
 		)
@@ -15245,6 +15389,175 @@
 				)
 			)
 		)
+		(property "MF" "Harwin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cec1076e-0443-44be-ba9a-331780181a2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.64mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ef40e89-7c46-498e-82fe-49e0ef948c53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f8e4811-20a7-4d80-8414-f20ae4996672")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68484cab-0a51-4926-9e57-bfec276c8cd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f48be2c-e773-4587-b54e-0ed102a963a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d8ea224-a353-4d90-9e7f-d5ebf0fe5443")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "14"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8b86e15-d519-437c-b065-9ff6413a02a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aebaa9c8-0467-4eb4-8407-1deae15d1b88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "M20-9990245"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3fb732e-6f68-4db7-b2d7-43be2cd0f98f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Pin Header, 6.1mm mating pin height, gold (hi-temp mould), 2 contacts"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f13d5919-8a7c-4242-82bc-e9d8950d13e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2357a82b-ce1d-40aa-88d4-40f0380acd21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Harwin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03931be7-1ce7-4957-91f5-e75d373e20bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-no" "M20-9990245"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b2eb6e1-495a-4f08-a166-29b3200fd114")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/19a8d5c6-db4f-4fc8-ad15-158c7bfaff85/e5490608-0138-45df-80c3-4ed4dbbdd31b")
 		(sheetname "/Raspberry Pi CM 4/")
 		(sheetfile "Raspbery_Pi_CM_4.kicad_sch")
@@ -16745,6 +17058,175 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Harwin"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c558fa4d-4002-4560-91c5-6fa9b59869d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.64mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "229cc2a6-53bf-4361-83f4-2fbbfb8776d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fff7b3c4-671e-4a06-bbb3-e20d92244d88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b50ebbf-3600-4b7f-b01d-a1398b9908fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=eda"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7e83666-6e17-4757-a108-074f9b52c6cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de02eeba-3382-4cf7-bd7c-4f52bec7f5e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3aee28b-3e8d-4fd9-95b2-7443f952be55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=snap"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "236cec32-7b28-4f64-9d89-0ede16a704f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "M20-9990245"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3013f61-5f32-467b-805b-67ae9bb9610f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Pin Header, 6.1mm mating pin height, gold (hi-temp mould), 2 contacts"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51c4b423-3b9f-4cea-a2a5-2aae90ccf825")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44f83dcf-3748-4062-9492-b65b1caa48d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Harwin"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c553774b-b6f3-438b-a026-5b67e7fdee92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-no" "M20-9990245"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "638a4cd9-e7a4-48f0-9a14-04a87d528f28")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -27246,7 +27728,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "73b33a14-5acc-4b2d-aac3-45f9d4f0e0b2")
-		(at 231.55 130.65 -90)
+		(at 230.1 133.675 -90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C47"
@@ -27470,7 +27952,7 @@
 			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 9 "V_IN")
+			(net 488 "/Microcontroller/V_IN_MEAS")
 			(pintype "passive")
 			(uuid "5644a733-8d5e-4954-8e63-b8b7f4592c1f")
 		)
@@ -32885,7 +33367,7 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "86c91a55-4806-43d6-8456-a8b0f98610ba")
-		(at 216.3215 126.3345)
+		(at 219.3 129.2)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C42"
@@ -40350,6 +40832,175 @@
 				)
 			)
 		)
+		(property "MF" "Harwin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dfa83e6-c15a-4810-9907-9fcee51f132f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.64mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cbff899-b365-4ba2-a563-236a48e0989f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6356368-41e4-4a2b-a333-77228ff400b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c19f72e-b449-44ad-9011-c976bcb4e3bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec0ba870-b8bb-4a31-9359-0464a2169edc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af07de89-3a20-4433-bdd5-4eabca35e744")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "14"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56125b63-c7c5-4ee0-b030-5d3e917f6afb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef410a1c-d4fe-4fa5-8a23-e9ff0f7d5b6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "M20-9990245"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c33f76e-b9e9-4df6-a3d2-1a270c947f1e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Pin Header, 6.1mm mating pin height, gold (hi-temp mould), 2 contacts"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "800675b4-fd9f-4251-a160-31d196b58f2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cb23e21-b6bd-4555-ad16-3c04c6b53e91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Harwin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e667cdd8-0928-48af-a517-652ad54145eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-no" "M20-9990245"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcb68f10-3943-4630-91bc-be47c1912f4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0bbef2a3-1d79-4cf0-b531-d6abf690b331/0beadbed-fa2c-43c5-a0ab-4caa99ba5309")
 		(sheetname "/Wireless modem/")
 		(sheetfile "Wireless_modem.kicad_sch")
@@ -43200,6 +43851,175 @@
 				)
 			)
 		)
+		(property "MF" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25563305-5862-49ac-90ad-8fbd9efb2205")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.64mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26c95697-15f2-4761-907c-5a6ad8811f03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80d4022e-131e-43ae-91f1-3c8b8fc747e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "691c2f9a-0bd9-4f03-b32f-a7524d684156")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=eda"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e187469c-30b4-4616-9eab-a2b637142d9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9a2f87c-0054-42d3-8051-a65d116be55a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "14"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9a06156-5bd8-483f-a4d7-6e19cdd09ccf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=snap"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df33a65a-a9e9-4829-b5db-1485ee495d73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "M20-9990245"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1199253-158c-41de-9bce-58d8791b1868")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Pin Header, 6.1mm mating pin height, gold (hi-temp mould), 2 contacts"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b171ce01-edc1-4e93-9e20-5208ed3a9450")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80e28942-db41-4df9-8009-0a40db9ec4c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Harwin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffa2da6c-7844-4ead-b546-c2aef3f6b87d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-no" "M20-9990245"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ede39afb-2343-44a4-bba9-639d04041d07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a2efe210-cbe4-4166-b2f4-897451b29d8a/53e875f3-fa54-4de3-802b-7c86e803f56d")
 		(sheetname "/USB Hub/")
 		(sheetfile "USB_HUB.kicad_sch")
@@ -43975,7 +44795,7 @@
 	(footprint "0402ESDA-MLP1:ESD_0402ESDA-MLP1"
 		(layer "F.Cu")
 		(uuid "ae0d7c84-0edc-4dfb-86e4-4f7b3b2e1322")
-		(at 225.7715 156.5145)
+		(at 215.35 129.2)
 		(property "Reference" "D11"
 			(at 0.682 -1.2564 0)
 			(layer "F.SilkS")
@@ -46657,6 +47477,175 @@
 				)
 			)
 		)
+		(property "MF" "Texas Instruments"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b979cfb7-cbf9-403f-9eaa-817523cd4040")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.80 mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b0898c7-2261-4ca3-9128-42fd75a2dc6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "WSON-12 Texas Instruments"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a863f1b9-22eb-4f8e-91f1-67bd8a726baf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a3fbe8b-a7ee-4c3b-8680-b2ed4c4eb1c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LMR51450FNDRRR/Texas+Instruments/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf9f054a-904b-42e9-a215-52772d2180bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc90786c-f307-4b78-9c58-fc7be941125a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "December 2022"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab188a02-bc6f-4110-87d2-cc16f0f2fff7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMR51450FNDRRR/Texas+Instruments/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ce9a58e-eb95-4896-97ea-57dc749c44ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "LMR51450FNDRRR"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f28fd02-dee5-49a3-9e8f-5a7020c595ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "36-V, 5-A synchronous buck converter"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "87cb77f2-5f95-457a-a425-cd657fca9554")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e567fa54-0426-445e-913d-c4ab3a25a021")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d28bf38c-f78d-4d55-a31d-d99f931430d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-no" "LMR51450FNDRRR"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23d2cd9a-9feb-409c-85f4-d009543912b5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4408de3e-a395-4433-a2e1-ccefac59f96e/acfa8ce6-e3b7-4ffd-bfdc-7ecac84856a5")
 		(sheetname "/Power supply/")
 		(sheetfile "Power_supply.kicad_sch")
@@ -47432,7 +48421,6 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
-			(net 1 "GND")
 			(uuid "ab9058e3-7dba-4d3f-bb56-f71a57629e63")
 		)
 		(pad "15" thru_hole circle
@@ -47441,7 +48429,6 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
-			(net 1 "GND")
 			(uuid "dc4036bf-f33f-48a9-b691-152bc3a6dba6")
 		)
 		(pad "16" thru_hole circle
@@ -47450,7 +48437,6 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
-			(net 1 "GND")
 			(uuid "8bbbf638-be3f-4adf-b6db-5bb06cc22ef0")
 		)
 		(embedded_fonts no)
@@ -68230,11 +69216,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e5b785b5-9f68-445f-bb89-53b8403dfed4")
-		(at 219.45 135.15 90)
+		(at 220.1 136.2)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R44"
-			(at 0 1.45 90)
+			(at 0 1.45 0)
 			(layer "F.SilkS")
 			(uuid "beb95f29-8e85-4f06-896d-5bf564570000")
 			(effects
@@ -68245,7 +69231,7 @@
 			)
 		)
 		(property "Value" "2.26k"
-			(at 0 1.43 90)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "95163c6b-3b3c-4ca0-91ca-810d8bd520ef")
 			(effects
@@ -68256,7 +69242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -68269,7 +69255,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -68282,7 +69268,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -68295,7 +69281,7 @@
 			)
 		)
 		(property "Part-no" "RC0603FR-072K26L"
-			(at 0 0 90)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -68333,16 +69319,6 @@
 			(uuid "5b5cc7f2-5a47-4736-b2df-dc32f65ab280")
 		)
 		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "71c02462-b252-40e9-b80e-26954dbb7e15")
-		)
-		(fp_line
 			(start -1.48 -0.73)
 			(end 1.48 -0.73)
 			(stroke
@@ -68351,16 +69327,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "1c09292b-ff67-4881-8e3b-4e1be528c53d")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "6ef5e8c6-5f36-480b-926c-926749646999")
 		)
 		(fp_line
 			(start -1.48 0.73)
@@ -68373,14 +69339,24 @@
 			(uuid "25be34cd-8b13-4aa7-b79c-197baeb16dc5")
 		)
 		(fp_line
-			(start 0.8 -0.4125)
-			(end 0.8 0.4125)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "7923ab16-698f-4c8f-b98a-523d79fd1b91")
+			(layer "F.CrtYd")
+			(uuid "71c02462-b252-40e9-b80e-26954dbb7e15")
+		)
+		(fp_line
+			(start 1.48 0.73)
+			(end -1.48 0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6ef5e8c6-5f36-480b-926c-926749646999")
 		)
 		(fp_line
 			(start -0.8 -0.4125)
@@ -68393,16 +69369,6 @@
 			(uuid "a991692f-8994-42cd-bb6c-5f9f11af70a8")
 		)
 		(fp_line
-			(start 0.8 0.4125)
-			(end -0.8 0.4125)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "982461ac-85f9-4e4e-a619-10638eb69126")
-		)
-		(fp_line
 			(start -0.8 0.4125)
 			(end -0.8 -0.4125)
 			(stroke
@@ -68412,8 +69378,28 @@
 			(layer "F.Fab")
 			(uuid "9274b4db-4676-4843-9bc4-940c1b664afa")
 		)
+		(fp_line
+			(start 0.8 -0.4125)
+			(end 0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7923ab16-698f-4c8f-b98a-523d79fd1b91")
+		)
+		(fp_line
+			(start 0.8 0.4125)
+			(end -0.8 0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "982461ac-85f9-4e4e-a619-10638eb69126")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3778963a-71f7-4800-b649-55371b76963a")
 			(effects
@@ -68424,7 +69410,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0 90)
+			(at -0.825 0)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -68433,7 +69419,7 @@
 			(uuid "23ebeaca-11b9-4c06-902c-6fa519251d7d")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0 90)
+			(at 0.825 0)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -69506,6 +70492,175 @@
 				)
 			)
 		)
+		(property "MF" "Texas Instruments"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6821a5d-59b0-410d-a37f-3e7c493469b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.80 mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3325964-269a-4b85-a508-e57a4cb1e0ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "WSON-12 Texas Instruments"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ebeaccbf-7c66-4a3f-8968-1e18544a05b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e402143-6729-40e2-b295-ec7aec264115")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LMR51450FNDRRR/Texas+Instruments/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "515baf1e-1934-4e99-a959-39ce96f78e7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dac9deb-f1cf-48b0-a314-6d5b2386858d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "December 2022"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "392e9803-79d1-4c93-90b8-e388014651d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LMR51450FNDRRR/Texas+Instruments/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e10448e9-4e74-4001-aa9f-cb4d659c739f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "LMR51450FNDRRR"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7973cba6-dae5-4a0d-81c6-53f394bfe9af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "36-V, 5-A synchronous buck converter"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "749cec99-62aa-451d-99f7-e9bde7d89c24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b82dfc4-5f0f-4dc0-8caf-8be2ae08a471")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c69274e4-3b03-48fa-8d32-0542b5ca626b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-no" "LMR51450FNDRRR"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb118dc0-60c1-47f0-88d1-94acdffbe862")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/4408de3e-a395-4433-a2e1-ccefac59f96e/c187cb78-b198-47c2-b63a-d74089e0efd4")
 		(sheetname "/Power supply/")
 		(sheetfile "Power_supply.kicad_sch")
@@ -70281,7 +71436,6 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
-			(net 1 "GND")
 			(uuid "2b471e4b-8dfa-4c11-9f61-855935db137e")
 		)
 		(pad "15" thru_hole circle
@@ -70290,7 +71444,6 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
-			(net 1 "GND")
 			(uuid "1b336fc7-4803-472d-88dc-9f9e7c064c40")
 		)
 		(pad "16" thru_hole circle
@@ -70299,7 +71452,6 @@
 			(drill 0.3)
 			(layers "*.Cu")
 			(remove_unused_layers no)
-			(net 1 "GND")
 			(uuid "bda7ceb6-217b-489e-b749-c860cdeaf11b")
 		)
 		(embedded_fonts no)
@@ -70614,6 +71766,175 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Harwin"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c284d730-c92b-4339-a47a-8c27e6abced9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "9.64mm"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b480322c-6e63-48af-9a59-e8283bb02ee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Package" "None"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "544dff11-9fd9-434f-bd73-9e840d6858df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f84df4a1-5bd9-4113-8592-95d5c8bd395b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=eda"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa298b48-dab7-4622-8194-4cae39793962")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda045e4-27e9-44e2-ab44-f3c30e7c4757")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "PARTREV" "14"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05618270-7e9a-4fc3-a943-33e8a39e1a61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/M20-9990245/Harwin/view-part/?ref=snap"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04833ba8-d6e6-4a12-bd16-2b5252a425fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "M20-9990245"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac087c18-33d7-43da-b179-4075f86d4293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description_1" "2.54mm (0.1) Pitch SIL Vertical Throughboard Pin Header, 6.1mm mating pin height, gold (hi-temp mould), 2 contacts"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3be0f1eb-de2f-41f0-a0da-dd85bf9e11a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab4e1168-1879-40f7-858f-beff3ec2d1bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Harwin"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "265783e0-b877-48b8-b6a7-8ba316968837")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part-no" "M20-9990245"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8a3b917-ff56-4e10-bdd8-bfa67375de1b")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -74258,7 +75579,7 @@
 			(size 0.3 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 9 "V_IN")
+			(net 488 "/Microcontroller/V_IN_MEAS")
 			(pinfunction "PC4")
 			(pintype "bidirectional")
 			(uuid "e471768e-79eb-4962-9fe0-f3a2925028a5")
@@ -84203,20 +85524,20 @@
 		(uuid "0a3b4340-6413-4506-b723-d4a41c3157b7")
 	)
 	(segment
-		(start 218.95 136.475)
+		(start 219.275 136.2)
+		(end 219 136.475)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "17cfea80-4fb5-4011-a0f1-7271afa8531a")
+	)
+	(segment
+		(start 219 136.475)
 		(end 217.85 136.475)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "06e3ed12-6ef7-43cb-ae8b-685b6d8bfebf")
-	)
-	(segment
-		(start 219.45 135.975)
-		(end 218.95 136.475)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 63)
-		(uuid "65c20ac2-f6e7-465e-875f-82ffaa9fa434")
+		(uuid "3360f140-567b-45f6-a019-aa3d58adb6c9")
 	)
 	(segment
 		(start 87.5 69.26)
@@ -85858,45 +87179,6 @@
 				(xy 101.25 77.726) (xy 101.228326 77.778326) (xy 101.176 77.8) (xy 98.424 77.8) (xy 98.371674 77.778326)
 				(xy 98.35 77.726) (xy 98.35 68.8) (xy 96.649 68.8) (xy 96.596674 68.778326) (xy 96.575 68.726) (xy 96.575 63.476695)
 				(xy 96.596674 63.424369) (xy 96.649 63.402695)
-			)
-		)
-	)
-	(zone
-		(net 7)
-		(net_name "/Wireless modem/UIM_VCC")
-		(layer "F.Cu")
-		(uuid "2a88baf3-5d88-4b21-84de-e7f2e8c7795c")
-		(name "$teardrop_padvia$")
-		(hatch full 0.1)
-		(priority 30000)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 225.75 93.309605) (xy 225.35 93.309605) (xy 225.059607 94.202453) (xy 225.55 94.300998) (xy 226.040393 94.202453)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 225.749775 93.313032) (xy 225.752628 93.317686) (xy 226.036327 94.189952) (xy 226.035627 94.19888)
-				(xy 226.02882 94.204697) (xy 226.027506 94.205042) (xy 225.552305 94.300534) (xy 225.547695 94.300534)
-				(xy 225.072493 94.205042) (xy 225.065057 94.200052) (xy 225.063327 94.191266) (xy 225.063668 94.189965)
-				(xy 225.347372 93.317686) (xy 225.353189 93.310879) (xy 225.358498 93.309605) (xy 225.741502 93.309605)
 			)
 		)
 	)
