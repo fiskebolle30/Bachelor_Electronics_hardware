@@ -78375,7 +78375,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "27cb454f-b86c-4332-8300-0604b5cb8fcc")
-		(at 206.5 39.5 90)
+		(at 207.25 51.7 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "T9"
@@ -79545,7 +79545,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "7a55bd6f-bb4d-40b7-b2d1-4384cfcf6499")
-		(at 212.6 39.5 90)
+		(at 202.75 45.3 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "T7"
@@ -80743,7 +80743,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "9e2e711a-f2c6-4ea1-a64f-55a633d666ec")
-		(at 203.7 39.5 90)
+		(at 206.55 40 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "T6"
@@ -81445,7 +81445,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "d0bd1b25-bbc9-425f-91e5-9cc6fef4463c")
-		(at 209.55 39.5 90)
+		(at 203.45 51.8 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "T8"
@@ -82147,7 +82147,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "B.Cu")
 		(uuid "ee0423bc-af92-4a56-a964-5dcd102567c0")
-		(at 201.05 39.5 90)
+		(at 211.05 51.4 90)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "T10"
