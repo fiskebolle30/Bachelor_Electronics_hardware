@@ -8040,9 +8040,9 @@
 		)
 		(uuid "4afdcf39-755b-431f-ba00-9d384c03f529")
 	)
-	(text "REDUCE SIZE"
+	(text "REDUCE SIZE\nof resistor"
 		(exclude_from_sim no)
-		(at 396.748 118.618 0)
+		(at 398.272 120.142 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16473,7 +16473,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 397.256 116.586 90)
 			(effects
 				(font
@@ -16589,7 +16589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-no" "RC0603FR-0710KL"
+		(property "Part-no" ""
 			(at 397.51 114.3 0)
 			(effects
 				(font
@@ -19627,7 +19627,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "47k"
 			(at 392.43 110.998 0)
 			(effects
 				(font
@@ -19744,7 +19744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-no" "RC0603FR-0710KL"
+		(property "Part-no" ""
 			(at 391.16 109.22 0)
 			(effects
 				(font
@@ -22797,6 +22797,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC0603FR-0710KL"
+			(at 22.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

@@ -1004,7 +1004,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "DATASHEET-URL"
+      "sort_field": "Voltage rating"
     },
     "connection_grid_size": 50.0,
     "drawing": {

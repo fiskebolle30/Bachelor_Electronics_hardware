@@ -3755,6 +3755,12 @@
 		(uuid "41ecc0d5-0d61-4850-81cc-501b2a264049")
 	)
 	(junction
+		(at 38.1 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a67c85e-1ec8-435b-bc34-2663c4d071db")
+	)
+	(junction
 		(at 100.33 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3947,12 +3953,6 @@
 		(uuid "ea4a14dd-6df7-44e6-8b56-b2b471984211")
 	)
 	(junction
-		(at 38.1 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eeadcceb-1c72-4cff-a291-3dd1f12ae79a")
-	)
-	(junction
 		(at 223.52 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4059,16 +4059,6 @@
 			(type default)
 		)
 		(uuid "091f2faa-d030-4845-b8d5-908794aa3062")
-	)
-	(wire
-		(pts
-			(xy 38.1 25.4) (xy 38.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c5092ee-886d-4ee5-9982-f65c773eb508")
 	)
 	(wire
 		(pts
@@ -4402,6 +4392,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 68.58) (xy 38.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ee57a9-2712-4821-95d9-ac6b4c386bc9")
+	)
+	(wire
+		(pts
 			(xy 101.6 140.97) (xy 101.6 139.7)
 		)
 		(stroke
@@ -4452,6 +4452,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 25.4) (xy 38.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c89eb66-9e06-4211-934c-388b5cd8aa34")
+	)
+	(wire
+		(pts
 			(xy 151.13 26.67) (xy 151.13 25.4)
 		)
 		(stroke
@@ -4489,16 +4499,6 @@
 			(type default)
 		)
 		(uuid "5f103857-8172-46fd-9a1a-6850e15368ab")
-	)
-	(wire
-		(pts
-			(xy 38.1 76.2) (xy 38.1 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f4e100b-adeb-4cfd-879a-d8b1fb0a8f6b")
 	)
 	(wire
 		(pts
@@ -4702,6 +4702,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 66.04) (xy 38.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882a3f2b-24e0-439f-8446-2c0b6af860fe")
+	)
+	(wire
+		(pts
 			(xy 83.82 140.97) (xy 83.82 143.51)
 		)
 		(stroke
@@ -4752,16 +4762,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 64.77) (xy 38.1 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97a8da99-27a9-4f1a-9a6f-764e74951a16")
-	)
-	(wire
-		(pts
 			(xy 63.5 182.88) (xy 72.39 182.88)
 		)
 		(stroke
@@ -4792,13 +4792,13 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 68.58) (xy 38.1 71.12)
+			(xy 38.1 74.93) (xy 38.1 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a0376d7d-f8cc-4fef-809b-d4ffff15ae67")
+		(uuid "a0830a68-ddf6-44ce-a894-f3014dccba99")
 	)
 	(wire
 		(pts
@@ -9217,7 +9217,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 73.66 0)
+		(at 38.1 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9225,7 +9225,7 @@
 		(dnp no)
 		(uuid "95512984-9b88-4545-b65c-417b20596fbb")
 		(property "Reference" "R48"
-			(at 40.64 72.3899 0)
+			(at 40.64 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9234,7 +9234,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 40.64 74.9299 0)
+			(at 40.64 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9243,7 +9243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.1 73.66 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,7 +9252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 73.66 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9261,7 +9261,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 73.66 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9270,7 +9270,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 36.068 73.66 0)
+			(at 36.068 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9278,7 +9278,7 @@
 			)
 		)
 		(property "Part-no" "RC0603FR-0710KL"
-			(at 38.1 73.66 0)
+			(at 38.1 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12700,7 +12700,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 62.23 0)
+		(at 38.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12708,7 +12708,7 @@
 		(dnp no)
 		(uuid "d2b34205-9e33-4f43-ab66-5c2d35451b03")
 		(property "Reference" "R50"
-			(at 40.64 60.9599 0)
+			(at 40.64 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12717,7 +12717,7 @@
 			)
 		)
 		(property "Value" "91k"
-			(at 40.64 63.4999 0)
+			(at 40.64 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12726,7 +12726,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.1 62.23 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12735,7 +12735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 62.23 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12744,7 +12744,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 62.23 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12753,7 +12753,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 36.068 62.23 0)
+			(at 36.068 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12761,7 +12761,7 @@
 			)
 		)
 		(property "Part-no" "RC0603FR-0791KL"
-			(at 38.1 62.23 0)
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
