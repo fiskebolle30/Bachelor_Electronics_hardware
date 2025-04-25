@@ -293,7 +293,7 @@
 		)
 		(uuid "0dd5fed9-70bf-42ee-b698-46f239f23ef4")
 	)
-	(text_box "Mechanical standoffs for RPI CM mounting holes and M2,5 screws"
+	(text_box "Mechanical standoffs for RPI CM mounting holes and M2,5 screws. 3.0mm  PN: 9774030151R"
 		(exclude_from_sim no)
 		(at 219.71 17.78 0)
 		(size 57.15 5.08)
@@ -878,7 +878,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WA-SMSI_9774XXX151"
+		(property "Value" "WA-SMSI_9774030151R"
 			(at 241.3 45.7199 0)
 			(effects
 				(font
@@ -1115,7 +1115,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WA-SMSI_9774XXX151"
+		(property "Value" "WA-SMSI_9774030151R"
 			(at 241.3 39.3699 0)
 			(effects
 				(font
@@ -1352,7 +1352,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WA-SMSI_9774XXX151"
+		(property "Value" "WA-SMSI_9774030151R"
 			(at 241.3 26.6699 0)
 			(effects
 				(font
@@ -1589,7 +1589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "WA-SMSI_9774XXX151"
+		(property "Value" "WA-SMSI_9774030151R"
 			(at 241.3 33.0199 0)
 			(effects
 				(font
