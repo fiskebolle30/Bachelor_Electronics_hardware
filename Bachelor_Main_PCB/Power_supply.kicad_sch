@@ -3684,16 +3684,6 @@
 		)
 		(uuid "af3c6a3f-7c84-4111-ad44-5334ccc210fa")
 	)
-	(text "FIX THIS!!!!!"
-		(exclude_from_sim no)
-		(at 37.084 66.802 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "caf29863-db6d-4ef8-a28f-74cecbb5aaae")
-	)
 	(text "A jumper must be placed between the center \npin and one of the power supplies"
 		(exclude_from_sim no)
 		(at 101.6 127.762 0)
@@ -3837,12 +3827,6 @@
 		(uuid "7ef8cf90-9bee-44e8-9b3a-33b69489a7fd")
 	)
 	(junction
-		(at 38.1 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f1ea52e-6fc0-4618-a754-67d031162944")
-	)
-	(junction
 		(at 76.2 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3963,6 +3947,12 @@
 		(uuid "ea4a14dd-6df7-44e6-8b56-b2b471984211")
 	)
 	(junction
+		(at 38.1 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeadcceb-1c72-4cff-a291-3dd1f12ae79a")
+	)
+	(junction
 		(at 223.52 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4062,16 +4052,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 64.77) (xy 38.1 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088688ed-70ab-400e-b132-1c9b7e8b66dd")
-	)
-	(wire
-		(pts
 			(xy 22.86 38.1) (xy 22.86 27.94)
 		)
 		(stroke
@@ -4079,6 +4059,16 @@
 			(type default)
 		)
 		(uuid "091f2faa-d030-4845-b8d5-908794aa3062")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 38.1 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5092ee-886d-4ee5-9982-f65c773eb508")
 	)
 	(wire
 		(pts
@@ -4382,16 +4372,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 68.58) (xy 38.1 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "429b2cb2-593c-4c60-9a34-1867dab42982")
-	)
-	(wire
-		(pts
 			(xy 104.14 185.42) (xy 116.84 185.42)
 		)
 		(stroke
@@ -4512,6 +4492,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 76.2) (xy 38.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4e100b-adeb-4cfd-879a-d8b1fb0a8f6b")
+	)
+	(wire
+		(pts
 			(xy 140.97 167.64) (xy 140.97 168.91)
 		)
 		(stroke
@@ -4539,16 +4529,6 @@
 			(type default)
 		)
 		(uuid "667efa99-f867-4f17-a5ac-3470c8926b2c")
-	)
-	(wire
-		(pts
-			(xy 38.1 77.47) (xy 38.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "669896ce-1f5d-4a1f-a852-740c7c871410")
 	)
 	(wire
 		(pts
@@ -4692,16 +4672,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 25.4) (xy 38.1 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83d7c4d1-d475-41c0-bf36-27b697451919")
-	)
-	(wire
-		(pts
 			(xy 261.62 85.09) (xy 269.24 85.09)
 		)
 		(stroke
@@ -4782,6 +4752,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 64.77) (xy 38.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a8da99-27a9-4f1a-9a6f-764e74951a16")
+	)
+	(wire
+		(pts
 			(xy 63.5 182.88) (xy 72.39 182.88)
 		)
 		(stroke
@@ -4809,6 +4789,16 @@
 			(type default)
 		)
 		(uuid "993db42b-fe24-40ab-9374-755b1ef51241")
+	)
+	(wire
+		(pts
+			(xy 38.1 68.58) (xy 38.1 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0376d7d-f8cc-4fef-809b-d4ffff15ae67")
 	)
 	(wire
 		(pts
@@ -9227,7 +9217,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 62.23 0)
+		(at 38.1 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9235,7 +9225,7 @@
 		(dnp no)
 		(uuid "95512984-9b88-4545-b65c-417b20596fbb")
 		(property "Reference" "R48"
-			(at 40.64 60.9599 0)
+			(at 40.64 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9244,7 +9234,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 40.64 63.4999 0)
+			(at 40.64 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9253,7 +9243,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.1 62.23 0)
+			(at 38.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9262,7 +9252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 62.23 0)
+			(at 38.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9271,7 +9261,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 62.23 0)
+			(at 38.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +9270,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 36.068 62.23 0)
+			(at 36.068 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9288,7 +9278,7 @@
 			)
 		)
 		(property "Part-no" "RC0603FR-0710KL"
-			(at 38.1 62.23 0)
+			(at 38.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12710,7 +12700,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 38.1 73.66 0)
+		(at 38.1 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12718,7 +12708,7 @@
 		(dnp no)
 		(uuid "d2b34205-9e33-4f43-ab66-5c2d35451b03")
 		(property "Reference" "R50"
-			(at 40.64 72.3899 0)
+			(at 40.64 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12727,7 +12717,7 @@
 			)
 		)
 		(property "Value" "91k"
-			(at 40.64 74.9299 0)
+			(at 40.64 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12736,7 +12726,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 38.1 73.66 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12745,7 +12735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 73.66 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12754,7 +12744,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 38.1 73.66 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12763,7 +12753,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 36.068 73.66 0)
+			(at 36.068 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12771,7 +12761,7 @@
 			)
 		)
 		(property "Part-no" "RC0603FR-0791KL"
-			(at 38.1 73.66 0)
+			(at 38.1 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
