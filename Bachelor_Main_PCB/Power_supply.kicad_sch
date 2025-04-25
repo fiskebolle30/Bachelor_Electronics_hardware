@@ -3684,6 +3684,16 @@
 		)
 		(uuid "af3c6a3f-7c84-4111-ad44-5334ccc210fa")
 	)
+	(text "FIX THIS!!!!!"
+		(exclude_from_sim no)
+		(at 37.084 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "caf29863-db6d-4ef8-a28f-74cecbb5aaae")
+	)
 	(text "A jumper must be placed between the center \npin and one of the power supplies"
 		(exclude_from_sim no)
 		(at 101.6 127.762 0)
