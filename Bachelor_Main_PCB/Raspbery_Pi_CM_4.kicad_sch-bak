@@ -7498,9 +7498,9 @@
 		)
 		(uuid "e22168d2-61ae-4963-9e7f-f4b1c0b5f879")
 	)
-	(text "Act LED"
+	(text "Activity LED"
 		(exclude_from_sim no)
-		(at 185.674 91.186 0)
+		(at 187.96 91.186 0)
 		(effects
 			(font
 				(size 1.27 1.27)
