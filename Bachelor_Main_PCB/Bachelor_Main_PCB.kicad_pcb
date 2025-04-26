@@ -104738,6 +104738,29 @@
 		)
 	)
 	(zone
+		(net 14)
+		(net_name "+5V")
+		(layer "In2.Cu")
+		(uuid "7b542cd1-4e82-487a-9b56-b6d9d9da05a7")
+		(hatch edge 0.5)
+		(priority 9)
+		(connect_pads yes
+			(clearance 0.25)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 88.25 68.4) (xy 77.5 85.15) (xy 77.45 89.6) (xy 82.45 89.6) (xy 89.55 73.95) (xy 94.4 74) (xy 94.5 47.95)
+				(xy 151.75 47.9) (xy 151.9 61.2) (xy 164.5 62.4) (xy 164.5 42.5) (xy 88.3 42.55)
+			)
+		)
+	)
+	(zone
 		(net 7)
 		(net_name "/Wireless modem/UIM_VCC")
 		(layer "In2.Cu")
