@@ -6979,7 +6979,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.43 90)
+			(at 0.1225 1.44 90)
 			(layer "F.SilkS")
 			(uuid "1e2c4c1c-53e1-43dc-a6a4-7ed9d3571291")
 			(effects
@@ -16078,7 +16078,7 @@
 		(descr "SMD Crystal Oscillator Seiko Epson SG-210 https://support.epson.biz/td/api/doc_check.php?mode=dl&lang=en&Parts=SG-210SED, 2.5x2.0mm^2 package")
 		(tags "SMD SMT crystal oscillator")
 		(property "Reference" "Y2"
-			(at 0 -2.2 90)
+			(at 0.7 -2.05 90)
 			(layer "F.SilkS")
 			(uuid "f5513f24-3f41-4912-844e-1de05f3e24e1")
 			(effects
@@ -40837,7 +40837,7 @@
 			(uuid "30d981fa-c65e-41e4-bc23-eb8c8118e7ec")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.8 0.8)
 					(thickness 0.15)
 				)
 			)
@@ -71338,7 +71338,7 @@
 		(uuid "ede6a3d6-2606-4fba-9f0e-61185e054b0f")
 		(at 111.25 70.98 90)
 		(property "Reference" "J1"
-			(at 0.425 -2.385 90)
+			(at 0.28 1.85 90)
 			(layer "F.SilkS")
 			(uuid "3af54539-9b05-4d69-aa1c-e28a13e39474")
 			(effects
@@ -85293,6 +85293,14 @@
 		(uuid "696682fb-b70c-4bd1-ae3c-3e4103936b25")
 	)
 	(segment
+		(start 111.41 69.55)
+		(end 111.25 69.71)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "6d20d527-7353-416e-b825-3fcea058e55b")
+	)
+	(segment
 		(start 128.85 74.4125)
 		(end 128.85 76.225)
 		(width 0.3)
@@ -85443,6 +85451,14 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "ab012419-1515-42a8-bd63-4f6747dfd33c")
+	)
+	(segment
+		(start 111.41 67.3975)
+		(end 111.41 69.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 4)
+		(uuid "b37ac21a-93d3-434e-89d2-d93a90efb147")
 	)
 	(segment
 		(start 124.825 49.5)
@@ -94316,6 +94332,22 @@
 		(layer "F.Cu")
 		(net 109)
 		(uuid "888b8519-0a68-4b53-aa59-c02480c92f4e")
+	)
+	(segment
+		(start 111.4 64.2225)
+		(end 111.4 65.7375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 110)
+		(uuid "679dd2f4-6ce8-466f-93ef-bbbb21888eda")
+	)
+	(segment
+		(start 111.4 65.7375)
+		(end 111.41 65.7475)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 110)
+		(uuid "6b8f4268-bb9b-4275-b583-29ced640135d")
 	)
 	(segment
 		(start 178.35 49.998)
