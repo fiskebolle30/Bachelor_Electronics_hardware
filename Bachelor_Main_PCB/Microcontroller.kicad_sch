@@ -8040,6 +8040,16 @@
 		)
 		(uuid "4afdcf39-755b-431f-ba00-9d384c03f529")
 	)
+	(text "Signal bypass cap\nFor trace routing\nbetween power planes"
+		(exclude_from_sim no)
+		(at 230.632 207.772 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d41db70-29f0-4692-ae3e-26d4a8605fce")
+	)
 	(text "RESET"
 		(exclude_from_sim no)
 		(at 56.388 272.034 0)
@@ -8049,16 +8059,6 @@
 			)
 		)
 		(uuid "6add6109-7318-4968-b0cd-66a46c866c70")
-	)
-	(text "Testpounkter for ubrukte GPIO"
-		(exclude_from_sim no)
-		(at 187.452 214.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8d2f3591-e7aa-4b94-8b6b-0d61182b3cb4")
 	)
 	(text "Has to be enabled\nto conserve power"
 		(exclude_from_sim no)
@@ -8099,16 +8099,6 @@
 			)
 		)
 		(uuid "a8353031-4481-45bd-a022-3bc283d74427")
-	)
-	(text "MUST BE ROUTED!"
-		(exclude_from_sim no)
-		(at 212.852 185.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b428f3a1-ffd4-4fed-9134-8c716873b27c")
 	)
 	(text "OUTPUT\n"
 		(exclude_from_sim no)
@@ -9406,6 +9396,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 203.2) (xy 246.38 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a32b5ec-7e43-45f6-ae4f-da1c3fff8058")
+	)
+	(wire
+		(pts
 			(xy 325.12 172.72) (xy 325.12 173.99)
 		)
 		(stroke
@@ -10006,6 +10006,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 213.36) (xy 246.38 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50b6214a-63b1-4a5c-8d65-c174933a0798")
+	)
+	(wire
+		(pts
 			(xy 303.53 166.37) (xy 303.53 143.51)
 		)
 		(stroke
@@ -10093,6 +10103,16 @@
 			(type default)
 		)
 		(uuid "5953bf56-ee8e-4b68-b5bf-7f7bacd86726")
+	)
+	(wire
+		(pts
+			(xy 254 203.2) (xy 254 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a231858-d39f-42d9-8086-562d98499923")
 	)
 	(wire
 		(pts
@@ -10343,6 +10363,16 @@
 			(type default)
 		)
 		(uuid "6f268c62-881f-4a62-8e24-9e32a5720688")
+	)
+	(wire
+		(pts
+			(xy 254 210.82) (xy 254 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70da61ae-5184-4b3d-9c07-2c87d0295e44")
 	)
 	(wire
 		(pts
@@ -10843,6 +10873,16 @@
 			(type default)
 		)
 		(uuid "a0e160a6-0930-4d13-b9a7-7e06655ff1dd")
+	)
+	(wire
+		(pts
+			(xy 246.38 213.36) (xy 246.38 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ccf8ba-e29b-4294-994d-315526fd000f")
 	)
 	(wire
 		(pts
@@ -11836,6 +11876,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 203.2) (xy 246.38 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac5f7b2-a33e-4d09-81f7-5aaf6dd46eae")
+	)
+	(wire
+		(pts
 			(xy 49.53 86.36) (xy 49.53 97.79)
 		)
 		(stroke
@@ -12089,6 +12139,28 @@
 		)
 		(property "Netclass" "ULPI_55ohm"
 			(at 143.51 141.8908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V5_MCU"
+		(shape input)
+		(at 254 203.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c2898d9-f270-4c46-b3f1-5253317beb1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.0847 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12393,6 +12465,28 @@
 		)
 		(property "Netclass" "ULPI_55ohm"
 			(at 143.51 159.6708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V5_USB3320"
+		(shape input)
+		(at 254 213.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cc46ebe-bfe5-4392-a631-4fe4a9084f21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.6808 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15592,6 +15686,109 @@
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 254 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "300928b4-8168-4ece-9ea9-96a25136b48f")
+		(property "Reference" "C69"
+			(at 251.206 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 256.54 207.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-no" "CL10B104KB8NNWC"
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "50v"
+			(at 254 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca513ca4-bb81-4d65-b5eb-438de3fa5e5b")
+		)
+		(pin "1"
+			(uuid "17fda4a3-ffe4-40f9-a607-7339d382c2df")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -19389,6 +19586,109 @@
 			(project ""
 				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 246.38 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d8405b0-86c1-435e-8d1b-52f1269944a0")
+		(property "Reference" "C68"
+			(at 243.586 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 248.92 207.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 246.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field6" ""
+			(at 246.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part-no" "CL10B104KB8NNWC"
+			(at 246.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage rating" "50v"
+			(at 246.38 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4304786d-b8d2-4dfa-86a0-8912d58423ac")
+		)
+		(pin "1"
+			(uuid "775d611a-d43e-4a9e-adc3-95687557fc87")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8/9cdc091d-5c59-45ee-8211-bdd0f330a333"
+					(reference "C68")
 					(unit 1)
 				)
 			)
