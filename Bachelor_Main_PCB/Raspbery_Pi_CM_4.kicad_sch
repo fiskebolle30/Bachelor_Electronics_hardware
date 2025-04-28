@@ -12233,6 +12233,14 @@
 				(hide yes)
 			)
 		)
+		(property "Part-no" "RC0603FR-073K3L"
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e34f38c7-3250-4e01-be2f-f002c096ff90")
 		)
@@ -13001,6 +13009,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC0603FR-073K3L"
+			(at 91.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -13805,6 +13821,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC0603JR-070RL"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14876,6 +14900,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Part-no" "RC0603JR-070RL"
+			(at 101.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
