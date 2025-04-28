@@ -517,7 +517,7 @@
 		)
 		(uuid "252103d8-40e5-4e27-91f8-4c95bd7d1e51")
 	)
-	(text_box "M3 mounting holes"
+	(text_box "M2.5 mounting holes"
 		(exclude_from_sim no)
 		(at 219.71 52.07 0)
 		(size 57.15 5.08)
@@ -1095,7 +1095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
 			(at 237.49 76.2 0)
 			(effects
 				(font
@@ -1698,7 +1698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
 			(at 237.49 60.96 0)
 			(effects
 				(font
@@ -2129,7 +2129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
 			(at 237.49 66.04 0)
 			(effects
 				(font
@@ -2193,7 +2193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
 			(at 237.49 71.12 0)
 			(effects
 				(font
