@@ -12543,7 +12543,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104627"
+		(property "Value" "RC7620_1105027"
 			(at 102.87 19.05 0)
 			(effects
 				(font
@@ -12659,7 +12659,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC7620_1104627"
+		(property "MP" "RC7620_1105027"
 			(at 102.87 82.55 0)
 			(effects
 				(font
@@ -12709,7 +12709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-no" "RC7620_1104627"
+		(property "Part-no" "RC7620_1105027"
 			(at 102.87 82.55 0)
 			(effects
 				(font
@@ -15562,7 +15562,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104627"
+		(property "Value" "RC7620_1105027"
 			(at 101.6 171.45 0)
 			(effects
 				(font
@@ -15678,7 +15678,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC7620_1104627"
+		(property "MP" "RC7620_1105027"
 			(at 101.6 184.15 0)
 			(effects
 				(font
@@ -15728,7 +15728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-no" "RC7620_1104627"
+		(property "Part-no" "RC7620_1105027"
 			(at 101.6 184.15 0)
 			(effects
 				(font
@@ -23136,7 +23136,7 @@
 				)
 			)
 		)
-		(property "Value" "RC7620_1104627"
+		(property "Value" "RC7620_1105027"
 			(at 101.6 154.94 0)
 			(effects
 				(font
@@ -23252,7 +23252,7 @@
 				(hide yes)
 			)
 		)
-		(property "MP" "RC7620_1104627"
+		(property "MP" "RC7620_1105027"
 			(at 101.6 160.02 0)
 			(effects
 				(font
@@ -23302,7 +23302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-no" "RC7620_1104627"
+		(property "Part-no" "RC7620_1105027"
 			(at 101.6 160.02 0)
 			(effects
 				(font

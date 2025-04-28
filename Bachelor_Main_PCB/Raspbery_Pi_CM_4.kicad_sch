@@ -9809,7 +9809,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40HC_3.0_-100DS-0.4V_58"
+		(property "Value" "DF40HC(3.0)-100DS-0.4V(58)"
 			(at 54.61 33.02 0)
 			(effects
 				(font
@@ -9935,7 +9935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-no" "DF40HC_3.0_-100DS-0.4V_58"
+		(property "Part-no" "DF40HC(3.0)-100DS-0.4V(58)"
 			(at 54.61 99.06 0)
 			(effects
 				(font
@@ -12274,7 +12274,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40HC_3.0_-100DS-0.4V_58"
+		(property "Value" "DF40HC(3.0)-100DS-0.4V(58)"
 			(at 30.48 33.02 0)
 			(effects
 				(font
@@ -12400,7 +12400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-no" "DF40HC_3.0_-100DS-0.4V_58"
+		(property "Part-no" "DF40HC(3.0)-100DS-0.4V(58)"
 			(at 30.48 99.06 0)
 			(effects
 				(font

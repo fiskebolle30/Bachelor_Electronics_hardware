@@ -17711,7 +17711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part-no" "SG-210STF 24Mhz"
+		(property "Part-no" "SG-210STF 24.0000ML3"
 			(at 35.56 134.62 0)
 			(effects
 				(font
