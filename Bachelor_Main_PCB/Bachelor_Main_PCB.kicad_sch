@@ -5,23 +5,27 @@
 	(uuid "3544d663-329e-4884-b753-28436ca187e8")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim yes)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -46,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,9 +77,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -83,6 +87,26 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -497,7 +521,7 @@
 		)
 		(uuid "1d30561b-cad7-43e3-887d-8783868cf127")
 	)
-	(text_box "Mechanical standoffs for RPI CM mounting holes and M2,5 screws. 3.0mm  PN: 9774030151R"
+	(text_box "Mechanical standoffs for RPI CM mounting holes and M2,5 screws. 3.0mm tall PN: 9774030151R"
 		(exclude_from_sim no)
 		(at 219.71 17.78 0)
 		(size 57.15 5.08)
@@ -1068,8 +1092,8 @@
 		(uuid "ff4cfead-f5e8-4083-af32-4c5d06c48aa0")
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 237.49 76.2 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 257.81 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1078,7 +1102,7 @@
 		(fields_autoplaced yes)
 		(uuid "011fb47d-9daf-49d6-a112-14b7bab98fd8")
 		(property "Reference" "H4"
-			(at 240.03 74.9299 0)
+			(at 260.35 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1111,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 240.03 77.4699 0)
+			(at 260.35 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,7 +1120,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
-			(at 237.49 76.2 0)
+			(at 257.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,7 +1129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 76.2 0)
+			(at 257.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1113,14 +1137,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 237.49 76.2 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 257.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "07fb7b44-6d45-420a-9c37-ff4e7cac7e21")
 		)
 		(instances
 			(project "Bachelor_Main_PCB"
@@ -1671,8 +1698,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 237.49 60.96 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 231.14 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1681,7 +1708,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d6ea1c1-d95d-4b61-85ca-a9630c14ba8d")
 		(property "Reference" "H1"
-			(at 240.03 59.6899 0)
+			(at 233.68 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1690,7 +1717,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 240.03 62.2299 0)
+			(at 233.68 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1726,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
-			(at 237.49 60.96 0)
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1735,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 60.96 0)
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,14 +1743,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 237.49 60.96 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 231.14 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "65b45d25-6613-4391-9cd0-18c07e50b0e6")
 		)
 		(instances
 			(project ""
@@ -2102,8 +2132,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 237.49 66.04 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 257.81 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2112,7 +2142,7 @@
 		(fields_autoplaced yes)
 		(uuid "57e3b5a6-6282-4a73-b3d8-b279c2333a31")
 		(property "Reference" "H2"
-			(at 240.03 64.7699 0)
+			(at 260.35 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2151,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 240.03 67.3099 0)
+			(at 260.35 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2130,7 +2160,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
-			(at 237.49 66.04 0)
+			(at 257.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 66.04 0)
+			(at 257.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2147,14 +2177,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 237.49 66.04 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 257.81 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "e169b467-3372-4aa5-b60f-a0aeca864ab4")
 		)
 		(instances
 			(project "Bachelor_Main_PCB"
@@ -2166,8 +2199,138 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 237.49 71.12 0)
+		(lib_id "power:GND")
+		(at 257.81 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58f97bea-a6b6-4d2a-bf63-3b18b5bfa3ef")
+		(property "Reference" "#PWR0113"
+			(at 257.81 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 253.746 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6eba6561-0c82-46a5-97fb-4dd72c17c4bb")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e8c9e32-d4ab-450c-8454-4afdf59467af")
+		(property "Reference" "#PWR0114"
+			(at 257.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 253.746 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bd4b3d2-4554-4994-928a-6d54fd9058e4")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 231.14 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2176,7 +2339,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c81c8b0-3cc8-4413-8cd1-48a24f8784ca")
 		(property "Reference" "H3"
-			(at 240.03 69.8499 0)
+			(at 233.68 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +2348,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 240.03 72.3899 0)
+			(at 233.68 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +2357,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad"
-			(at 237.49 71.12 0)
+			(at 231.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2366,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 71.12 0)
+			(at 231.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,19 +2374,152 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 237.49 71.12 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 231.14 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "53c41fe7-95fc-447f-a70d-cc71cbb61014")
 		)
 		(instances
 			(project "Bachelor_Main_PCB"
 				(path "/3544d663-329e-4884-b753-28436ca187e8"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0f49766-a19a-4555-a30c-67645b1042cc")
+		(property "Reference" "#PWR0115"
+			(at 231.14 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.076 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dd253bf-c0c7-420f-9ad3-69b944c91264")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccf609f7-2324-4e5e-b7c7-8d2661aff2c4")
+		(property "Reference" "#PWR0112"
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.076 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7e81d1f-6da9-40df-b0f1-237cfcb4c052")
+		)
+		(instances
+			(project "Bachelor_Main_PCB"
+				(path "/3544d663-329e-4884-b753-28436ca187e8"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)

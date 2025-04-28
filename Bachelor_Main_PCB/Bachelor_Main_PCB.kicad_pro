@@ -142,28 +142,12 @@
           ""
         ],
         [
-          "hole_clearance|159000000|100500000|9780cb4a-0808-47cc-b97c-b9f7565b95a7|7dfcd695-48bc-4f18-8b60-ae744d025a70",
-          ""
-        ],
-        [
           "hole_clearance|159000000|67500000|62a8fc04-f9c3-4190-a586-835b347ec3d8|14e96d23-23ae-426a-8028-977952a01616",
-          ""
-        ],
-        [
-          "hole_clearance|159000000|67500000|e63ba664-b60b-4394-b721-403e468a5952|62a8fc04-f9c3-4190-a586-835b347ec3d8",
           ""
         ],
         [
           "hole_clearance|207000000|100500000|701da93e-f7a9-4d26-aae7-215fa5174a9b|8259160e-9361-43ea-9bb5-73fa5dbad444",
           ""
-        ],
-        [
-          "hole_clearance|207000000|100500000|9d98103a-acad-4155-a65a-d042efa18238|701da93e-f7a9-4d26-aae7-215fa5174a9b",
-          ""
-        ],
-        [
-          "hole_clearance|207000000|67500000|7eb7cb03-6c89-42b5-b9ab-4c6232e5e5b4|9aac458c-96b7-4384-bb04-e0812ccecc92",
-          "Footprint of standoffs overlaid on RPI footprint"
         ],
         [
           "hole_clearance|207000000|67500000|7eb7cb03-6c89-42b5-b9ab-4c6232e5e5b4|d3923ca3-ae13-4158-810a-61d30c659460",
@@ -183,130 +167,6 @@
         ],
         [
           "items_not_allowed|210005280|57450000|5d11d1e0-14fe-4072-93b9-c4490d58bd50|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|206000000|50500000|19fe0a85-4abd-4943-af2f-699f05c8bf78|00000000-0000-0000-0000-000000000000",
-          "edited footprint to alow bottom traces"
-        ],
-        [
-          "lib_footprint_mismatch|229550000|102162500|b217a40e-4059-457f-9e4e-4d35cfc3a3d9|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|242487500|79650000|7ea294b5-df01-4aec-aeb6-b473799b58be|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|242512500|88450000|99764d03-bed6-41fd-ba7a-2ad85d916931|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|101450000|101650000|47a7ad29-dd8e-4f85-914e-d6d4c1475460|3c90b958-d547-42d2-9a33-d80756778b05",
-          ""
-        ],
-        [
-          "solder_mask_bridge|102450000|101650000|97e4d43d-0766-437c-b59b-ebd541684966|1053c769-ae13-451d-bfe7-5b6db892020f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|102950000|101650000|1053c769-ae13-451d-bfe7-5b6db892020f|f3f95a92-c40b-4261-a668-239f0328bd48",
-          ""
-        ],
-        [
-          "solder_mask_bridge|103950000|101650000|8f8c7512-a6f9-422a-a1ac-e75807735ae5|20434982-8de9-4d2d-b185-5ac7d7f51b2d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|104450000|101650000|20434982-8de9-4d2d-b185-5ac7d7f51b2d|5235465b-4603-4449-9207-c2ef4a97f5ff",
-          ""
-        ],
-        [
-          "solder_mask_bridge|105450000|101650000|7095767d-b04b-4370-9eca-798d57673e32|8d2317b4-1638-4650-9925-12cfa831fcca",
-          ""
-        ],
-        [
-          "solder_mask_bridge|105950000|101650000|8d2317b4-1638-4650-9925-12cfa831fcca|e28d5e64-83ae-4887-94c0-5c646463c7f2",
-          ""
-        ],
-        [
-          "solder_mask_bridge|106950000|101650000|ff742f6e-e194-43c6-ac30-77aca7d93ebc|adac68b0-0d24-4af0-a107-fe19d1de2ef4",
-          ""
-        ],
-        [
-          "solder_mask_bridge|107450000|101650000|adac68b0-0d24-4af0-a107-fe19d1de2ef4|7425e843-333c-4a23-b08e-a4b2f382ac98",
-          ""
-        ],
-        [
-          "solder_mask_bridge|108450000|101650000|fb1ef406-8229-4620-9a38-62969fddef4c|517fc5ef-8e7b-4a86-8c50-ac8cdd3d8e69",
-          ""
-        ],
-        [
-          "solder_mask_bridge|108950000|101650000|517fc5ef-8e7b-4a86-8c50-ac8cdd3d8e69|433f42be-4f72-4ca7-851a-3ecda6cbe36c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|109950000|101650000|5d148f9a-f972-432b-af80-d6e75a61efe1|8c88726f-59c7-47ee-a7e4-d51ce440dae1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|110450000|101650000|8c88726f-59c7-47ee-a7e4-d51ce440dae1|0b02d25d-9f40-48ae-87da-3d6040422246",
-          ""
-        ],
-        [
-          "solder_mask_bridge|123785900|90670900|83b75b80-3e0e-4c7c-b1a5-ecd6336722a4|217704f1-9077-42ab-b1d1-61ab0aa10376",
-          ""
-        ],
-        [
-          "solder_mask_bridge|123929100|86785900|db9d96d9-f0ee-4e7a-9392-1ab95782cb25|b84da3e2-22a4-435f-8afb-c621bcd53f47",
-          ""
-        ],
-        [
-          "solder_mask_bridge|127670900|86785900|7b7c0abf-582c-46dc-ac7c-ad993668207b|f8db6f30-b2a6-47aa-9bcb-f3a6e56cce06",
-          ""
-        ],
-        [
-          "solder_mask_bridge|127670900|90814100|af26d404-8775-486a-8544-6688df4760c5|de8e8910-e11f-41e4-bd61-f55f1121550d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|207000000|67500000|7eb7cb03-6c89-42b5-b9ab-4c6232e5e5b4|9aac458c-96b7-4384-bb04-e0812ccecc92",
-          ""
-        ],
-        [
-          "solder_mask_bridge|207000000|67500000|7eb7cb03-6c89-42b5-b9ab-4c6232e5e5b4|d3923ca3-ae13-4158-810a-61d30c659460",
-          ""
-        ],
-        [
-          "starved_thermal|104300000|101100000|50fabc00-0ea7-4cbb-b459-4b4935fcef93|20434982-8de9-4d2d-b185-5ac7d7f51b2d|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|105800000|101100000|50fabc00-0ea7-4cbb-b459-4b4935fcef93|8d2317b4-1638-4650-9925-12cfa831fcca|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|124437500|61500000|50fabc00-0ea7-4cbb-b459-4b4935fcef93|df7ab2e1-0e32-4ab1-b86a-eb0a018b2e5d|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|145762500|57000000|50fabc00-0ea7-4cbb-b459-4b4935fcef93|29e375fe-ca29-48a2-b271-2255dc3c9e96|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|229550000|103975000|50fabc00-0ea7-4cbb-b459-4b4935fcef93|bff2ec31-35fe-4bb9-9e4b-2977633fc0e6|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|244300000|79650000|50fabc00-0ea7-4cbb-b459-4b4935fcef93|e87c83a4-076c-4bef-8631-336057fda8ce|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|244325000|88450000|50fabc00-0ea7-4cbb-b459-4b4935fcef93|88e0f166-e71b-447f-bf8b-50cbd9b32098|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|82250000|57925000|50fabc00-0ea7-4cbb-b459-4b4935fcef93|5ffbc974-5462-4872-b5fd-f1402e35eaa3|F.Cu",
           ""
         ]
       ],
