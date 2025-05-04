@@ -1806,6 +1806,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "1c263edc-866e-463e-a83a-bd439374bd33")
 	)
@@ -1816,6 +1817,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "9f31f5fe-83f6-45c9-93ae-c01ddf040511")
 	)
@@ -1826,6 +1828,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "c1b3d877-32e7-4604-b83e-5907e20c3504")
 	)
@@ -1836,6 +1839,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "f88d3f78-c6c1-40de-a0be-520ded666a81")
 	)
@@ -3564,6 +3568,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3744,6 +3749,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3902,6 +3908,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4494,6 +4501,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5084,6 +5092,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5448,6 +5457,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

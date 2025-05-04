@@ -3591,6 +3591,7 @@
 			(font
 				(size 2.54 2.54)
 			)
+			(hide yes)
 		)
 		(uuid "01fc13de-95c8-4423-ac28-b53a5553fb2e")
 	)
@@ -3601,6 +3602,7 @@
 			(font
 				(size 2.032 2.032)
 			)
+			(hide yes)
 		)
 		(uuid "1187f914-c9e1-4794-aece-d1741a296e5d")
 	)
@@ -3611,6 +3613,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "2264e477-f3b4-40e5-bc00-33fb1556ae43")
 	)
@@ -3621,6 +3624,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "2bc795f4-1fe7-471e-9f9a-945537a2a086")
 	)
@@ -3631,6 +3635,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "328c4637-17c0-4c25-b12a-6b766da5798c")
 	)
@@ -3641,6 +3646,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "424bf595-2b2e-400b-aaa3-056d4f48712c")
 	)
@@ -3651,6 +3657,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "44fb5ce3-5bd3-4d9d-81c7-cb512d60266d")
 	)
@@ -3661,6 +3668,7 @@
 			(font
 				(size 2.032 2.032)
 			)
+			(hide yes)
 		)
 		(uuid "7b115566-790a-4379-a979-55902a274f87")
 	)
@@ -3671,6 +3679,7 @@
 			(font
 				(size 2.54 2.54)
 			)
+			(hide yes)
 		)
 		(uuid "ad5454f2-f4f4-4bbe-a1df-756b6e356553")
 	)
@@ -3681,6 +3690,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "af3c6a3f-7c84-4111-ad44-5334ccc210fa")
 	)
@@ -3691,6 +3701,7 @@
 			(font
 				(size 1.27 1.27)
 			)
+			(hide yes)
 		)
 		(uuid "d5d65534-5813-4096-9bfa-d70e140f03fa")
 	)
@@ -7683,6 +7694,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8721,6 +8733,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10535,6 +10548,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12288,6 +12302,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12363,6 +12378,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
