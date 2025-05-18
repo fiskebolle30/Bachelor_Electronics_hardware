@@ -7798,6 +7798,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 15.24 185.42)
+		(end 72.39 196.85)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4dc96583-9473-4a2d-bb3e-9aedf20620cc)
+	)
 	(text "Main antenna\nconnector"
 		(exclude_from_sim no)
 		(at 22.098 99.568 0)

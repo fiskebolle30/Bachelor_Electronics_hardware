@@ -7976,9 +7976,9 @@
 		)
 		(uuid "193262be-a9d8-447d-bfd9-c51c7967a50d")
 	)
-	(text "SD cart detection pin\nRouted to GPIO port"
+	(text "SD card detection pin\nRouted to GPIO port"
 		(exclude_from_sim no)
-		(at 381.762 163.068 0)
+		(at 383.54 164.465 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9035,10 +9035,6 @@
 	(no_connect
 		(at 143.51 88.9)
 		(uuid "fc6919db-6a26-4d21-a11b-4c737631cd57")
-	)
-	(no_connect
-		(at 196.85 303.53)
-		(uuid "ff54ff79-bae0-4147-a1e3-1d3750d1c70e")
 	)
 	(wire
 		(pts
@@ -20125,7 +20121,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "847c34a8-ae4c-476c-9766-63c604a6154b")
 		(property "Reference" "#FLG06"
 			(at 269.24 93.345 0)
@@ -20137,7 +20132,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 269.24 90.17 0)
+			(at 269.875 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21923,7 +21918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/UNG/ProductDocuments/DataSheets/USB3320-Data-Sheet-DS00001792.pdf"
 			(at 238.76 118.11 0)
 			(effects
 				(font
