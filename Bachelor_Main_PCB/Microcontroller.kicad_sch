@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "3f17caec-c864-4972-a6e0-6628ce8dcd10")
 	(paper "A3")
+	(title_block
+		(title "Audiograb hardware")
+		(date "2025-05-27")
+		(rev "1.0")
+		(company "Developed for the Norwegian Institute for Nature Research")
+	)
 	(lib_symbols
 		(symbol "BK-916-TR:BK-916-TR"
 			(pin_names
@@ -7957,7 +7963,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "14208f3b-6fa4-4d42-9f38-fdfab1a0dbe9")
 	)
@@ -7968,7 +7973,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "193262be-a9d8-447d-bfd9-c51c7967a50d")
 	)
@@ -7979,7 +7983,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "1e52b5a4-8c4e-47fb-8e5e-5b8f3395fd76")
 	)
@@ -7990,7 +7993,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "1e958595-1e42-47c0-a14e-281023a71cb1")
 	)
@@ -8001,7 +8003,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "2572a827-787b-492a-aad0-6a284252c2cc")
 	)
@@ -8012,7 +8013,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "32369ab4-4259-465d-95aa-b04d23319926")
 	)
@@ -8023,7 +8023,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "3887203a-f056-4bfb-966b-96b9aea0de1e")
 	)
@@ -8034,7 +8033,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "3d711100-8d0b-4e17-9fd4-17e9c6919f84")
 	)
@@ -8045,7 +8043,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "4afdcf39-755b-431f-ba00-9d384c03f529")
 	)
@@ -8056,7 +8053,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "4d41db70-29f0-4692-ae3e-26d4a8605fce")
 	)
@@ -8067,7 +8063,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "6add6109-7318-4968-b0cd-66a46c866c70")
 	)
@@ -8078,7 +8073,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "9720b61e-b0af-4e3f-a90e-0742c9069dd8")
 	)
@@ -8089,7 +8083,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "9e617768-405b-4234-8376-be9ca8b58685")
 	)
@@ -8100,7 +8093,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "a56485c2-64b7-499c-a6ea-e97bb2d0f55b")
 	)
@@ -8111,7 +8103,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "a8353031-4481-45bd-a022-3bc283d74427")
 	)
@@ -8122,7 +8113,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "b5b4329b-a8e6-466b-975f-17c500ab5293")
 	)
@@ -8133,7 +8123,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "be205bdc-3757-46ef-a2a4-13bd7e6e49e6")
 	)
@@ -8144,7 +8133,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "be88cd0d-ab17-428e-b05a-bd018dc8bbc5")
 	)
@@ -8155,7 +8143,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "c3dd2bff-36bc-447d-8c9e-1e81a982de02")
 	)
@@ -8166,7 +8153,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "c81e7f36-48ab-4baf-b949-66e25f01212b")
 	)
@@ -8177,7 +8163,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "e58ca9f0-ccd8-4b44-85b2-93185b9fbd17")
 	)
@@ -8188,7 +8173,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "effe158d-3cd8-42e0-aa29-7ccde311c603")
 	)
@@ -8199,7 +8183,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "f26299af-ea3a-49f0-a0d5-8088b6c4c8ed")
 	)
@@ -8210,7 +8193,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "f891fde7-cfb7-40c6-9022-880264654165")
 	)
@@ -8221,7 +8203,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "fab597cd-c9d0-41ae-b506-30b7209af175")
 	)

@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "8237d77e-075c-46e9-9646-21d6c839c912")
 	(paper "A4")
+	(title_block
+		(title "Audiograb hardware")
+		(date "2025-05-27")
+		(rev "1.0")
+		(company "Developed for the Norwegian Institute for Nature Research")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -7465,7 +7471,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "2b7dab40-7dbf-4a0b-9f80-e779330ff59c")
 	)
@@ -7476,7 +7481,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "91685156-45e7-495b-9b6a-820e8bf4bbbf")
 	)
@@ -7487,7 +7491,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "a73d9c98-8b7e-421a-bed5-05000dfdf826")
 	)
@@ -7498,7 +7501,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "e22168d2-61ae-4963-9e7f-f4b1c0b5f879")
 	)
@@ -7509,7 +7511,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "f79775a3-63e7-4ce9-be50-9b9622ee5cd6")
 	)
@@ -7532,7 +7533,6 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
-			(hide yes)
 		)
 		(uuid "1344f7a1-e0c6-4dbe-8d75-45b1cdf29f97")
 	)

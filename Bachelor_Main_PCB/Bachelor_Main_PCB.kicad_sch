@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "3544d663-329e-4884-b753-28436ca187e8")
 	(paper "A4")
+	(title_block
+		(title "Audiograb hardware")
+		(date "2025-05-27")
+		(rev "1.0")
+		(company "Developed for the Norwegian Institute for Nature Research")
+	)
 	(lib_symbols
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim yes)
@@ -538,7 +544,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "062f03c5-f2a0-4620-86ed-0153bacadce1")
 	)
@@ -549,7 +554,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "555ee3e9-9d9b-4900-b7aa-dca76570bfa8")
 	)
@@ -560,7 +564,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "7695f9be-7ae7-4628-b564-901ffb2c5b48")
 	)
@@ -581,7 +584,6 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
-			(hide yes)
 		)
 		(uuid "0dd5fed9-70bf-42ee-b698-46f239f23ef4")
 	)
@@ -602,7 +604,6 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
-			(hide yes)
 		)
 		(uuid "1d30561b-cad7-43e3-887d-8783868cf127")
 	)
@@ -623,7 +624,6 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
-			(hide yes)
 		)
 		(uuid "252103d8-40e5-4e27-91f8-4c95bd7d1e51")
 	)
@@ -644,7 +644,6 @@
 				(size 1.27 1.27)
 			)
 			(justify left top)
-			(hide yes)
 		)
 		(uuid "2ad49c9d-7900-44c5-9f10-e2c3bc10e1e5")
 	)

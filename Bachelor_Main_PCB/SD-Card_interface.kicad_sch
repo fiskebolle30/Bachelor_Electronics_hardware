@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "92119228-26ea-4217-87ba-2ec2e3b67641")
 	(paper "A4")
+	(title_block
+		(title "Audiograb hardware")
+		(date "2025-05-27")
+		(rev "1.0")
+		(company "Developed for the Norwegian Institute for Nature Research")
+	)
 	(lib_symbols
 		(symbol "F32Q-1A7H1-11022:F32Q-1A7H1-11022"
 			(pin_names
@@ -618,7 +624,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "26525447-5b98-459a-95d1-f0c36b179a43")
 	)
@@ -629,7 +634,6 @@
 			(font
 				(size 2.54 2.54)
 			)
-			(hide yes)
 		)
 		(uuid "53ad908f-8cd9-4548-98d5-3fad3b7a0298")
 	)
@@ -640,7 +644,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "990ec720-c12c-4409-a172-b9947ae88a6c")
 	)
@@ -651,7 +654,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "aaac5d21-b560-4e0e-b427-07c24c01e9ca")
 	)
@@ -662,7 +664,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "c729a959-0cfb-4fae-8687-f418fa33931e")
 	)
@@ -673,7 +674,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "ce30dfb0-1712-48ab-9426-180f5e5c5f1f")
 	)
@@ -684,7 +684,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "d5e21c95-8d45-4e93-bef4-bead4d0d6d54")
 	)
@@ -695,7 +694,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "dd609a9a-b944-47b3-a8f9-eb6e323c0a8c")
 	)
@@ -706,7 +704,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "e38befe5-d93b-4fe9-bd76-588a719bb5d6")
 	)
@@ -717,7 +714,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "e68dafb6-819d-4dfc-bbc0-3e23defa4997")
 	)

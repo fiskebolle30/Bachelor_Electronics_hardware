@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "2f859c80-7c3c-42fc-9d9a-ab63e5661339")
 	(paper "A4")
+	(title_block
+		(title "Audiograb hardware")
+		(date "2025-05-27")
+		(rev "1.0")
+		(company "Developed for the Norwegian Institute for Nature Research")
+	)
 	(lib_symbols
 		(symbol "0402ESDA-MLP1:0402ESDA-MLP1"
 			(pin_names
@@ -7799,7 +7805,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "0326b9df-fcbe-4220-8e04-4a9cc1594a34")
 	)
@@ -7810,7 +7815,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "138b61be-781f-4add-9395-ed894d090d44")
 	)
@@ -7821,7 +7825,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "3820bbe1-c87a-4355-af57-c5015fbeb9c0")
 	)
@@ -7832,7 +7835,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "496c6ba0-bdda-4206-b0e7-d199f4465927")
 	)
@@ -7843,7 +7845,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "6d3d2185-07f7-44d5-9866-067d5de21f8d")
 	)
@@ -7854,7 +7855,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "70ba6c65-ec6b-4c4e-8585-5b0a3841b3b2")
 	)
@@ -7865,7 +7865,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "7aa53b94-843b-494c-9249-a3c5ed484ee9")
 	)
@@ -7876,7 +7875,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "80f19dcb-e392-47cf-86b4-aeaf813c3215")
 	)
@@ -7887,7 +7885,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "c7e5872a-f402-491f-975d-3caee630eb05")
 	)
@@ -7898,7 +7895,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "e51ef5bf-9478-4847-91c0-df71c959f0dd")
 	)
@@ -7909,7 +7905,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "e6f8a348-34dc-4d39-b1b2-f243204fe1f2")
 	)
@@ -7920,7 +7915,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "f2e376d0-66ca-4d09-933f-b119ad61c713")
 	)
@@ -7931,7 +7925,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "f80056d6-3be9-4408-96c9-559c2f1e0d60")
 	)
@@ -7942,7 +7935,6 @@
 			(font
 				(size 1.27 1.27)
 			)
-			(hide yes)
 		)
 		(uuid "fac6b82e-0113-4a8d-a147-4c4c46541a3b")
 	)
