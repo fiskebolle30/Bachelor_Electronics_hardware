@@ -8006,6 +8006,16 @@
 		)
 		(uuid "2572a827-787b-492a-aad0-6a284252c2cc")
 	)
+	(text "${ERC_WARNING Fix this} Next rev: Connect VBAT to VDD33,\nref. datasheet section 5.5.1\""
+		(exclude_from_sim no)
+		(at 291.465 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "28715925-c521-49c6-af53-3dceb5d0f7ff")
+	)
 	(text "JCLK/SWCLK"
 		(exclude_from_sim no)
 		(at 59.436 266.954 0)

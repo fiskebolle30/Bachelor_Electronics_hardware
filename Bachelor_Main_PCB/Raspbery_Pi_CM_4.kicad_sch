@@ -7494,6 +7494,16 @@
 		)
 		(uuid "a73d9c98-8b7e-421a-bed5-05000dfdf826")
 	)
+	(text "${ERC_ERROR Fix this} Next rev: Fix NX3008 symbol on all schematic sheets\n(Seemingly all 3-pin SOT N-MOSFETS have drain on pin 2)"
+		(exclude_from_sim no)
+		(at 151.13 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bc918e10-e906-4665-8743-a1bff788081f")
+	)
 	(text "DF40HC(3.0)-10DV-0.4V connectors for the BOM"
 		(exclude_from_sim no)
 		(at 41.148 27.686 0)
